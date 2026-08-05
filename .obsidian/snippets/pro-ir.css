@@ -1,0 +1,34 @@
+/* === Dark blue headers & horizontal rules === */
+:root {
+  --mhi-blue: #0052CC; /* change this hex if you want a different dark blue */
+}
+
+/* Reading/Preview mode */
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6,
+.markdown-rendered h1,
+.markdown-rendered h2,
+.markdown-rendered h3,
+.markdown-rendered h4,
+.markdown-rendered h5,
+.markdown-rendered h6 {
+  color: var(--mhi-blue);
+}
+
+/* Editor (Live Preview) */
+.markdown-source-view.mod-cm6 .cm-header {
+  color: var(--mhi-blue) !important;
+}
+
+/* Horizontal rule (---) color/thickness */
+.markdown-preview-view hr,
+.markdown-rendered hr {
+  border: none;
+  height: 2px;          /* make thicker/thinner if you want */
+  background: var(--mhi-blue);
+  opacity: 1;
+}

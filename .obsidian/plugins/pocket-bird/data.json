@@ -1,0 +1,15 @@
+{
+  "unlockedSpecies": [
+    "bluebird",
+    "barnSwallow",
+    "blueJay",
+    "houseFinch",
+    "carolinaWren"
+  ],
+  "currentSpecies": "bluebird",
+  "unlockedHats": [
+    "none"
+  ],
+  "currentHat": "none",
+  "settings": {}
+}

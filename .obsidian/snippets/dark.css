@@ -1,0 +1,56 @@
+/* .obsidian/snippets/full-bleed-dark-page.css */
+/* Fill the entire PDF page with your theme's dark blue */
+@media print {
+  /* Use Letter in the US; switch to A4 if you prefer */
+  @page { size: Letter; margin: 0; }
+
+  :root { color-scheme: dark; }
+
+  /* Use the same blue as code blocks (background-secondary). Change to
+     var(--background-primary) if you want the main page color instead. */
+  html, body {
+    background: var(--background-secondary, #0f172a) !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Paint a full-page layer so margins aren't white */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: var(--background-secondary, #0f172a) !important;
+    z-index: -1;
+  }
+
+  /* Add your own inner margins since @page margin is 0 */
+  .markdown-preview-view {
+    background: transparent !important;
+    padding: 18mm !important;   /* tweak for bigger/smaller gutters */
+  }
+
+  /* Keep text and accents readable on the dark page */
+  .markdown-preview-view,
+  .markdown-preview-view p,
+  .markdown-preview-view li { color: var(--text-normal, #e5e7eb) !important; }
+  .markdown-preview-view a { color: var(--text-accent, #60a5fa) !important; }
+  .markdown-preview-view hr { border-color: var(--background-modifier-border, #334155) !important; }
+
+  /* Inline code “pills” like your screenshot */
+  .markdown-preview-view code {
+    background: var(--background-secondary, #0f172a) !important;
+    color: var(--text-normal, #e5e7eb) !important;
+    border: 1px solid var(--background-modifier-border, #334155) !important;
+    border-radius: 999px !important;
+    padding: 0.05rem 0.35rem !important;
+  }
+
+  /* Code blocks */
+  .markdown-preview-view pre {
+    background: var(--background-secondary, #0f172a) !important;
+    color: var(--text-normal, #e5e7eb) !important;
+    border: 1px solid var(--background-modifier-border, #334155) !important;
+    border-radius: 10px !important;
+    padding: 0.9rem !important;
+  }
+}

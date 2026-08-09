@@ -5,7 +5,6 @@ created: 2026-08-08
 tags:
   - technique
   - initial-access
-  - in-progress
 ---
 # SQL injection
 

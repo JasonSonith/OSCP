@@ -1,6 +1,9 @@
 ---
 title: Methodology MOC
-tags: [moc, methodology]
+tags:
+- moc
+- methodology
+permalink: oscp/mocs/methodology
 ---
 
 # Methodology MOC

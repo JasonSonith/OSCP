@@ -1,3 +1,9 @@
+---
+title: box-note
+type: note
+permalink: oscp/templates/box-note
+---
+
 <%*
 // ── These prompts fire automatically when the note is created ──
 box      = await tp.system.prompt("Box / target name");

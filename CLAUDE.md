@@ -22,3 +22,19 @@ I'm studying for CPTS then OSCP. Help me learn, take notes, and understand pente
 
 ## Note-taking rule
 Specific machine → box note. Reusable method → technique note. Link them with [[wikilinks]] instead of re-explaining.
+
+
+## When I'm stuck on a box
+I'll tell you the box, what I found, and what I already tried (X, Y, Z).
+- Reason about MY specific situation — don't give a generic checklist.
+- Give the most likely next step first, with the exact command to run.
+- If you need one piece of output I didn't paste, ask for just that.
+(My cost habit: I paste only the relevant output, and keep one box per chat.)
+
+
+## When I'm stuck on a box
+I'll tell you the box, what I found, and what I already tried (X, Y, Z).
+- Reason about MY specific situation — don't give a generic checklist.
+- Give the most likely next step first, with the exact command to run.
+- If you need one piece of output I didn't paste, ask for just that.
+(My cost habit: I paste only the relevant output, and keep one box per chat.)

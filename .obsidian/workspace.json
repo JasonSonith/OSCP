@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_MOCs/Methodology.md",
+                "file": "Techniques/Web/SQL injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Methodology"
+              "title": "SQL injection"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "SQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +79,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -187,10 +188,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f9a441c2ec0cf2c",
+  "active": "79cafec7f2b68ee7",
   "lastOpenFiles": [
-    "Techniques/Web/SQL injection.md",
     "_MOCs/Methodology.md",
+    "Techniques/Web/SQL injection.md",
     "Nmap scanning.md",
     "_templates/box-note.md",
     "_MOCs",

@@ -203,6 +203,7 @@
   },
   "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
+    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
     "MOCs/Methodology.tmp",
     "Techniques/Enumeration/ss - finding internal services.md",
     "MOCs/Methodology.md",
@@ -220,7 +221,6 @@
     "attachments",
     "Cheatsheets",
     "Techniques/Web",
-    "Techniques/PrivEsc-Windows",
     "Template Script.md",
     "_templates/technique-note.md",
     "12.md",

@@ -83,8 +83,8 @@ Service detection performed. Please report any incorrect results at https://nmap
 ```
 
 ## Enumeration
-- SMB / shares: 
-- Creds / usernames found: `passwords.txt` `Bob:Wel`
+- SMB / shares: `print$`: Print Drivers, `users`, and `IPC$`: IPC Service
+- Creds / usernames found: `passwords.txt` `Bob:Welcome1`
 #### Password.txt
 ```
 Banking:

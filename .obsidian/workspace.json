@@ -232,6 +232,7 @@
   },
   "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
+    "Techniques/Enumeration/SMB Enumeration (smbclient).md",
     "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
     "Boxes/CPTS-Labs/Service Scanning.md",
     "Techniques/Enumeration/Nmap -sC and -sV (service + script scanning).md",

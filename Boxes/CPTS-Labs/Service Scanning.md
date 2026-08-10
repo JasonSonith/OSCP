@@ -29,10 +29,33 @@ nmap -sC -sV 10.129.104.219
 - Open ports: `ftp`:21, `ssh`:22, `80`:http, `139`:netbios-ssn, `445`:netbios-ssn, `2323`:telnet, `8080`:http
 - Services and Versions: `ftp:vsftpd 3.0.3`, `ssh:OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol`, `http(80):Apache httpd 2.4.41 ((Ubuntu))`, `http(8080): Apache Tomcat`, `netbios-ssn(139 & 445):Samba smbd 4`, `telnet: Linux telnetd`
 
+#### Scan Results
+```
+
+```
+
 ## Enumeration
 - SMB / shares: `Bob:Welcome1`
 - Creds / usernames found: `passwords.txt`
-### Password.tx
+#### Password.txt
+```
+Banking:
+
+https://acmebank.local/login.php
+
+bobby:Surfer1010!
+
+Network:
+
+bob.smith@inlanefreight.local:Welcome123!
+
+
+vCenter:
+
+root:B0b_the_m@n!-rootPa$$!
+
+
+```
 
 ## Foothold / Initial Access
 - Vulnerability:

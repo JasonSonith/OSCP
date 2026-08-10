@@ -1,6 +1,6 @@
 {
   "theme": "obsidian",
-  "cssTheme": "",
+  "cssTheme": "Primary",
   "enabledCssSnippets": [
     "pocket-bird-look"
   ],

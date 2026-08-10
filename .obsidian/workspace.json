@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "MOCs/Methodology.md",
-                "mode": "source",
+                "file": "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Methodology"
+              "title": "SNMP Enumeration (onesixtyone + snmpwalk)"
             }
           },
           {
@@ -203,10 +203,10 @@
   },
   "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
+    "MOCs/Methodology.md",
     "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
     "MOCs/Methodology.tmp",
     "Techniques/Enumeration/ss - finding internal services.md",
-    "MOCs/Methodology.md",
     "CLAUDE.md",
     "Techniques/Enumeration",
     "_templates/technique-note.tmp",

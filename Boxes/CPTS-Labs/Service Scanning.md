@@ -83,8 +83,8 @@ Service detection performed. Please report any incorrect results at https://nmap
 ```
 
 ## Enumeration
-- SMB / shares: `Bob:Welcome1`
-- Creds / usernames found: `passwords.txt`
+- SMB / shares: 
+- Creds / usernames found: `passwords.txt` `Bob:Wel`
 #### Password.txt
 ```
 Banking:

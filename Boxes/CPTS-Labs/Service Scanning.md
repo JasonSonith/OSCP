@@ -112,7 +112,6 @@ root:B0b_the_m@n!-rootPa$$!
 ## Lessons learned
 - What slowed me down: Using nmap directly on port 8080 did not work because
 - What I'd do faster next time:---
-title: Untitled
 type: note
 permalink: oscp/boxes/cpts-labs/untitled
 ---

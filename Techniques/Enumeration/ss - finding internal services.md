@@ -56,4 +56,4 @@ A localhost-only service (internal DB, admin panel, internal web app — often r
 ## Related
 - [[Port Forwarding]]
 - [[Privilege Escalation]]
-- [[_MOCs/Methodology]]
+- [[Methodology]]

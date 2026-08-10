@@ -106,17 +106,22 @@ root:B0b_the_m@n!-rootPa$$!
 ```
 
 ## Tools Used
-#### SMBClient
+#### smbclient
 ```
-Smbclient 
+smbclient -U bob \\\\10.129.42.253\\users
 ```
 ## Techniques used
 - [[SMB Enumeration (smbclient)]]
 - [[Nmap -sC and -sV (service + script scanning)]]
 
 ## Lessons learned
-- *What slowed me down:* Using nmap directly on port `8080` did not work because I used the `-Pn` flag when running it against port `8080`. I dropped the `-Pn` flag and it worked but the problem is that it was just a timing thing so running it multiple times solved the issue
-- *What I'd do faster next time:* Add a `--host-timeout 60s` flag to the nmap scan to get more reliable results. 
+- *What slowed me down:* 
+	- Using nmap directly on port `8080` did not work because I used the `-Pn` flag when running it against port `8080`. 
+	- I dropped the `-Pn` flag and it worked but the problem is that it was just a timing thing so running it multiple times solved the issue
+
+- *What I'd do faster next time:* 
+	- Add a `--host-timeout 60s` flag to the nmap scan to get more reliable results. 
+	- Use `nmap -sCV $ip` to get faster results 
 type: note
 permalink: oscp/boxes/cpts-labs/Service Scanning
 ---

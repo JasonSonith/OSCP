@@ -8,7 +8,6 @@ tags:
 - pivoting
 - linux
 ---
-
 # ss - finding internal services
 
 **Phase:** Post-exploitation / local enumeration

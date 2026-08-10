@@ -105,6 +105,11 @@ root:B0b_the_m@n!-rootPa$$!
 
 ```
 
+## Tools Used
+#### SMBClient
+```
+Smbclient 
+```
 ## Techniques used
 - [[SMB Enumeration (smbclient)]]
 - [[Nmap -sC and -sV (service + script scanning)]]

@@ -187,8 +187,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f9a441c2ec0cf2c",
+  "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
+    "Techniques/Enumeration/ss - finding internal services.md",
+    "Techniques/Enumeration",
     "_templates/technique-note.tmp",
     "_templates/box-note.tmp",
     "_MOCs/Methodology.tmp",
@@ -204,8 +206,6 @@
     "Cheatsheets",
     "Techniques/Web",
     "Techniques/PrivEsc-Windows",
-    "Techniques/Recon-Enum",
-    "Techniques/Pivoting",
     "Template Script.md",
     "_templates/technique-note.md",
     "12.md",

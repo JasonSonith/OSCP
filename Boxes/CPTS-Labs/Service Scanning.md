@@ -83,7 +83,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 ```
 
 ## Enumeration
-- SMB / shares: `print$`: Print Drivers, `users`, and `IPC$`: IPC Service
+- SMB / shares: `print$`: Print Drivers, `users`, and `IPC$`: IPC Service  (gs-svcscan server (Samba, Ubuntu))
 - Creds / usernames found: `passwords.txt` `Bob:Welcome1`
 #### Password.txt
 ```

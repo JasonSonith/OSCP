@@ -110,7 +110,7 @@ root:B0b_the_m@n!-rootPa$$!
 - [[Nmap -sC and -sV (service + script scanning)]]
 
 ## Lessons learned
-- *What slowed me down:* Using nmap directly on port 8080 did not work because
+- *What slowed me down:* Using nmap directly on port `8080` did not work because I used the `-Pn` flag when running it against port `8080`. I dropped the `-Pn` flag and it worked
 - *What I'd do faster next time:*
 type: note
 permalink: oscp/boxes/cpts-labs/Service Scanning

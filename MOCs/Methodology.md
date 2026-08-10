@@ -17,6 +17,7 @@ permalink: oscp/mocs/methodology
 - [[SMB enumeration]]
 - [[DNS enumeration]]
 - [[Service version enumeration]]
+- [[ss - finding internal services]]
 
 ## 2. Getting In (Foothold)
 - [[SQL injection]]

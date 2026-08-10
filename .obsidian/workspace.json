@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "MOCs/Methodology.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -35,8 +35,7 @@
               "title": "ss - finding internal services"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,10 +201,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "45bcf30809ec772f",
+  "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
-    "MOCs/Methodology.md",
     "Techniques/Enumeration/ss - finding internal services.md",
+    "MOCs/Methodology.md",
     "CLAUDE.md",
     "Techniques/Enumeration",
     "_templates/technique-note.tmp",

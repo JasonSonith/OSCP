@@ -24,9 +24,9 @@ tags: [box, cpts-lab, linux]
 ## Recon
 ```bash
 # nmap quick + full
-nmap -Pn -sC -sV -oN nmap/8080.txt -p 8080 10.129.104.219
+nmap -sC -sV 10.129.104.219
 ``` 
-- Service: *http-proxy*
+- Services an
 
 ## Enumeration
 - Web (dirb/gobuster/feroxbuster):

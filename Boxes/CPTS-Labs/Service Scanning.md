@@ -24,8 +24,7 @@ tags: [box, cpts-lab, linux]
 ## Recon
 ```bash
 # nmap quick + full
-nmap -sC -sV -oN nmap/initial 10.129.104.219
-nmap -p- --min-rate 5000 -oN nmap/allports 10.129.104.219
+nmap -Pn -sC -sV -oN nmap/initial -p 8080 10.129.104.219
 ```
 - Open ports:
 - Notable services / versions:

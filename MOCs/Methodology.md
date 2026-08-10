@@ -3,7 +3,7 @@ title: Methodology MOC
 tags:
 - moc
 - methodology
-permalink: oscp/mocs/methodology
+permalink: oscp/mocs/methodology-1
 ---
 
 # Methodology MOC

@@ -106,7 +106,7 @@ root:B0b_the_m@n!-rootPa$$!
 ```
 
 ## Techniques used
-- [[SMB enumeration]]
+- [[SMB Enumeration (smbclient)]]
 - [[Nmap -sC and -sV (service + script scanning)]]
 
 ## Lessons learned

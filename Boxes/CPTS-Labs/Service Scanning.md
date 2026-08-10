@@ -10,7 +10,7 @@ ip: 10.129.104.219
 os: Linux
 difficulty: Easy
 platform: CPTS Lab
-status: in-progress
+status: Completed
 created: 2026-08-09
 tags: [box, cpts-lab, linux]
 ---

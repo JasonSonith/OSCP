@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
-                "mode": "preview",
+                "file": "Boxes/CPTS-Labs/Untitled.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SNMP Enumeration (onesixtyone + snmpwalk)"
+              "title": "Untitled"
             }
           },
           {
@@ -203,8 +203,10 @@
   },
   "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
-    "MOCs/Methodology.md",
+    "Boxes/CPTS-Labs/Untitled.tmp",
     "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
+    "Boxes/CPTS-Labs/Untitled.md",
+    "MOCs/Methodology.md",
     "MOCs/Methodology.tmp",
     "Techniques/Enumeration/ss - finding internal services.md",
     "CLAUDE.md",

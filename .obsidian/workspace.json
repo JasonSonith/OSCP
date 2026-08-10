@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/CPTS-Labs/Untitled.md",
+                "file": "Boxes/CPTS-Labs/Service Scanning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Service Scanning"
             }
           },
           {
@@ -203,9 +203,10 @@
   },
   "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
+    "Boxes/CPTS-Labs/Service Scanning.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
     "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
-    "Boxes/CPTS-Labs/Untitled.md",
+    "Boxes/CPTS-Labs/Service Scanning.md",
     "MOCs/Methodology.md",
     "MOCs/Methodology.tmp",
     "Techniques/Enumeration/ss - finding internal services.md",
@@ -222,7 +223,6 @@
     "MOCs",
     "attachments",
     "Cheatsheets",
-    "Techniques/Web",
     "Template Script.md",
     "_templates/technique-note.md",
     "12.md",

@@ -111,7 +111,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -217,6 +218,7 @@
   },
   "active": "8f9a441c2ec0cf2c",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Nmap -sC and -sV (service + script scanning).md",
     "MOCs/Methodology.md",
     "Boxes/CPTS-Labs/Service Scanning.md",
     "Boxes/CPTS-Labs/Service Scanning.tmp",

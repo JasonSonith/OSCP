@@ -26,7 +26,8 @@ tags: [box, cpts-lab, linux]
 # nmap quick + full
 nmap -sC -sV 10.129.104.219
 ``` 
-- Services an
+- Open ports: `ftp`:21, `ssh`:22, 
+- Services and Versions: ``
 
 ## Enumeration
 - Web (dirb/gobuster/feroxbuster):

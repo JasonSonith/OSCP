@@ -65,6 +65,7 @@ That OID = the device hostname (sysName). `iso` printed on the left is just the 
 Object Identifier — SNMP organizes everything into a giant numbered tree; each dotted number is the address of one piece of info, like map coordinates. Give snmpwalk a **branch** (short OID) → it walks everything under it. Give it a **full leaf** (ends in `.0`) → one value.
 
 Handy OIDs:
+
 | OID | What it returns |
 |---|---|
 | `1.3.6.1.2.1.1.5.0` | hostname (sysName) |

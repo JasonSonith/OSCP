@@ -121,7 +121,7 @@ smbclient -U bob \\\\10.129.42.253\\users
 
 - *What I'd do faster next time:* 
 	- Add a `--host-timeout 60s` flag to the nmap scan to get more reliable results. 
-	- Use `nmap -sCV $ip` to get faster results 
+	- Use `nmap -sCV $ip` to get faster results on all ports and services that are open
 type: note
 permalink: oscp/boxes/cpts-labs/Service Scanning
 ---

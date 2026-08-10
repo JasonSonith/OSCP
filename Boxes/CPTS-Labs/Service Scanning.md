@@ -27,7 +27,7 @@ tags: [box, cpts-lab, linux]
 nmap -sC -sV 10.129.104.219
 ``` 
 - Open ports: `ftp`:21, `ssh`:22, `80`:http, `139`:netbios-ssn, `445`:netbios-ssn, `2323`:telnet, `8080`:http
-- Services and Versions: `ftp:vsftpd 3.0.3`, `ssh:OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol`, `http:Apache httpd 2.4.41 ((Ubuntu))`, `http: Apache Tomcat`, `netbios-ssn:`
+- Services and Versions: `ftp:vsftpd 3.0.3`, `ssh:OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol`, `http(80):Apache httpd 2.4.41 ((Ubuntu))`, `http(8080): Apache Tomcat`, `netbios-ssn(139):Samba smbd 4`, `telnet: Linux telnetd`
 
 ## Enumeration
 - Web (dirb/gobuster/feroxbuster):

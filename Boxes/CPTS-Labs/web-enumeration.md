@@ -49,7 +49,6 @@ gobuster dir -u http://154.57.164.65:30728 -w /usr/share/seclists/Discovery/Web-
 ## Proof/Loot
 - Screenshots: `attachments/web-enumeration/`
 ![[Pasted image 20260810233730.png]]
-![[Pasted image 20260810233853.png]]
 
 ## Techniques used
 - [[]]

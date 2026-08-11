@@ -5,7 +5,7 @@ permalink: oscp/templates/technique-note
 ---
 
 ---
-title: Metasploit
+title: Metasploit for enumeration
 category: other
 created: 2026-08-11
 tags: [technique, other]
@@ -14,7 +14,9 @@ tags: [technique, other]
 # Metasploit
 
 ## What it is
-_One or two lines in your own words — the ELI5, so future-you gets it fast._
+- Can be used for reconnaissance scripts to enumerate hosts and/or targets
+- scripts to check for a vulnerability exists
+- *Meterore*
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

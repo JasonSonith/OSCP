@@ -23,12 +23,12 @@ tags: [technique, enumeration]
 - When trying to find hidden directories, finding a domain to match an IP, or finding other domains are attach to your given domain
 
 ## Commands
+
+#### Directory Enumeration
 ```bash
 gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
 - This enumerates through a website to find hidden domains with the provided `common.txt` wordlist
-## Tools
-- 
 
 ## Boxes where I used this
 - [[]]

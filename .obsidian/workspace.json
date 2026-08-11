@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Enumeration/ss - finding internal services.md",
+                "file": "Techniques/Enumeration/SMB Enumeration (smbclient).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ss - finding internal services"
+              "title": "SMB Enumeration (smbclient)"
             }
           },
           {
@@ -247,15 +247,16 @@
   },
   "active": "c48892f6f871b5d5",
   "lastOpenFiles": [
+    "Techniques/Enumeration/SMB Enumeration (smbclient).md",
+    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
+    "Techniques/Enumeration/ss - finding internal services.md",
+    "Techniques/Web/Gobuster.md",
     "Techniques/Enumeration/Web/Gobuster.tmp",
     "Techniques/Enumeration/Web/Untitled.tmp",
-    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
-    "Techniques/Web/Gobuster.md",
     "Techniques/Enumeration/Linux",
     "Techniques/Enumeration/Windows",
     "Techniques/Enumeration/Web/Windows",
     "Techniques/Enumeration/Web",
-    "Techniques/Enumeration/SMB Enumeration (smbclient).md",
     "Boxes/CPTS-Labs/Service Scanning.md",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "SMB enumeration.md",
@@ -264,9 +265,7 @@
     "Boxes/CPTS-Labs/Service Scanning.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
     "MOCs/Methodology.tmp",
-    "Techniques/Enumeration/ss - finding internal services.md",
     "CLAUDE.md",
-    "Techniques/Enumeration",
     "emba.md",
     "Techniques/Web/SQL injection.md",
     "Nmap scanning.md",

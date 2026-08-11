@@ -57,7 +57,7 @@ set LHOST {IP}
 ```
 check
 ```
-- can use `run` or `exploit` once server is vulnerable
+- can use `run` or `exploit` once target is vulnerable
 ## Tools
 - 
 

@@ -219,11 +219,12 @@
   },
   "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
+    "attachments/web-enumeration",
     "_templates/Pasted image 20260811000211.png",
     "Pasted image 20260810233853.png",
     "Boxes/CPTS-Labs/web-enumeration.md",
     "Untitled",
-    "attachments/Pasted image 20260810233730.png",
+    "attachments/web-enumeration/Pasted image 20260810233730.png",
     "MOCs/Methodology.md",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "Techniques/Web/Gobuster.md",

@@ -52,7 +52,11 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 - The following title, `OpenSSH 2.3 < 7.7 - Username Enumeration` means every version from 2.3 to 7.7 is affected by Username enumeration
 - *Path* follows the syntax `{platform}/{type}/{id.extension}`
 - **Platform:** can be `linux` or `multiple`, `multiple` meaning not one specific OS
-- **Type:** Can either be `remote`
+- **Type:** Can either be `remote`, `local`, or `dos`. 
+	- `remote`: Runs over network
+	- `local`: Runs locally
+	- `dos`: Crashes the service
+- 
 ## Tools
 - 
 

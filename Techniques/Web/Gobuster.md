@@ -30,6 +30,7 @@ gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Conten
 ```
 - This enumerates through a website to find hidden domains with the provided `common.txt` wordlist
 
+#### DNS Enume
 
 ## Boxes where I used this
 - [[]]

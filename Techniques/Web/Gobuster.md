@@ -46,7 +46,7 @@ Server: Apache/2.4.29 (Ubuntu)
 Link: <https://www.inlanefreight.com/index.php/wp-json/>; rel="https://api.w.org/" 
 Link: <https://www.inlanefreight.com/>; rel=shortlink Content-Type: text/html; charset=UTF-8
 ```
-- `-IL`
+- `-IL` flag uses `-I` to captures only headers and `L` to also follow redirects
 ## Boxes where I used this
 - [[]]
 

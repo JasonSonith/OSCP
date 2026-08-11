@@ -30,7 +30,11 @@ gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Conten
 ```
 - This enumerates through a website to find hidden domains with the provided `common.txt` wordlist
 
-#### DNS Enume
+#### DNS Enumeration Command
+```
+gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt
+```
+- This enumerates through a list of domains that will resolve to an IP given the wordlist `namelist.txt` from the `Seclists` wordlist
 
 ## Boxes where I used this
 - [[]]

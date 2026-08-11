@@ -49,7 +49,8 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 | OpenSSH < 7.7 - User Enumeration (2)                     | linux/remote/45939.py    |
 | OpenSSHd 7.2p2 - Username Enumeration                    | linux/remote/40113.txt   |
 
-- The following title, `OpenSSH 2.3 < 7.7 - Username Enumeration` means every version below 7.7 is affected
+- The following title, `OpenSSH 2.3 < 7.7 - Username Enumeration` means every version from 2.3 to 7.7 is affected by Username enumeration
+- *Path* follows the 
 ## Tools
 - 
 

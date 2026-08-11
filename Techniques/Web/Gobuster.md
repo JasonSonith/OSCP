@@ -15,7 +15,7 @@ tags: [technique, enumeration]
 
 ## What it is
 - **Gobuster** is used for directory enumeration using a *wordlist* to find *hidden directories* and files using the `dir` flag.
-- 
+- **Gobuster** can also be used for *DNS* 
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

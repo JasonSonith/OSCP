@@ -22,6 +22,9 @@ tags: [technique, other]
 ## When to use it
 - Signals / prerequisites that make this the right move:
 	- Enumerating a host and finding a `exploit/` module that exists for a finding
+	- Manual exploitation is too much work especially if you need encoding or setting up listeners
+	- You want post exploitation things for pivoting, screenshotting, download files, etc after you have a foothold
+	- 
 
 ## Commands
 ```bash

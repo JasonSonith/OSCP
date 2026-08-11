@@ -39,8 +39,8 @@ use exploit/windows/smb/ms17_010_psexec
 ```
 
 #### Show options of exploit
-```
-
+```bash
+Module options (exploit/windows/smb/ms17_010_psexec):
 ```
 ## Tools
 - 

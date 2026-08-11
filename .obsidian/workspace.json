@@ -8,20 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25b951c130386e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Boxes/CPTS-Labs/Service Scanning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Service Scanning"
-            }
-          },
-          {
             "id": "8f9a441c2ec0cf2c",
             "type": "leaf",
             "state": {
@@ -50,27 +36,13 @@
             }
           },
           {
-            "id": "45bcf30809ec772f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Techniques/Enumeration/SMB Enumeration (smbclient).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SMB Enumeration (smbclient)"
-            }
-          },
-          {
             "id": "bc298f310077149a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "MOCs/Methodology.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -245,12 +217,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8f9a441c2ec0cf2c",
+  "active": "c48892f6f871b5d5",
   "lastOpenFiles": [
+    "MOCs/Methodology.md",
+    "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
+    "Techniques/Web/Gobuster.md",
+    "Boxes/CPTS-Labs/Service Scanning.md",
     "Boxes/CPTS-Labs/web-enumeration.md",
     "Boxes/CPTS-Labs/web-enumeration.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
-    "Techniques/Web/Gobuster.md",
     "Techniques/Web/SQL injection.md",
     "Techniques/Web/web-enumeration.tmp",
     "Techniques/Enumeration/SMB Enumeration (smbclient).md",
@@ -262,11 +237,8 @@
     "Techniques/Enumeration/Windows",
     "Techniques/Enumeration/Web/Windows",
     "Techniques/Enumeration/Web",
-    "Boxes/CPTS-Labs/Service Scanning.md",
-    "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "SMB enumeration.md",
     "SMB enumeration.tmp",
-    "MOCs/Methodology.md",
     "CLAUDE.md",
     "emba.md",
     "Nmap scanning.md",

@@ -20,6 +20,7 @@ permalink: oscp/mocs/methodology-1
 - [[ss - finding internal services]]
 - [[SNMP Enumeration (onesixtyone + snmpwalk)]]
 - [[Nmap -sC and -sV (service + script scanning)]]
+- [[Gobuster]]
 
 ## 2. Getting In (Foothold)
 - [[SQL injection]]

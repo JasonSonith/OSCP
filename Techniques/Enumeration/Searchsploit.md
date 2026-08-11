@@ -14,7 +14,7 @@ tags: [technique, enumeration]
 # Searchsploit
 
 ## What it is
-_One or two lines in your own words — the ELI5, so future-you gets it fast._
+- 
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

@@ -39,12 +39,9 @@ gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.
 ## Boxes where I used this
 - [[]]
 
-## Gotchas / troubleshooting
-- Things that broke and how you fixed them:
-
 ## References
 ----
-title: Untitled
+title: Gobuster
 type: note
-permalink: oscp/techniques/enumeration/web/untitled
+permalink: oscp/techniques/enumeration/web/Gobuster
 ---

@@ -48,21 +48,9 @@
               "icon": "lucide-file",
               "title": "Methodology"
             }
-          },
-          {
-            "id": "34d81181cf4bf310",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.13.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.13.6"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -229,15 +217,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "34d81181cf4bf310",
+  "active": "c48892f6f871b5d5",
   "lastOpenFiles": [
+    "MOCs/Methodology.md",
     "attachments/web-enumeration",
     "_templates/Pasted image 20260811000211.png",
     "Pasted image 20260810233853.png",
     "Boxes/CPTS-Labs/web-enumeration.md",
     "Untitled",
     "attachments/web-enumeration/Pasted image 20260810233730.png",
-    "MOCs/Methodology.md",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "Techniques/Web/Gobuster.md",
     "Boxes/CPTS-Labs/Service Scanning.md",
@@ -253,7 +241,6 @@
     "Techniques/Enumeration/Linux",
     "Techniques/Enumeration/Windows",
     "Techniques/Enumeration/Web/Windows",
-    "Techniques/Enumeration/Web",
     "SMB enumeration.md",
     "CLAUDE.md",
     "emba.md",

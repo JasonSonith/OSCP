@@ -38,8 +38,10 @@ nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 	- Found `Username:Password` in *html* document using `Ctrl+U` and found admin:password123
 
 ## Foothold / Initial Access
-- Vulnerability: 
+- Vulnerability: Admin Login in `robots.txt`
 - Exploit / steps:
+	1) Run Gobuster in dir mode
+	2) Find robots.
 #### Enumerate through directories
 ```bash
 gobuster dir -u http://154.57.164.65:30728 -w /usr/share/seclists/Discovery/Web-Content/common.txt

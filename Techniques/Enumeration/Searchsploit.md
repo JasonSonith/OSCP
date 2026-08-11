@@ -57,7 +57,7 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 	- `local`: Runs locally
 	- `dos`: Crashes the service
 - **id.extension**: the searchsploit's database ID number and file type
-	- Full path is /usr/share/exploitdb/exploits/{platform}/{}
+	- Full path for exploits is `/usr/share/exploitdb/exploits/{platform}/{type}/{id.ext}`
 ## Tools
 - 
 

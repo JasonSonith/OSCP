@@ -27,10 +27,13 @@ tags: [technique, other]
 	- You find valid creds and want to use a module that logs in and executes them (using `psexec`)
 
 ## Commands
+#### Search for an exploit
 ```bash
 search exploit {exploit}
 ```
 - Gives description of the exploit
+
+#### Use an e
 
 ## Tools
 - 

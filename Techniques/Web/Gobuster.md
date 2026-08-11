@@ -14,7 +14,7 @@ tags: [technique, enumeration]
 # Gobuster
 
 ## What it is
-_One or two lines in your own words — the ELI5, so future-you gets it fast._
+- **Gobuster** is 
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

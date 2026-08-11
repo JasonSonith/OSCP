@@ -140,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -244,17 +245,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6ecc454f35a87b3e",
+  "active": "c48892f6f871b5d5",
   "lastOpenFiles": [
     "Techniques/Enumeration/Web/Gobuster.tmp",
     "Techniques/Enumeration/Web/Untitled.tmp",
-    "Techniques/Enumeration/Windows/SNMP Enumeration (onesixtyone + snmpwalk).md",
+    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
     "Techniques/Web/Gobuster.md",
     "Techniques/Enumeration/Linux",
     "Techniques/Enumeration/Windows",
     "Techniques/Enumeration/Web/Windows",
     "Techniques/Enumeration/Web",
-    "Techniques/Enumeration/Windows/SMB Enumeration (smbclient).md",
+    "Techniques/Enumeration/SMB Enumeration (smbclient).md",
     "Boxes/CPTS-Labs/Service Scanning.md",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "SMB enumeration.md",
@@ -263,7 +264,7 @@
     "Boxes/CPTS-Labs/Service Scanning.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
     "MOCs/Methodology.tmp",
-    "Techniques/Enumeration/Linux/ss - finding internal services.md",
+    "Techniques/Enumeration/ss - finding internal services.md",
     "CLAUDE.md",
     "Techniques/Enumeration",
     "emba.md",

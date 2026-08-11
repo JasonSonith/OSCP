@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Enumeration/Web/Untitled.md",
+                "file": "Techniques/Web/Gobuster.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "Gobuster"
             }
           },
           {
@@ -244,18 +244,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c48892f6f871b5d5",
+  "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Web/Gobuster.tmp",
     "Techniques/Enumeration/Web/Untitled.tmp",
     "Techniques/Enumeration/Windows/SNMP Enumeration (onesixtyone + snmpwalk).md",
-    "Techniques/Enumeration/Web/Untitled.md",
+    "Techniques/Web/Gobuster.md",
     "Techniques/Enumeration/Linux",
     "Techniques/Enumeration/Windows",
     "Techniques/Enumeration/Web/Windows",
     "Techniques/Enumeration/Web",
     "Techniques/Enumeration/Windows/SMB Enumeration (smbclient).md",
     "Boxes/CPTS-Labs/Service Scanning.md",
-    "Techniques/Enumeration/Nmap -sC and -sV (service + script scanning).md",
+    "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "SMB enumeration.md",
     "SMB enumeration.tmp",
     "MOCs/Methodology.md",
@@ -265,7 +266,6 @@
     "Techniques/Enumeration/Linux/ss - finding internal services.md",
     "CLAUDE.md",
     "Techniques/Enumeration",
-    "_templates/technique-note.tmp",
     "emba.md",
     "Techniques/Web/SQL injection.md",
     "Nmap scanning.md",

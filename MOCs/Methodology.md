@@ -15,8 +15,6 @@ permalink: oscp/mocs/methodology-1
 - [[Nmap scanning]]
 - [[Directory brute forcing]]
 - [[SMB enumeration]]
-- [[DNS enumeration]]
-- [[Service version enumeration]]
 - [[ss - finding internal services]]
 - [[SNMP Enumeration (onesixtyone + snmpwalk)]]
 - [[Nmap -sC and -sV (service + script scanning)]]

@@ -58,14 +58,9 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 	- `dos`: Crashes the service
 - **id.extension**: the searchsploit's database ID number and file type
 	- Full path for exploits is `/usr/share/exploitdb/exploits/{platform}/{type}/{id.ext}`
-## Tools
-- 
 
 ## Boxes where I used this
 - [[]]
 
-## Gotchas / troubleshooting
-- Things that broke and how you fixed them:
-
 ## References
--
+- [[_MOCs/Methodology]]

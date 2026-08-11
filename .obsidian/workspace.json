@@ -42,7 +42,7 @@
               "type": "markdown",
               "state": {
                 "file": "Techniques/Enumeration/Searchsploit.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -220,10 +220,10 @@
   },
   "active": "bc298f310077149a",
   "lastOpenFiles": [
+    "MOCs/Methodology.md",
     "_MOCs/Methodology.md",
     "Techniques/Enumeration/Searchsploit.md",
     "_MOCs",
-    "MOCs/Methodology.md",
     "Techniques/Web/Gobuster.md",
     "Boxes/CPTS-Labs/web-enumeration.md",
     "attachments/web-enumeration",

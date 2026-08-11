@@ -30,7 +30,7 @@ nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 - Notable services / versions: *http*: Werkzeug httpd 3.0.4 (Python 3.11.2)
 
 ## Enumeration
-- Web (dirb/gobuster/feroxbuster):
+- Web (dirb/gobuster/feroxbuster): Found `200 OK` for `index.php` and `robots.txt`. Found 
 - SMB / shares:
 - Other services:
 - Creds / usernames found:

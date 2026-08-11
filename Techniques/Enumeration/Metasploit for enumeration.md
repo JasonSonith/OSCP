@@ -31,13 +31,17 @@ tags: [technique, other]
 ```bash
 search exploit {exploit}
 ```
-- Gives description of the exploit 
+- Gives description of the exploit and the exploit path related to it
 
 #### Use an exploit
 ```bash
 use exploit/windows/smb/ms17_010_psexec
 ```
 
+#### Show options of exploit
+```
+
+```
 ## Tools
 - 
 

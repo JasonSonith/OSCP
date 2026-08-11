@@ -24,9 +24,9 @@ tags: [technique, enumeration]
 
 ## Commands
 ```bash
-# paste your working, copy-pasteable commands
+gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
-
+- This enumerates through a website to find hidden domains with the provided `common.txt` wordlist
 ## Tools
 - 
 

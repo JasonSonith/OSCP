@@ -58,11 +58,9 @@ set LHOST {IP}
 check
 ```
 - can use `run` or `exploit` once target is vulnerable
-## Tools
-- 
 
 ## Boxes where I used this
-- [[]]
+- [[Public exploits]]
 
 ## Gotchas / troubleshooting
 - Things that broke and how you fixed them:

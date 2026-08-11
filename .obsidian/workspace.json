@@ -63,7 +63,8 @@
               "title": "Metasploit for enumeration"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -231,11 +232,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8f9a441c2ec0cf2c",
+  "active": "28c2ff11f3b10d7d",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "Boxes/CPTS-Labs/Public exploits.md",
-    "Techniques/Enumeration/Searchsploit.md",
     "MOCs/Methodology.md",
     "Techniques/Web/Gobuster.md",
     "Boxes/CPTS-Labs/web-enumeration.md",

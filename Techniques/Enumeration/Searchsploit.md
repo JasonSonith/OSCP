@@ -60,7 +60,7 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 	- Full path for exploits is `/usr/share/exploitdb/exploits/{platform}/{type}/{id.ext}`
 
 ## Boxes where I used this
-- [[]]
+- [[Public exploits]]
 
 ## References
 - [[MOCs/Methodology|Methodology]]

@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,10 +232,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "28c2ff11f3b10d7d",
+  "active": "bc298f310077149a",
   "lastOpenFiles": [
-    "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
+    "Techniques/Enumeration/Searchsploit.md",
     "Boxes/CPTS-Labs/Public exploits.md",
     "MOCs/Methodology.md",
     "Techniques/Web/Gobuster.md",

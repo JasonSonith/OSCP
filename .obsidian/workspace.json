@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -217,8 +216,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c48892f6f871b5d5",
+  "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
+    "Untitled",
+    "attachments/Pasted image 20260810233730.png",
     "MOCs/Methodology.md",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "Techniques/Web/Gobuster.md",

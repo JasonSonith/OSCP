@@ -1,12 +1,5 @@
-{
-  "workspace:goto-tab-1": [],
-  "workspace:goto-tab-2": [],
-  "editor:toggle-bullet-list": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Z"
-    }
-  ]
+{
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-2": [],
+  "editor:toggle-bullet-list": []
 }

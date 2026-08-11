@@ -38,9 +38,9 @@ search exploit {exploit}
 use exploit/windows/smb/ms17_010_psexec
 ```
 
-#### Show options of exploit
+#### Show options of exploit after using it
 ```bash
-Module options (exploit/windows/smb/ms17_010_psexec):
+show options
 ```
 ## Tools
 - 

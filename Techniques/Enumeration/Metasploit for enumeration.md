@@ -28,7 +28,7 @@ tags: [technique, other]
 
 ## Commands
 ```bash
-# paste your working, copy-pasteable commands
+search explo
 ```
 
 ## Tools

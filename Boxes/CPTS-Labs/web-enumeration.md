@@ -33,6 +33,7 @@ nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 - Web (dirb/gobuster/feroxbuster): 
 	- Found `200 OK` for `index.php` and `robots.txt`. 
 	- Found `301 REDIRECT` for `wordpress` endpoint
+	- Found `admin-login-page.php` in robots.txt
 - Creds / usernames found:
 
 ## Foothold / Initial Access

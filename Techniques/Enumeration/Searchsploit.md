@@ -22,6 +22,8 @@ tags: [technique, enumeration]
 ## Commands
 ```bash
 searchsploit openssh 7.2
+
+#output
 OpenSSH 2.3 < 7.7 - Username Enumeration 
 | linux/remote/45233.py OpenSSH 2.3 < 7.7 - Username Enumeration (PoC) 
 | linux/remote/45210.py OpenSSH 7.2 - Denial of Service | linux/dos/40888.py OpenSSH 7.2p1 - (Authenticated) xauth Command Injection 
@@ -31,8 +33,8 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 | linux/remote/40963.txt OpenSSH < 7.7 - User Enumeration (2) 
 | linux/remote/45939.py OpenSSHd 7.2p2 - Username Enumeration 
 | linux/remote/40113.txt
-
 ```
+- 
 
 ## Tools
 - 

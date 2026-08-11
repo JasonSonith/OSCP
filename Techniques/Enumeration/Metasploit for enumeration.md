@@ -21,6 +21,7 @@ tags: [technique, other]
 
 ## When to use it
 - Signals / prerequisites that make this the right move:
+	- Enumerating a host and finding a `exploit/` module that exists for a finding
 
 ## Commands
 ```bash

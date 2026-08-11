@@ -56,7 +56,8 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 	- `remote`: Runs over network
 	- `local`: Runs locally
 	- `dos`: Crashes the service
-- `id.extension`: the searchsploit's database ID number and file type
+- **id.extension**: the searchsploit's database ID number and file type
+	- Full path is /usr/share/exploitdb/exploits/{platform}/{}
 ## Tools
 - 
 

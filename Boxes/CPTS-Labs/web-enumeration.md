@@ -26,8 +26,8 @@ tags: [box, cpts-lab, linux]
 # nmap quick + full
 nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 ```
-- Open ports: 
-- Notable services / versions:
+- Open ports: `30718`
+- Notable services / versions: *http*: Werkzeug httpd 3.0.4 (Python 3.11.2)
 
 ## Enumeration
 - Web (dirb/gobuster/feroxbuster):

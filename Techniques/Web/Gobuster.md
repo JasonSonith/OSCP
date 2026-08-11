@@ -47,6 +47,13 @@ Link: <https://www.inlanefreight.com/index.php/wp-json/>; rel="https://api.w.org
 Link: <https://www.inlanefreight.com/>; rel=shortlink Content-Type: text/html; charset=UTF-8
 ```
 - `-IL` flag uses `-I` to captures only headers and `L` to also follow redirects
+
+#### Find tech stack using **Whataweb**
+```
+whatweb 10.10.10.121
+
+#Output
+```
 ## Boxes where I used this
 - [[]]
 

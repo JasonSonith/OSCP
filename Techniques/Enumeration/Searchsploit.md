@@ -14,10 +14,10 @@ tags: [technique, enumeration]
 # Searchsploit
 
 ## What it is
-- 
+- Use to search for public vulnerabilities for any application
 
 ## When to use it
-- Signals / prerequisites that make this the right move:
+- For finding 
 
 ## Commands
 ```bash

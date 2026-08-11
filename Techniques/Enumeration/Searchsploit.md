@@ -63,4 +63,4 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 - [[]]
 
 ## References
-- [[_MOCs/Methodology]]
+- [[MOCs/Methodology|Methodology]]

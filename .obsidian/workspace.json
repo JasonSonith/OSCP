@@ -49,7 +49,8 @@
               "title": "Searchsploit"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -217,11 +218,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "8f9a441c2ec0cf2c",
+  "active": "bc298f310077149a",
   "lastOpenFiles": [
-    "Techniques/Web/Gobuster.md",
+    "_MOCs/Methodology.md",
     "Techniques/Enumeration/Searchsploit.md",
+    "_MOCs",
     "MOCs/Methodology.md",
+    "Techniques/Web/Gobuster.md",
     "Boxes/CPTS-Labs/web-enumeration.md",
     "attachments/web-enumeration",
     "_templates/Pasted image 20260811000211.png",
@@ -241,7 +244,6 @@
     "Techniques/Enumeration/Web/Untitled.tmp",
     "Techniques/Enumeration/Linux",
     "Techniques/Enumeration/Windows",
-    "Techniques/Enumeration/Web/Windows",
     "SMB enumeration.md",
     "CLAUDE.md",
     "emba.md",

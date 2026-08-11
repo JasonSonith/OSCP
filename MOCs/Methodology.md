@@ -12,13 +12,12 @@ permalink: oscp/mocs/methodology-1
 > Each link becomes a technique note the first time you click it.
 
 ## 1. Recon / Enumeration
-- [[Nmap scanning]]
-- [[Directory brute forcing]]
-- [[SMB enumeration]]
+- [[SMB Enumeration (smbclient)]]
 - [[ss - finding internal services]]
 - [[SNMP Enumeration (onesixtyone + snmpwalk)]]
 - [[Nmap -sC and -sV (service + script scanning)]]
 - [[Gobuster]]
+- [[Searchsploit]] 
 
 ## 2. Getting In (Foothold)
 - [[SQL injection]]

@@ -31,9 +31,12 @@ tags: [technique, other]
 ```bash
 search exploit {exploit}
 ```
-- Gives description of the exploit
+- Gives description of the exploit 
 
-#### Use an e
+#### Use an exploit
+```bash
+use exploit/windows/smb/ms17_010_psexec
+```
 
 ## Tools
 - 

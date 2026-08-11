@@ -35,14 +35,15 @@ nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 	- Found `301 REDIRECT` for `wordpress` endpoint
 	- Found `admin-login-page.php` in robots.txt
 - Creds / usernames found: 
+	- Found `Username:Password` in *html* document using `Ctrl+U` and found admin:password123
 
 ## Foothold / Initial Access
-- Vulnerability:
+- Vulnerability: 
 - Exploit / steps:
 ```bash
 # working commands
 ```
-- **Technique:** [[]]
+- **Technique:** [[Gobuster]]
 
 ## Privilege Escalation
 

@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/CPTS-Labs/Untitled.md",
+                "file": "Boxes/CPTS-Labs/web-enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "web-enumeration"
             }
           },
           {
@@ -246,9 +246,10 @@
   },
   "active": "c48892f6f871b5d5",
   "lastOpenFiles": [
+    "Boxes/CPTS-Labs/web-enumeration.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
     "Techniques/Web/Gobuster.md",
-    "Boxes/CPTS-Labs/Untitled.md",
+    "Boxes/CPTS-Labs/web-enumeration.md",
     "Techniques/Web/SQL injection.md",
     "Techniques/Web/web-enumeration.tmp",
     "Techniques/Enumeration/SMB Enumeration (smbclient).md",

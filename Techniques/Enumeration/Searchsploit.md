@@ -17,7 +17,7 @@ tags: [technique, enumeration]
 - Use to search for public vulnerabilities for any application
 
 ## When to use it
-- For finding 
+- For finding vulnerabilities of certain application/service versions after running 
 
 ## Commands
 ```bash

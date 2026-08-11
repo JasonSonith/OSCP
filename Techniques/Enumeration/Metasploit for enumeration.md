@@ -16,7 +16,8 @@ tags: [technique, other]
 ## What it is
 - Can be used for reconnaissance scripts to enumerate hosts and/or targets
 - scripts to check for a vulnerability exists
-- *Meterore*
+- *Meterpreter* for connecting to shells on running commands on a compromised target
+- Post-exploitation
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

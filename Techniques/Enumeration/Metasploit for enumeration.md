@@ -28,8 +28,9 @@ tags: [technique, other]
 
 ## Commands
 ```bash
-search explo
+search exploit {exploit}
 ```
+- Gives description of the exploit
 
 ## Tools
 - 

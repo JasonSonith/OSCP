@@ -24,7 +24,7 @@ tags: [technique, other]
 	- Enumerating a host and finding a `exploit/` module that exists for a finding
 	- Manual exploitation is too much work especially if you need encoding or setting up listeners
 	- You want post exploitation things for pivoting, screenshotting, download files, etc after you have a foothold
-	- 
+	- You find valid creds and want to use a module that logs in and executes them (using `psexec`)
 
 ## Commands
 ```bash

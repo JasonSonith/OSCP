@@ -35,6 +35,8 @@ gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Conten
 gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt
 ```
 - This enumerates through a list of domains that will resolve to an IP given the wordlist `namelist.txt` from the `Seclists` wordlist
+## What to use with *Gobuster*
+- `curl:` Can use thoe
 
 ## Boxes where I used this
 - [[]]

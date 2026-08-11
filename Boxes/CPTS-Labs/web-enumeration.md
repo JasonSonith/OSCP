@@ -46,7 +46,10 @@ gobuster dir -u http://154.57.164.65:30728 -w /usr/share/seclists/Discovery/Web-
 ```
 - **Technique:** [[Gobuster]]
 
+## Proof/Loot
 - Screenshots: `attachments/web-enumeration/`
+
+
 
 ## Techniques used
 - [[]]

@@ -5,7 +5,7 @@ permalink: oscp/templates/box-note-2
 ---
 
 ---
-- title: web-enumerationry: enumeration
+title: web-enumeration
 created: 2026-08-10
 tags: [technique, enumeration]
 ---

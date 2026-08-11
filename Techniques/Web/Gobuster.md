@@ -49,10 +49,11 @@ Link: <https://www.inlanefreight.com/>; rel=shortlink Content-Type: text/html; c
 - `-IL` flag uses `-I` to captures only headers and `L` to also follow redirects
 
 #### Find tech stack using **Whataweb**
-```
+``` bash
 whatweb 10.10.10.121
 
 #Output
+http://10.10.10.121 [200 OK] Apache[2.4.41], Country[RESERVED][ZZ], Email[license@php.net], HTTPServer[Ubuntu Linux][Apache/2.4.41 (Ubuntu)], IP[10.10.10.121], Title[PHP 7.4.3 - phpinfo()]
 ```
 ## Boxes where I used this
 - [[]]

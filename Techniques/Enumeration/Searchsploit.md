@@ -48,8 +48,8 @@ OpenSSH 2.3 < 7.7 - Username Enumeration
 | OpenSSH < 7.4 - agent Protocol Arbitrary Library Loading | linux/remote/40963.txt   |
 | OpenSSH < 7.7 - User Enumeration (2)                     | linux/remote/45939.py    |
 | OpenSSHd 7.2p2 - Username Enumeration                    | linux/remote/40113.txt   |
-OpenSSH 2.3 < 7.7 - Username Enumeration
-- The following title, ``
+
+- The following title, `OpenSSH 2.3 < 7.7 - Username Enumeration` means every vesio
 ## Tools
 - 
 

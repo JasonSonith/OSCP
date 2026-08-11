@@ -31,12 +31,17 @@ gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Conten
 - This enumerates through a website to find hidden domains with the provided `common.txt` wordlist
 
 #### DNS Enumeration Command
-```
+``` bash
 gobuster dns -d inlanefreight.com -w /usr/share/SecLists/Discovery/DNS/namelist.txt
 ```
 - This enumerates through a list of domains that will resolve to an IP given the wordlist `namelist.txt` from the `Seclists` wordlist
-## What to use with *Gobuster*
-- `curl:` Can use thoe
+#### Security Header Grabbing
+``` bash
+curl -IL https://www.inlanefreight.com
+
+#Output 
+HTTP/1.1 200 OK Date: Fri, 18 Dec 2020 22:24:05 GMT Server: Apache/2.4.29 (Ubuntu) Link: <https://www.inlanefreight.com/index.php/wp-json/>; rel="https://api.w.org/" Link: <https://www.inlanefreight.com/>; rel=shortlink Content-Type: text/html; charset=UTF-8
+```
 
 ## Boxes where I used this
 - [[]]

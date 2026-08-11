@@ -53,7 +53,11 @@ set LHOST {IP}
 ```
 - Can also be a network interface such as `tun0`, our HTB vpn IP
 
-#### 
+#### Checks to see if target if vulnerable to attack
+```
+check
+```
+- can use `run` or `exploit` once server is vulnerable
 ## Tools
 - 
 

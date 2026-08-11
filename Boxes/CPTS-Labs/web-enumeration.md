@@ -43,8 +43,8 @@ nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 	1) Run Gobuster in dir mode
 	2) Append `robots.txt` to url
 	3) use `robots.txt` to get the admin-login page
-	4) `Ctrl+U` on admin login page to find vul
-	5) 
+	4) `Ctrl+U` on admin login page to find admin creds
+	5) Use admin creds to login and get the flag
 #### Enumerate through directories
 ```bash
 gobuster dir -u http://154.57.164.65:30728 -w /usr/share/seclists/Discovery/Web-Content/common.txt

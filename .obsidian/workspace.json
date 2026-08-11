@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "Methodology"
             }
+          },
+          {
+            "id": "34d81181cf4bf310",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.6"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,7 +229,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6ecc454f35a87b3e",
+  "active": "34d81181cf4bf310",
   "lastOpenFiles": [
     "attachments/web-enumeration",
     "_templates/Pasted image 20260811000211.png",

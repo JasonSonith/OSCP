@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Enumeration/Searchsploit.md",
-                "mode": "preview",
+                "file": "Techniques/Enumeration/Metasploit.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Searchsploit"
+              "title": "Metasploit"
             }
           }
         ],
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -218,11 +217,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "bc298f310077149a",
+  "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Searchsploit.md",
+    "Techniques/Enumeration/Metasploit.md",
     "MOCs/Methodology.md",
     "_MOCs/Methodology.md",
-    "Techniques/Enumeration/Searchsploit.md",
     "_MOCs",
     "Techniques/Web/Gobuster.md",
     "Boxes/CPTS-Labs/web-enumeration.md",

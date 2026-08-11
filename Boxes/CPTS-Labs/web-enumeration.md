@@ -40,29 +40,12 @@ nmap -sC -sV -oN nmap/scan.txt 154.57.164.65
 ## Foothold / Initial Access
 - Vulnerability: 
 - Exploit / steps:
+#### Enumerate through directories
 ```bash
-# working commands
+gobuster dir -u http://154.57.164.65:30728 -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
 - **Technique:** [[Gobuster]]
 
-## Privilege Escalation
-
-### Linux checklist
-- [ ] `sudo -l` — sudo rights
-- [ ] SUID/SGID (`find / -perm -4000 -type f 2>/dev/null`)
-- [ ] Cron jobs / writable scripts
-- [ ] Kernel version → known exploits
-- [ ] Writable `/etc/passwd`, PATH hijack
-- [ ] Capabilities (`getcap -r / 2>/dev/null`)
-- [ ] Run **LinPEAS**
-
-- Escalation path:
-- **Technique:** [[]]
-
-## Proof / Loot
-- [ ] user.txt captured (screenshot w/ OSID)
-- [ ] root/system proof captured (screenshot w/ OSID)
-- Creds / hashes looted:
 - Screenshots: `attachments/web-enumeration/`
 
 ## Techniques used

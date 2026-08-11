@@ -25,7 +25,7 @@ tags: [technique, enumeration]
 
 #### Directory Enumeration Command
 ```bash
-gobuster dir -u http://10.10.10.121/ -w /usr/share/seclists/Discovery/Web-Content/common.txt
+gobuster dir -u $url -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
 - This enumerates through a website to find hidden domains with the provided `common.txt` wordlist
 

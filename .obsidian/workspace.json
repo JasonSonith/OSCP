@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -126,8 +126,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -232,11 +231,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "46fdf747c8bf6d75",
+  "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
+    "Techniques/Windows Persistence Flow.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Windows Persistence Flow.tmp",
-    "Techniques/Windows Persistence Flow.md",
     "Techniques/Windows Persistence Flow.md.tmp.499.240d331a60bc",
     "Techniques/Web Shell.md",
     "bind shell.md",

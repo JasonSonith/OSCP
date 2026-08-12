@@ -36,11 +36,19 @@ For `asp`
 <% eval request("cmd") %>
 ```
 
+#### 
+
 ## Things to know
 - Shell needs to be uploaded for example through a `shell.php` file on the remote host's web directory (webroot)
+- Can check directories for see which webroot is used and use `echo` to write the web shell
 
 ## Default webroots
-
+|Web Server|Default Webroot|
+|---|---|
+|`Apache`|/var/www/html/|
+|`Nginx`|/usr/local/nginx/html/|
+|`IIS`|c:\inetpub\wwwroot\|
+|`XAMPP`|C:\xampp\htdocs\|
 
 ## Boxes where I used this
 - [[]]

@@ -14,7 +14,7 @@ tags: [technique, other]
 # Reverse Shell
 
 ## What it is
-_One or two lines in your own words — the ELI5, so future-you gets it fast._
+- Most common type of shell that has the attacker connect to us so we can run commands 
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

@@ -70,6 +70,10 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 	1) `/etc/crontab`
 	2) `/etc/cron.d`
 	3) `/var/spool/cron/crontabs/root`
+	- If we can write to the above directories then we can write a bash script with *reverse shell* commands
+
+### Exposed Credentials
+- 
 
 ## Boxes where I used this
 - [[]]

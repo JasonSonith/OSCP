@@ -31,6 +31,7 @@ nc -lvnp 1234
 - `-p` used to specify the port to which the target listens to, in this case `1234`
 ## Things to know
 - Command executed depend on the OS of the target
+- [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet
 - 
 
 ## Boxes where I used this

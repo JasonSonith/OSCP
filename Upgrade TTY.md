@@ -33,6 +33,13 @@ stty raw -echo
 #second
 fg
 ```
+- hit `enter` after to get back to our shell
+
+#### Open a new terminal window
+```bash
+echo $TERM
+```
+
 
 
 ## Tools

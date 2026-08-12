@@ -86,6 +86,7 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - here database creds are exposed which can be used to log into db
 
 ### SSH keys
+- ssh keys for a user can be found in `/home/user/.ssh/id_rsa` or `/root/.ssh/id_rsa`
 
 ## Boxes where I used this
 - [[]]

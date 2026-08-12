@@ -24,8 +24,9 @@ tags: [technique, other]
 # paste your working, copy-pasteable commands
 ```
 
-## Things 
-- 
+## Things to know
+- Port is connected via `netcat`
+- [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet
 
 ## Boxes where I used this
 - [[]]

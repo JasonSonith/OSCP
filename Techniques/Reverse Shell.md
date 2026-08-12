@@ -26,8 +26,9 @@ tags: [technique, other]
 nc -lvnp 1234
 ```
 - `-l` listen mode
-- 
-
+- `-v` verbose mode
+- `-n` Disable dns resolution to it connects from ip to speed up connection
+- `-p` used to specify the port to which the target listens to, in this case `1234`
 ## Tools
 - 
 

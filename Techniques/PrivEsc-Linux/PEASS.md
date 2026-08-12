@@ -43,7 +43,8 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ## What to look for
 ### Kernel Exploits
 - Potentially vulnerable if OS is old or not being maintained 
-- For example, the `linpeas` output showed the linux version to be `3.9.0-73-generic`
+- For example, the `linpeas` output showed the linux version to be `3.9.0-73-generic` which results in a `CVE-2016-5195` using google or `searchsploit`. 
+	- The linked vul is called `DirtyCow` which can be downloaded and run on the server to gain root access
 
 ## Boxes where I used this
 - [[]]

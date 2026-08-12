@@ -14,7 +14,8 @@ tags: [technique, privesc]
 # Enumeration Scripts
 
 ## What it is
-- Scripts such as *LinEnum*, *linuxprivchecker*, *Seatbelt*
+- Scripts such as *LinEnum*, *linuxprivchecker*, *Seatbelt*, and *JAWS* can check for privesc in linux
+- *PEASS* is a well maintained script suite for linux privesc
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

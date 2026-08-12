@@ -1,7 +1,7 @@
 ---
 title: technique-note
 type: note
-permalink: oscp/templates/technique-note
+permalink: oscp/templates/technique-note-1-6
 ---
 
 ---

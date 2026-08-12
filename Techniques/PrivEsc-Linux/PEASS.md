@@ -60,8 +60,10 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 	- An Output of `(ALL : ALL) ALL` means we have complete access and we can `sudo su -` to switch to root user
 	- An output of `(user : user) NOPASSWD: /bin/echo` means `/bin/echo` can we executed without a password
 - [GTFOBins](https://gtfobins.org/) can be used for exploiting privesc through `sudo`
-- [LOLB]
+- [LOLBAS](https://lolbas-project.github.io/#) can be used for the same thing through windows
 
+### Scheduled Tasks
+- 
 
 ## Boxes where I used this
 - [[]]

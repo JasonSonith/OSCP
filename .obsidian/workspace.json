@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Reverse Shell"
             }
+          },
+          {
+            "id": "1572ed92a32192c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bind shell.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "bind shell"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -232,10 +246,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1b10e02bd2b15085",
+  "active": "1572ed92a32192c4",
   "lastOpenFiles": [
-    "Boxes/CPTS-Labs/Public exploits.md",
+    "bind shell.md",
     "Techniques/Reverse Shell.md",
+    "Boxes/CPTS-Labs/Public exploits.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",
     "attachments/Public exploits",

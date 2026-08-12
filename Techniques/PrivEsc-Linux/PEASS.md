@@ -95,6 +95,27 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
  ```
  - Must be user on target system
 - We can place our public key in the target user's `/.ssh/` directory if we have access to write to it in `/home/user/.ssh/authorized_keys`
+#### To create a new key in their directory we need to use `ssh-keygen`
+```
+
+SonithGT@htb[/htb]$ ssh-keygen -f key
+
+Generating public/private rsa key pair.
+Enter passphrase (empty for no passphrase): *******
+Enter same passphrase again: *******
+
+Your identification has been saved in key
+Your public key has been saved in key.pub
+The key fingerprint is:
+SHA256:...SNIP... user@parrot
+The key's randomart image is:
++---[RSA 3072]----+
+|   ..o.++.+      |
+...SNIP...
+|     . ..oo+.    |
++----[SHA256]-----+
+```
+```
 
 ## Boxes where I used this
 - [[]]

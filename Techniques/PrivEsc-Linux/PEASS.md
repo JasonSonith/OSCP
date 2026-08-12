@@ -77,9 +77,12 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - Enumeration scripts above usually look for these files
 
  #### Example of Enumeration script showing passwords inside logs
+ ``` bash
+ [+] Searching passwords in config PHP files 
+ [+] Finding passwords inside logs (limit 70)
+ /var/www/html/config.php: $conn = new mysqli(localhost, 'db_user', 'password123');
  ```
- ```
-
+- here database creds are exposed which can be used to log int
 ## Boxes where I used this
 - [[]]
 

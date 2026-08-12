@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Web Shell.md",
+                "file": "Techniques/PrivEsc-Linux/Enumeration Scripts.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Web Shell"
+              "title": "Enumeration Scripts"
             }
           }
         ],
@@ -112,8 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -220,9 +219,10 @@
   },
   "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
+    "Techniques/Web Shell.md",
+    "Techniques/PrivEsc-Linux/Enumeration Scripts.md",
     "bind shell.md",
     "Techniques/Upgrade TTY.md",
-    "Techniques/Web Shell.md",
     "Techniques/Enumeration/Gobuster.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Enumeration/Searchsploit.md",
@@ -258,7 +258,6 @@
     "_templates/box-note.md",
     "Template Script.md",
     "_templates/technique-note.md",
-    "12.md",
-    "1.md"
+    "12.md"
   ]
 }

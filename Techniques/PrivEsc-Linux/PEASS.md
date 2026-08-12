@@ -97,7 +97,6 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - We can place our public key in the target user's `/.ssh/` directory if we have access to write to it in `/home/user/.ssh/authorized_keys`
 #### To create a new key in their directory we need to use `ssh-keygen`
 ```
-
 SonithGT@htb[/htb]$ ssh-keygen -f key
 
 Generating public/private rsa key pair.
@@ -115,7 +114,7 @@ The key's randomart image is:
 |     . ..oo+.    |
 +----[SHA256]-----+
 ```
-```
+- This gives us two files `key` and `key.pub` which we copy to the reo
 
 ## Boxes where I used this
 - [[]]

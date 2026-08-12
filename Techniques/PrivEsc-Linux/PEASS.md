@@ -5,7 +5,7 @@ permalink: oscp/templates/technique-note
 ---
 
 ---
-title: Enumeration Scripts
+title: PEASS
 category: privesc
 created: 2026-08-11
 tags: [technique, privesc]
@@ -18,7 +18,7 @@ tags: [technique, privesc]
 - *PEASS* is a well maintained script suite for linux privesc
 
 ## When to use it
-- Signals / prerequisites that make this the right move:
+- When you land as a low level user and want to escalate privileges
 
 ## Commands
 ```bash

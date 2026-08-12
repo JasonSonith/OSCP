@@ -62,9 +62,23 @@
               "icon": "lucide-file",
               "title": "Reverse Shell"
             }
+          },
+          {
+            "id": "4243a69a0f05a0e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Upgrade TTY.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Upgrade TTY"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -232,10 +246,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1b10e02bd2b15085",
+  "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
-    "bind shell.md",
+    "Upgrade TTY.md",
     "Techniques/Reverse Shell.md",
+    "bind shell.md",
     "Boxes/CPTS-Labs/Public exploits.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",

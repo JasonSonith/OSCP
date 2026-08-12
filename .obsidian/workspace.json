@@ -231,8 +231,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6ecc454f35a87b3e",
+  "active": "bc298f310077149a",
   "lastOpenFiles": [
+    "Pasted image 20260811204133.png",
     "attachments/Public exploits",
     "Techniques/Enumeration/Searchsploit.md",
     "Boxes/CPTS-Labs/Public exploits.md",
@@ -259,7 +260,6 @@
     "Techniques/Enumeration/Web/Gobuster.tmp",
     "Techniques/Enumeration/Web/Untitled.tmp",
     "Techniques/Enumeration/Linux",
-    "Techniques/Enumeration/Windows",
     "SMB enumeration.md",
     "CLAUDE.md",
     "emba.md",

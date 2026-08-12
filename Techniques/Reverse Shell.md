@@ -30,6 +30,7 @@ nc -lvnp 1234
 - `-n` Disable dns resolution to it connects from ip to speed up connection
 - `-p` used to specify the port to which the target listens to, in this case `1234`
 ## Things to know
+- Command executed depend on the OS of the target
 - 
 
 ## Boxes where I used this

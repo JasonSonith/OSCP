@@ -46,8 +46,14 @@ xterm-256color
 
 ```bash
 stty size
+```
 
-67 318
+```bash
+export TERM=xterm-256color
+```
+
+```bash
+stty rows 67 columns 318
 ```
 
 ## Tools

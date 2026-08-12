@@ -114,7 +114,17 @@ The key's randomart image is:
 |     . ..oo+.    |
 +----[SHA256]-----+
 ```
-- This gives us two files `key` and `key.pub` which we copy to the reo
+- This gives us two files `key` and `key.pub` which we copy to the remote machine
+
+#### Copying `key.pub` to remote machine
+```
+user@remotehost$ echo "ssh-rsa AAAAB...SNIP...M= user@parrot" >> /root/.ssh/authorized_keys
+```
+
+#### Afterwards, the remote server lets us log in with our private key
+```
+SonithGT@htb[/htb]$ ssh root@10.10.10.10 -i key
+```
 
 ## Boxes where I used this
 - [[]]

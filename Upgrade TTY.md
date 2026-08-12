@@ -17,11 +17,13 @@ tags: [technique, other]
 - Making the shell an actual shell because after binding to a shell we can type commands or backspace
 
 ## When to use it
-- Signals / prerequisites that make this the right move:
+- Whenever you get a shell session
 
 ## Commands
+
+#### Upgrade TTY
 ```bash
-# paste your working, copy-pasteable commands
+python -c 'import pty; pty.spawn("/bin/bash")'
 ```
 
 ## Tools

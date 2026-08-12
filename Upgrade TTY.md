@@ -48,6 +48,7 @@ xterm-256color
 stty size
 ```
 
+#### Go back to `netcat` shell
 ```bash
 export TERM=xterm-256color
 ```

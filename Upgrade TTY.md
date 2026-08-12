@@ -14,7 +14,7 @@ tags: [technique, other]
 # Upgrade TTY
 
 ## What it is
-
+- Making the shell an actual shell because after binding to a shell we can type commands or backspace
 
 ## When to use it
 - Signals / prerequisites that make this the right move:

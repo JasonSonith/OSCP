@@ -14,7 +14,7 @@ tags: [technique, other]
 # bind shell
 
 ## What it is
-_One or two lines in your own words — the ELI5, so future-you gets it fast._
+- Another type of shell but the target sets up the listener this time
 
 ## When to use it
 - Signals / prerequisites that make this the right move:
@@ -24,7 +24,7 @@ _One or two lines in your own words — the ELI5, so future-you gets it fast._
 # paste your working, copy-pasteable commands
 ```
 
-## Tools
+## Things 
 - 
 
 ## Boxes where I used this

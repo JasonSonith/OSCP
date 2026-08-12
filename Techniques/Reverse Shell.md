@@ -14,10 +14,11 @@ tags: [technique, other]
 # Reverse Shell
 
 ## What it is
-- Most common type of shell that has the attacker connect to us so we can run commands 
+- Most common type of shell that has the attacker connect to us so we can run commands on their machine
+- Use `netcat` listener on ur machin
 
 ## When to use it
-- Signals / prerequisites that make this the right move:
+- When a identify that we can do remote code execution on the target
 
 ## Commands
 ```bash

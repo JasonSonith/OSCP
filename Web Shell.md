@@ -15,17 +15,18 @@ tags: [technique, other]
 
 ## What it is
 - Usually a web script such as `php`
-- 
+- Accepts our commands through http requests such as `GET` and `POST`
 
 ## When to use it
-- Signals / prerequisites that make this the right move:
+- On websites
 
 ## Commands
+####
 ```bash
 # paste your working, copy-pasteable commands
 ```
 
-## Tools
+## Things to know
 - 
 
 ## Boxes where I used this

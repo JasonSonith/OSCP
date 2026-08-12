@@ -93,6 +93,8 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
  SonithGT@htb[/htb]$ chmod 600 id_rsa 
  SonithGT@htb[/htb]$ ssh root@10.10.10.10 -i id_rsa 
  ```
+ - Must be user on target system
+- 
 
 ## Boxes where I used this
 - [[]]

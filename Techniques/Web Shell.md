@@ -37,7 +37,10 @@ For `asp`
 ```
 
 ## Things to know
-- 
+- Shell needs to be uploaded for example through a `shell.php` file on the remote host's web directory (webroot)
+
+## Default webroots
+
 
 ## Boxes where I used this
 - [[]]

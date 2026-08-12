@@ -24,7 +24,7 @@ tags: [box, cpts-lab, linux]
 ## Recon
 ```bash
 # nmap quick + full
-
+nmap -Pn -sCV $ip
 ```
 - Open ports:
 - Notable services / versions:

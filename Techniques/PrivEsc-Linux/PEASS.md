@@ -57,7 +57,8 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 	2) `SUID`
 	3) `Windows Token Privileges`
 - we can check what `sudo` privileges we have through `sudo -l` command
-	- An Output of `(ALL : ALL) ALL` means we have complete access and we can `sudo su -` 
+	- An Output of `(ALL : ALL) ALL` means we have complete access and we can `sudo su -` to switch to root user
+	- An output of `(user : user) NOPASSWD: /bin/echo` means `/bin/echo` can we executed without a password
 
 
 ## Boxes where I used this

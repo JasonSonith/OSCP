@@ -57,7 +57,7 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 	2) `SUID`
 	3) `Windows Token Privileges`
 - we can check what `sudo` privileges we have through `sudo -l` command
-	- An Output of ()
+	- An Output of `(ALL : ALL) ALL` means we have complete access and we can `sudo su -` 
 
 
 ## Boxes where I used this

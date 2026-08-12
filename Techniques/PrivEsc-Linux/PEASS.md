@@ -73,7 +73,8 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 	- If we can write to the above directories then we can write a bash script with *reverse shell* commands
 
 ### Exposed Credentials
-- 
+- Look for files we can read and see if they have exposed creds through config files, log files, and user history files (`bash_history` in linux and `PSReadLine` in Windows)
+- Enumerati
 
 ## Boxes where I used this
 - [[]]

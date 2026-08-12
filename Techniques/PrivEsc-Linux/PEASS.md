@@ -75,6 +75,7 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ### Exposed Credentials
 - Look for files we can read and see if they have exposed creds through config files, log files, and user history files (`bash_history` in linux and `PSReadLine` in Windows)
 - Enumeration scripts above usually look for these files
+- Should also look for if passwords are reused across different accounts
 
  #### Example of Enumeration script showing passwords inside logs
  ``` bash
@@ -82,7 +83,10 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
  [+] Finding passwords inside logs (limit 70)
  /var/www/html/config.php: $conn = new mysqli(localhost, 'db_user', 'password123');
  ```
-- here database creds are exposed which can be used to log int
+- here database creds are exposed which can be used to log into db
+
+### SSH keys
+
 ## Boxes where I used this
 - [[]]
 

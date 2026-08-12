@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Enumeration/Upgrade TTY.md",
+                "file": "Techniques/Web Shell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Upgrade TTY"
+              "title": "Web Shell"
             }
           }
         ],
@@ -112,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -217,15 +218,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6ecc454f35a87b3e",
+  "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
+    "bind shell.md",
+    "Techniques/Upgrade TTY.md",
     "Techniques/Web Shell.md",
-    "Techniques/Enumeration/Upgrade TTY.md",
     "Techniques/Enumeration/Gobuster.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Reverse Shell.md",
-    "bind shell.md",
     "Boxes/CPTS-Labs/Public exploits.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",
     "attachments/Public exploits",

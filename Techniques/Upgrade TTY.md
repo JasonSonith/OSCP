@@ -57,9 +57,6 @@ export TERM=xterm-256color
 stty rows 67 columns 318
 ```
 
-## Tools
-- 
-
 ## Boxes where I used this
 - [[]]
 

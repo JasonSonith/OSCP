@@ -63,7 +63,10 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - [LOLBAS](https://lolbas-project.github.io/#) can be used for the same thing through windows
 
 ### Scheduled Tasks
-- 
+- Two ways to take advantage of scheduled tasks or cron jobs for linux
+	1) Add new scheduled tasks/crons
+	2) Trick them to execute malicious software
+- To check if we can add scheduled tasks
 
 ## Boxes where I used this
 - [[]]

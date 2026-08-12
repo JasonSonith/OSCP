@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -245,12 +245,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4243a69a0f05a0e1",
+  "active": "74146aa952209017",
   "lastOpenFiles": [
+    "Techniques/Reverse Shell.md",
+    "Boxes/CPTS-Labs/privesc.md",
     "Boxes/CPTS-Labs/privesc.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
     "Techniques/PrivEsc-Linux/PEASS.md",
-    "Boxes/CPTS-Labs/privesc.md",
     "Techniques/Web Shell.md",
     "Techniques/Windows Persistence Flow.md",
     "Techniques/Windows Persistence Flow.tmp",
@@ -260,7 +261,6 @@
     "Techniques/Enumeration/Gobuster.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Enumeration/Searchsploit.md",
-    "Techniques/Reverse Shell.md",
     "Boxes/CPTS-Labs/Public exploits.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",
     "attachments/Public exploits",
@@ -281,7 +281,6 @@
     "Techniques/Enumeration/SMB Enumeration (smbclient).md",
     "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
     "Techniques/Enumeration/ss - finding internal services.md",
-    "Techniques/Enumeration/Web/Gobuster.tmp",
     "SMB enumeration.md",
     "CLAUDE.md",
     "emba.md",

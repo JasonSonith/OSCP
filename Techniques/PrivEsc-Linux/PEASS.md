@@ -87,7 +87,12 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 ### SSH keys
 - ssh keys for a user can be found in `/home/user/.ssh/id_rsa` or `/root/.ssh/id_rsa` 
-- #### Can escalate from user to root through 
+ #### Can escalate from user to root through if root ssh can be read in `/root/.ssh/`
+ ```
+ SonithGT@htb[/htb]$ vim id_rsa 
+ SonithGT@htb[/htb]$ chmod 600 id_rsa 
+ SonithGT@htb[/htb]$ ssh root@10.10.10.10 -i id_rsa 
+ ```
 
 ## Boxes where I used this
 - [[]]

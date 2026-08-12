@@ -51,7 +51,12 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - Look for public exploits of any installed 
 
 ### User Privileges
-- Look for the privileges we have access to  
+- Look for the privileges we have access to
+- The following can exploit privesc
+	1) `Sudo`
+	2) `SUID`
+	3) `Windows Token Privileges`
+- 
 
 ## Boxes where I used this
 - [[]]

@@ -25,6 +25,8 @@ tags: [technique, other]
 ```bash
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
+- After running this, hit `Ctrl + Z` to background the shell and go back to the our local terminal
+#### After backgroundi
 
 ## Tools
 - 

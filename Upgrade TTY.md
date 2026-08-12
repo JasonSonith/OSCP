@@ -40,7 +40,15 @@ fg
 echo $TERM
 ```
 
+```bash
+xterm-256color
+```
 
+```bash
+stty size
+
+67 318
+```
 
 ## Tools
 - 

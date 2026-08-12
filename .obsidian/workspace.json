@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/CPTS-Labs/Public exploits.md",
+                "file": "Techniques/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Public exploits"
+              "title": "Untitled"
             }
           }
         ],
@@ -233,9 +233,10 @@
   },
   "active": "1b10e02bd2b15085",
   "lastOpenFiles": [
+    "Boxes/CPTS-Labs/Public exploits.md",
+    "Techniques/Untitled.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",
-    "Boxes/CPTS-Labs/Public exploits.md",
     "attachments/Public exploits",
     "Techniques/Enumeration/Searchsploit.md",
     "MOCs/Methodology.md",

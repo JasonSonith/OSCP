@@ -15,15 +15,18 @@ tags: [technique, other]
 
 ## What it is
 - Most common type of shell that has the attacker connect to us so we can run commands on their machine
-- Use `netcat` listener on ur machin
+- Use `netcat` listener on our machine to run commands which is used for the target to connect to us
 
 ## When to use it
 - When a identify that we can do remote code execution on the target
 
 ## Commands
+#### Starting a listener using netcat
 ```bash
-# paste your working, copy-pasteable commands
+nc -lvnp 1234
 ```
+- `-l` listen mode
+- 
 
 ## Tools
 - 

@@ -74,7 +74,11 @@ User & Groups: uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 ### Exposed Credentials
 - Look for files we can read and see if they have exposed creds through config files, log files, and user history files (`bash_history` in linux and `PSReadLine` in Windows)
-- Enumerati
+- Enumeration scripts above usually look for these files
+
+ #### Example of Enumeration script showing passwords inside logs
+ ```
+ ```
 
 ## Boxes where I used this
 - [[]]

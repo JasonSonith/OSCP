@@ -30,6 +30,15 @@ nmap -Pn -sCV $ip
 - Notable services / versions: 
 	- *ssh:* OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
 
+#### IP
+```
+154.57.164.82
+```
+
+#### Port 
+```
+```
+
 ## Enumeration
 - `linpeas.sh`
 - Creds / usernames found:

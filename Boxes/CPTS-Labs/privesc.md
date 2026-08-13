@@ -56,6 +56,11 @@ nmap -Pn -sCV $ip
 ```bash
 ssh user1@$ip -p $port
 ```
+
+#### learn privileges of `user1`
+```
+sudo
+```
 - **Technique:** [[]]
 
 ## Privilege Escalation

@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -285,16 +285,16 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "1b10e02bd2b15085",
+  "active": "74146aa952209017",
   "lastOpenFiles": [
-    "Techniques/PrivEsc-Linux/PEASS.md",
+    "Techniques/Windows Persistence Flow.md",
     "Boxes/CPTS-Labs/privesc.md",
     "Techniques/Reverse Shell.md",
+    "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Upgrade TTY.md",
     "Techniques/Web Shell.md",
     "Boxes/CPTS-Labs/privesc.tmp",
     "Boxes/CPTS-Labs/Untitled.tmp",
-    "Techniques/Windows Persistence Flow.md",
     "Techniques/Windows Persistence Flow.tmp",
     "Techniques/Windows Persistence Flow.md.tmp.499.240d331a60bc",
     "bind shell.md",

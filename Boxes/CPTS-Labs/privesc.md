@@ -31,9 +31,7 @@ nmap -Pn -sCV $ip
 	- *ssh:* OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
 
 ## Enumeration
-- Web (dirb/gobuster/feroxbuster):
-- SMB / shares:
-- Other services:
+- `linpeas.sh`
 - Creds / usernames found:
 
 ## Foothold / Initial Access

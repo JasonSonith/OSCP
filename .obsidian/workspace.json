@@ -261,6 +261,7 @@
   },
   "active": "a09480d40084c640",
   "lastOpenFiles": [
+    "Boxes/Boxes.md",
     "Untitled.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "_templates/Box Template.md",
@@ -299,7 +300,6 @@
     "Boxes/CPTS-Labs/Service Scanning.md",
     "Techniques/SQL injection.md",
     "Techniques/Enumeration/SMB Enumeration (smbclient).md",
-    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
-    "Techniques/Enumeration/ss - finding internal services.md"
+    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md"
   ]
 }

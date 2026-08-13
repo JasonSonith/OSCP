@@ -257,18 +257,13 @@ Expected: `http://2.25.141.57/UpdateMgr.exe` is served. Report: confirm file exi
 
 VM browser → `http://2.25.141.57/UpdateMgr.exe` → download. If SmartScreen complains: **More info → Keep anyway**. If *Defender* quarantines it on download, that's the "wrapper got flagged" case — report it.
 
-- [ ] **Step 2: Sanity-check the path first — inside the VM**
-
-Open a browser in the VM: `http://2.25.141.57/updater.exe` → download should start (ignore SmartScreen: Keep). Delete the downloaded file after.
-Expected: file downloads. If not — stop; network path is broken, report what the browser shows.
-
-- [ ] **Step 3: Run the dropper — inside the VM**
+- [ ] **Step 2: Run the dropper — inside the VM**
 
 Double-click `UpdateMgr.exe` → UAC prompt → **Yes**.
 Expected: console window prints `[1/5]` through `[5/5]` then `Done.`
 If it prints `FAILED:` — paste the exact message. If the window flashes and vanishes or Defender pops a detection — that's the known "wrapper got flagged" case from the spec; report it.
 
-- [ ] **Step 4: Confirm the session — in the Sliver console**
+- [ ] **Step 3: Confirm the session — in the Sliver console**
 
 ```
 sessions

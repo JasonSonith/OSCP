@@ -42,10 +42,11 @@ nmap -Pn -sCV $ip
 
 ## Enumeration
 - `linpeas.sh`
-- Creds / usernames found:
+	- user1 can run `bin/bash`
+- Creds / usernames found: `user2`
 
 ## Foothold / Initial Access
-- Vulnerability:
+- Vulnerability: `user1` can run `/bin/bash` as any user so ``
 - Exploit / steps:
 ```bash
 ```

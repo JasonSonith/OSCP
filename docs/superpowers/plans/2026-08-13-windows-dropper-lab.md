@@ -202,6 +202,15 @@ Expected: pushed cleanly.
 - Consumes: `install.ps1` from Task 3.
 - Produces: `UpdateMgr.exe` — carried into the VM in Task 5. **Do not run it on the host.**
 
+- [ ] **Step 0: Exclude the build folder from host Defender (elevated PowerShell)**
+
+Right-click PowerShell → *Run as administrator*:
+```powershell
+Add-MpPreference -ExclusionPath "$HOME\payloads"
+Get-MpPreference | Select-Object -ExpandProperty ExclusionPath   # verify the path appears
+```
+Without this, host Defender may quarantine `UpdateMgr.exe` the moment PS2EXE writes it. Removed again in Task 7.
+
 - [ ] **Step 1: Pull the repo on Windows**
 
 In Windows PowerShell (normal, not admin):
@@ -330,7 +339,13 @@ Remove-MpPreference -ExclusionPath 'C:\ProgramData\Microsoft\UpdateMgr'
 Remove-Item -Recurse -Force 'C:\ProgramData\Microsoft\UpdateMgr'
 ```
 
-- [ ] **Step 2: Kill sessions — in the Sliver console**
+- [ ] **Step 2: Remove the host exclusion (elevated PowerShell on the Windows host)**
+
+```powershell
+Remove-MpPreference -ExclusionPath "$HOME\payloads"
+```
+
+- [ ] **Step 3: Kill sessions — in the Sliver console**
 
 ```
 sessions -k -a

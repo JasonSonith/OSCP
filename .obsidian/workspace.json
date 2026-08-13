@@ -118,7 +118,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -285,10 +285,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "4243a69a0f05a0e1",
+  "active": "a09480d40084c640",
   "lastOpenFiles": [
-    "Techniques/PrivEsc-Linux/PEASS.md",
     "Boxes/CPTS-Labs/privesc.md",
+    "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Reverse Shell.md",
     "Techniques/Upgrade TTY.md",
     "Techniques/Web Shell.md",

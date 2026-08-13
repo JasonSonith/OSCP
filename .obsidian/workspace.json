@@ -273,6 +273,10 @@
   },
   "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
+    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.tmp",
+    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md",
+    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.e33d27305088",
+    "docs/superpowers/plans",
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.md.tmp.4189.ca415d33585a",
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.md.tmp.4189.896046ad2e33",
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.tmp",
@@ -288,9 +292,6 @@
     "Techniques/Reverse Shell.md",
     "Techniques/Upgrade TTY.md",
     "Boxes/CPTS-Labs/privesc.tmp",
-    "Boxes/CPTS-Labs/Untitled.tmp",
-    "Techniques/Windows Persistence Flow.tmp",
-    "Techniques/Windows Persistence Flow.md.tmp.499.240d331a60bc",
     "bind shell.md",
     "Techniques/Enumeration/Gobuster.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
@@ -311,7 +312,6 @@
     "Techniques/Enumeration/ss - finding internal services.md",
     "SMB enumeration.md",
     "CLAUDE.md",
-    "emba.md",
-    "Nmap scanning.md"
+    "emba.md"
   ]
 }

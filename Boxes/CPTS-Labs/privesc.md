@@ -59,8 +59,17 @@ ssh user1@$ip -p $port
 
 #### learn privileges of `user1`
 ```
-sudo
+sudo -l
 ```
+- Found out that `user1` can execute /bin/bash
+- use that to change users to `user2`
+
+#### Gain access to `user2` account
+```bash
+sudo -u user2 /bin/bash
+```
+
+#### 
 - **Technique:** [[]]
 
 ## Privilege Escalation

@@ -352,12 +352,12 @@ sessions -k -a
 ```
 (`-a` = all. Or kill individually: `sessions -k <id>`.)
 
-- [ ] **Step 3: Stop the VPS servers when the lab is done**
+- [ ] **Step 4: Stop the VPS servers when the lab is done**
 
 Ctrl-C the http.server SSH session; `exit` the Sliver console.
 Note: implant exe remains in the private repo as your reusable artifact — that's intended.
 
-- [ ] **Step 4: Snapshot the VM (recommended)**
+- [ ] **Step 5: Snapshot the VM (recommended)**
 
 Take a hypervisor snapshot now — clean slate for the next lab (e.g. beacon mode).
 

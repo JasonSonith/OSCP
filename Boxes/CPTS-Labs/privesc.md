@@ -45,14 +45,16 @@ nmap -Pn -sCV $ip
 	- user1 can run `bin/bash`
 - Creds / usernames found: 
 	- `user2`
-	- `id_rsa`
+	- `id_rsa` private key in `/root/.shh/id_rsa`
 
 ## Foothold / Initial Access
 - Vulnerability: 
 	- `user1` can run `/bin/bash` as any user so `sudo -u user2 /bin/bash` can be used for lateral movement
 
 - Exploit / steps:
+#### `ssh` into `user1` account
 ```bash
+ssh user1@$ip -p $port
 ```
 - **Technique:** [[]]
 

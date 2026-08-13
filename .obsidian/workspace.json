@@ -104,9 +104,21 @@
               "icon": "lucide-file",
               "title": "PEASS"
             }
+          },
+          {
+            "id": "f45839c4fffad644",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.13.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.13.7"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -273,7 +285,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a09480d40084c640",
+  "active": "f45839c4fffad644",
   "lastOpenFiles": [
     "Techniques/Reverse Shell.md",
     "Boxes/CPTS-Labs/privesc.md",

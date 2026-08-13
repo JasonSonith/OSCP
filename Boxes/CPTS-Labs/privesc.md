@@ -37,7 +37,7 @@ nmap -Pn -sCV $ip
 
 #### Port 
 ```
-31041
+30756
 ```
 
 ## Enumeration

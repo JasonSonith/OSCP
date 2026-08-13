@@ -26,8 +26,9 @@ tags: [box, cpts-lab, linux]
 # nmap quick + full
 nmap -Pn -sCV $ip
 ```
-- Open ports:
-- Notable services / versions:
+- Open ports: `31871`
+- Notable services / versions: 
+	- *ssh:* OpenSSH 8.2p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
 
 ## Enumeration
 - Web (dirb/gobuster/feroxbuster):

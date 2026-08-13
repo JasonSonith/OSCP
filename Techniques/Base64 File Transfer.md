@@ -9,9 +9,13 @@ tags:
 # Base64 File Transfer
 
 ## What it is
-- Remote hosts can have firewall protections to prevent file download on our machine so we base64 
+- Remote hosts can have firewall protections to prevent file download on our machine so use *base64* to encode the file
 
 ## How to use it
+#### Encode the file on attacker machine
+```bash
+base64 shell -w 0
+```
 
 ---
 title: Base64 File Transfer

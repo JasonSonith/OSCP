@@ -273,6 +273,12 @@
   },
   "active": "4243a69a0f05a0e1",
   "lastOpenFiles": [
+    "docs/superpowers/specs/2026-08-13-windows-dropper-design.tmp",
+    "docs/superpowers/specs/2026-08-13-windows-dropper-design.md",
+    "docs/superpowers/specs/2026-08-13-windows-dropper-design.md.tmp.4189.ae601b6d5b54",
+    "docs/superpowers/specs",
+    "docs/superpowers",
+    "docs",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Windows Persistence Flow.md",
     "Boxes/CPTS-Labs/privesc.md",
@@ -294,23 +300,18 @@
     "Boxes/CPTS-Labs/web-enumeration.md",
     "_MOCs/Methodology.md",
     "_MOCs",
-    "attachments/web-enumeration",
     "_templates/Pasted image 20260811000211.png",
     "Pasted image 20260810233853.png",
-    "Untitled",
     "attachments/web-enumeration/Pasted image 20260810233730.png",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "Boxes/CPTS-Labs/Service Scanning.md",
-    "Boxes/CPTS-Labs/web-enumeration.tmp",
     "Techniques/SQL injection.md",
-    "Techniques/Web/web-enumeration.tmp",
     "Techniques/Enumeration/SMB Enumeration (smbclient).md",
     "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md",
     "Techniques/Enumeration/ss - finding internal services.md",
     "SMB enumeration.md",
     "CLAUDE.md",
     "emba.md",
-    "Nmap scanning.md",
-    "_templates/box-note.md"
+    "Nmap scanning.md"
   ]
 }

@@ -1,24 +1,20 @@
 ---
 title: Technique Template
 type: template
-permalink: oscp/templates/technique-template
+permalink: oscp/templates/technique-template-1
 tags:
-  - template
+- template
 ---
 
 # Base64 File Transfer
 
 ## What it is
+- Remote hosts can have firewall protections to prevent file download on our machine so we base64 
 
-
-## Where to look
-
-
-## How to test
+## How to use it
 
 ---
-title: 
+title: Base64 File Transfer
 type: note
-permalink: oscp/techniques/untitled
+permalink: oscp/techniques/Base64 File Transfer
 ---
-

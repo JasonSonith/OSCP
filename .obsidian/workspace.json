@@ -262,6 +262,7 @@
   },
   "active": "a09480d40084c640",
   "lastOpenFiles": [
+    "Techniques/Base64 File Transfer.tmp",
     "Techniques/Untitled.tmp",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Base64 File Transfer.md",
@@ -282,7 +283,6 @@
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.tmp",
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.md",
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.md.tmp.4189.ae601b6d5b54",
-    "docs/superpowers/specs",
     "Techniques/Windows Persistence Flow.md",
     "Techniques/Web Shell.md",
     "Techniques/Reverse Shell.md",

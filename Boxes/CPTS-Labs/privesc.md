@@ -46,7 +46,9 @@ nmap -Pn -sCV $ip
 - Creds / usernames found: `user2`
 
 ## Foothold / Initial Access
-- Vulnerability: `user1` can run `/bin/bash` as any user so ``
+- Vulnerability: 
+	- `user1` can run `/bin/bash` as any user so `sudo -u user2 /bin/bash` can be used for lateral movement
+
 - Exploit / steps:
 ```bash
 ```

@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/PrivEsc-Linux/PEASS.md",
+                "file": "Techniques/Base64 File Transfer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PEASS"
+              "title": "Base64 File Transfer"
             }
           }
         ],
@@ -154,7 +154,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -261,9 +262,11 @@
   },
   "active": "a09480d40084c640",
   "lastOpenFiles": [
+    "Techniques/Untitled.tmp",
+    "Techniques/PrivEsc-Linux/PEASS.md",
+    "Techniques/Base64 File Transfer.md",
     "Boxes/Boxes.md",
     "Untitled.md",
-    "Techniques/PrivEsc-Linux/PEASS.md",
     "_templates/Box Template.md",
     "_templates/Technique Template.md",
     "_templates/technique-note.md",
@@ -298,8 +301,6 @@
     "attachments/web-enumeration/Pasted image 20260810233730.png",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
     "Boxes/CPTS-Labs/Service Scanning.md",
-    "Techniques/SQL injection.md",
-    "Techniques/Enumeration/SMB Enumeration (smbclient).md",
-    "Techniques/Enumeration/SNMP Enumeration (onesixtyone + snmpwalk).md"
+    "Techniques/SQL injection.md"
   ]
 }

@@ -106,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -273,11 +273,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ba4c7f54b2015b5f",
+  "active": "46fdf747c8bf6d75",
   "lastOpenFiles": [
+    "Techniques/Windows Dropper Payload.md",
     "_templates/Technique Template.tmp",
     "Techniques/Base64 File Transfer.md",
-    "Techniques/Windows Dropper Payload.md",
     "Techniques/Windows Dropper Payload.md.tmp.4189.5af9767416fa",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.9d286c3d552d",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.215287e07853",
@@ -287,7 +287,6 @@
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.ec00efd9d9d3",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.c8c86a2a7583",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.6d97614c6d70",
-    "Techniques/Base64 File Transfer.tmp",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Boxes/Boxes.md",
     "Untitled.md",

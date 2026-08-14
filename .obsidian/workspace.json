@@ -275,6 +275,7 @@
   },
   "active": "ba4c7f54b2015b5f",
   "lastOpenFiles": [
+    "_templates/Technique Template.tmp",
     "Techniques/Base64 File Transfer.md",
     "Techniques/Windows Dropper Payload.md",
     "Techniques/Windows Dropper Payload.md.tmp.4189.5af9767416fa",
@@ -313,7 +314,6 @@
     "Pasted image 20260810233853.png",
     "attachments/web-enumeration/Pasted image 20260810233730.png",
     "Techniques/Recon-Enum/Nmap -sC and -sV (service + script scanning).md",
-    "Boxes/CPTS-Labs/Service Scanning.md",
-    "Techniques/SQL injection.md"
+    "Boxes/CPTS-Labs/Service Scanning.md"
   ]
 }

@@ -71,6 +71,11 @@ reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnec
 netsh advfirewall firewall set rule group="remote desktop" new enable=yes
 ```
 
+#### Runs commands from sliver
+```bash
+execute -o -- powershell -c "New-Item note.txt"
+```
+
 ## The ideal flow
 1. **Initial shell** — whatever got us in, even a janky nc shell
 2. **Neutralize AV for our tools** — exclusion folder (if admin) or obfuscated/evasive payload (if not)

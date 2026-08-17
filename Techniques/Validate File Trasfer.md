@@ -22,4 +22,10 @@ shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, n
 ```
 - This says the shell is a ELF binary (meaning we successfully transferred it)
 
-#### Check MD5 hash to ensure 
+#### Check MD5 hash to ensure file transfer was successful
+```bash
+md5sum shell
+
+#output
+shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
+```

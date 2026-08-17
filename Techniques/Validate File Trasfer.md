@@ -36,4 +36,4 @@ md5sum shell
 321de1d7e7c3735838890a72c9ae7d1d shell
 ```
 
-- 
+- If they match then it's a success and files transferred correctly

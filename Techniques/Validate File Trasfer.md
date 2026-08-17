@@ -27,5 +27,13 @@ shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, n
 md5sum shell
 
 #output
-shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
+321de1d7e7c3735838890a72c9ae7d1d shell
+
+# Go to remote server and run the same command
+md5sum shell
+
+#output
+321de1d7e7c3735838890a72c9ae7d1d shell
 ```
+
+- 

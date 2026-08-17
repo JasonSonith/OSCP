@@ -8,76 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28c2ff11f3b10d7d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Techniques/Enumeration/Metasploit for enumeration.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Metasploit for enumeration"
-            }
-          },
-          {
-            "id": "1b10e02bd2b15085",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Techniques/Reverse Shell.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Reverse Shell"
-            }
-          },
-          {
-            "id": "463972c95339b3f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Techniques/Upgrade TTY.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Upgrade TTY"
-            }
-          },
-          {
-            "id": "4243a69a0f05a0e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_templates/Box Template.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Box Template"
-            }
-          },
-          {
-            "id": "46fdf747c8bf6d75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Techniques/Windows Persistence Flow.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Persistence Flow"
-            }
-          },
-          {
             "id": "a09480d40084c640",
             "type": "leaf",
             "state": {
@@ -90,23 +20,8 @@
               "icon": "lucide-file",
               "title": "Base64 File Transfer"
             }
-          },
-          {
-            "id": "ba4c7f54b2015b5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Techniques/Windows Dropper Payload.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Dropper Payload"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -273,8 +188,14 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "46fdf747c8bf6d75",
+  "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
+    "Techniques/Shells",
+    "Techniques/Windows Persistence Flow.md",
+    "_templates/Box Template.md",
+    "Techniques/Upgrade TTY.md",
+    "Techniques/Shells/Reverse Shell.md",
+    "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Windows Dropper Payload.md",
     "_templates/Technique Template.tmp",
     "Techniques/Base64 File Transfer.md",
@@ -290,19 +211,14 @@
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Boxes/Boxes.md",
     "Untitled.md",
-    "_templates/Box Template.md",
     "_templates/Technique Template.md",
     "_templates/technique-note.md",
     "Boxes/CPTS-Labs/privesc.md",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md",
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.md",
-    "Techniques/Windows Persistence Flow.md",
-    "Techniques/Web Shell.md",
-    "Techniques/Reverse Shell.md",
-    "Techniques/Upgrade TTY.md",
+    "Techniques/Shells/Web Shell.md",
     "bind shell.md",
     "Techniques/Enumeration/Gobuster.md",
-    "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Enumeration/Searchsploit.md",
     "Boxes/CPTS-Labs/Public exploits.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",

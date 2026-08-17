@@ -18,7 +18,8 @@ tags:
 file shell
 
 #output
-```
 shell: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), statically linked, no section header
 ```
-```
+- This says the shell is a ELF binary (meaning we successfully transferred it)
+
+#### Check MD5 hash to ensure 

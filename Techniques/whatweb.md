@@ -36,6 +36,12 @@ curl $url
 <b>Hello world!</b> 
 <!-- /nibbleblog/ directory. Nothing interesting here! -->
 ```
+- This specific command mentions a directory called `nibblelog` which is worth checking
+
+#### Checking `nibblelog`
+```bash
+
+```
 ## Things to Know
 ![[Pasted image 20260817194409.png]] 
 - Looking at page source can lead to interesting things

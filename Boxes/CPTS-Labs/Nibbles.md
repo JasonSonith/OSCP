@@ -104,10 +104,6 @@ curl http:/10.129.122.215/nibbleblog/content/private/plugins/my_image/image.php
 ## Techniques used
 [[Gobuster]]
 [[Nmap -sC and -sV (service + script scanning)]]
-[[]]
-
-## What I learned
-
-
-## What I could do better
+[[Web Shell]]
+[[PEASS]]
 

@@ -26,5 +26,10 @@ whatweb $ip
 http://10.129.42.190 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190]
 ```
 
+#### Use `curl` to check out what's on the page source
+```bash
+
+```
 ## Things to Know
-![[Pasted image 20260817194409.png]] -  Looking at page source can lead to interesting things
+![[Pasted image 20260817194409.png]] 
+- Looking at page source can lead to interesting things

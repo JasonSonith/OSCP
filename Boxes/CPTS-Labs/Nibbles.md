@@ -97,11 +97,14 @@ curl http:/10.129.122.215/nibbleblog/content/private/plugins/my_image/image.php
 - Grab `user.txt` flag from `home/nibbles`
 - Find `monitor.sh` after unzipping `personal.zip`
 - run `LinEnum.sh` inside shell
-- Find out we can run `monitor.sh` as sudo a
-
-
+- Find out we can run `monitor.sh` as sudo user
+- add reverse shell in `monitor.sh`
+- Run `monitor.sh`
+- Get into root shell and get `root.txt`flag 
 ## Techniques used
-
+[[Gobuster]]
+[[Nmap -sC and -sV (service + script scanning)]]
+[[]]
 
 ## What I learned
 

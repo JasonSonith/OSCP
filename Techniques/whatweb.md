@@ -17,5 +17,13 @@ tags:
 
 ## How to test
 #### Command
+```bash
+whatweb $ip
 ```
+
+##### Output of Command
+```bash
+http://10.129.42.190 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.18 (Ubuntu)], IP[10.129.42.190]
 ```
+
+## Things to Know

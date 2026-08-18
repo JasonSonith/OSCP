@@ -28,11 +28,11 @@ Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 I
 ```
 - web server is up so we use gobuster to enumerate
 
-### Go to http://$ip
-- `Ctrl `
-#### Gobuster enumeration
-```
-
+### Go to `http://$ip`
+- `Ctrl + U` to on page to find `nibbleblog` directory 
+#### Gobuster enumeration with nibbleblog
+```bash
+dir -u http://10.129.42.190/nibbleblog/ --wordlist /usr/share/seclists/Discovery/Web-Content/common.txt
 ```
 
 ## Techniques used

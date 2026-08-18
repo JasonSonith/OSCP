@@ -28,7 +28,13 @@ http://10.129.42.190 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[
 
 #### Use `curl` to check out what's on the page source
 ```bash
+curl $url
+```
 
+##### Output
+```bash
+<b>Hello world!</b> 
+<!-- /nibbleblog/ directory. Nothing interesting here! -->
 ```
 ## Things to Know
 ![[Pasted image 20260817194409.png]] 

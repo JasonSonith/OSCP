@@ -207,6 +207,7 @@
   "active": "dbf5b534585e7cba",
   "lastOpenFiles": [
     "Techniques/whatweb.md",
+    "Techniques/Upgrade TTY.md",
     "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",
     "_templates/Box Template.md",
@@ -220,7 +221,6 @@
     "Techniques/File Transfer",
     "Techniques/Shells",
     "Techniques/Windows Persistence Flow.md",
-    "Techniques/Upgrade TTY.md",
     "Techniques/Shells/Reverse Shell.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Windows Dropper Payload.md",

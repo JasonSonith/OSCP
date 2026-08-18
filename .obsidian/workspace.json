@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -203,7 +204,7 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "6ecc454f35a87b3e",
+  "active": "dbf5b534585e7cba",
   "lastOpenFiles": [
     "Techniques/Upgrade TTY.md",
     "Boxes/CPTS-Labs/Nibbles.md",

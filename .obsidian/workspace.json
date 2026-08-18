@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Upgrade TTY.md",
-                "mode": "preview",
+                "file": "Boxes/Nibbles.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Upgrade TTY"
+              "title": "Nibbles"
             }
           }
         ],
@@ -98,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -206,8 +205,9 @@
   },
   "active": "dbf5b534585e7cba",
   "lastOpenFiles": [
-    "Techniques/whatweb.md",
     "Techniques/Upgrade TTY.md",
+    "Boxes/Nibbles.md",
+    "Techniques/whatweb.md",
     "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",
     "_templates/Box Template.md",

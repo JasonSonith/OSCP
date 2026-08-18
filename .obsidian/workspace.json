@@ -20,8 +20,19 @@
               "icon": "lucide-file",
               "title": "whatweb"
             }
+          },
+          {
+            "id": "dbf5b534585e7cba",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -189,11 +199,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a09480d40084c640",
+  "active": "dbf5b534585e7cba",
   "lastOpenFiles": [
+    "Techniques/whatweb.md",
     "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",
-    "Techniques/whatweb.md",
     "_templates/Box Template.md",
     "_templates/box-note.md",
     "_templates/technique-note.md",

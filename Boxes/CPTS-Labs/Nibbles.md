@@ -27,7 +27,13 @@ Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel Service detection perfor
 Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 IP address (1 host up) scanned in 11.82 seconds
 ```
 - web server is up so we use gobuster to enumerate
--
+
+### Go to http://$ip
+- `Ctrl `
+#### Gobuster enumeration
+```
+
+```
 
 ## Techniques used
 

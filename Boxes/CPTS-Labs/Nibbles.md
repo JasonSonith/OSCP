@@ -76,8 +76,8 @@ Documentation: http://docs.nibbleblog.com
 * Directory “content” writable by Apache/PHP
 ```
 
-### Go to login page
-
+### Go to login page at `/admin`
+![[Pasted image 20260818000229.png]]
 
 ## Techniques used
 

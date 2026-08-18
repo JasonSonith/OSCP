@@ -65,8 +65,19 @@ Blog: http://blog.nibbleblog.com
 Help & Support: http://forum.nibbleblog.com 
 Documentation: http://docs.nibbleblog.com 
 ===== Social ===== 
-* Twitter: http://twitter.com/nibbleblog * Facebook: http://www.facebook.com/nibbleblog * Google+: http://google.com/+nibbleblog ===== System Requirements ===== * PHP v5.2 or higher * PHP module - DOM * PHP module - SimpleXML * PHP module - GD * Directory “content” writable by Apache/PHP
+* Twitter: http://twitter.com/nibbleblog 
+* Facebook: http://www.facebook.com/nibbleblog 
+* Google+: http://google.com/+nibbleblog 
+===== System Requirements ===== 
+* PHP v5.2 or higher 
+* PHP module - DOM 
+* PHP module - SimpleXML 
+* PHP module - GD 
+* Directory “content” writable by Apache/PHP
 ```
+
+### Go to login page
+
 
 ## Techniques used
 

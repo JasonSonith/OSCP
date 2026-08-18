@@ -50,6 +50,24 @@ gobsuter dir -u http://10.129.42.190/nibbleblog/ --wordlist /usr/share/seclists/
 /themes (Status: 301)
 ```
 
+#### Look in README 
+```bash
+curl http://10.129.42.190/nibbleblog/README
+```
+
+##### Output
+```bash
+====== Nibbleblog ====== 
+Version: v4.0.3 Codename: Coffee 
+Release date: 2014-04-01 
+Site: http://www.nibbleblog.com 
+Blog: http://blog.nibbleblog.com 
+Help & Support: http://forum.nibbleblog.com 
+Documentation: http://docs.nibbleblog.com 
+===== Social ===== 
+* Twitter: http://twitter.com/nibbleblog * Facebook: http://www.facebook.com/nibbleblog * Google+: http://google.com/+nibbleblog ===== System Requirements ===== * PHP v5.2 or higher * PHP module - DOM * PHP module - SimpleXML * PHP module - GD * Directory “content” writable by Apache/PHP
+```
+
 ## Techniques used
 
 

@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Boxes/Nibbles.md",
+                "file": "Boxes/CPTS-Labs/Nibbles.md",
                 "mode": "source",
                 "source": false
               },
@@ -203,10 +203,10 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "dbf5b534585e7cba",
+  "active": "6ecc454f35a87b3e",
   "lastOpenFiles": [
     "Techniques/Upgrade TTY.md",
-    "Boxes/Nibbles.md",
+    "Boxes/CPTS-Labs/Nibbles.md",
     "Techniques/whatweb.md",
     "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",

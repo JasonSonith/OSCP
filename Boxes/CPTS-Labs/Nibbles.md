@@ -32,7 +32,22 @@ Please report any incorrect results at https://nmap.org/submit/ . Nmap done: 1 I
 - `Ctrl + U` to on page to find `nibbleblog` directory 
 #### Gobuster enumeration with nibbleblog
 ```bash
-dir -u http://10.129.42.190/nibbleblog/ --wordlist /usr/share/seclists/Discovery/Web-Content/common.txt
+gobsuter dir -u http://10.129.42.190/nibbleblog/ --wordlist /usr/share/seclists/Discovery/Web-Content/common.txt
+```
+
+##### Output
+```bash
+/.hta (Status: 403) 
+/.htaccess (Status: 403) 
+/.htpasswd (Status: 403) 
+/admin (Status: 301) 
+/admin.php (Status: 200) 
+/content (Status: 301) 
+/index.php (Status: 200) 
+/languages (Status: 301) 
+/plugins (Status: 301) 
+/README (Status: 200) 
+/themes (Status: 301)
 ```
 
 ## Techniques used

@@ -78,7 +78,7 @@ Documentation: http://docs.nibbleblog.com
 
 ### Go to login page at `/admin`
 ![[Pasted image 20260818000229.png]]
-
+- `config.xml` found in `/content/private` and the output of the xml showed that the email used was `admin@nibbles.com` 
 ## Techniques used
 
 

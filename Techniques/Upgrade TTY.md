@@ -25,6 +25,11 @@ tags: [technique, other]
 ```bash
 python -c 'import pty; pty.spawn("/bin/bash")'
 ```
+
+#### Option 2 for Python 3
+```bash
+python3 -c 'import pty; pty.spawn("/bin/bash")'
+```
 - After running this, hit `Ctrl + Z` to background the shell and go back to the our local terminal
 #### After backgrounding TTY
 ```bash

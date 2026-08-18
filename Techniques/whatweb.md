@@ -27,3 +27,4 @@ http://10.129.42.190 [200 OK] Apache[2.4.18], Country[RESERVED][ZZ], HTTPServer[
 ```
 
 ## Things to Know
+![[Pasted image 20260817194409.png]] -  Looking at page source can lead to interesting things

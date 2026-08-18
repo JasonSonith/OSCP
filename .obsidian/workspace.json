@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "fcca22c479e55477",
@@ -190,6 +191,7 @@
   },
   "active": "a09480d40084c640",
   "lastOpenFiles": [
+    "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",
     "Techniques/whatweb.md",
     "_templates/Box Template.md",
@@ -225,7 +227,6 @@
     "bind shell.md",
     "Techniques/Enumeration/Gobuster.md",
     "Techniques/Enumeration/Searchsploit.md",
-    "Boxes/CPTS-Labs/Public exploits.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",
     "_templates/Pasted image 20260811000211.png",
     "Pasted image 20260810233853.png",

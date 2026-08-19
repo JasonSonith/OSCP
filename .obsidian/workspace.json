@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -231,8 +231,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "45179ebc0b4ae930",
+  "active": "fa9994b8c970ee9b",
   "lastOpenFiles": [
+    "Techniques/PrivEsc-Linux/PEASS.md",
     "Boxes/CPTS-Labs/Cap.md",
     "Pasted image 20260819010013.png",
     "Pasted image 20260819005710.png",
@@ -265,7 +266,6 @@
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.c78ff27782cf",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.1b0928870217",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.ec00efd9d9d3",
-    "Techniques/PrivEsc-Linux/PEASS.md",
     "Boxes/Boxes.md",
     "Boxes/CPTS-Labs/privesc.md",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md",

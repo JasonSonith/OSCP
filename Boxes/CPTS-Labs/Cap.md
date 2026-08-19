@@ -23,7 +23,10 @@ tags:
 - Went to `http://$ip/data/1`
 	- Was able to do RBAC and get `/data/0` and download another user's pcap file
 
+- Logged into `ftp` using `nathan:Buck3tH4TF0RM3!' 
+	- password and username found in pcap files
 
+- got the `user.txt` flag and used 
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]
 

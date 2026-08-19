@@ -20,6 +20,10 @@ tags:
 ### Ran Gobuster Scan:
 ![[Pasted image 20260819010013.png]]
 
+- Went to `http://$ip/data/1`
+	- Was able to do RBAC and get `/data/0` and download another user's pcap file
+
+
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]
 

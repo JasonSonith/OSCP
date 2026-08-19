@@ -26,7 +26,9 @@ tags:
 - Logged into `ftp` using `nathan:Buck3tH4TF0RM3!' 
 	- password and username found in pcap files
 
-- got the `user.txt` flag and used 
+- got the `user.txt` flag and used nathan's password to login to ssh
+
+- Ran `linpeas.sh` script and found binary that can be used with sudo privileges: 
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]
 

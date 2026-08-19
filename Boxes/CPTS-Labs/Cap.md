@@ -34,14 +34,14 @@ tags:
 ```python
 import os
 os.setuid(0)
-os.system()
+os.system("/bin/bash")
 ```
+- obtained `/root/root.txt` flag
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]
 
-
-
 ## What I learned
+- OS command can be used to change users if python has root priveleges
 
 
 ## What I could do better

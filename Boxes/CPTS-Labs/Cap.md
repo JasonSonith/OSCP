@@ -41,8 +41,6 @@ os.system("/bin/bash")
 [[Nmap -sC and -sV (service + script scanning)]]
 
 ## What I learned
-- OS command can be used to change users if python has root priveleges
-
-
-## What I could do better
-
+- OS command can be used to change users if python has root privileges
+- Wireshark to analyze pcap files
+- Wireshark shows sensitive info if protocol is vulnerable

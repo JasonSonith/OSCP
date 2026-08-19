@@ -16,7 +16,10 @@ tags:
 	- 22: ssh
 	- 21: ftp
 	- 80: http server
-- 
+
+### Ran Gobuster Scan:
+
+
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]
 

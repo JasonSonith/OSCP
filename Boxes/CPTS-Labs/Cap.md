@@ -18,7 +18,7 @@ tags:
 	- 80: http server
 
 ### Ran Gobuster Scan:
-
+![[Pasted image 20260819010013.png]]
 
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]

@@ -48,9 +48,19 @@
               "icon": "lucide-file",
               "title": "Cap"
             }
+          },
+          {
+            "id": "45179ebc0b4ae930",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,11 +227,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "fa9994b8c970ee9b",
+  "active": "45179ebc0b4ae930",
   "lastOpenFiles": [
+    "Boxes/CPTS-Labs/Cap.md",
     "Pasted image 20260819010013.png",
     "Pasted image 20260819005710.png",
-    "Boxes/CPTS-Labs/Cap.md",
     "Boxes/CPTS-Labs/Nibbles.md",
     "Pasted image 20260818000500.png",
     "Pasted image 20260818000229.png",

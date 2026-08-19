@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -245,11 +245,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "45179ebc0b4ae930",
+  "active": "fa9994b8c970ee9b",
   "lastOpenFiles": [
+    "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Upgrade TTY.md",
     "Boxes/CPTS-Labs/Cap.md",
-    "Techniques/PrivEsc-Linux/PEASS.md",
     "Pasted image 20260819010013.png",
     "Pasted image 20260819005710.png",
     "Boxes/CPTS-Labs/Nibbles.md",

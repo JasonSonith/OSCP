@@ -28,7 +28,14 @@ tags:
 
 - got the `user.txt` flag and used nathan's password to login to ssh
 
-- Ran `linpeas.sh` script and found binary that can be used with sudo privileges: 
+- Ran `linpeas.sh` script and found binary that can be used with sudo privileges: `/usr/bin/python3.8`
+
+### Used python to escalate to user privileges
+```python
+import os
+os.setuid(0)
+os.system()
+```
 ## Techniques used
 [[Nmap -sC and -sV (service + script scanning)]]
 

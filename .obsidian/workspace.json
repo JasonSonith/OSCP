@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -245,8 +245,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e93ef2ee11123f1f",
+  "active": "45179ebc0b4ae930",
   "lastOpenFiles": [
+    "Techniques/Upgrade TTY.md",
     "Boxes/CPTS-Labs/Cap.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Pasted image 20260819010013.png",
@@ -254,7 +255,6 @@
     "Boxes/CPTS-Labs/Nibbles.md",
     "Pasted image 20260818000500.png",
     "Pasted image 20260818000229.png",
-    "Techniques/Upgrade TTY.md",
     "Techniques/whatweb.md",
     "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",

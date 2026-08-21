@@ -22,7 +22,10 @@ tags:
 - Reset password by navigating to admin page and found the hash 
 ### Admin hash found in `http://gettingstarted.htb/data/users/admin.xml`:
 ![[Pasted image 20260821160916.png]]
-- used `hashid` to find
+- used `hashid` to find out the hash was in sha1 then cracked it in hashcat to find the password was `admin`
+
+### Found vulnerability in `searchsploit` for RCE:
+
 ## Techniques used
 
 - uses [[Technique name]]

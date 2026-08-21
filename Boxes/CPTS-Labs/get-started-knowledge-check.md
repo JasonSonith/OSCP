@@ -14,6 +14,11 @@ tags:
 ![[Pasted image 20260821160558.png]]
 
 ### Found getstarted.htb is the domain and added it to `/etc/hosts`
+![[Pasted image 20260821160649.png]]
+
+### Ran Gobuster scan and found a the following pages
+
+
 
 ## Techniques used
 

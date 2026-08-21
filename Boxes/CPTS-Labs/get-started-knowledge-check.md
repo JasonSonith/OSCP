@@ -10,7 +10,10 @@ tags:
 
 ## Steps I took
 
-### Ran nmap scan and found port 80 
+### Ran nmap scan and found port 80 open
+![[Pasted image 20260821160558.png]]
+
+### Found getstarted.htb is the domain and added it to `/etc/hosts`
 
 ## Techniques used
 

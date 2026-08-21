@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -259,15 +259,15 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e93ef2ee11123f1f",
+  "active": "45179ebc0b4ae930",
   "lastOpenFiles": [
+    "Techniques/Upgrade TTY.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/whatweb.md",
     "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Enumeration/Gobuster.md",
     "Boxes/CPTS-Labs/Cap.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
-    "Techniques/Upgrade TTY.md",
     "Pasted image 20260819010013.png",
     "Pasted image 20260819005710.png",
     "Boxes/CPTS-Labs/Nibbles.md",

@@ -91,8 +91,7 @@
               "title": "Searchsploit"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -259,8 +258,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b7937b7bf9f34bd9",
+  "active": "a09480d40084c640",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Enumeration/Gobuster.md",
     "Boxes/CPTS-Labs/Cap.md",
     "Techniques/PrivEsc-Linux/PEASS.md",

@@ -17,8 +17,10 @@ tags:
 ![[Pasted image 20260821160649.png]]
 
 ### Ran Gobuster scan and found a the following pages
+![[Pasted image 20260821160757.png]]
 
-
+- Reset password by navigating to admin page and found the hash 
+### Admin hash found in ``
 
 ## Techniques used
 

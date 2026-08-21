@@ -20,8 +20,9 @@ tags:
 ![[Pasted image 20260821160757.png]]
 
 - Reset password by navigating to admin page and found the hash 
-### Admin hash found in ``
-
+### Admin hash found in `http://gettingstarted.htb/data/users/admin.xml`:
+![[Pasted image 20260821160916.png]]
+- used `hashid` to find
 ## Techniques used
 
 - uses [[Technique name]]

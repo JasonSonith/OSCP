@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/whatweb.md",
+                "file": "Techniques/Enumeration/Metasploit for enumeration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "whatweb"
+              "title": "Metasploit for enumeration"
             }
           },
           {
@@ -260,6 +260,7 @@
   },
   "active": "a09480d40084c640",
   "lastOpenFiles": [
+    "Techniques/whatweb.md",
     "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Enumeration/Gobuster.md",
     "Boxes/CPTS-Labs/Cap.md",
@@ -270,7 +271,6 @@
     "Boxes/CPTS-Labs/Nibbles.md",
     "Pasted image 20260818000500.png",
     "Pasted image 20260818000229.png",
-    "Techniques/whatweb.md",
     "Pasted image 20260817194409.png",
     "_templates/Technique Template.md",
     "_templates/Box Template.md",

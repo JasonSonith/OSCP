@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Techniques/Enumeration/Gobuster.md",
+                "file": "Techniques/Enumeration/Searchsploit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gobuster"
+              "title": "Searchsploit"
             }
           }
         ],
@@ -261,6 +261,7 @@
   },
   "active": "b7937b7bf9f34bd9",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Gobuster.md",
     "Boxes/CPTS-Labs/Cap.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Upgrade TTY.md",
@@ -300,7 +301,6 @@
     "docs/superpowers/specs/2026-08-13-windows-dropper-design.md",
     "Techniques/Shells/Web Shell.md",
     "bind shell.md",
-    "Techniques/Enumeration/Gobuster.md",
     "attachments/Public exploits/Pasted image 20260811204133.png",
     "_templates/Pasted image 20260811000211.png",
     "Pasted image 20260810233853.png",

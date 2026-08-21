@@ -27,9 +27,11 @@ tags:
 ### Found vulnerability in `searchsploit` for RCE:
 ![[Pasted image 20260821161100.png]]
 - Use metasploit to search it up and use the vulnerability `multi/http/getsimplecms_unauth_code_exec`
-- 
+- got a reverse shell and ran `linpeas` to find the `usr/bin/php` is executable by my user as sudo
 
-
+### Used payload to escalate to root
+```bash
+```
 ## Techniques used
 
 - uses [[Technique name]]

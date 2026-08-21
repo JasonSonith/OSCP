@@ -91,7 +91,8 @@
               "title": "Searchsploit"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -258,8 +259,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "a09480d40084c640",
+  "active": "e93ef2ee11123f1f",
   "lastOpenFiles": [
+    "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/whatweb.md",
     "Techniques/Enumeration/Searchsploit.md",
     "Techniques/Enumeration/Gobuster.md",
@@ -285,7 +287,6 @@
     "Techniques/Shells",
     "Techniques/Windows Persistence Flow.md",
     "Techniques/Shells/Reverse Shell.md",
-    "Techniques/Enumeration/Metasploit for enumeration.md",
     "Techniques/Windows Dropper Payload.md",
     "_templates/Technique Template.tmp",
     "Techniques/Windows Dropper Payload.md.tmp.4189.5af9767416fa",

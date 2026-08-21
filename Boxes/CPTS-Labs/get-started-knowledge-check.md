@@ -25,6 +25,10 @@ tags:
 - used `hashid` to find out the hash was in sha1 then cracked it in hashcat to find the password was `admin`
 
 ### Found vulnerability in `searchsploit` for RCE:
+![[Pasted image 20260821161100.png]]
+- Use metasploit to search it up and use the vulnerability `multi/http/getsimplecms_unauth_code_exec`
+- 
+
 
 ## Techniques used
 

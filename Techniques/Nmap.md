@@ -17,4 +17,6 @@ tags:
 
 ## How to test
 
-## 
+## Things to know
+- `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast
+- 

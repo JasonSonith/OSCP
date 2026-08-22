@@ -66,4 +66,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ### using `-PE --reason` to check why a host is alive
 ![[Pasted image 20260822021352.png]]
 - In this case, it is alive because ARP requests where sent successfully
-- the attacker ip, `10.10.14.2`, asked who has `10.129.2.18`, RCVD said that `10.129.2.18` is 
+- the attacker ip, `10.10.14.2`, asked who has `10.129.2.18`, RCVD said that `10.129.2.18` is up
+
+### Use `-PE --packet-trace --disable-arp-ping` to disable ARP
+![[Pasted image 20260822021624.png]]

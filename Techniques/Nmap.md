@@ -39,3 +39,10 @@ sudo nmap 10.129.2.0/24 -sn -oA tnet | grep for | cut -d" " -f5
 - `-sn` flag disables port scanning
 - `| grep for | cut -d" " -f5` only shows IPs within the subnet that are active
 - This scan only works if the firewall allows it
+
+### Scan Multiple IPs at a time
+```bash
+sudo nmap -sn -oA tnet 10.129.2.18 10.129.2.19 10.129.2.20
+```
+
+##### 

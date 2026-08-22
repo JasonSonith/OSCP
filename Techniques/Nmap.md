@@ -22,3 +22,10 @@ tags:
 	- If the target responds with a RST flag then the port is closed
 	- If Nmap does not receive a response back then it is filtered
 ### Scanning a network range
+```bash
+sudo nmap 10.129.2.0/24 -sn -oA tnet | grep for | cut -d" " -f5
+```
+
+##### Output
+```
+```

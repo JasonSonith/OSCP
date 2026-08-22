@@ -62,4 +62,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ![[Pasted image 20260822021122.png]]
 - `-sn` disable ICMP requests
 - `-PE --packet-trace` can show what type of requests are sending, in this case it is `ARP`
-- 
+
+### using `-PE --reason` to check why a host is alive
+![[Pasted image 20260822021352.png]]
+- In this case, it is alive because ARP requests where sent

@@ -52,3 +52,13 @@ sudo nmap -sn -oA tnet 10.129.2.18 10.129.2.19 10.129.2.20
 10.129.2.20
 ```
 - You can also scan for `10.129.2-18-20` instead of typing in all three IP addresses at the same time
+
+### Tracing the IPs
+```bash
+sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
+```
+
+##### Output
+```
+
+```

@@ -1,9 +1,9 @@
 ---
 title: Box Template
 type: template
-permalink: oscp/templates/box-template
+permalink: oscp/templates/box-template-1
 tags:
-  - template
+- template
 ---
 
 # Cap

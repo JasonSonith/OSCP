@@ -1,9 +1,9 @@
 ---
 title: Technique Template
 type: template
-permalink: oscp/templates/technique-template-1-1
+permalink: oscp/templates/technique-template-1-1-1
 tags:
-  - template
+- template
 ---
 
 # Validate File Trasfer

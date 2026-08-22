@@ -1,9 +1,9 @@
 ---
 title: Box Template
 type: template
-permalink: oscp/templates/box-template
+permalink: oscp/templates/box-template-1-2
 tags:
-  - template
+- template
 ---
 
 # get-started-knowledge-check
@@ -37,11 +37,5 @@ sudo php -r 'system("/bin/sh -i");'
 [[Nmap -sC and -sV (service + script scanning)]]
 [[Gobuster]]
 [[PEASS]]
-[[me]]
-
-
-## What I learned
-
-
-## What I could do better
-
+[[Metasploit for enumeration]]
+[[Searchsploit]]

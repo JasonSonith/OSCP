@@ -1,9 +1,9 @@
 ---
 title: Box Template
 type: template
-permalink: oscp/templates/box-template
+permalink: oscp/templates/box-template-1-1
 tags:
-  - template
+- template
 ---
 
 # Nibbles
@@ -106,4 +106,3 @@ curl http:/10.129.122.215/nibbleblog/content/private/plugins/my_image/image.php
 [[Nmap -sC and -sV (service + script scanning)]]
 [[Web Shell]]
 [[PEASS]]
-

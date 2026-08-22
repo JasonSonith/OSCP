@@ -70,3 +70,4 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 ### Use `-PE --packet-trace --disable-arp-ping` to disable ARP
 ![[Pasted image 20260822021624.png]]
+- This sends only our ICMP requests to check if a host is alive

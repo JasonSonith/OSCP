@@ -28,4 +28,13 @@ sudo nmap 10.129.2.0/24 -sn -oA tnet | grep for | cut -d" " -f5
 
 ##### Output
 ```
+10.129.2.4 
+10.129.2.10 
+10.129.2.11 
+10.129.2.18 
+10.129.2.19 
+10.129.2.20 1
+0.129.2.28
 ```
+- `-sn` flag disables port scanning
+- 

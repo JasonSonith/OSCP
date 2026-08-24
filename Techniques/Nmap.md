@@ -75,4 +75,4 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - *Open Ports:* Connection to the scanned port was established
 - *Closed:* Can be used to see if the host is alive or not. Closed means the packet we sent gave us a `RST` flag back (The "Reset" flag that tells us to stop the connection right now)
 - *Filtered:* Nmap can't identify if he port is opened or closed because there is no response or we get an error code 
-- *Unfiltered:* This state of a port only occurs during the TCP-ACK scan and means that the port is accessible but 
+- *Unfiltered:* This happens during the `TCP-ACK` part of the 

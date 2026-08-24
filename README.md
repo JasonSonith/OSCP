@@ -10,7 +10,7 @@ permalink: oscp/readme
 
 ## About
 
-I am a graduate student at the Georgia Institute of Technology pursuing my masters in Information Security. I am current pursuing the OSCP to further develop my technical skills in ethical hacking. 
+I am a graduate student at the Georgia Institute of Technology pursuing my masters in Information Security. I am current pursuing the OSCP to further develop my technical skills in ethical hacking.  I am documenting my journey as a I study fir thus exam. 
 
 ## ⚠️ Scope & disclaimer
 
@@ -27,19 +27,3 @@ I am a graduate student at the Georgia Institute of Technology pursuing my maste
 | `Cheatsheets/` | Quick command references |
 | `MOCs/` | Maps of content — my methodology / index |
 | `attachments/` | Screenshots and images |
-
-## How to use these notes
-
-<!-- e.g. "Open in Obsidian for [[wikilinks]], or browse on GitHub." -->
-
-## Methodology
-
-<!-- Link to MOCs/Methodology.md — your attack checklist. -->
-
-## Progress
-
-<!-- Optional: boxes completed, current focus, etc. -->
-
-## License
-
-<!-- e.g. CC BY 4.0, MIT, or "notes are mine — use freely, no warranty." -->

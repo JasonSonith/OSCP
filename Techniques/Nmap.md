@@ -67,6 +67,10 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ![[Pasted image 20260822021624.png]]
 - This sends only our ICMP requests to check if a host is alive
 
+### Packet Tracing
+![[Pasted image 20260824095640.png]]
+- 
+
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast
 	- If the target responds with a RST flag then the port is closed

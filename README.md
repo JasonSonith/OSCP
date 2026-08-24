@@ -10,7 +10,7 @@ permalink: oscp/readme
 
 ## About
 
-I'm a master's student in Information Security at Georgia Tech, currently preparing for the OSCP. This repo is where I document the process as I go: study notes, lab writeups, and the things that tripped me up along the way.
+I'm a master's student in Information Security at Georgia Tech, currently preparing for the OSCP. This repo is where I document the process as I go: exploitation techniques, lab writeups, and the things that tripped me up along the way.
 
 ## ⚠️ Scope & disclaimer
 

@@ -97,7 +97,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 ### Creating HTML reports
 ![[Pasted image 20260824110753.png]]
-- Use `-oX` flag for xml report on nmap then run `xsltproc {scan}.xml`
+- Use `-oX` flag for xml report on nmap then run `xsltproc {scan}.xml -o {scan}.html`
 
 ---
 ## Things to know

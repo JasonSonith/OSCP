@@ -87,6 +87,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast
 	- If the target responds with a RST flag then the port is closed
 	- If Nmap does not receive a response back then it is filtered
+- `sT` does full TCP handshake and runs when nmap is not ran with sudo
 
 - *Open Ports:* Connection to the scanned port was established
 - *Closed:* Can be used to see if the host is alive or not. Closed means the packet we sent gave us a `RST` flag back (The "Reset" flag that tells us to stop the connection right now)

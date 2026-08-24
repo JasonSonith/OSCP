@@ -10,7 +10,7 @@ permalink: oscp/readme
 
 ## About
 
-I am a graduate student at the Georgia Institute of Technology pursuing my masters in Information Security. I am current pursuing the OSCP to further develop my technical skills in ethical hacking.  I am documenting my journey as a I study fir thus exam. 
+I'm a master's student in Information Security at Georgia Tech, currently preparing for the OSCP. This repo is where I document the process as I go: study notes, lab writeups, and the things that tripped me up along the way.
 
 ## ⚠️ Scope & disclaimer
 
@@ -20,10 +20,10 @@ I am a graduate student at the Georgia Institute of Technology pursuing my maste
 
 ## Vault layout
 
-| Folder | What's inside |
-|--------|---------------|
-| `Boxes/` | One note per machine (CPTS-Labs, HTB, PG) |
-| `Techniques/` | Reusable tricks, grouped by attack phase |
-| `Cheatsheets/` | Quick command references |
-| `MOCs/` | Maps of content — my methodology / index |
-| `attachments/` | Screenshots and images |
+| Folder         | What's inside                             |
+| -------------- | ----------------------------------------- |
+| `Boxes/`       | One note per machine (CPTS-Labs, HTB, PG) |
+| `Techniques/`  | Reusable tricks, grouped by attack phase  |
+| `Cheatsheets/` | Quick command references                  |
+| `MOCs/`        | Maps of content — my methodology / index  |
+| `attachments/` | Screenshots and images                    |

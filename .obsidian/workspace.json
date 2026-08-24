@@ -275,6 +275,8 @@
   },
   "active": "5dd86c8c13f2254f",
   "lastOpenFiles": [
+    "4913",
+    "d2utmpH6pc1f",
     "README.tmp",
     "README.md",
     "Techniques/Nmap.md",
@@ -317,8 +319,6 @@
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.9d286c3d552d",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.215287e07853",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.e8d2d818b199",
-    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.c78ff27782cf",
-    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.1b0928870217",
     "Boxes/Boxes.md",
     "Boxes/CPTS-Labs/privesc.md"
   ]

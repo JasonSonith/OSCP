@@ -1,2 +1,7 @@
 
+.obsidian/plugins/obsidian-local-rest-api/data.json
 _templates/
+*.ovpn
+*.pem
+*_rsa
+id_rsa*

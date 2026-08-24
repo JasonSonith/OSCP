@@ -81,6 +81,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ##### Output of Response
 `RCVD (0.0573s)` Indicates the received packet from the target
 `TCP`: Protocol being used 
+`RA` RST and ACK flags of the sent TCP packet
 
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

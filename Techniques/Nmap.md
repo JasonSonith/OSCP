@@ -90,6 +90,10 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 	- We might now get a response back for some ports because `NMAP` sends a empty datagram protocol so we can't tell if the UDP packet has arrived at all
 	- `--reason` can be used to determine why a port is in a specific state
 
+### Error code 3
+![[Pasted image 20260824104024.png]]
+- An icmp request with `(type=3/code=3)` i
+
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

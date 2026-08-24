@@ -73,6 +73,9 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - `-n` Disables DNS resolution
 - `--disable-arp-ping`: Disables arp ping and shifts to other things for discovery such as `ICMP` and `TCP probe`
 
+##### Output
+- `10.10.14.2:63090 >` The
+
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast
 	- If the target responds with a RST flag then the port is closed

@@ -71,7 +71,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ![[Pasted image 20260824095640.png]]
 - `--packet-trace` shows all packets sent and received
 - `-n` Disables DNS resolution
-- `--disable-arp-ping`: Disables arp ping
+- `--disable-arp-ping`: Disables arp ping and shifts to other things for discovery such as `ICMP` and `TCP probe`
 
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

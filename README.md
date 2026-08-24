@@ -6,7 +6,7 @@ permalink: oscp/readme
 
 # OSCP Study Vault
 
-<!-- Optional: badges, e.g. ![OSCP](https://img.shields.io/badge/OSCP-in%20progress-blue) -->
+![OSCP](https://img.shields.io/badge/OSCP-in%20progress-blue)
 
 ## About
 

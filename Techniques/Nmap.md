@@ -81,3 +81,4 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 - `--top-ports=10`: Scans top 10 ports
 - `-F` Does a fast port scan on 100 ports
+- `-n` disables DNS resolution

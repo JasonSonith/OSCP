@@ -88,6 +88,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - `-F` scans top 100 ports 
 - If `UDP` is open, we only get the response the application is configured to do so
 	- We might now get a response back for some ports because `NMAP` sends a empty datagram protocol so we can't tell if the UDP packet has arrived at all
+	- `--reason` can be used to determine why a port is in a specific state
 
 ---
 ## Things to know

@@ -78,3 +78,6 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - *Unfiltered:* This happens during the `TCP-ACK` part of the scan and it means the port is accessible but we can't tell if it's opened or closed
 - *open|filtered:* For if we do not get a response for a specific port because the firewall or packet filter protects the port
 - *closed|filtered:* Impossible to determine if the scanned port is closed or filtered by the firewall
+
+- `--top-ports=10`: Scans top 10 ports
+- `-F` Does a fast port scan on 100 ports

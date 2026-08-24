@@ -90,9 +90,23 @@
               "icon": "lucide-file",
               "title": "Searchsploit"
             }
+          },
+          {
+            "id": "5dd86c8c13f2254f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "README"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -259,8 +273,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e93ef2ee11123f1f",
+  "active": "5dd86c8c13f2254f",
   "lastOpenFiles": [
+    "README.tmp",
+    "README.md",
+    "Techniques/Nmap.md",
     "Techniques/Nmap.tmp",
     "attachments/Pasted image 20260822021624.png",
     "attachments/Pasted image 20260822021352.png",
@@ -273,7 +290,6 @@
     "attachments/Pasted image 20260819010013.png",
     "attachments/Pasted image 20260819005710.png",
     "Boxes/CPTS-Labs/get-started-knowledge-check.md",
-    "Techniques/Nmap.md",
     "Techniques/Upgrade TTY.md",
     "Techniques/PrivEsc-Linux/PEASS.md",
     "Techniques/Enumeration/Metasploit for enumeration.md",
@@ -303,9 +319,7 @@
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.e8d2d818b199",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.c78ff27782cf",
     "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.1b0928870217",
-    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md.tmp.4189.ec00efd9d9d3",
     "Boxes/Boxes.md",
-    "Boxes/CPTS-Labs/privesc.md",
-    "docs/superpowers/plans/2026-08-13-windows-dropper-lab.md"
+    "Boxes/CPTS-Labs/privesc.md"
   ]
 }

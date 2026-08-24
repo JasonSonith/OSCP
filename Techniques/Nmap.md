@@ -91,6 +91,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 	- Least stealthy because it established a full connections, creating more logs as a result
 	- More accurate than `sS`
 
+### Discovery
 - *Open Ports:* Connection to the scanned port was established
 - *Closed:* Can be used to see if the host is alive or not. Closed means the packet we sent gave us a `RST` flag back (The "Reset" flag that tells us to stop the connection right now)
 - *Filtered:* Nmap can't identify if he port is opened or closed because there is no response or we get an error code 

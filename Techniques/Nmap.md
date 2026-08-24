@@ -89,6 +89,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 	- If Nmap does not receive a response back then it is filtered
 - `sT` does full TCP handshake and runs when nmap is not ran with sudo
 	- Least stealthy because it established a full connections, creating more logs as a result
+	- More accurate than `sS`
 
 - *Open Ports:* Connection to the scanned port was established
 - *Closed:* Can be used to see if the host is alive or not. Closed means the packet we sent gave us a `RST` flag back (The "Reset" flag that tells us to stop the connection right now)

@@ -85,6 +85,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 ### Scanning UDP
 ![[Pasted image 20260824103536.png]]
+- `-F` scans top 100 ports 
 
 ---
 ## Things to know

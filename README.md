@@ -10,7 +10,7 @@ permalink: oscp/readme
 
 ## About
 
-<!-- 1-2 sentences: who you are, what this vault is, why it's public. -->
+I am a graduate student at the Georgia Institute of Technology pursuing my masters in Information Security. I am current pursuing the OSCP to further develop my technical skills in ethical hacking. 
 
 ## ⚠️ Scope & disclaimer
 

@@ -93,6 +93,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ### Error code 3
 ![[Pasted image 20260824104024.png]]
 - An icmp response with `(type=3/code=3)` in the response means the port was unreachable
+	- Other `IMCP` requests mark the response as `open|filtered`
 
 ---
 ## Things to know

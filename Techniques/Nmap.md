@@ -86,6 +86,7 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ### Scanning UDP
 ![[Pasted image 20260824103536.png]]
 - `-F` scans top 100 ports 
+- If `UDP` is open, we only get the response the application is configured to do so
 
 ---
 ## Things to know

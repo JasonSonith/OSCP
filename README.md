@@ -4,9 +4,7 @@ type: note
 permalink: oscp/readme
 ---
 
-# OSCP / CPTS Study Vault
-
-> My personal pentesting notes as I work through CPTS then OSCP. Built in Obsidian.
+# OSCP Study Vault
 
 <!-- Optional: badges, e.g. ![OSCP](https://img.shields.io/badge/OSCP-in%20progress-blue) -->
 

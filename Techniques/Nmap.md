@@ -95,6 +95,9 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - An icmp response with `(type=3/code=3)` in the response means the port was unreachable
 	- Other `IMCP` requests mark the response as `open|filtered`
 
+### Creating HTML reports
+
+
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

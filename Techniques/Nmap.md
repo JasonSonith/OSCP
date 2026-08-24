@@ -74,7 +74,9 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - `--disable-arp-ping`: Disables arp ping and shifts to other things for discovery such as `ICMP` and `TCP probe`
 
 ##### Output
-- `10.10.14.2:63090 >` The
+- `10.10.14.2:63090 >` The IP address and source port used by NMAP to send packets
+- `10.129.2.28:21` Shows target address and port
+- 
 
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

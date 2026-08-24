@@ -96,7 +96,8 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 	- Other `IMCP` requests mark the response as `open|filtered`
 
 ### Creating HTML reports
-
+![[Pasted image 20260824110753.png]]
+- Use `-oX` flag for xml report on nmap then run `xsltproc {scan}.xml`
 
 ---
 ## Things to know

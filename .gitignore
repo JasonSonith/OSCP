@@ -1,8 +1,26 @@
 
 .obsidian/plugins/obsidian-local-rest-api/data.json
 _templates/
+
+# Obsidian per-machine state (rewritten constantly, always conflicts)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# VPN configs & certs
 *.ovpn
 *.pem
+*.p12
+*.pfx
+
+# SSH / private keys
+id_rsa*
+id_dsa*
+id_ecdsa*
+id_ed25519*
 *_rsa
-.obsidian/workspace.json
-.obsidian/workspace-mobile.jsond_rsa*
+*.key
+*.ppk
+
+# Secrets
+.env
+.env.*

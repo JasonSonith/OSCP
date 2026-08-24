@@ -83,6 +83,10 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 `TCP`: Protocol being used 
 `RA` RST and ACK flags of the sent TCP packet
 
+### Scanning UDP
+![[Pasted image 20260824103536.png]]
+
+---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast
 	- If the target responds with a RST flag then the port is closed
@@ -105,5 +109,6 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 - `-n` disables DNS resolution
 
 ### Open UDP Ports
+- `-sU` flag used for UDP
 - Sometimes `UDP` ports are not filtered in the environment we are attacking due to sysadmin misconfigurations
-- 
+- We do not receive any acknowledge since UDP is connectionless and timeout is much longer 

@@ -117,7 +117,8 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ```bash
 sudo nmap <target> --script <category>
 ```
-- multiple scripts can be specified at a time 
+- multiple scripts can be specified at a time e.g `--script banner,smtp-commands`
+
 
 ---
 ## Things to know

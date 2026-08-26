@@ -102,8 +102,9 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ### `--stats-evrey=5s` to get stats every 5 seconds
 ![[Pasted image 20260826165254.png]]
 
-### 
-
+### Packet Trace of Banner Grabbing
+![[Pasted image 20260826165857.png]]
+- ``
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

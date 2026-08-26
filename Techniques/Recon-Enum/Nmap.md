@@ -153,4 +153,4 @@ sudo nmap <target> --script <category>
 ### Performance
 - Nmap usually has a default `--min-RTT-timeout` of 100ms
 	- `--initial-rtt-timeout` and `--max-rtt-timeout` can be added
-- 
+- `--max-retries` is set to a default value of 10 but it can be reduced to 0

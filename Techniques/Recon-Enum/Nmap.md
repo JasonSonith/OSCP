@@ -121,7 +121,7 @@ sudo nmap <target> --script <category>
 
 ### Aggressive Scan
 ![[Pasted image 20260826173555.png]]
-- `-A` used to performs service detection, OS detection, traceroute, and default scripts to scan the target
+- `-A` used to performs service detection, OS detection, traceroute, and default scripts to scan the target which is the equivalent of doing `-A  ≈  -sV  +  -sC  +  -O  +  --traceroute`
 
 ---
 ## Things to know

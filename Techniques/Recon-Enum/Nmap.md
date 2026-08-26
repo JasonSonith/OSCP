@@ -119,6 +119,9 @@ sudo nmap <target> --script <category>
 ```
 - multiple scripts can be specified at a time e.g `--script banner,smtp-commands`
 
+### Aggressive Scan
+![[Pasted image 20260826173555.png]]
+- `-A` ued to performs service detection, OS detection, tracero
 
 ---
 ## Things to know

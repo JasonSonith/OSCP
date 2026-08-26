@@ -99,6 +99,8 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ![[Pasted image 20260824110753.png]]
 - Use `-oX` flag for xml report on nmap then run `xsltproc {scan}.xml -o {scan}.html`
 
+##### `--stats-evrey=5s` to get stats every 5 seconds
+
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

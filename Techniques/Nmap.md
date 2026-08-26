@@ -108,7 +108,10 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 ##### Using Tcpdump to sniff traffic of two IPs
 ![[Pasted image 20260826170354.png]]
-- the o
+- the output is the result of a `nc` connection made to the SMTP server for tcp dump:
+  ![[Pasted image 20260826170454.png]]
+
+- tcp dump from nc connection: 
 
 ---
 ## Things to know

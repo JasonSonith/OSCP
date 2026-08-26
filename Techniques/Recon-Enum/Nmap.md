@@ -113,7 +113,11 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 - tcp dump from nc connection: 
 ![[Pasted image 20260826170527.png]]
-
+### Using a specific scripting category
+```bash
+sudo nmap <target> --script <category>
+```
+- multiple scripts can be specified at a time 
 
 ---
 ## Things to know

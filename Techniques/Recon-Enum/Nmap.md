@@ -149,3 +149,6 @@ sudo nmap <target> --script <category>
 - `-sU` flag used for UDP
 - Sometimes `UDP` ports are not filtered in the environment we are attacking due to sysadmin misconfigurations
 - We do not receive any acknowledge since UDP is connectionless and timeout is much longer 
+
+### Performance
+- Nmap usually has a default `--min-RTT-timeout` of 100ms

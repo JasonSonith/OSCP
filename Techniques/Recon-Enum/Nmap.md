@@ -113,6 +113,8 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 
 - tcp dump from nc connection: 
 ![[Pasted image 20260826170527.png]]
+
+
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

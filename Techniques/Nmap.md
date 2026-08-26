@@ -105,6 +105,11 @@ sudo nmap 10.129.2.18 -sn -oA host -PE --packet-trace
 ### Packet Trace of Banner Grabbing
 ![[Pasted image 20260826165857.png]]
 - `NSOCK INFO [0.4200s] nsock_trace_handler_callback(): Callback: READ SUCCESS for EID 18 [10.129.2.28:25] (35 bytes): 220 inlane ESMTP Postfix (Ubuntu)..` reveals that a hostname of *inlane*, *SMTP* enabled, a *220* code revealing that is avaliable and ready to use, *ESMTP* for extended SMTP, and *Postfix (ubuntu)* to describe the software
+
+##### Using Tcpdump to sniff traffic of two IPs
+![[Pasted image 20260826170354.png]]
+- the o
+
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

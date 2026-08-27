@@ -127,6 +127,8 @@ sudo nmap <target> --script <category>
 ![[Pasted image 20260827181759.png]]
 - `-e tun0` specifies to send the requests from tun0
 
+### C
+
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast
@@ -165,4 +167,4 @@ sudo nmap <target> --script <category>
 - Sending a `-sA` scan (TCP ack) forces the scan to go past the firewall and the host to respond with a `RST` flag
 - The `-D` flag generates different IP addresses to disguise the origin of the original IP address
 	- it takes a random number of ip address, e.g `-D RND:5`
-- If in a DMZ, the company's internet servers are more trusted than those on the public facing network so you can 
+- If in a DMZ, the company's DNS servers are more trusted than those on the public facing network so you can use `--sourceport 53` for our scans

@@ -158,4 +158,5 @@ sudo nmap <target> --script <category>
 - `-T` determines aggressiveness of the scan with a range of *1-5* and *3* being the default
 
 ### Firewall Evasion
-- Sending a `-sA` scan (TCP ack) forces the scan to go past the firewall and the hos t
+- Sending a `-sA` scan (TCP ack) forces the scan to go past the firewall and the host to respond with a `RST` flag
+- 

@@ -159,4 +159,4 @@ sudo nmap <target> --script <category>
 
 ### Firewall Evasion
 - Sending a `-sA` scan (TCP ack) forces the scan to go past the firewall and the host to respond with a `RST` flag
-- The `-D` flag generates different 
+- The `-D` flag generates different IP addresses to disguise the origin of the original IP address

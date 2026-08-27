@@ -156,3 +156,6 @@ sudo nmap <target> --script <category>
 - `--max-retries` is set to a default value of 10 but it can be reduced to 0
 - `--min-rate` used to send more packets per second
 - `-T` determines aggressiveness of the scan with a range of *1-5* and *3* being the default
+
+### Firewall Evasion
+- Sending a `-sA` scan (TCP ack) forces the scan to go past the firewall and the hos t

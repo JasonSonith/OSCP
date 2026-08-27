@@ -1,3 +1,9 @@
+---
+title: NMAP Scripting Engine Categories
+type: note
+permalink: oscp/cheatsheets/nmap-scripting-engine-categories
+---
+
 |**Category**|**Description**|
 |---|---|
 |`auth`|Determination of authentication credentials.|

@@ -127,7 +127,9 @@ sudo nmap <target> --script <category>
 ![[Pasted image 20260827181759.png]]
 - `-e tun0` specifies to send the requests from tun0
 
-### C
+### Connecting to port from DMZ
+![[Pasted image 20260827182124.png]]
+- DNS rules are more laxed in DMZ so using `--source-port 53` to grab the open port and connect to the service at port 50000 allows use to use `ProFTPd`
 
 ---
 ## Things to know

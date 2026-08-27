@@ -123,6 +123,9 @@ sudo nmap <target> --script <category>
 ![[Pasted image 20260826173555.png]]
 - `-A` used to performs service detection, OS detection, traceroute, and default scripts to scan the target which is the equivalent of doing `-A  ≈  -sV  +  -sC  +  -O  +  --traceroute`
 
+### Scan by using different source IP
+![[Pasted image 20260827181759.png]]
+- 
 ---
 ## Things to know
 - `sS` flag sends the `SYN-ACK` flag in the TCP handshake so it scans really fast

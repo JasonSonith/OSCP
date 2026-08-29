@@ -19,5 +19,11 @@ sudo nmap -sS -Pn -sV -O $ip
 
 ### Command
 ```bash
-nmap -sU -p 53 -Pn $ip
+nmap -sU -p 53 -Pn $ip -A
 ```
+
+##### Output
+![[Pasted image 20260829143626.png]]
+- The `-sU` scan was not filtered by the firewall so it got past to show the version
+
+## 

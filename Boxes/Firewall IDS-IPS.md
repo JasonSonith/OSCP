@@ -11,4 +11,8 @@ permalink: oscp/boxes/untitled
 sudo nmap -sS -Pn -sV -O $ip
 ```
 
-#### O
+##### Output
+![[Pasted image 20260829143430.png]]
+- Output reveals that Ubuntu was the OS
+
+## 

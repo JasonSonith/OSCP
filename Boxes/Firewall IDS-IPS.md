@@ -26,4 +26,8 @@ nmap -sU -p 53 -Pn $ip -A
 ![[Pasted image 20260829143626.png]]
 - The `-sU` scan was not filtered by the firewall so it got past to show the version
 
-## 
+## Identify running services
+### Commands
+```bash
+nmap -Pn -p- 
+```

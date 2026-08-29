@@ -8,5 +8,7 @@ permalink: oscp/boxes/untitled
 
 ### Command
 ```bash
-
+sudo nmap -sS -Pn -sV -O $ip
 ```
+
+#### O

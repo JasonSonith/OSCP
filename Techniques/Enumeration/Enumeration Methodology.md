@@ -42,8 +42,14 @@ for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreig
 
 #####Output
 ![[Pasted image 20260904010151.png]]
+![[Pasted image 20260904010212.png]]
 
+#### Finding DNS Records
+```bash
+dig any inlanefreight.com
+```
 
+##### Output
 
 
 

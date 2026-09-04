@@ -32,10 +32,25 @@ curl -s https://crt.sh/\?q\=inlanefreight.com\&output\=json | jq . | grep name |
 ```bash
 for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreight.com | cut -d" " -f1,4;done
 ```
-
-#### Shodan IP 
 ##### Output
 ![[Pasted image 20260904005951.png]]
+
+#### Shodan IP List
+```bash
+for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreight.com | cut -d" " -f4 >> ip-addresses.txt;done SonithGT@htb[/htb]$ for i in $(cat ip-addresses.txt);do shodan host $i;done
+```
+
+#####Output
+![[Pasted image 20260904010151.png]]
+
+
+
+
+
+
+
+
+
 
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure

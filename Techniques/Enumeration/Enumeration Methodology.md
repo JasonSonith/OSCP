@@ -54,7 +54,8 @@ dig any inlanefreight.com
 
 - `A` records: IP address that point to specific domain or sub domain through the A record, we see what we already know
 - `MX` records: The mail server records show us which mail server is responsible for managing emails for the company
-- `NS` records: These records show which name servers are used to resolve ther FQDN to IP addresses
+- `NS` records: These records show which name servers are used to resolve ther FQDN (Fully Qualified Domain Name) to IP addresses
+- `TXT` records: This type of record contains verification keys for
 
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure

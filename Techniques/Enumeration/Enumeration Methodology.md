@@ -21,4 +21,9 @@ permalink: oscp/techniques/enumeration/untitled
 - Examples: PID, Processed Data, Tasks, Source, Destination
 
 ### 5) Privileges
-- Identification of internal permissions and privleges to the accessible ser
+- Identification of internal permissions and privileges to the accessible services 
+- Examples: Groups, Users, Permissions, Restrictions, Environment
+
+### 6) OS Setup
+- Identification of internal components and systems setup
+- OS Type, patch level, network config, os environment, config f

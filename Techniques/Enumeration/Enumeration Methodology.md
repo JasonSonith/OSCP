@@ -26,4 +26,4 @@ permalink: oscp/techniques/enumeration/untitled
 
 ### 6) OS Setup
 - Identification of internal components and systems setup
-- OS Type, patch level, network config, os environment, config f
+- OS Type, patch level, network config, operating system environment, config files, sensitive private files

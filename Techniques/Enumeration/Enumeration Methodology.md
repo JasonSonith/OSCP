@@ -27,7 +27,7 @@ permalink: oscp/techniques/enumeration/untitled
 ### 5) Privileges
 - Identification of internal permissions and privileges to the accessible services 
 - Examples: Groups, Users, Permissions, Restrictions, Environment
-- Goal is to understand what certain users/groups are 
+- Goal is to understand what certain users/groups are capable of doing with their privileges 
 
 ### 6) OS Setup
 - Identification of internal components and systems setup

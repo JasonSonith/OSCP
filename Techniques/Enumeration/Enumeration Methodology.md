@@ -17,8 +17,15 @@ permalink: oscp/techniques/enumeration/untitled
 
 #### Results can be outted in JSON Format as well
 ```bash
-
+curl -s https://crt.sh/\?q\=inlanefreight.com\&output\=json | jq .
 ```
+
+##### Outputs
+![[Pasted image 20260904005714.png]]
+
+#### Command to filter by strictly subdomains
+
+
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure
 - Examples: Firewalls, DMZ, IPS/IDS, EDR, Proxies, NAC, Network Segmentation, VPN, Cloudflare

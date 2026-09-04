@@ -12,10 +12,12 @@ permalink: oscp/techniques/enumeration/untitled
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure
 - Examples: Firewalls, DMZ, IPS/IDS, EDR, Proxies, NAC, Network Segmentation, VPN, Cloudflare
+- Goal is to understanding what we are dealing with and what to watch out for
 
 ### 3) Accessible Services
 - Identify accessible interfaces and services that are hosted externally or internally
 - Examples: Service Type, Functionality, Configuration Port, Version, Interfaces
+- Goal is understand the reason and functionality of the target system and gain the necessary knowledge to c
 
 ### 4) Processes
 - Identify the internal processes, sources, and destination associated with the services

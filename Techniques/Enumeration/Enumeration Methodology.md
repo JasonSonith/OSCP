@@ -50,13 +50,10 @@ dig any inlanefreight.com
 ```
 
 ##### Output
+![[Pasted image 20260904010306.png]]
 
-
-
-
-
-
-
+- `A` records: IP address that point to specific domain or sub domain through the A record, we see what we already know
+- `MX` records
 
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure

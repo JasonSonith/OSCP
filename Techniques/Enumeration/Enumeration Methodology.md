@@ -13,4 +13,8 @@ permalink: oscp/techniques/enumeration/untitled
 - Examples: Firewalls, DMZ, IPS/IDS, EDR, Proxies, NAC, Network Segmentation, VPN, Cloudflare
 
 ### 3) Accessible Services
-- 
+- Identify accessible interfaces and services that are hosted externally or internally
+- Examples: Service Type, Functionality, Configuration Port, Version, Interfaces
+
+### Processes
+

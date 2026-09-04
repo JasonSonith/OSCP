@@ -10,8 +10,8 @@ permalink: oscp/techniques/enumeration/untitled
 - Goal is to identify all possible target systems and interfaces that can be tested
 
 ##### Online Presence
-
-
+![[Pasted image 20260904004022.png]]
+- We can look at a company's *SSL certificate* from the company's main site and often including more than just a subdomain
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure
 - Examples: Firewalls, DMZ, IPS/IDS, EDR, Proxies, NAC, Network Segmentation, VPN, Cloudflare

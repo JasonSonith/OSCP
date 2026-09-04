@@ -17,15 +17,17 @@ permalink: oscp/techniques/enumeration/untitled
 ### 3) Accessible Services
 - Identify accessible interfaces and services that are hosted externally or internally
 - Examples: Service Type, Functionality, Configuration Port, Version, Interfaces
-- Goal is understand the reason and functionality of the target system and gain the necessary knowledge to c
+- Goal is understand the reason and functionality of the target system and gain the necessary knowledge to communicate with it and exploit it effectively
 
 ### 4) Processes
 - Identify the internal processes, sources, and destination associated with the services
 - Examples: PID, Processed Data, Tasks, Source, Destination
+- Goal is to understand these processes and their dependencies between them
 
 ### 5) Privileges
 - Identification of internal permissions and privileges to the accessible services 
 - Examples: Groups, Users, Permissions, Restrictions, Environment
+- Goal is to understand what certain users/groups are 
 
 ### 6) OS Setup
 - Identification of internal components and systems setup

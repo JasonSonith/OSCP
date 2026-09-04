@@ -12,7 +12,7 @@ permalink: oscp/techniques/enumeration/untitled
 ##### Online Presence
 ![[Pasted image 20260904004022.png]]
 - We can look at a company's *SSL certificate* from the company's main site and often including more than just a subdomain
-- 
+- [crt.sh](https://crt.sh/) can be used to find more subdomains
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure
 - Examples: Firewalls, DMZ, IPS/IDS, EDR, Proxies, NAC, Network Segmentation, VPN, Cloudflare

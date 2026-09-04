@@ -28,6 +28,14 @@ curl -s https://crt.sh/\?q\=inlanefreight.com\&output\=json | jq .
 curl -s https://crt.sh/\?q\=inlanefreight.com\&output\=json | jq . | grep name | cut -d":" -f2 | grep -v "CN=" | cut -d'"' -f2 | awk '{gsub(/\\n/,"\n");}1;' | sort -u
 ```
 
+#### Getting Company Hosted Servers
+```bash
+for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreight.com | cut -d" " -f1,4;done
+```
+
+##### Output
+![[Pasted image 20260904005951.png]]
+
 ### 2) Gateway
 - All possible security measures to protect the company's external and internal infrastructure
 - Examples: Firewalls, DMZ, IPS/IDS, EDR, Proxies, NAC, Network Segmentation, VPN, Cloudflare

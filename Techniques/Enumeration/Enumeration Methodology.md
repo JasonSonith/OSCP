@@ -33,6 +33,7 @@ curl -s https://crt.sh/\?q\=inlanefreight.com\&output\=json | jq . | grep name |
 for i in $(cat subdomainlist);do host $i | grep "has address" | grep inlanefreight.com | cut -d" " -f1,4;done
 ```
 
+#### Shodan IP 
 ##### Output
 ![[Pasted image 20260904005951.png]]
 

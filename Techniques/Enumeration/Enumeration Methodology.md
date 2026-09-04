@@ -16,5 +16,9 @@ permalink: oscp/techniques/enumeration/untitled
 - Identify accessible interfaces and services that are hosted externally or internally
 - Examples: Service Type, Functionality, Configuration Port, Version, Interfaces
 
-### Processes
+### 4) Processes
+- Identify the internal processes, sources, and destination associated with the services
+- Examples: PID, Processed Data, Tasks, Source, Destination
 
+### 5) Privileges
+- Identification of internal permissions and privleges to the accessible ser

@@ -6,4 +6,4 @@ permalink: oscp/techniques/enumeration/untitled-1
 
 ## Google search using `intext` and `inurl`
 - `intext` searches contents of webpage for text
-- `inurl` 
+- `inurl` searches contents of url for text

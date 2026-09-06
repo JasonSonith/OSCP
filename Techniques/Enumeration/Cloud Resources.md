@@ -9,5 +9,5 @@ permalink: oscp/techniques/enumeration/untitled-1
 - `inurl` searches contents of url for text
 #### Example
 ```
-intext:"confidential"inurl:
+intext:"confidential"inurl:secret
 ```

@@ -36,4 +36,9 @@ Desired Skills/Knowledge/ Experience:
 ```
 - From the job posting we can see that the languages preferred are *Java*, *C#*, *C++*, *Python*, *Ruby*, *PHP*, and *Perl*
 - It also require that the applicant needs to know *PostgreSQL*, *Mysql*, and *Oracle*
-- Also shows the need web app d
+- Also shows the need web app development frameworks such as *Flask* and *Django*
+- They use the Atlassian Suite
+
+#### LinkedIn Employee #1
+![[Pasted image 20260907000613.png]]
+- Employees love sharing what they learned which 

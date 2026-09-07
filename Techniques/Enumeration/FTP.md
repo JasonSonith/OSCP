@@ -93,3 +93,12 @@ permalink: oscp/techniques/enumeration/untitled-2
 ![[Pasted image 20260907012137.png]]
 - `touch {file}` can be used to upload a file
 - `put {file}` places it in current folder
+
+## Using `nc` or `telnet` to interact with FTP
+```bash
+SonithGT@htb[/htb]$ nc -nv 10.129.14.136 21
+```
+
+```
+
+```

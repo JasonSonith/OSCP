@@ -34,4 +34,4 @@ Desired Skills/Knowledge/ Experience:
 « Redis.
 « NumPy.
 ```
-- From the job posting we can see that the languages preferred are *Java*, *C#*, *C*
+- From the job posting we can see that the languages preferred are *Java*, *C#*, *C++*, *Python*, *Ruby*, *PHP*, and *Perl*

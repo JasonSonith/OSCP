@@ -16,4 +16,4 @@ permalink: oscp/techniques/enumeration/untitled-2
 ## TFTP - Trivial File Transfer Protocol
 - Simpler than FTP
 - Does not provide user auth 
-- TFTP 
+- TFTP uses UDP

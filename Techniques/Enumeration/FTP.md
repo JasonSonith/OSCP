@@ -106,4 +106,7 @@ SonithGT@htb[/htb]$ telnet 10.129.14.136 21
 ## If FTP is using TLS/SSL
 
 ![[Pasted image 20260907012513.png]]
-- `openssl` can be used to recognize hostname
+- `openssl` can be used to recognize hostname and also email addresses for orgs or companies
+
+## Nmap Script Trace
+![[Pasted image 20260907012633.png]]

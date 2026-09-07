@@ -35,3 +35,4 @@ Desired Skills/Knowledge/ Experience:
 « NumPy.
 ```
 - From the job posting we can see that the languages preferred are *Java*, *C#*, *C++*, *Python*, *Ruby*, *PHP*, and *Perl*
+- It also require that the applicant needs to know *PostgreSQL*, *Mysql*, and *Oracle*

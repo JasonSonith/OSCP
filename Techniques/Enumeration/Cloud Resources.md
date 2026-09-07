@@ -14,3 +14,6 @@ intext:"confidential"inurl:secret
 ```
 
 #### Google Dorking Cheatsheet
+
+## *Domain.glass* 
+- Can tell 

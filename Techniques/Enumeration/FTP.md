@@ -67,3 +67,21 @@ permalink: oscp/techniques/enumeration/untitled-2
 
 #### `debug` and `trace` command for more information
 ![[Pasted image 20260907011854.png]]
+
+## More FTP settings
+|**Setting**|**Description**|
+|---|---|
+|`dirmessage_enable=YES`|Show a message when they first enter a new directory?|
+|`chown_uploads=YES`|Change ownership of anonymously uploaded files?|
+|`chown_username=username`|User who is given ownership of anonymously uploaded files.|
+|`local_enable=YES`|Enable local users to login?|
+|`chroot_local_user=YES`|Place local users into their home directory?|
+|`chroot_list_enable=YES`|Use a list of local users that will be placed in their home directory?|
+
+|**Setting**|**Description**|
+|---|---|
+|`hide_ids=YES`|All user and group information in directory listings will be displayed as "ftp".|
+|`ls_recurse_enable=YES`|Allows the use of recurse listings.|
+
+## Hiding IDs
+- The following example shows that `hide_ids=YES` can be used 

@@ -63,4 +63,7 @@ permalink: oscp/techniques/enumeration/untitled-2
 |`write_enable=YES`|Allow the usage of FTP commands: STOR, DELE, RNFR, RNTO, MKD, RMD, APPE, and SITE?|
 #### `status` command
 ![[Pasted image 20260907011803.png]]
-- Gives us overview 
+- Gives us overview of server settings
+
+#### `debug` and `trace` command for more information
+![[Pasted image 20260907011854.png]]

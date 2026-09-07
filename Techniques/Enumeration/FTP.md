@@ -61,3 +61,6 @@ permalink: oscp/techniques/enumeration/untitled-2
 |`no_anon_password=YES`|Do not ask anonymous for password?|
 |`anon_root=/home/username/ftp`|Directory for anonymous.|
 |`write_enable=YES`|Allow the usage of FTP commands: STOR, DELE, RNFR, RNTO, MKD, RMD, APPE, and SITE?|
+#### `status` command
+![[Pasted image 20260907011803.png]]
+- Gives us overview 

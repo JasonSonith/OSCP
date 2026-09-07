@@ -27,4 +27,8 @@ permalink: oscp/techniques/enumeration/untitled-2
 |`quit`|Exits tftp.|
 |`status`|Shows the current status of tftp, including the current transfer mode (ascii or binary), connection status, time-out value, and so on.|
 |`verbose`|Turns verbose mode, which displays additional information during file transfer, on or off.|
-## D
+## Default Configuration
+- Most used FTP server on linux is *vsFTPd*
+	- Config file from in `/etc/vsftpd.conf`
+
+#### Config File

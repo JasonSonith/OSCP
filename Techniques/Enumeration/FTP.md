@@ -14,3 +14,6 @@ permalink: oscp/techniques/enumeration/untitled-2
 - Passive mode developed to counteract firewall, server announces a port through which the client can establish the data channel
 
 ## TFTP - Trivial File Transfer Protocol
+- Simpler than FTP
+- Does not provide user auth 
+- TFTP 

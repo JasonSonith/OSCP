@@ -87,3 +87,8 @@ permalink: oscp/techniques/enumeration/untitled-2
 - The following example shows that `hide_ids=YES` can be used to make identifying file ownership harder
 ![[Pasted image 20260907012041.png]]
 - `ls -R` for recursive listing
+- `tree .` can do the same
+
+## Download all files
+![[Pasted image 20260907012137.png]]
+- `touch {file}` can be used to 

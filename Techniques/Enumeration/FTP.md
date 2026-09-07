@@ -110,3 +110,5 @@ SonithGT@htb[/htb]$ telnet 10.129.14.136 21
 
 ## Nmap Script Trace
 ![[Pasted image 20260907012633.png]]
+
+- Can be used to see what commands NMAP sends to decipher ftp

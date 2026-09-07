@@ -91,4 +91,5 @@ permalink: oscp/techniques/enumeration/untitled-2
 
 ## Download all files
 ![[Pasted image 20260907012137.png]]
-- `touch {file}` can be used to 
+- `touch {file}` can be used to upload a file
+- `put {file}` places it in current folder

@@ -50,3 +50,5 @@ permalink: oscp/techniques/enumeration/untitled-2
 - `/etc/ftpusers` can deny or allow certain users from using FTP
 
 ## Dangerous Settings
+- One of the dangerous settings is allowing `anonymous` users to login
+- can be added to vsFTPd as a optional setting:

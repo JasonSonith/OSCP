@@ -84,4 +84,6 @@ permalink: oscp/techniques/enumeration/untitled-2
 |`ls_recurse_enable=YES`|Allows the use of recurse listings.|
 
 ## Hiding IDs
-- The following example shows that `hide_ids=YES` can be used 
+- The following example shows that `hide_ids=YES` can be used to make identifying file ownership harder
+![[Pasted image 20260907012041.png]]
+- `ls -R` for recursive listing

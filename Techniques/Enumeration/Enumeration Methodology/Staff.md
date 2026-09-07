@@ -41,4 +41,4 @@ Desired Skills/Knowledge/ Experience:
 
 #### LinkedIn Employee #1
 ![[Pasted image 20260907000613.png]]
-- Employees love sharing what they learned which 
+- Employees love sharing what they learned which can lead to further information disclosure about the company

@@ -21,3 +21,9 @@ intext:"confidential"inurl:secret
 ![[Pasted image 20260906235545.png]]
 
 ## GreyHatWarfare
+- Can discover AWS, Azure, and GCP cloud storage and filter them by file format
+
+#### HTB example results
+![[Pasted image 20260906235640.png]]
+
+#### Sea

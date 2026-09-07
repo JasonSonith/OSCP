@@ -16,4 +16,8 @@ intext:"confidential"inurl:secret
 #### Google Dorking Cheatsheet
 
 ## *Domain.glass* 
-- Can tell 
+- Can tell us about company infrastructure
+- Below, the HTB website was listed as safe which was a security measure to the 2nd layer: *gateway*
+![[Pasted image 20260906235545.png]]
+
+## GreyHatWarfare

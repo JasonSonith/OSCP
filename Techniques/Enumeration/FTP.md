@@ -10,4 +10,5 @@ permalink: oscp/techniques/enumeration/untitled-2
 
 ### Active vs Passive FTP
 - In active, the client establishes a connection via TCP port 21 and informs the server which client port it can transmit it's responses over
-	- If firewall protects the client, the server cannot rep
+	- If firewall protects the client, the server cannot reply
+- Passive mode developed to counteract firewall, server announces a port through which the client can establish the data channel

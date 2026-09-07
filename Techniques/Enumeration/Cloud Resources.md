@@ -13,8 +13,6 @@ permalink: oscp/techniques/enumeration/untitled-1
 intext:"confidential"inurl:secret
 ```
 
-#### Google Dorking Cheatsheet
-
 ## *Domain.glass* 
 - Can tell us about company infrastructure
 - Below, the HTB website was listed as safe which was a security measure to the 2nd layer: *gateway*
@@ -26,4 +24,5 @@ intext:"confidential"inurl:secret
 #### HTB example results
 ![[Pasted image 20260906235640.png]]
 
-#### Sea
+#### Search File option can leak private and public SSH keys
+![[Pasted image 20260906235723.png]]

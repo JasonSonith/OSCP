@@ -82,6 +82,7 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 #### Filled out Default Settings
 ![[Pasted image 20260907232318.png]]
 - From this global settings and two shares are intended for printers
+	- Global
 
 
 ## UNC path structure

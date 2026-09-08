@@ -138,6 +138,9 @@ root@samba:~# sudo systemctl restart smbd
 ![[Pasted image 20260908000919.png]]
 - `smbstatus` can help us figure out who, from which host, and which share the client is connected
 
+## Foot printing the Service
+- 
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

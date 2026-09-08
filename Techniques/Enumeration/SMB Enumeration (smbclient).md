@@ -171,6 +171,10 @@ root@samba:~# sudo systemctl restart smbd
 #### Brute Forcing User RIDs
 ![[Pasted image 20260908151942.png]]
 
+#### Impacket - Samrdump.py
+![[Pasted image 20260908152044.png]]
+- Good alternative for brute forcing RIDs
+- 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

@@ -174,7 +174,7 @@ root@samba:~# sudo systemctl restart smbd
 #### Impacket - Samrdump.py
 ![[Pasted image 20260908152044.png]]
 - Good alternative for brute forcing RIDs
-- 
+- [SMBMap](https://github.com/ShawnDEvans/smbmap) and [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) tools are widely used and helpful for enumeration of SMB services
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

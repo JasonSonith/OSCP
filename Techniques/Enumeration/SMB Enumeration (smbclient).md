@@ -55,6 +55,9 @@ smbclient -N -L '\\10.129.42.253'    # single quotes: shell hands it over litera
 ```
 Use single quotes (strong) not double (weak — still processes `$` etc). Most people just use `//`.
 
+## Samba
+
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

@@ -60,7 +60,18 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 - Aligned with SMB version 1
 - Connections occur over TCP ports `137` and `138` and `139`
 - CIFS operates on `445` exclusively
-- SMB 2 and SMB 3 are newer but 
+- SMB 2 and SMB 3 are newer
+
+|**SMB Version**|**Supported**|**Features**|
+|---|---|---|
+|CIFS|Windows NT 4.0|Communication via NetBIOS interface|
+|SMB 1.0|Windows 2000|Direct connection via TCP|
+|SMB 2.0|Windows Vista, Windows Server 2008|Performance upgrades, improved message signing, caching feature|
+|SMB 2.1|Windows 7, Windows Server 2008 R2|Locking mechanisms|
+|SMB 3.0|Windows 8, Windows Server 2012|Multichannel connections, end-to-end encryption, remote storage access|
+|SMB 3.0.2|Windows 8.1, Windows Server 2012 R2||
+|SMB 3.1.1|Windows 10, Windows Server 2016|Integrity checking, AES-128 encryption|
+
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

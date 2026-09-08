@@ -131,6 +131,8 @@ root@samba:~# sudo systemctl restart smbd
 - Once we adjust settings in `/etc/samba/smb.conf` to our needs we need to restart Samba for settings to take effect
 
 #### Connecting a share listing Contents
+![[Pasted image 20260908000011.png]]
+- `print$` and `IPC$` are already included in default basic settings
 
 
 ## UNC path structure

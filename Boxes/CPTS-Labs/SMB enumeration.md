@@ -16,5 +16,7 @@ smbclient -N -L //10.129.163.243
 
 ### 3) Used `enum4linux-ng.py` to enumerate the smbshare
 ```bash
-python3 /opt/enum4linux-ng/enum4linux-
+python3 /opt/enum4linux-ng/enum4linux-ng.py $ip -A
 ```
+- Found the domain that belongs to `DEVOPS`
+- Found a comment for the samba share that said *"InFreight SMB v3.1"*

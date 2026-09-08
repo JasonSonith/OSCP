@@ -167,6 +167,11 @@ root@samba:~# sudo systemctl restart smbd
 ![[Pasted image 20260908150825.png]]
 - Sometimes all commands aren't available to us
 	- But `queryuser <RID>` is usually available so we can brute force users from there using for loops in bash
+
+#### Brute Forcing User RIDs
+![[Pasted image 20260908151942.png]]
+
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

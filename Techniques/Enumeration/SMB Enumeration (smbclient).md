@@ -57,7 +57,9 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 
 ## Samba
 - Implements *CIFS* network protocol (COmmon Internet File System)
-- Aligned with
+- Aligned with SMB version 1
+- Connections occur over TCP ports `137` and `138` and `139`
+- CIFS operates on `445` exlcus
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

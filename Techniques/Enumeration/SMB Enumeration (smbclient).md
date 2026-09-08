@@ -123,6 +123,14 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 #### Example of Insecure Share
 ![[Pasted image 20260907235713.png]]
 - This is the type of share that is created on a whim and forgotten about later
+
+#### Restarting Samba
+```bash
+root@samba:~# sudo systemctl restart smbd
+```
+- Once we adjust settings in `/etc/samba/smb.conf` to our needs we need to restart Samba for settings to take effect
+- 
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

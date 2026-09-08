@@ -101,7 +101,11 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 |`create mask = 0700`|What permissions need to be set for newly created files?|
 
 ## Dangerous Settings
-- The setting `browseable = yes` is a
+- The setting `browseable = yes` is a example of a dangerous setting
+	- If admins adopt this setting, the company's employees will have the comfort of being able to look at individual folder with the contents
+	- This means attackers can browse after successful access
+
+#### Table of Dangerous 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

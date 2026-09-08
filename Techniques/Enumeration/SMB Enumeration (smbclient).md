@@ -136,7 +136,7 @@ root@samba:~# sudo systemctl restart smbd
 - `help` command on login lists all possible commands we can execute
 #### Samba Status
 ![[Pasted image 20260908000919.png]]
-- `smbstatus` can 
+- `smbstatus` can help us figure out who, from which host, and which share the client is connected
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

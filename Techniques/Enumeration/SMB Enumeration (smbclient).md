@@ -74,7 +74,8 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 - SMB 3 allows the samba server to gain the ability to be a full member of Active Directory
 - SMB 4 allows Samba to have a AD domain controller
 - In a network, each host is apart of the same workgroup
-- IBM developed in API for the *Network Basic Input/Output System (NetBIOS)*
+- IBM developed in API for the *Network Basic Input/Output System (NetBIOS)* that provides a blueprint for application to connect and share data with other computers
+	- When a machine goes 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

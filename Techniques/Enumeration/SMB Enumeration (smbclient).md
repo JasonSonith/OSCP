@@ -59,7 +59,7 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 - Implements *CIFS* network protocol (COmmon Internet File System)
 - Aligned with SMB version 1
 - Connections occur over TCP ports `137` and `138` and `139`
-- CIFS operates on `445` exlcus
+- CIFS operates on `445` exclusively
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

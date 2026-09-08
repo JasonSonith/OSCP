@@ -120,6 +120,8 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 |`magic output = script.out`|Where the output of the magic script needs to be stored?|
 - Some shares are created with the above settings are forgotten about later which is a security vulnerability
 
+####
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

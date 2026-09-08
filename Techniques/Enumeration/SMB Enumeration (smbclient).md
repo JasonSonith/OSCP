@@ -159,6 +159,12 @@ root@samba:~# sudo systemctl restart smbd
 |`enumdomusers`|Enumerates all domain users.|
 |`queryuser <RID>`|Provides information about a specific user.|
 
+#### RPC Client User Enumeration
+![[Pasted image 20260908150701.png]]
+![[Pasted image 20260908150725.png]]
+
+
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

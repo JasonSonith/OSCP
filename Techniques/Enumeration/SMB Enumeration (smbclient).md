@@ -181,7 +181,7 @@ root@samba:~# sudo systemctl restart smbd
 
 #### CrackMapExec
 ![[Pasted image 20260908152510.png]]
-- Another great tool is [enum4linux-ng](https://github.com/cddmp/enum4linux-ng) which automates many qu
+- Another great tool is [enum4linux-ng](https://github.com/cddmp/enum4linux-ng) which automates many queries and can return large amounts of information
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

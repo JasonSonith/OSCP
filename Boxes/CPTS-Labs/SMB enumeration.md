@@ -14,3 +14,7 @@ smbclient -N -L //10.129.163.243
 - Found `sambashare was availible`
 - Dig into the directory to get the flag.txt
 
+### 3) Used `enum4linux-ng.py` to enumerate the smbshare
+```bash
+python3 /opt/enum4linux-ng/enum4linux-
+```

@@ -105,7 +105,20 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 	- If admins adopt this setting, the company's employees will have the comfort of being able to look at individual folder with the contents
 	- This means attackers can browse after successful access
 
-#### Table of Dangerous 
+#### Table of Dangerous Settings
+|**Setting**|**Description**|
+|---|---|
+|`browseable = yes`|Allow listing available shares in the current share?|
+|`read only = no`|Forbid the creation and modification of files?|
+|`writable = yes`|Allow users to create and modify files?|
+|`guest ok = yes`|Allow connecting to the service without using a password?|
+|`enable privileges = yes`|Honor privileges assigned to specific SID?|
+|`create mask = 0777`|What permissions must be assigned to the newly created files?|
+|`directory mask = 0777`|What permissions must be assigned to the newly created directories?|
+|`logon script = script.sh`|What script needs to be executed on the user's login?|
+|`magic script = script.sh`|Which script should be executed when the script gets closed?|
+|`magic output = script.out`|Where the output of the magic script needs to be stored?|
+- Some shares are created w
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

@@ -139,7 +139,9 @@ root@samba:~# sudo systemctl restart smbd
 - `smbstatus` can help us figure out who, from which host, and which share the client is connected
 
 ## Foot printing the Service
-- 
+
+#### Starting with NMAP
+![[Pasted image 20260908143941.png]]
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

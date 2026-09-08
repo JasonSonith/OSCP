@@ -20,3 +20,8 @@ python3 /opt/enum4linux-ng/enum4linux-ng.py $ip -A
 ```
 - Found the domain that belongs to `DEVOPS`
 - Found a comment for the samba share that said *"InFreight SMB v3.1"*
+
+### 4) Connected to rpclient to get system directory of `sambashare`
+```bash
+rpcclient -U ""
+```

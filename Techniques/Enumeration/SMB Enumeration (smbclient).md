@@ -165,7 +165,7 @@ root@samba:~# sudo systemctl restart smbd
 ![[Pasted image 20260908150737.png]]
 - The results can be used to identify the group's RID, which can be used to get information of the entire group:
 ![[Pasted image 20260908150825.png]]
-
+- Sometimes all commands aren't available to us
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

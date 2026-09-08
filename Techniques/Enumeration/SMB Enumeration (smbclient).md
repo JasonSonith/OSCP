@@ -73,6 +73,7 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 |SMB 3.1.1|Windows 10, Windows Server 2016|Integrity checking, AES-128 encryption|
 - SMB 3 allows the samba server to gain the ability to be a full member of Active Directory
 - SMB 4 allows Samba to have a AD domain controller
+- In a network, each host is apart of the same workgroup
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

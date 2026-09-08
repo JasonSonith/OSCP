@@ -80,6 +80,8 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 ## Default Configuration
 
 #### Filled out Default Settings
+![[Pasted image 20260907232318.png]]
+
 
 
 ## UNC path structure

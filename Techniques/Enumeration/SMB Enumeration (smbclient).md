@@ -158,7 +158,7 @@ root@samba:~# sudo systemctl restart smbd
 |`netsharegetinfo <share>`|Provides information about a specific share.|
 |`enumdomusers`|Enumerates all domain users.|
 |`queryuser <RID>`|Provides information about a specific user.|
-- using `srvinfo` provides server information
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

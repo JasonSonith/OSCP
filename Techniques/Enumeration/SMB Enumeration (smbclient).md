@@ -71,7 +71,7 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 |SMB 3.0|Windows 8, Windows Server 2012|Multichannel connections, end-to-end encryption, remote storage access|
 |SMB 3.0.2|Windows 8.1, Windows Server 2012 R2||
 |SMB 3.1.1|Windows 10, Windows Server 2016|Integrity checking, AES-128 encryption|
-
+- SMB 3 allows the samba serve 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

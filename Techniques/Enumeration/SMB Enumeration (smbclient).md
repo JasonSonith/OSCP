@@ -60,6 +60,7 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 - Aligned with SMB version 1
 - Connections occur over TCP ports `137` and `138` and `139`
 - CIFS operates on `445` exclusively
+- SMB 2 and SMB 3 are newer but 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

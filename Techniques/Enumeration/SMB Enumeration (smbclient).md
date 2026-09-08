@@ -134,6 +134,9 @@ root@samba:~# sudo systemctl restart smbd
 ![[Pasted image 20260908000011.png]]
 - `print$` and `IPC$` are already included in default basic settings
 - `help` command on login lists all possible commands we can execute
+#### Samba Status
+![[Pasted image 20260908000919.png]]
+- `smbstatus` can 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

@@ -145,10 +145,20 @@ root@samba:~# sudo systemctl restart smbd
 - NMAP doesn't give any real leads here so from here, try pivoting to `rpcclient`, which performs MS-RPC functions
 - *RPC:* is a central tool to realize operational and work sharing structures in networks and client-server architectures
 
-#### RPCclient
+#### RPCclient in use
 ![[Pasted image 20260908145048.png]]
 
-
+#### RPC client commands
+|**Query**|**Description**|
+|---|---|
+|`srvinfo`|Server information.|
+|`enumdomains`|Enumerate all domains that are deployed in the network.|
+|`querydominfo`|Provides domain, server, and user information of deployed domains.|
+|`netshareenumall`|Enumerates all available shares.|
+|`netsharegetinfo <share>`|Provides information about a specific share.|
+|`enumdomusers`|Enumerates all domain users.|
+|`queryuser <RID>`|Provides information about a specific user.|
+- using `srvinfo` provides server information
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

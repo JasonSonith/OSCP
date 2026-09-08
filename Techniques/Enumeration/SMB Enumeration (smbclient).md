@@ -183,7 +183,12 @@ root@samba:~# sudo systemctl restart smbd
 ![[Pasted image 20260908152510.png]]
 - Another great tool is [enum4linux-ng](https://github.com/cddmp/enum4linux-ng) which automates many queries and can return large amounts of information
 
-#### Run
+#### Running `enum4linux-ng`
+```bash
+./enum4linux-ng.py $ip -A
+```
+
+
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

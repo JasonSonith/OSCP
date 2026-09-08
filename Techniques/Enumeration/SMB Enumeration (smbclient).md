@@ -142,6 +142,7 @@ root@samba:~# sudo systemctl restart smbd
 
 #### Starting with NMAP
 ![[Pasted image 20260908143941.png]]
+- 
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

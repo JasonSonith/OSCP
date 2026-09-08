@@ -166,6 +166,7 @@ root@samba:~# sudo systemctl restart smbd
 - The results can be used to identify the group's RID, which can be used to get information of the entire group:
 ![[Pasted image 20260908150825.png]]
 - Sometimes all commands aren't available to us
+	- But `queryuser <RID>` is usually available so we can brute force users from there using for loops in bash
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:
 ```

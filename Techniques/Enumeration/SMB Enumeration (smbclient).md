@@ -143,7 +143,7 @@ root@samba:~# sudo systemctl restart smbd
 #### Starting with NMAP
 ![[Pasted image 20260908143941.png]]
 - NMAP doesn't give any real leads here so from here, try pivoting to `rpcclient`, which performs MS-RPC functions
-- *RPC:*
+- *RPC:* is a central tool to realize operational and work sharing structures in networks and client-server architectures
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

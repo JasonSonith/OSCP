@@ -129,7 +129,9 @@ Use single quotes (strong) not double (weak — still processes `$` etc). Most p
 root@samba:~# sudo systemctl restart smbd
 ```
 - Once we adjust settings in `/etc/samba/smb.conf` to our needs we need to restart Samba for settings to take effect
-- 
+
+#### Connecting a share listing Contents
+
 
 ## UNC path structure
 `\\host\share\file` — read left to right, getting more specific:

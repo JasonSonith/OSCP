@@ -23,5 +23,6 @@ python3 /opt/enum4linux-ng/enum4linux-ng.py $ip -A
 
 ### 4) Connected to rpclient to get system directory of `sambashare`
 ```bash
-rpcclient -U ""
+rpcclient -U "" $ip
 ```
+- ran the command `netshareenumall` to get the system directory of samba share: `/home/sambauser`

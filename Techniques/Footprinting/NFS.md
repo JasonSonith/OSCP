@@ -8,4 +8,5 @@ permalink: oscp/techniques/footprinting/nfs
 - A network file system developed by sun microsystems and has the same purpose as *SMB*
 - Used between Linux and Unix systems
 	- Cannot communicate directly with SMB servers
-- 
+
+## 

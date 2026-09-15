@@ -1,3 +1,9 @@
+---
+title: SMB enumeration
+type: note
+permalink: oscp/boxes/cpts-labs/smb-enumeration
+---
+
 ## Steps
 
 ### 1) Run Nmap scan to see what was open

@@ -16,4 +16,5 @@ permalink: oscp/techniques/footprinting/nfs
 |`NFSv3`|It has more features, including variable file size and better error reporting, but is not fully compatible with NFSv2 clients.|
 |`NFSv4`|It includes Kerberos, works through firewalls and on the Internet, no longer requires portmappers, supports ACLs, applies state-based operations, and provides performance improvements and high security. It is also the first version to have a stateful protocol.|
 - *Kerberos:* Network auth system that lets you authenticate without sending password over a network. This is how it works:
-	1) 
+	1) Kerberos checks password and gives you a *Ticket Granting Ticket (TGT)*
+	2) You get another TGT if you want to interact with something like a fileserver by 

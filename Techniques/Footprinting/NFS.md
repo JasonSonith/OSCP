@@ -76,4 +76,7 @@ file.txt
 | `nohide`         | If another file system was mounted below an exported directory, the client can now see it |
 | `no_root_squash` | All files created by root are kept with the UID/GID 0.                                    |
 ## Footprinting the Service
-- 
+- Usually found on TCP ports `111` and `2049`
+
+#### Nmap scan
+Using the `rpcinfo` NSe script retri

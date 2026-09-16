@@ -81,3 +81,9 @@ file.txt
 #### Nmap scan
 - Using the `rpcinfo` NSE script retrieves list of all current running RPC services, names, descriptions, and ports they use 
 - `nfs*` script can also be used to show us the contents of a share and it's stats
+
+#### Show avaliable NFS shares
+![[Pasted image 20260916031924.png]]
+
+#### Mounting the NFS shares
+![[Pasted image 20260916031946.png]]

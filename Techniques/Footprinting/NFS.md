@@ -79,4 +79,4 @@ file.txt
 - Usually found on TCP ports `111` and `2049`
 
 #### Nmap scan
-Using the `rpcinfo` NSe script retri
+Using the `rpcinfo` NSE script retrieves list of all current running RPC services 

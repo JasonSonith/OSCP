@@ -22,3 +22,4 @@ permalink: oscp/techniques/footprinting/nfs
 - NFS is based on the *Open Network Computing Remote Procedure Call (ONC-RPC/SUN-RPC* protocol exposed on TCP and UDP port 111
 - It uses RPC to communicate which lets your computer ask another computer to perform actions like opening a file or looking for the contents of a certain directory
 - NFSv4 uses *XDR* to send data between different systems
+- 

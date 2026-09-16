@@ -75,3 +75,4 @@ file.txt
 | `insecure`       | Ports above 1024 will be used.                                                            |
 | `nohide`         | If another file system was mounted below an exported directory, the client can now see it |
 | `no_root_squash` | All files created by root are kept with the UID/GID 0.                                    |
+## Footprinting the Service

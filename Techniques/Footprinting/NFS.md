@@ -65,4 +65,5 @@ file.txt
 | `root_squash`      | Changes remote root user to unprivileged anonymous user  |
 #### ExportFS
 ![[Pasted image 20260916021335.png]]
-- This shares the folder `/mnt/nfs` to the subnet of ``
+- This shares the folder `/mnt/nfs` to the subnet of `10.129.14.0/24`
+- All ho

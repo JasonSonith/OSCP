@@ -42,3 +42,5 @@ file.txt
 - This is important in pentesting because NFS misconfigurations can cause a attacker to manipulate their local UID to gain access to files they normally shouldn't have 
 
 ## Default Configuration 
+- NFS is easier to configure than FTP or SMB because there aren't as many options
+- `/el`

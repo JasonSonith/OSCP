@@ -21,3 +21,4 @@ permalink: oscp/techniques/footprinting/nfs
 - `NFSv4` simplifies the use of the protocol across firewalls because it uses only UDP or TCP port 2049
 - NFS is based on the *Open Network Computing Remote Procedure Call (ONC-RPC/SUN-RPC* protocol exposed on TCP and UDP port 111
 - It uses RPC to communicate which lets your computer ask another computer to perform actions like opening a file or looking for the contents of a certain directory
+- NFSv4 uses *XDR* to send data between different systems

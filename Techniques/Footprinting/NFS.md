@@ -24,4 +24,19 @@ permalink: oscp/techniques/footprinting/nfs
 - NFSv4 uses *XDR* to send data between different systems
 - NFS provides a *UID* and a *GID* to a client which assigns permissions to them and those permissions are checked before performing any actions
 
-##
+## NFS Basic Flow
+```
+Your computer
+    |
+    | "I'm UID 1000, give me file.txt"
+    v
+RPC
+    |
+    v
+NFS Server
+    |
+    | Check file owner/group/permissions
+    v
+file.txt
+```
+- This is important in pentesting because NFS misconfigura

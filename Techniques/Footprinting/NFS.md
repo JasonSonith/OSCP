@@ -50,3 +50,16 @@ file.txt
 ![[Pasted image 20260916014407.png]]
 - This file is showing which folders on my machine I share over NFS
 - Format is `<folder to share>             <client allowed to access><permissions>`
+
+#### Table of Options of Permissions
+
+|**Option**|**Description**|
+|---|---|
+|`rw`|Read and write permissions.|
+|`ro`|Read only permissions.|
+|`sync`|Synchronous data transfer. (A bit slower)|
+|`async`|Asynchronous data transfer. (A bit faster)|
+|`secure`|Ports above 1024 will not be used.|
+|`insecure`|Ports above 1024 will be used.|
+|`no_subtree_check`|This option disables the checking of subdirectory trees.|
+|`root_squash`|Assigns all permissions to files of root UID/GID 0 to the UID/GID of anonymous, which prevents `root` from accessing files on an NFS mount.|

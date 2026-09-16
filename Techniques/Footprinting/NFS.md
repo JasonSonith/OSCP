@@ -66,4 +66,6 @@ file.txt
 #### ExportFS
 ![[Pasted image 20260916021335.png]]
 - This shares the folder `/mnt/nfs` to the subnet of `10.129.14.0/24`
-- All ho
+- All hosts on the network are now able to mount this NFS share and inspect the contents inside the folder
+
+## Dangerous Settings

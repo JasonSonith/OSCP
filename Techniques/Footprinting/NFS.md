@@ -40,3 +40,5 @@ NFS Server
 file.txt
 ```
 - This is important in pentesting because NFS misconfigurations can cause a attacker to manipulate their local UID to gain access to files they normally shouldn't have 
+
+## Default Configuration 

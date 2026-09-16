@@ -79,4 +79,5 @@ file.txt
 - Usually found on TCP ports `111` and `2049`
 
 #### Nmap scan
-Using the `rpcinfo` NSE script retrieves list of all current running RPC services, names, descriptions, and ports they use 
+- Using the `rpcinfo` NSE script retrieves list of all current running RPC services, names, descriptions, and ports they use 
+- `nfs*` script can also be used to show us the contents of a share and it's stats

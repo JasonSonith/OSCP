@@ -88,3 +88,4 @@ file.txt
 #### Mounting the NFS shares
 ![[Pasted image 20260916031946.png]]
 - Here we have the chance to access rights and the usernames and the group to whom the files belong to
+- If the NFS server trusts client supplied UID/GID values, then having the same one locally c

@@ -49,4 +49,4 @@ file.txt
 #### Exports File
 ![[Pasted image 20260916014407.png]]
 - This file is showing which folders on my machine I share over NFS
-- Format is `<folder to share>             <client allowed to access`
+- Format is `<folder to share>             <client allowed to access><permissions>`

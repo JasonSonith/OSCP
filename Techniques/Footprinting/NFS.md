@@ -63,3 +63,6 @@ file.txt
 | `insecure`         | Ports above 1024 will be used.                           |
 | `no_subtree_check` | This option disables the checking of subdirectory trees. |
 | `root_squash`      | Changes remote root user to unprivileged anonymous user  |
+#### ExportFS
+![[Pasted image 20260916021335.png]]
+- This shares the folder `/mnt/nfs` to the subnet of ``

@@ -43,4 +43,5 @@ file.txt
 
 ## Default Configuration 
 - NFS is easier to configure than FTP or SMB because there aren't as many options
-- `/el`
+- `/etc/exports` contains a table of physical filesystems on a NFS server accessible by clients 
+	- This can show us which options are available to us 

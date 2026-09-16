@@ -19,4 +19,4 @@ permalink: oscp/techniques/footprinting/nfs
 	1) Kerberos checks password and gives you a *Ticket Granting Ticket (TGT)*
 	2) You get another TGT if you want to interact with something like a fileserver by using your current TGT to get the one for the file server
 - `NFSv4` simplifies the use of the protocol across firewalls because it uses only UDP or TCP port 2049
-- NFS is based on the *Open Network Computing Remote Procedure Call (ONC-RPC/SUN-RPC* protocol exposed on TCP and UDP 
+- NFS is based on the *Open Network Computing Remote Procedure Call (ONC-RPC/SUN-RPC* protocol exposed on TCP and UDP port 111

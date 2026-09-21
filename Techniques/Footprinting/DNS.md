@@ -14,4 +14,4 @@ permalink: oscp/techniques/footprinting/dns
 	- *Non-authoritative name server*: A server that knows an answer but not the official source. Usually learned the answer from another DNS server and saves it temporarily
 	- *Caching server*: Remembers previous DNS answers so it can respond quickly
 	- *Forwarding server*: Passes the responsibility to another DNS server
-	- *Resolver*: Part that does the work of finding the answer and asks D
+	- *Resolver*: Part that does the work of finding the answer and asks DNS on your behalf and returns the final IP address

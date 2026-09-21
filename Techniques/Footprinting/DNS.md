@@ -9,7 +9,7 @@ permalink: oscp/techniques/footprinting/dns
 - Information distributed over thousands of name servers
 - Globally distributed DNS servers translate domain names in IP addresses
 - Several types of DNS servers:
-	- DNS root server
+	- DNS root server: Starting point of DN
 	- Authoritative name server 
 	- Non-authoritative name server
 	- Caching server

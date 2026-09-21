@@ -1,7 +1,7 @@
 ---
 title: CLAUDE
 type: note
-permalink: oscp/claude
+permalink: oscp/claude-1
 ---
 
 # OSCP Study Vault — Notes for Claude Code

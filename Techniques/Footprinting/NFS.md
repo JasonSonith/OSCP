@@ -89,6 +89,8 @@ file.txt
 ![[Pasted image 20260916031946.png]]
 - Here we have the chance to access rights and the usernames and the group to whom the files belong to
 	- `-t nfs` means the remote filesystem uses NFS
-	- `$ip`
+	- `$ip\:/` connects to host stored in ip and mount the exported root path
+	- `\:` escapes the colon in the shell
+	- `-o nolock` Disables NFS file locking (prevents two computers from modifying the same remote file at the same time and cor)
 - If the NFS server trusts client supplied UID/GID values, then having the same one locally can make the server give you access to those files
 - Use `ls -l` to list usernames and group names and `ls -n` to list UIDs and GUIDs

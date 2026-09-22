@@ -107,4 +107,6 @@ Returns 1.2.3.4
 
 #### DIG - AXFR Zone Transfer
 ![[Pasted image 20260921234206.png]]
-- Sends the entire DNS zone file and in this case we got `app.`
+- Sends the entire DNS zone file and in this case we got `app.inlanefreight.htb`, `internal.inlanefreight.htb`, `mail1.inlanefreight.htb`, `ns.inlanefreight.htb` with their IP addresses
+
+#### DIG - AXFR Zone Tra

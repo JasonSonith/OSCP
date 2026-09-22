@@ -50,3 +50,8 @@ permalink: oscp/techniques/footprinting/dns
 	- Those local config files are usually `named.conf.local` , `named.conf.options`, and `named.conf.log`
 	- `name.conf` is divided in serveral options that control the behavior of the name server such as `global options` and `zone options`
 - Global options are general and affect all zones
+- If a option is global and zone specific then the zone option takes priority
+
+## Local DNS Configuration
+![[Pasted image 20260921212706.png]]
+- 

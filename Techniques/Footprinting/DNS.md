@@ -100,3 +100,7 @@ Returns 1.2.3.4
 ![[Pasted image 20260921233709.png]]
 - what version the software is running
 - The example returned `9.10.6-P1`
+
+#### Dig - ANY Query
+![[Pasted image 20260921234042.png]]
+- Gives all availiable DNS information such

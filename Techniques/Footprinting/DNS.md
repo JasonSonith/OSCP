@@ -54,4 +54,4 @@ permalink: oscp/techniques/footprinting/dns
 
 ## Local DNS Configuration
 ![[Pasted image 20260921212706.png]]
-- 
+- In this file we can define different zones which are

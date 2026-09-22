@@ -36,3 +36,6 @@ permalink: oscp/techniques/footprinting/dns
 | `CNAME`    | Serves as alias for another domain name. To visit `www.hackthebox.edu` you need to create the A record for `hackthebox.eu` and the CNAME record for `www.hackthebox.eu` |
 | `PTR`      | Coverts IP to domain                                                                                                                                                    |
 | `SOA`      | Provides info about DNS zone and email address of the administrative contact                                                                                            |
+### SOA example
+![[Pasted image 20260921210705.png]]
+- 

@@ -26,13 +26,13 @@ permalink: oscp/techniques/footprinting/dns
 
 ## DNS Record
 
-| DNS record | Column 2 |
-| ---------- | -------- |
-|            |          |
-|            |          |
-|            |          |
-|            |          |
-|            |          |
-|            |          |
-|            |          |
-|            |          |
+| DNS record | Description                        |
+| ---------- | ---------------------------------- |
+| `A`        | Returns the requested IPv$ address |
+| `AAAA`     |                                    |
+| `MX`       |                                    |
+| `NS`       |                                    |
+| `TXT`      |                                    |
+| `CNAME`    |                                    |
+| `PTR`      |                                    |
+| `SOA`      |                                    |

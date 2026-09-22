@@ -119,4 +119,4 @@ for sub in $(cat subdomains.txt); do
     dig $sub.inlanefreight.htb @$$ip
 done
 ```
-- takes a wordlist 
+- takes a wordlist and returns example subdomains that were found

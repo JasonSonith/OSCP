@@ -45,3 +45,4 @@ permalink: oscp/techniques/footprinting/dns
 	1) Local DNS configuration files
 	2) zone files
 	3) reverse name resolution files
+- The DNS server *Bind9* is usually served in linux based distributions

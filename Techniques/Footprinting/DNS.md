@@ -81,3 +81,6 @@ Returns 1.2.3.4
 #### Reverse Name Resolution Files
 ![[Pasted image 20260921214831.png]]
 - For a FQDN to resolved to a IP address, the DNS server must have a reverse lookup file
+
+## Dangerous Settings
+- Functionality usually takes priority over security

@@ -24,3 +24,15 @@ permalink: oscp/techniques/footprinting/dns
 	- Can be used to see what email server serves the domain and what the domain's name servers are called
 ![[Pasted image 20260921205407.png]]
 
+## DNS Record
+
+| DNS record | Column 2 |
+| ---------- | -------- |
+|            |          |
+|            |          |
+|            |          |
+|            |          |
+|            |          |
+|            |          |
+|            |          |
+|            |          |

@@ -55,4 +55,5 @@ permalink: oscp/techniques/footprinting/dns
 ## Local DNS Configuration
 ![[Pasted image 20260921212706.png]]
 - In this file we can define different zones which are then divided into individual files
-- A *zone file* 
+- A *zone file* is what the DNS server checks before it gives back the answer
+- If a zone file has a syntax error, the DNS server may respond to a client with `SERVFAIL`

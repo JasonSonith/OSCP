@@ -87,3 +87,5 @@ Returns 1.2.3.4
 - `allow-query` defines which hosts are allowed to send requests to the DNS server
 - `allow-recursion`: Defines which hosts are allowed to send recursive requests to DNS server
 - `zone-statistics`: Collects statistical data of zones
+
+## Footprinting the Service

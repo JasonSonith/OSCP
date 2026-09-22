@@ -103,4 +103,8 @@ Returns 1.2.3.4
 
 #### Dig - ANY Query
 ![[Pasted image 20260921234042.png]]
-- Gives all availiable DNS information such
+- Gives all availiable DNS information such as TXT, SOA, NS, A but does not guarantee every DNS record
+
+#### DIG - AXFR Zone Transfer
+![[Pasted image 20260921234206.png]]
+- 

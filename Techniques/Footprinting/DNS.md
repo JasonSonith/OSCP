@@ -109,4 +109,6 @@ Returns 1.2.3.4
 ![[Pasted image 20260921234206.png]]
 - Sends the entire DNS zone file and in this case we got `app.inlanefreight.htb`, `internal.inlanefreight.htb`, `mail1.inlanefreight.htb`, `ns.inlanefreight.htb` with their IP addresses
 
-#### DIG - AXFR Zone Tra
+#### DIG - AXFR Zone Transfer - Internal
+![[Pasted image 20260921234424.png]]
+- Same exact idea as previous AXFR but the difference you're requesting internal domains such as `internal.inlanefreight.htb`

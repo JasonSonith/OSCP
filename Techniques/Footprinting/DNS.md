@@ -41,3 +41,4 @@ permalink: oscp/techniques/footprinting/dns
 - In this example the email address of the administrator is `awsdns-hostmaster@amazon.com`
 
 ## Default Configuration
+- All DNS serv

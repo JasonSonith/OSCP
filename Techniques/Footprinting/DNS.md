@@ -73,4 +73,5 @@ Returns 1.2.3.4
 
 ## Zone Files
 ![[Pasted image 20260921213626.png]]
-- `$ORIGIN domain.com` a
+- `$ORIGIN domain.com` means assume each name ends with `.domain.com` that is short
+- 

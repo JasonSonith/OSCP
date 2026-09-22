@@ -46,4 +46,6 @@ permalink: oscp/techniques/footprinting/dns
 	2) zone files
 	3) reverse name resolution files
 - The DNS server *Bind9* is usually served in linux based distributions
-	- It's local config file name is `named.conf` which is divided in two se
+	- It's local config file name is `named.conf` which is divided in two sections (optional for general settings and zone entries for individual domains)
+	- Those local config files are usually `named.conf.local` , `named.conf.options`, and `named.conf.log`
+	- 

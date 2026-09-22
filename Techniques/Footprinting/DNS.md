@@ -49,4 +49,4 @@ permalink: oscp/techniques/footprinting/dns
 	- It's local config file name is `named.conf` which is divided in two sections (optional for general settings and zone entries for individual domains)
 	- Those local config files are usually `named.conf.local` , `named.conf.options`, and `named.conf.log`
 	- `name.conf` is divided in serveral options that control the behavior of the name server such as `global options` and `zone options`
-- 
+- Global options are general and affect all zones

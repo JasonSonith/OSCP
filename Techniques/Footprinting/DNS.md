@@ -126,4 +126,4 @@ done
 ![[Pasted image 20260921234901.png]]
 
 - Instead of manually digging it enumerates the DNs discovery and tries several techniques
-- In this example in c
+- In this example in checks things like Name servers, mail servers, zone transfers, bind version, and subdomain brute forcing

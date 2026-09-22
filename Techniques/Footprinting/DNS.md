@@ -26,13 +26,13 @@ permalink: oscp/techniques/footprinting/dns
 
 ## DNS Record
 
-| DNS record | Description                                         |
-| ---------- | --------------------------------------------------- |
-| `A`        | Returns the requested IPv$ address                  |
-| `AAAA`     | Returns the requested IPv6 address                  |
-| `MX`       | Returns the responsible mail servers                |
-| `NS`       | Returns the DNS servers (nameservers) of the domain |
-| `TXT`      | Contains info such as                               |
-| `CNAME`    |                                                     |
-| `PTR`      |                                                     |
-| `SOA`      |                                                     |
+| DNS record | Description                                                                                                    |
+| ---------- | -------------------------------------------------------------------------------------------------------------- |
+| `A`        | Returns the requested IPv$ address                                                                             |
+| `AAAA`     | Returns the requested IPv6 address                                                                             |
+| `MX`       | Returns the responsible mail servers                                                                           |
+| `NS`       | Returns the DNS servers (nameservers) of the domain                                                            |
+| `TXT`      | Contains info such as validating Google Search Console or validate SSL certs. Checks for SPF and DMARC as well |
+| `CNAME`    |                                                                                                                |
+| `PTR`      |                                                                                                                |
+| `SOA`      |                                                                                                                |

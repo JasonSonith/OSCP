@@ -21,4 +21,6 @@ permalink: oscp/techniques/footprinting/dns
 	- Things like DNS over TLS *DoT*, DNS over HTTPS *DoH*, and *DNSCrypt* (encrypts traffic over name server) are used over the server
 
 - DNS stores and outputs information about services associated with the domain
-	- Can be used to see 
+	- Can be used to see what email server serves the domain and what the domain's name servers are called
+![[Pasted image 20260921205407.png]]
+

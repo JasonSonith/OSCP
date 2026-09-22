@@ -32,7 +32,7 @@ permalink: oscp/techniques/footprinting/dns
 | `AAAA`     | Returns the requested IPv6 address                  |
 | `MX`       | Returns the responsible mail servers                |
 | `NS`       | Returns the DNS servers (nameservers) of the domain |
-| `TXT`      |                                                     |
+| `TXT`      | Contains info such as                               |
 | `CNAME`    |                                                     |
 | `PTR`      |                                                     |
 | `SOA`      |                                                     |

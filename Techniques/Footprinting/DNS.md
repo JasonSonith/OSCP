@@ -120,3 +120,10 @@ for sub in $(cat subdomains.txt); do
 done
 ```
 - takes a wordlist and returns example subdomains that were found
+
+#### DNSenum
+![[Pasted image 20260921234846.png]]
+![[Pasted image 20260921234901.png]]
+
+- Instead of manually digging it enumerates the DNs discovery and tries several techniques
+- In this example in c

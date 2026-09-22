@@ -18,3 +18,4 @@ permalink: oscp/techniques/footprinting/dns
 
 - DNS is mainly unencrypted
 	- Devices on a local WLAN and internet provides and hack in and spy on queries
+	- Things like DNS over TLS 

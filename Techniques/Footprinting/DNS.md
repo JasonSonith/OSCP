@@ -15,3 +15,6 @@ permalink: oscp/techniques/footprinting/dns
 	- *Caching server*: Remembers previous DNS answers so it can respond quickly
 	- *Forwarding server*: Passes the responsibility to another DNS server
 	- *Resolver*: Part that does the work of finding the answer and asks DNS on your behalf and returns the final IP address
+
+- DNS is mainly unencrypted
+- 

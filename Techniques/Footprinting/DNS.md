@@ -57,3 +57,16 @@ permalink: oscp/techniques/footprinting/dns
 - In this file we can define different zones which are then divided into individual files
 - A *zone file* is what the DNS server checks before it gives back the answer
 - If a zone file has a syntax error, the DNS server may respond to a client with `SERVFAIL`
+
+#### How it works
+```
+DNS query
+    ↓
+"Where is www.example.com?"
+    ↓
+DNS server checks zone file
+    ↓
+Finds www.example.com -> 1.2.3.4
+    ↓
+Returns 1.2.3.4
+```

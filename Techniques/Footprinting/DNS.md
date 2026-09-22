@@ -107,4 +107,4 @@ Returns 1.2.3.4
 
 #### DIG - AXFR Zone Transfer
 ![[Pasted image 20260921234206.png]]
-- 
+- Sends the entire DNS zone file and in this case we got `app.`

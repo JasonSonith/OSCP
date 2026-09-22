@@ -39,3 +39,5 @@ permalink: oscp/techniques/footprinting/dns
 ### SOA example
 ![[Pasted image 20260921210705.png]]
 - In this example the email address of the administrator is `awsdns-hostmaster@amazon.com`
+
+## Default Configuration

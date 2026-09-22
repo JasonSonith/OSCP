@@ -17,4 +17,4 @@ permalink: oscp/techniques/footprinting/dns
 	- *Resolver*: Part that does the work of finding the answer and asks DNS on your behalf and returns the final IP address
 
 - DNS is mainly unencrypted
-- 
+	- Devices on a local WLAN and internet provides and hack in and spy on queries

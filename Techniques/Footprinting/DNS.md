@@ -75,4 +75,5 @@ Returns 1.2.3.4
 ![[Pasted image 20260921213626.png]]
 - `$ORIGIN domain.com` means assume each name ends with `.domain.com` that is short
 	- `server1` really means `server1.domain.com`
-- `$TTL 86400` means Time To Live
+- `$TTL 86400` means Time To Live and tells the DNS server to cache it for 86,400 seconds
+- 

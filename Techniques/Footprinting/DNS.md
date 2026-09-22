@@ -90,4 +90,6 @@ Returns 1.2.3.4
 
 ## Footprinting the Service
 - Footprinting is done as the result of the requests we send
-- 
+
+#### Using DIG
+![[Pasted image 20260921233624.png]]

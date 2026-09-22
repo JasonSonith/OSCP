@@ -89,4 +89,5 @@ Returns 1.2.3.4
 - `zone-statistics`: Collects statistical data of zones
 
 ## Footprinting the Service
+- Footprinting is done as the result of the requests we send
 - 

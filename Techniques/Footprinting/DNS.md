@@ -113,3 +113,10 @@ Returns 1.2.3.4
 ![[Pasted image 20260921234424.png]]
 - Same exact idea as previous AXFR but the difference you're requesting internal domains such as `internal.inlanefreight.htb`
 - It also exposes internal machines such as `dc1.inlanefreight.htb`, `vpn.inlanefreight.htb`, `wsus..inlanefreight.htb` with their internal IPs just to name a few
+#### Subdomain brute forcing
+```bash
+for sub in $(cat subdomains.txt); do
+    dig $sub.inlanefreight.htb @$$ip
+done
+```
+- takes a wordlist 

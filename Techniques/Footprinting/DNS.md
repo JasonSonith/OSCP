@@ -93,6 +93,10 @@ Returns 1.2.3.4
 
 #### Using DIG NS query
 ![[Pasted image 20260921233624.png]]
+- Shows which DNS server is responsible for domain
+- Here `inlanefreight.htb` is responsible
 
 #### DIG version Query
 ![[Pasted image 20260921233709.png]]
+- what version the software is running
+- 

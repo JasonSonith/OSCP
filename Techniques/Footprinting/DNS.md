@@ -77,3 +77,7 @@ Returns 1.2.3.4
 	- `server1` really means `server1.domain.com`
 - `$TTL 86400` means Time To Live and tells the DNS server to cache it for 86,400 seconds
 - the SOA here contains information about the DNS zone `dns1.domain.com`, the main server `hostmaster.domain.com`, the registered email `hostmaster@domain.com`, the numbers controlling DNS syncing and caching, and the Mail exchange servers (`mx.domain.com` and `mx2.domain.com`)
+
+#### Reverse Name Resolution Files
+![[Pasted image 20260921214831.png]]
+- 

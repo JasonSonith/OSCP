@@ -70,3 +70,5 @@ Finds www.example.com -> 1.2.3.4
     ↓
 Returns 1.2.3.4
 ```
+
+## Zone Files

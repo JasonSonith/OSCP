@@ -1,5 +1,5 @@
 ---
-<<<<<<< HEAD
+
 title: Codex
 type: note
 permalink: oscp/Codex
@@ -7,13 +7,10 @@ permalink: oscp/Codex
 
 # OSCP Study Vault — Notes for Codex
 =======
-title: CLAUDE
+title: Codex
 type: note
-permalink: oscp/claude-1
----
 
-# OSCP Study Vault — Notes for Claude Code
->>>>>>> origin/main
+# OSCP Study Vault — Notes for Codex
 
 I'm studying for CPTS then OSCP. Help me learn, take notes, and understand pentesting concepts.
 
@@ -45,4 +42,4 @@ I'll tell you the box, what I found, and what I already tried (X, Y, Z).
 
 ## .png files
 If you see any png files move them to Attachments/
->>>>>>> origin/main
+

@@ -72,3 +72,5 @@ Returns 1.2.3.4
 ```
 
 ## Zone Files
+![[Pasted image 20260921213626.png]]
+- `$ORIGIN domain.com` a

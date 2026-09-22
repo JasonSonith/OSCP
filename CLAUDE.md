@@ -30,3 +30,6 @@ I'll tell you the box, what I found, and what I already tried (X, Y, Z).
 - Give the most likely next step first, with the exact command to run.
 - If you need one piece of output I didn't paste, ask for just that.
 (My cost habit: I paste only the relevant output, and keep one box per chat.)
+
+## .png files
+If you see any png files move them to Attachments/

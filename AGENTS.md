@@ -1,10 +1,19 @@
 ---
+<<<<<<< HEAD
 title: Codex
 type: note
 permalink: oscp/Codex
 ---
 
 # OSCP Study Vault — Notes for Codex
+=======
+title: CLAUDE
+type: note
+permalink: oscp/claude-1
+---
+
+# OSCP Study Vault — Notes for Claude Code
+>>>>>>> origin/main
 
 I'm studying for CPTS then OSCP. Help me learn, take notes, and understand pentesting concepts.
 
@@ -29,4 +38,11 @@ I'll tell you the box, what I found, and what I already tried (X, Y, Z).
 - Reason about MY specific situation — don't give a generic checklist.
 - Give the most likely next step first, with the exact command to run.
 - If you need one piece of output I didn't paste, ask for just that.
+<<<<<<< HEAD
 (My cost habit: I paste only the relevant output, and keep one box per chat.)
+=======
+(My cost habit: I paste only the relevant output, and keep one box per chat.)
+
+## .png files
+If you see any png files move them to Attachments/
+>>>>>>> origin/main

@@ -83,5 +83,6 @@ Returns 1.2.3.4
 - For a FQDN to resolved to a IP address, the DNS server must have a reverse lookup file
 
 ## Dangerous Settings
-- Functionality usually takes priority over security so things are released early with vulnerabilties
-- 
+- Functionality usually takes priority over security so things are released early with vulnerabilities
+- `allow-query` defines which hosts are allowed to send requests to the DNS server
+- ``

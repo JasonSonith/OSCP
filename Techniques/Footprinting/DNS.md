@@ -76,4 +76,4 @@ Returns 1.2.3.4
 - `$ORIGIN domain.com` means assume each name ends with `.domain.com` that is short
 	- `server1` really means `server1.domain.com`
 - `$TTL 86400` means Time To Live and tells the DNS server to cache it for 86,400 seconds
-- the SOA here contains 
+- the SOA here contains information about the DNS zone `dns1.domain.com`, the main server `hostmaster.domain.com`, the registered email `hostmaster@domain.com`, and the numbers controlling DNS syncing and caching

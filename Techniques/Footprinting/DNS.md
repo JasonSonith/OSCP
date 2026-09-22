@@ -91,5 +91,8 @@ Returns 1.2.3.4
 ## Footprinting the Service
 - Footprinting is done as the result of the requests we send
 
-#### Using DIG
+#### Using DIG NS query
 ![[Pasted image 20260921233624.png]]
+
+#### DIG version Query
+![[Pasted image 20260921233709.png]]

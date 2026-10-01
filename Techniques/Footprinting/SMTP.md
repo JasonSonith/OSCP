@@ -199,4 +199,5 @@ Connection closed by foreign host.
 ---
 
 ## Dangerous Settings
-- 
+- Senders use a relay server that sends trust to prevent their message from being filtered out and sent to spam
+- Adminstators usually allow all

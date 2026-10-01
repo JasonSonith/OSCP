@@ -109,4 +109,34 @@ EHLO mail1
 ```
 
 - `VRFY` command is used to verify if a user exists on the system 
-	- Sometimes it responds with a code `252` meaning it can't verify whether or not  
+	- Sometimes it responds with a code `252` meaning it can't verify whether or not it can exist
+
+#### Using `VRFY`
+```bash
+SonithGT@htb[/htb]$ telnet 10.129.14.128 25
+
+Trying 10.129.14.128...
+Connected to 10.129.14.128.
+Escape character is '^]'.
+220 ESMTP Server 
+
+VRFY root
+
+252 2.0.0 root
+
+
+VRFY cry0l1t3
+
+252 2.0.0 cry0l1t3
+
+
+VRFY testuser
+
+252 2.0.0 testuser
+
+
+VRFY aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+252 2.0.0 aaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
+```

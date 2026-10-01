@@ -1,3 +1,9 @@
+---
+title: SMTP
+type: note
+permalink: oscp/techniques/footprinting/smtp
+---
+
 ## Overview
 - *SMTP* is a protocol for sharing emails for an IP network
 - Usually on Port `25` but now on TCP port `587` 

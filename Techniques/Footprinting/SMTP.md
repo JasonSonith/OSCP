@@ -78,3 +78,9 @@ home_mailbox = /home/postfix
 |`NOOP`|The client requests a response from the server to prevent disconnection due to time-out.|
 |`QUIT`|The client terminates the session.|
 
+- *Telnet* is used to initialize connection to SMTP
+
+### Using Telnet to Communicate with SMTP
+```bash
+
+```

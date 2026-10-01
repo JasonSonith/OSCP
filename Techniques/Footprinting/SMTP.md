@@ -36,3 +36,5 @@ RECIPIENT READS IT
 - You don't know when your email arrives because the SMTP server sends a bounce message that is hard to understand when that happens
 - The *From* address can be faked and spoofed because SMTP does not prove the sender's address
 
+- *ESMTP* is a extension of SM
+

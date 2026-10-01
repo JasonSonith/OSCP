@@ -200,4 +200,13 @@ Connection closed by foreign host.
 
 ## Dangerous Settings
 - Senders use a relay server that sends trust to prevent their message from being filtered out and sent to spam
-- Adminstators usually allow all
+- Administrators usually allow all IP addresses to keep availability of communication
+
+#### Allowing all IPS
+```bash
+mynetworks = 0.0.0.0/0
+```
+- This allows SMTP servers to send fake emails or spoof emails
+
+--- 
+##

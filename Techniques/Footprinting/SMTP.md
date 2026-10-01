@@ -209,4 +209,26 @@ mynetworks = 0.0.0.0/0
 - This allows SMTP servers to send fake emails or spoof emails
 
 --- 
-##
+## Foot printing
+
+#### Default nmap command
+```bash
+SonithGT@htb[/htb]$ sudo nmap 10.129.14.128 -sC -sV -p25
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-09-27 17:56 CEST
+Nmap scan report for 10.129.14.128
+Host is up (0.00025s latency).
+
+PORT   STATE SERVICE VERSION
+25/tcp open  smtp    Postfix smtpd
+|_smtp-commands: mail1.inlanefreight.htb, PIPELINING, SIZE 10240000, VRFY, ETRN, ENHANCEDSTATUSCODES, 8BITMIME, DSN, SMTPUTF8, CHUNKING, 
+MAC Address: 00:00:00:00:00:00 (VMware)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 14.09 seconds
+```
+
+#### Using `open-relay` script
+```bash
+
+```

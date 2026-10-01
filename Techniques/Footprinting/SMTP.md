@@ -32,3 +32,5 @@ Places it in the recipient's mailbox
 RECIPIENT READS IT
 ```
 
+### Disadvantages
+- 

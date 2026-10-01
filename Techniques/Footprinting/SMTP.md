@@ -40,4 +40,27 @@ RECIPIENT READS IT
 
 ## Default Configuration
 
+```bash
+SonithGT@htb[/htb]$ cat /etc/postfix/main.cf | grep -v "#" | sed -r "/^\s*$/d"
+
+smtpd_banner = ESMTP Server 
+biff = no
+append_dot_mydomain = no
+readme_directory = no
+compatibility_level = 2
+smtp_tls_session_cache_database = btree:${data_directory}/smtp_scache
+myhostname = mail1.inlanefreight.htb
+alias_maps = hash:/etc/aliases
+alias_database = hash:/etc/aliases
+smtp_generic_maps = hash:/etc/postfix/generic
+mydestination = $myhostname, localhost 
+masquerade_domains = $myhostname
+mynetworks = 127.0.0.0/8 10.129.0.0/16
+mailbox_size_limit = 0
+recipient_delimiter = +
+smtp_bind_address = 0.0.0.0
+inet_protocols = ipv4
+smtpd_helo_restrictions = reject_invalid_hostname
+home_mailbox = /home/postfix
+```
 

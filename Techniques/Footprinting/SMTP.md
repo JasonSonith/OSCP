@@ -108,3 +108,5 @@ EHLO mail1
 250 CHUNKING
 ```
 
+- `VRFY` command is used to verify if a user exists on the system 
+	- Sometimes it responds with a code `252` meaning it can't verify whether or not  

@@ -103,3 +103,6 @@ SonithGT@htb[/htb]$ curl -k 'imaps://10.129.14.128' --user user:p4ssw0rd
 * LIST (\HasNoChildren) "." Important
 * LIST (\HasNoChildren) "." INBOX
 ```
+- If we use the `-v` option we can see TLS, SSL certs, and/or banner
+
+#### Interacting through Open

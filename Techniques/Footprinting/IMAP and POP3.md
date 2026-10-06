@@ -95,4 +95,11 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 12.74 seconds
 ```
 - From the output, the common name `mail1.inlanefreight.htb` and email server belong to the `Inlanefreight` organization: `commonName=mail1.inlanefreight.htb/organizationName=Inlanefreight/stateOrProvinceName=California/countryName=US`
-- 
+
+#### cURL
+```bash
+SonithGT@htb[/htb]$ curl -k 'imaps://10.129.14.128' --user user:p4ssw0rd
+
+* LIST (\HasNoChildren) "." Important
+* LIST (\HasNoChildren) "." INBOX
+```

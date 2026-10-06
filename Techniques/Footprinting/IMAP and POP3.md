@@ -57,3 +57,4 @@ permalink: oscp/techniques/footprinting/untitled-1
 ---
 
 ## Foot printing the Service
+- Ports used for *POP3*: `143` and `993`

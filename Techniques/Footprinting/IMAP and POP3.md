@@ -12,3 +12,4 @@ permalink: oscp/techniques/footprinting/untitled-1
 
 ## Default Configuration
 - `dovecot-imapd` and `dovecot-pop3d` using `apt` are used to install IMAP/POP3 
+- 

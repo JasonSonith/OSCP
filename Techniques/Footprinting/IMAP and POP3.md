@@ -58,4 +58,4 @@ permalink: oscp/techniques/footprinting/untitled-1
 
 ## Foot printing the Service
 - Ports used for *IMAP*: `143` and `993`
-- Ports used for *POP3*: `110`
+- Ports used for *POP3*: `110` and `995`

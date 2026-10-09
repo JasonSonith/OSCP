@@ -16,4 +16,4 @@ permalink: oscp/techniques/footprinting/untitled
 
 ---
 ## OID
-- 
+- *OID* is the address of a specific piece of information that SNMP can read 

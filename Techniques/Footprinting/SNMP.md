@@ -30,4 +30,4 @@ permalink: oscp/techniques/footprinting/untitled
 ---
 ## SNMP versions
 - There are three versions *SNMPv1*, *SNMPv2*, and *SNMPv3* 
-- v1 uses a shared community strin
+- v1 uses a shared community string (shared password included with requests) and sends data 

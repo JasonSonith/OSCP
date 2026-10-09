@@ -16,4 +16,13 @@ permalink: oscp/techniques/footprinting/untitled
 
 ---
 ## OID
-- *OID* is the address of a specific piece of information that SNMP can read 
+- *OID* is the address of a specific piece of information that SNMP can read such as device name or uptime
+
+#### It is in tree format
+```
+1.3.6.1.2.1.1.5.0
+              │ │
+              │ └─ This particular value (instance)
+              └─── Device name (sysName)
+```
+- Each number takes you further down a tree 

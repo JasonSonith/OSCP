@@ -15,3 +15,5 @@ permalink: oscp/techniques/footprinting/untitled
 - MIB is a text file that provides information of a object such as *OID* (Object Identifier), access rights, description, etc. of a specific object
 
 ---
+## OID
+- 

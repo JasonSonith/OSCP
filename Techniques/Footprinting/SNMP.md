@@ -63,5 +63,7 @@ rouser authPrivUser authpriv -V systemonly
 |`rwcommunity6 <community string> <IPv6 address>`|Same access as with `rwcommunity` with the difference of using IPv6.|-
 
 ---
-
-## 
+## Footprinting
+- Tools like `snmpwalk`, `onesixtyone`, and `braa` are used for foot printing
+	- `snmpwalk` queries OID and their information
+	- 

@@ -32,4 +32,8 @@ permalink: oscp/techniques/footprinting/untitled
 - There are three versions *SNMPv1*, *SNMPv2*, and *SNMPv3* 
 - v1 uses a shared community string (shared password included with requests) and sends data without encryption
 - v2 has same weakness as v1 except it improves information retrieval
-- v3 supports user accounts, verifies authenticity, 
+- v3 supports user accounts, verifies authenticity, and provides encryption
+
+---
+## Default Configurations
+- Default configuration provides basic settings such as IP addresses, p

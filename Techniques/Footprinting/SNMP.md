@@ -140,4 +140,8 @@ iso.3.6.1.2.1.25.6.3.1.2.1246 = STRING: "python3-apt_2.0.0ubuntu0.20.04.6_amd64"
 ...SNIP...
 
 ```
-- If we see that the service does n
+- If we see that the service does not require authentication (v1 and v2c), then we query internal system 
+
+#### `OneSixtyOne` + `Seclist` to find Community strings
+```bash
+```

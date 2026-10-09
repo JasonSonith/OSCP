@@ -16,7 +16,7 @@ I'm studying for CPTS then OSCP. Help me learn, take notes, and understand pente
 
 ## How to answer me
 - Plain, simple terms — I'm still learning. Define jargon the first time it shows up.
-- Keep it short and lean. Skip filler.
+- Keep it short and lean. Skip filler. No overexplaining
 - Use a quick example or analogy when it makes things clearer.
 
 ## Vault layout

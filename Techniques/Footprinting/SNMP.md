@@ -144,4 +144,11 @@ iso.3.6.1.2.1.25.6.3.1.2.1246 = STRING: "python3-apt_2.0.0ubuntu0.20.04.6_amd64"
 
 #### `OneSixtyOne` + `Seclist` to find Community strings
 ```bash
+SonithGT@htb[/htb]$ sudo apt install onesixtyone
+SonithGT@htb[/htb]$ onesixtyone -c /opt/useful/seclists/Discovery/SNMP/snmp.txt 10.129.14.128
+
+Scanning 1 hosts, 3220 communities
+10.129.14.128 [public] Linux htb 5.11.0-37-generic #41~20.04.2-Ubuntu SMP Fri Sep 24 09:06:38 UTC 2021 x86_64
 ```
+
+##

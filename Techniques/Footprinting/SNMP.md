@@ -36,4 +36,21 @@ permalink: oscp/techniques/footprinting/untitled
 
 ---
 ## Default Configurations
-- Default configuration provides basic settings such as IP addresses, p
+- Default configuration provides basic settings such as IP addresses, ports, MIBs, OIDs, authentication, and community strings
+
+#### SNMP Daemon Config
+```bash
+SonithGT@htb[/htb]$ cat /etc/snmp/snmpd.conf | grep -v "#" | sed -r '/^\s*$/d'
+
+sysLocation    Sitting on the Dock of the Bay
+sysContact     Me <me@example.org>
+sysServices    72
+master  agentx
+agentaddress  127.0.0.1,[::1]
+view   systemonly  included   .1.3.6.1.2.1.1
+view   systemonly  included   .1.3.6.1.2.1.25.1
+rocommunity  public default -V systemonly
+rocommunity6 public default -V systemonly
+rouser authPrivUser authpriv -V systemonly
+```
+- 

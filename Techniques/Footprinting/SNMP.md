@@ -8,4 +8,7 @@ permalink: oscp/techniques/footprinting/untitled
 - SNMP enabled hardware devices are routers, switches, servers, IOT devices, and other devices that share that protocol
 - Transmits control commands on port `161`
 - SNMP traps are served on `162` which means clients received packets without requesting (maybe something triggers it server-side)
-- 
+
+---
+## MIB
+- *MIB* (Managemecreated to ensure SNMP access works across manufacturers with different client side combinations

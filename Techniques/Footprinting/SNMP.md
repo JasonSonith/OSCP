@@ -12,4 +12,4 @@ permalink: oscp/techniques/footprinting/untitled
 ---
 ## MIB
 - *MIB* (Management Information Base) was created to ensure SNMP access works across manufacturers with different client side combinations
-- 
+- MIB is a text file that contains 

@@ -28,4 +28,6 @@ permalink: oscp/techniques/footprinting/untitled
 - Each number takes you further down a tree 
 
 ---
-## SNMP
+## SNMP versions
+- There are three versions *SNMPv1*, *SNMPv2*, and *SNMPv3* 
+- v1 uses a shared community strin

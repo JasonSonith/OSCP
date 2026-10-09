@@ -26,3 +26,6 @@ permalink: oscp/techniques/footprinting/untitled
               └─── Device name (sysName)
 ```
 - Each number takes you further down a tree 
+
+---
+## SNMP

@@ -169,3 +169,40 @@ MySQL [mysql]> show tables;
 
 ```
 - The most import databases in a SQL server are `system schema (sys)` and `information schema (information_schema)`
+
+#### Using `sys`
+```bash
+mysql> use sys;
+mysql> show tables;  
+
++-----------------------------------------------+
+| Tables_in_sys                                 |
++-----------------------------------------------+
+| host_summary                                  |
+| host_summary_by_file_io                       |
+| host_summary_by_file_io_type                  |
+| host_summary_by_stages                        |
+| host_summary_by_statement_latency             |
+| host_summary_by_statement_type                |
+| innodb_buffer_stats_by_schema                 |
+| innodb_buffer_stats_by_table                  |
+| innodb_lock_waits                             |
+| io_by_thread_by_latency                       |
+...SNIP...
+| x$waits_global_by_latency                     |
++-----------------------------------------------+
+
+
+mysql> select host, unique_users from host_summary;
+
++-------------+--------------+                   
+| host        | unique_users |                   
++-------------+--------------+                   
+| 10.129.14.1 |            1 |                   
+| localhost   |            2 |                   
++-------------+--------------+                   
+2 rows in set (0,01 sec)  
+```
+- Information schema contains metadata that is retrieved from the system schema
+
+###

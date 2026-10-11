@@ -8,4 +8,4 @@ permalink: oscp/techniques/footprinting/my-sql
 - MySQL works through the *client-server principle* (client -> SQL query -> mySQL server)
 
 ### MySQL Databases
-- Often combined with Linux
+- Used in combination with Linux, Apache, MySQL, PHP (LAMP) or using *Nginx* over Apache (LEMP)

@@ -27,4 +27,6 @@ permalink: oscp/techniques/footprinting/untitled-2
 - To connect the DB, you use windows authentication and the SQL server checks if you have permissions to access it (usually through SAM or Active Directory)
 
 ---
-## Dangerously Settings
+## Dangerous Settings
+- There are lots of ways that a MSSQL database can be misconfigured but a few are:
+	- MSSQL client not using encryption to connect to MSSQL server

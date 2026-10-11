@@ -19,8 +19,8 @@ permalink: oscp/techniques/footprinting/untitled-2
 | `msdb`                  | The SQL Server Agent uses this database to schedule jobs & alerts                                                                                                                                      |     |
 | `tempdb`                | Stores temporary objects                                                                                                                                                                               |     |
 | `resource`              | Read-only database containing system objects included with SQL server                                                                                                                                  |     |
-|                         |                                                                                                                                                                                                        |     |
 - MSSQL ahs some default databases that make us understand the structure of all databases
 
 ---
 ## Default Configuration
+- When a admin creates a MSSQL databases, it will initially run as `NT SERVICE\MSSQLSERVER`

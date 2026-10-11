@@ -130,4 +130,4 @@ msdb
 
 Transactions    
 ```
-- We can use `mssqlcli`
+- We can use `mssqlclient.py` to gain access to remote SQL server

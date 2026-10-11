@@ -30,3 +30,6 @@ permalink: oscp/techniques/footprinting/untitled-2
 ## Dangerous Settings
 - There are lots of ways that a MSSQL database can be misconfigured but a few are:
 	- MSSQL client not using encryption to connect to MSSQL server
+	- Using self signed certs because it is possible to spoof them
+	- Use of named pipes 
+	- Weak and default `sa` creds, admins might've forgot to disable those accounts

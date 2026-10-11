@@ -24,3 +24,4 @@ permalink: oscp/techniques/footprinting/untitled-2
 ---
 ## Default Configuration
 - When a admin creates a MSSQL databases, it will initially run as `NT SERVICE\MSSQLSERVER`
+- 

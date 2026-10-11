@@ -96,4 +96,38 @@ msf6 auxiliary(scanner/mssql/mssql_ping) > run
 [*] 10.129.201.248:       - Scanned 1 of 1 hosts (100% complete)
 [*] Auxiliary module execution completed
 ```
-- This scans the MS
+- This scans the MSSQL service to provide helpful information for us
+
+#### Connecting with `mssqlclient.py`
+```bash
+SonithGT@htb[/htb]$ python3 mssqlclient.py Administrator@10.129.201.248 -windows-auth
+
+Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
+
+Password:
+[*] Encryption required, switching to TLS
+[*] ENVCHANGE(DATABASE): Old Value: master, New Value: master
+[*] ENVCHANGE(LANGUAGE): Old Value: , New Value: us_english
+[*] ENVCHANGE(PACKETSIZE): Old Value: 4096, New Value: 16192
+[*] INFO(SQL-01): Line 1: Changed database context to 'master'.
+[*] INFO(SQL-01): Line 1: Changed language setting to us_english.
+[*] ACK: Result: 1 - Microsoft SQL Server (150 7208) 
+[!] Press help for extra shell commands
+
+SQL> select name from sys.databases
+
+name                                                                                                                               
+
+--------------------------------------------------------------------------------------
+
+master                                                                                                                             
+
+tempdb                                                                                                                             
+
+model                                                                                                                              
+
+msdb                                                                                                                               
+
+Transactions    
+```
+- We can use `mssqlcli`

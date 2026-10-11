@@ -7,4 +7,4 @@ permalink: oscp/techniques/footprinting/untitled-2
 - Written to run on windows OS with strong support for *.NET*
 
 ### MSSQL Clients
-- *SQL Server Management Studio* (SSMS) 
+- *SQL Server Management Studio* (SSMS) is an app used to connect and manage the databases of MySQL

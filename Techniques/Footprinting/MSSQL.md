@@ -1,0 +1,10 @@
+---
+title: Untitled
+type: note
+permalink: oscp/techniques/footprinting/untitled-2
+---
+## Overview
+- Written to run on windows OS with strong support for *.NET*
+
+### MSSQL Clients
+- *SQL Server*

@@ -23,4 +23,5 @@ permalink: oscp/techniques/footprinting/untitled-2
 
 ---
 ## Default Configuration
-- When a admin creates a MSSQL databases, it will initially run as `NT SERVICE\MSSQLSERVER` wihich is a windows account
+- When a admin creates a MSSQL databases, it will initially run as `NT SERVICE\MSSQLSERVER` which is a windows account
+- To connect the DB, you use windows authentication and the SQL server checks if you have permissions to access it (usually through SAM or Active Di)

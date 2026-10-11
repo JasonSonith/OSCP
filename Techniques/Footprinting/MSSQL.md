@@ -75,4 +75,25 @@ Host script results:
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 8.52 seconds
 ```
-- This provides us infor
+- This provides us information such as `hostname`, `database instance name`, `software version of MSSQL`, and if `named pipes` are enabled
+
+#### MSSQL Ping in Metasploit
+```bash
+msf6 auxiliary(scanner/mssql/mssql_ping) > set rhosts 10.129.201.248
+
+rhosts => 10.129.201.248
+
+
+msf6 auxiliary(scanner/mssql/mssql_ping) > run
+
+[*] 10.129.201.248:       - SQL Server information for 10.129.201.248:
+[+] 10.129.201.248:       -    ServerName      = SQL-01
+[+] 10.129.201.248:       -    InstanceName    = MSSQLSERVER
+[+] 10.129.201.248:       -    IsClustered     = No
+[+] 10.129.201.248:       -    Version         = 15.0.2000.5
+[+] 10.129.201.248:       -    tcp             = 1433
+[+] 10.129.201.248:       -    np              = \\SQL-01\pipe\sql\query
+[*] 10.129.201.248:       - Scanned 1 of 1 hosts (100% complete)
+[*] Auxiliary module execution completed
+```
+- This scans the MS

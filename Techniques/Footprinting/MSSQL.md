@@ -31,5 +31,5 @@ permalink: oscp/techniques/footprinting/untitled-2
 - There are lots of ways that a MSSQL database can be misconfigured but a few are:
 	- MSSQL client not using encryption to connect to MSSQL server
 	- Using self signed certs because it is possible to spoof them
-	- Use of named pipes 
+	- Use of named pipes (`\\SERVER\pipe\sql\query')
 	- Weak and default `sa` creds, admins might've forgot to disable those accounts

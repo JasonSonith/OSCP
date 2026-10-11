@@ -112,5 +112,60 @@ Nmap done: 1 IP address (1 host up) scanned in 11.21 seconds
 
 #### Interacting with SQL server
 ```bash
+SonithGT@htb[/htb]$ mysql -u root -pP4SSw0rd -h 10.129.14.128
+
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 150165
+Server version: 8.0.27-0ubuntu0.20.04.1 (Ubuntu)                                                         
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.                                     
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.                           
+      
+MySQL [(none)]> show databases;                                                                          
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| mysql              |
+| performance_schema |
+| sys                |
++--------------------+
+4 rows in set (0.006 sec)
+
+
+MySQL [(none)]> select version();
++-------------------------+
+| version()               |
++-------------------------+
+| 8.0.27-0ubuntu0.20.04.1 |
++-------------------------+
+1 row in set (0.001 sec)
+
+
+MySQL [(none)]> use mysql;
+MySQL [mysql]> show tables;
++------------------------------------------------------+
+| Tables_in_mysql                                      |
++------------------------------------------------------+
+| columns_priv                                         |
+| component                                            |
+| db                                                   |
+| default_roles                                        |
+| engine_cost                                          |
+| func                                                 |
+| general_log                                          |
+| global_grants                                        |
+| gtid_executed                                        |
+| help_category                                        |
+| help_keyword                                         |
+| help_relation                                        |
+| help_topic                                           |
+| innodb_index_stats                                   |
+| innodb_table_stats                                   |
+| password_history                                     |
+...SNIP...
+| user                                                 |
++------------------------------------------------------+
+37 rows in set (0.002 sec)
 
 ```
+- The most import databases in a SQL server are `system schema (sys)` and `information schema (information_schema)`

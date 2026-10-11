@@ -54,4 +54,4 @@ symbolic-links=0
 |`debug`|This variable indicates the current debugging settings|
 |`sql_warnings`|This variable controls whether single-row INSERT statements produce an information string if warnings occur.|
 |`secure_file_priv`|This variable is used to limit the effect of data import and export operations.|
-- 
+- Things such as `user`, `password`, and `admin_address` are security relevant because the entries as made in plain text

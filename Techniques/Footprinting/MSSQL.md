@@ -8,4 +8,7 @@ permalink: oscp/techniques/footprinting/untitled-2
 
 ### MSSQL Clients
 - *SQL Server Management Studio* (SSMS) is an app used to connect and manage the databases of MySQL
-- Impacket's `mssqlclient.py` can be 
+- Impacket's `mssqlclient.py` can be used to interact with the SQL server as well
+
+### MSSQL Databases
+

@@ -10,3 +10,4 @@ permalink: oscp/techniques/footprinting/untitled-3
 ---
 ## Default Configuration
 
+- Listens for incoming connections on TCP port `1521`

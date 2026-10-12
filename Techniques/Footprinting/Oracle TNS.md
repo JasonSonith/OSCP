@@ -32,4 +32,4 @@ ORCL =
   )
 ```
 - In database or service has a entry in this file which has information for clients to connect to this service
-- 
+- Here a service called `ORCL` listening TCP port `1521` 

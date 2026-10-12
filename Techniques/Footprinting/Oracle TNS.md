@@ -13,4 +13,6 @@ permalink: oscp/techniques/footprinting/untitled-3
 - Listens for incoming connections on TCP port `1521`
 - Also supports other protocols such as `TCP/IP`, `UDP`, `IPX/SPX`, and `AppleTalk`
 - Only accepts connections from authorized hosts
-- Config files are `tns`
+- Config files are `tnsnames.ora` and `listener.ora`
+	- Located in `$ORACLE_HOME/network/admin`
+- has 

@@ -90,5 +90,3 @@ ADR_BASE_LISTENER = C:\oracle
 |`TRACE_DIRECTORY`|The directory where the trace files are stored.|
 |`TRACE_FILE_NAME`|The name of the trace file.|
 |`LOG_FILE`|The file where the log information is stored.|
-
-### Interacting

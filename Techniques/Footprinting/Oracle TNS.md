@@ -16,4 +16,7 @@ permalink: oscp/techniques/footprinting/untitled-3
 - Config files are `tnsnames.ora` and `listener.ora`
 	- Located in `$ORACLE_HOME/network/admin`
 - Has 9 default passwords in `CHANGE_ON_INSTALL`
-- 
+- Oracle DBSNMP service has `dbsnmp` as the default password
+
+#### `tnsnames.ora`
+``

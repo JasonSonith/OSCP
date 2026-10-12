@@ -62,4 +62,5 @@ LISTENER =
 
 ADR_BASE_LISTENER = C:\oracle
 ```
-- Contains information about 
+- This file is responsible for receiving incoming client requests and forwarding them to the oracle database instance
+- 

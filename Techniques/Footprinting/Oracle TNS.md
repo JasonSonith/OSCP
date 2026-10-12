@@ -15,4 +15,5 @@ permalink: oscp/techniques/footprinting/untitled-3
 - Only accepts connections from authorized hosts
 - Config files are `tnsnames.ora` and `listener.ora`
 	- Located in `$ORACLE_HOME/network/admin`
-- has 
+- Has 9 default passwords in `CHANGE_ON_INSTALL`
+- 

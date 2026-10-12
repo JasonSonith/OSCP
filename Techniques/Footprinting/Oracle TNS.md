@@ -63,4 +63,6 @@ LISTENER =
 ADR_BASE_LISTENER = C:\oracle
 ```
 - This file is responsible for receiving incoming client requests and forwarding them to the oracle database instance
-- 
+
+### PL/SQL Exclusion List
+- This is a blacklist placed in ``

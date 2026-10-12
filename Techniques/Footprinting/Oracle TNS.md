@@ -65,4 +65,30 @@ ADR_BASE_LISTENER = C:\oracle
 - This file is responsible for receiving incoming client requests and forwarding them to the oracle database instance
 
 ### PL/SQL Exclusion List
-- This is a blacklist placed in ``
+- This is a blacklist placed in `$ORACLE_HOME/sqldeveloper` and is responsible for excluding PL/SQL packages from execution
+
+|**Setting**|**Description**|
+|---|---|
+|`DESCRIPTION`|A descriptor that provides a name for the database and its connection type.|
+|`ADDRESS`|The network address of the database, which includes the hostname and port number.|
+|`PROTOCOL`|The network protocol used for communication with the server|
+|`PORT`|The port number used for communication with the server|
+|`CONNECT_DATA`|Specifies the attributes of the connection, such as the service name or SID, protocol, and database instance identifier.|
+|`INSTANCE_NAME`|The name of the database instance the client wants to connect.|
+|`SERVICE_NAME`|The name of the service that the client wants to connect to.|
+|`SERVER`|The type of server used for the database connection, such as dedicated or shared.|
+|`USER`|The username used to authenticate with the database server.|
+|`PASSWORD`|The password used to authenticate with the database server.|
+|`SECURITY`|The type of security for the connection.|
+|`VALIDATE_CERT`|Whether to validate the certificate using SSL/TLS.|
+|`SSL_VERSION`|The version of SSL/TLS to use for the connection.|
+|`CONNECT_TIMEOUT`|The time limit in seconds for the client to establish a connection to the database.|
+|`RECEIVE_TIMEOUT`|The time limit in seconds for the client to receive a response from the database.|
+|`SEND_TIMEOUT`|The time limit in seconds for the client to send a request to the database.|
+|`SQLNET.EXPIRE_TIME`|The time limit in seconds for the client to detect a connection has failed.|
+|`TRACE_LEVEL`|The level of tracing for the database connection.|
+|`TRACE_DIRECTORY`|The directory where the trace files are stored.|
+|`TRACE_FILE_NAME`|The name of the trace file.|
+|`LOG_FILE`|The file where the log information is stored.|
+
+### Interacting

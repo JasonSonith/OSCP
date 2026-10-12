@@ -19,4 +19,17 @@ permalink: oscp/techniques/footprinting/untitled-3
 - Oracle DBSNMP service has `dbsnmp` as the default password
 
 #### `tnsnames.ora`
-``
+```txt
+ORCL =
+  (DESCRIPTION =
+    (ADDRESS_LIST =
+      (ADDRESS = (PROTOCOL = TCP)(HOST = 10.129.11.102)(PORT = 1521))
+    )
+    (CONNECT_DATA =
+      (SERVER = DEDICATED)
+      (SERVICE_NAME = orcl)
+    )
+  )
+```
+- In database or service has a entry in this file which has information for clients to connect to this service
+- 

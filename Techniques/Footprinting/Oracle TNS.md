@@ -108,3 +108,21 @@ PORT     STATE SERVICE    VERSION
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 6.64 seconds
 ```
+
+#### Nmap SID Brute forcing
+```bash
+SonithGT@htb[/htb]$ sudo nmap -p1521 -sV 10.129.204.235 --open --script oracle-sid-brute
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-06 11:01 EST
+Nmap scan report for 10.129.204.235
+Host is up (0.0044s latency).
+
+PORT     STATE SERVICE    VERSION
+1521/tcp open  oracle-tns Oracle TNS listener 11.2.0.2.0 (unauthorized)
+| oracle-sid-brute: 
+|_  XE
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 55.40 seconds
+```
+

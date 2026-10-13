@@ -144,4 +144,5 @@ SonithGT@htb[/htb]$ ./odat.py all -s 10.129.204.235
 
 <SNIP>
 ```
-- Here we found valid creds `scott` as the user with `tiger`
+- Here we found valid creds `scott` as the user with `tiger` as the password
+- 

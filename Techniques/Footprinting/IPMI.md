@@ -10,4 +10,25 @@ permalink: oscp/techniques/footprinting/untitled-4
 	1) Before the OS has booted to modify BIOS settings
 	2) When the host is fully powered down
 	3) Access to a host after system failure
-- 
+
+---
+## Foot printing the service
+```bash
+SonithGT@htb[/htb]$ sudo nmap -sU --script ipmi-version -p 623 ilo.inlanfreight.local
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-11-04 21:48 GMT
+Nmap scan report for ilo.inlanfreight.local (172.16.2.2)
+Host is up (0.00064s latency).
+
+PORT    STATE SERVICE
+623/udp open  asf-rmcp
+| ipmi-version:
+|   Version:
+|     IPMI-2.0
+|   UserAuth:
+|   PassAuth: auth_user, non_null_user
+|_  Level: 2.0
+MAC Address: 14:03:DC:674:18:6A (Hewlett Packard Enterprise)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
+```

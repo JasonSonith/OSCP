@@ -172,3 +172,7 @@ SQL>
 - Scott has no admin privileges but we can use that account to login as the `sysdba` 
 
 #### Oracle RDBMS database enumeration
+![[Pasted image 20261012234040.png]]
+- From this point on, you can retrieve passwords from `sys.user$`
+
+#### Extracting Password hashes

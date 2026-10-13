@@ -49,3 +49,5 @@ Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
 
 ---
 ## Dangerous Settings
+- If default creds don't work then the RAKP protocol can be leveraged in IPMI 2.0
+	- This protocol has the server send a salted *SHA1* or *MD5* hah 

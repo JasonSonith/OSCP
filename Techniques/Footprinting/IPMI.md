@@ -39,3 +39,13 @@ Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
 #### Metasploit
 ![[Pasted image 20261013174515.png]]
 
+#### Default Passwords in BMCs
+
+|Product|Username|Password|
+|---|---|---|
+|Dell iDRAC|root|calvin|
+|HP iLO|Administrator|randomized 8-character string consisting of numbers and uppercase letters|
+|Supermicro IPMI|ADMIN|ADMIN|
+
+---
+## Dangerous Settings

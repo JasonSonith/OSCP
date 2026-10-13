@@ -8,8 +8,9 @@
   ],
   "currentSpecies": "bluebird",
   "unlockedHats": [
-    "none"
+    "none",
+    "straw-hat"
   ],
-  "currentHat": "none",
+  "currentHat": "straw-hat",
   "settings": {}
 }

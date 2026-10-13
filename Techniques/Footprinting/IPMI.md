@@ -13,6 +13,8 @@ permalink: oscp/techniques/footprinting/untitled-4
 
 ---
 ## Foot printing the service
+
+#### NMAP
 ```bash
 SonithGT@htb[/htb]$ sudo nmap -sU --script ipmi-version -p 623 ilo.inlanfreight.local
 
@@ -34,3 +36,6 @@ Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
 ```
 - IPMI listens on port `623`
 - Systems that use IPMI are called *Baseboard Management Controllers (BMCs)*
+#### Metasploit
+![[Pasted image 20261013174515.png]]
+

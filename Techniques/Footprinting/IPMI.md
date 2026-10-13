@@ -32,3 +32,5 @@ MAC Address: 14:03:DC:674:18:6A (Hewlett Packard Enterprise)
 
 Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
 ```
+- IPMI listens on port `623`
+- Systems that use IPMI are called *Baseboard Management Controllers (BMCs)*

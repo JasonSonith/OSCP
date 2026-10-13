@@ -203,4 +203,5 @@ LOGSTDBY_ADMINISTRATOR
 ### Web Shell
 - Web shells can be used if there is a web server being ran
 - Depending on the OS you can try these paths:
-  
+	- Linux: `/var/www/html`
+	- Windows: `C:\inetpub\wwwroot`

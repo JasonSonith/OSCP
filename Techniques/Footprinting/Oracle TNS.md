@@ -90,3 +90,21 @@ ADR_BASE_LISTENER = C:\oracle
 |`TRACE_DIRECTORY`|The directory where the trace files are stored.|
 |`TRACE_FILE_NAME`|The name of the trace file.|
 |`LOG_FILE`|The file where the log information is stored.|
+
+---
+## Enumeration
+
+#### Nmap
+```bash
+SonithGT@htb[/htb]$ sudo nmap -p1521 -sV 10.129.204.235 --open
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-03-06 10:59 EST
+Nmap scan report for 10.129.204.235
+Host is up (0.0041s latency).
+
+PORT     STATE SERVICE    VERSION
+1521/tcp open  oracle-tns Oracle TNS listener 11.2.0.2.0 (unauthorized)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 6.64 seconds
+```

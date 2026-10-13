@@ -146,4 +146,23 @@ SonithGT@htb[/htb]$ ./odat.py all -s 10.129.204.235
 ```
 - Here we found valid creds `scott` as the user with `tiger` as the password
 
-#### SQK
+#### SQLplus - log in
+```bash
+SonithGT@htb[/htb]$ sqlplus scott/tiger@10.129.204.235/XE
+
+SQL*Plus: Release 19.0.0.0.0 - Production
+Version 19.6.0.0.0
+
+Copyright (c) 1982, 2021, Oracle. All rights reserved.
+
+ERROR:
+ORA-28002: the password will expire within 7 days
+
+
+
+Connected to:
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+
+SQL>
+```
+

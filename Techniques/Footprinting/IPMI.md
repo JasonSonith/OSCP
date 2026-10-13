@@ -52,3 +52,6 @@ Nmap done: 1 IP address (1 host up) scanned in 0.46 seconds
 - If default creds don't work then the RAKP protocol can be leveraged in IPMI 2.0
 	- This protocol has the server send a salted *SHA1* or *MD5* hash of the user's password to the client before authentication takes place
 	- Can be cracked using *Hashcat mode 7300*: `hashcat -m 7300 ipmi.txt -a 3 ?1?1?1?1?1?1?1?1 -1 ?d?u`
+
+#### Metasploit Dumping Hashes
+![[Pasted image 20261013174910.png]]

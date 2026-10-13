@@ -168,3 +168,5 @@ SQL>
 
 #### Interacting with Oracle RDBMS
 
+![[Pasted image 20261012233838.png]]
+- Scott has no admin privileges but we can use that account to login as the `sys` 

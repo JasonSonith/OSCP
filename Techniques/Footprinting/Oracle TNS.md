@@ -129,3 +129,19 @@ Nmap done: 1 IP address (1 host up) scanned in 55.40 seconds
 - This scan found a valid *SID* (identifier of specific database instance) which was `XE`
 
 #### ODAT
+```bash
+SonithGT@htb[/htb]$ ./odat.py all -s 10.129.204.235
+
+[+] Checking if target 10.129.204.235:1521 is well configured for a connection...
+[+] According to a test, the TNS listener 10.129.204.235:1521 is well configured. Continue...
+
+<SNIP>
+
+[!] Notice: 'mdsys' account is locked, so skipping this username for password           #####################| ETA:  00:01:16 
+[!] Notice: 'oracle_ocm' account is locked, so skipping this username for password       #####################| ETA:  00:01:05 
+[!] Notice: 'outln' account is locked, so skipping this username for password           #####################| ETA:  00:00:59
+[+] Valid credentials found: scott/tiger. Continue...
+
+<SNIP>
+```
+- Here we found valid creds `scott` as the user with `tiger`

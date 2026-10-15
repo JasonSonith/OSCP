@@ -34,4 +34,7 @@ PrintMotd no
 AcceptEnv LANG LC_*
 Subsystem       sftp    /usr/lib/openssh/sftp-server
 ```
-`X11Forwarding yes` is a command injection vulnerability that is enabled by d
+- `X11Forwarding yes` is a command injection vulnerability that is enabled by default
+---
+## Dangerous Settings
+- Despite the SSH protocol being one of the most secure protocols availiable

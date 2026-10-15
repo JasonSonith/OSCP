@@ -140,3 +140,29 @@ PORT    STATE SERVICE VERSION
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 1.13 seconds
 ```
+
+#### Probe for accessible shares
+```bash
+SonithGT@htb[/htb]$ nc -nv 127.0.0.1 873
+
+(UNKNOWN) [127.0.0.1] 873 (rsync) open
+@RSYNCD: 31.0
+@RSYNCD: 31.0
+#list
+dev             Dev Tools
+@RSYNCD: EXIT
+```
+
+#### Enumerate an Open Share
+```bash
+SonithGT@htb[/htb]$ rsync -av --list-only rsync://127.0.0.1/dev
+
+receiving incremental file list
+drwxr-xr-x             48 2022/09/19 09:43:10 .
+-rw-r--r--              0 2022/09/19 09:34:50 build.sh
+-rw-r--r--              0 2022/09/19 09:36:02 secrets.yaml
+drwx------             54 2022/09/19 09:43:10 .ssh
+
+sent 25 bytes  received 221 bytes  492.00 bytes/sec
+total size is 0  speedup is 0.00
+```

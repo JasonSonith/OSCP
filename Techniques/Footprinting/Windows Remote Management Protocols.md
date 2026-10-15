@@ -49,4 +49,5 @@ Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 Nmap done: 1 IP address (1 host up) scanned in 8.26 seconds
 ```
-- This can tell if `NLA` (network level authentication) 
+- This can tell if `NLA` (network level authentication) is enabled
+- 

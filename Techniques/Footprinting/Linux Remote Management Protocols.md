@@ -173,3 +173,5 @@ total size is 0  speedup is 0.00
 ---
 ## R-Services
 - Suite of services hosted to enabled remote access or issue commands between Unix hosts over TCP/IP
+- Communicates in *unencrypted* format and was replaced by `SSH`
+- 

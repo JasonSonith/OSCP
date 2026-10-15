@@ -145,5 +145,6 @@ Do you trust the above certificate? (Y/T/N) y
 # WinRM
 
 ## Overview
-
-```
+- Windows remote management protocol based on the CLI
+- Uses *SOAP* (Simple Object Access Protocol) to establish connections to remote host
+- 

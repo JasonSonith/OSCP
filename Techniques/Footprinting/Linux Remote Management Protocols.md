@@ -210,3 +210,12 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 145.54 seconds
 ```
 
+#### r.hosts file
+```bash
+SonithGT@htb[/htb]$ cat .rhosts
+
+htb-student     10.0.17.5
++               10.0.17.10
++               +
+```
+- 

@@ -12,4 +12,8 @@ permalink: oscp/techniques/footprinting/untitled-5
 	2) Public-key authentication
 	3) Host-based authentication
 	4) Keyboard authentication
-	5) Challenge
+	5) Challenge-response authentication
+	6) GSSAPI authentication
+
+### Public Key Authentication
+- 

@@ -153,3 +153,21 @@ Do you trust the above certificate? (Y/T/N) y
 ## Foot printing the Service
 
 #### Nmap WinRM
+```bash
+SonithGT@htb[/htb]$ nmap -sV -sC 10.129.201.248 -p5985,5986 --disable-arp-ping -n
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-11-06 16:31 CET
+Nmap scan report for 10.129.201.248
+Host is up (0.030s latency).
+
+PORT     STATE SERVICE VERSION
+5985/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-title: Not Found
+|_http-server-header: Microsoft-HTTPAPI/2.0
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 7.34 seconds
+```
+
+##

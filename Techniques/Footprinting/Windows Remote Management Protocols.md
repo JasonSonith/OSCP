@@ -14,4 +14,4 @@ permalink: oscp/techniques/footprinting/untitled-6
 ---
 ## RDP
 - For remote access to other computers
-- 
+- Typically uses `port 3389` on `TCP/IP` but can also use ``

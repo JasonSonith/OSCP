@@ -90,3 +90,4 @@ SonithGT@htb[/htb]$ ./ssh-audit.py 10.129.14.132
 (key) ssh-ed25519                           -- [info] available since OpenSSH 6.5
 ...SNIP...
 ```
+- The first few lines show the version can we can research to see if it is vulnerable or not

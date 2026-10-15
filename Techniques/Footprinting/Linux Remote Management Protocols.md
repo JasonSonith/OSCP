@@ -124,4 +124,5 @@ This uses one of the preferred authentications from the `Authentications that ca
 - Fast and efficient tool for locally and remotely copying files
 - Can copy to/from hosts
 - Uses port `873`
+- Can be configured to use SSH for secure file transfers
 - 

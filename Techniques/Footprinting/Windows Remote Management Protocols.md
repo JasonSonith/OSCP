@@ -171,3 +171,16 @@ Nmap done: 1 IP address (1 host up) scanned in 7.34 seconds
 ```
 
 #### Evil WinRM
+```bash
+SonithGT@htb[/htb]$ evil-winrm -i 10.129.201.248 -u Cry0l1t3 -p P455w0rD!
+
+Evil-WinRM shell v3.3
+
+Warning: Remote path completions is disabled due to ruby limitation: quoting_detection_proc() function is unimplemented on this machine
+
+Data: For more information, check Evil-WinRM Github: https://github.com/Hackplayers/evil-winrm#Remote-path-completion
+
+Info: Establishing connection to remote endpoint
+
+*Evil-WinRM* PS C:\Users\Cry0l1t3\Documents>
+```

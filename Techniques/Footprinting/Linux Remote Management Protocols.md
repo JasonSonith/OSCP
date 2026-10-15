@@ -91,3 +91,18 @@ SonithGT@htb[/htb]$ ./ssh-audit.py 10.129.14.132
 ...SNIP...
 ```
 - The first few lines show the version can we can research to see if it is vulnerable or not
+
+#### Change Authentication Method
+```bash
+SonithGT@htb[/htb]$ ssh -v cry0l1t3@10.129.14.132
+
+OpenSSH_8.2p1 Ubuntu-4ubuntu0.3, OpenSSL 1.1.1f  31 Mar 2020
+debug1: Reading configuration data /etc/ssh/ssh_config 
+...SNIP...
+debug1: Authentications that can continue: publickey,password,keyboard-interactive
+```
+
+- This shows us which authentication methods are allowed
+
+```bash
+```

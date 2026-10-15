@@ -166,3 +166,4 @@ drwx------             54 2022/09/19 09:43:10 .ssh
 sent 25 bytes  received 221 bytes  492.00 bytes/sec
 total size is 0  speedup is 0.00
 ```
+We can see the ssh keys are availiable

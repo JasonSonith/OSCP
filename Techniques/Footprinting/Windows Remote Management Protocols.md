@@ -184,3 +184,10 @@ Info: Establishing connection to remote endpoint
 
 *Evil-WinRM* PS C:\Users\Cry0l1t3\Documents>
 ```
+- Command line tool that can help us remote to windows server
+
+---
+# WMI
+
+## Overview
+- WMI allows us to read write access t

@@ -191,4 +191,21 @@ SonithGT@htb[/htb]$ cat /etc/hosts.equiv
 # <hostname> <local username>
 pwnbox cry0l1t3
 ```
-- 
+- Hosts allowed on r services
+
+#### Scanning R-Services
+```bash
+SonithGT@htb[/htb]$ sudo nmap -sV -p 512,513,514 10.0.17.2
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-12-02 15:02 EST
+Nmap scan report for 10.0.17.2
+Host is up (0.11s latency).
+
+PORT    STATE SERVICE    VERSION
+512/tcp open  exec?
+513/tcp open  login?
+514/tcp open  tcpwrapped
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 145.54 seconds
+```

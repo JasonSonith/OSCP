@@ -219,3 +219,22 @@ htb-student     10.0.17.5
 +               +
 ```
 - `+` are used to specify anything
+
+#### Logging in Using Rlogin
+```bash
+SonithGT@htb[/htb]$ rlogin 10.0.17.2 -l htb-student
+
+Last login: Fri Dec  2 16:11:21 from localhost
+
+[htb-student@localhost ~]$
+```
+
+#### Listing authenticated Users
+```bash
+SonithGT@htb[/htb]$ rwho
+
+root     web01:pts/0 Dec  2 21:34
+htb-student     workstn01:tty1  Dec  2 19:57  2:25    
+```
+
+###

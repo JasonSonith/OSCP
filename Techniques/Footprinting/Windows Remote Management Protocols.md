@@ -148,4 +148,6 @@ Do you trust the above certificate? (Y/T/N) y
 - Windows remote management protocol based on the CLI
 - Uses *SOAP* (Simple Object Access Protocol) to establish connections to remote host
 - Relies on TCP ports `5985` and `5986` for communication
-- `WinRS` allows us to execute commands on the remote 
+- `WinRS` allows us to execute commands on the remote system is is apart of WinRM
+
+## Foot printing the Service

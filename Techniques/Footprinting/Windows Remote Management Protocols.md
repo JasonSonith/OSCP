@@ -190,4 +190,5 @@ Info: Establishing connection to remote endpoint
 # WMI
 
 ## Overview
-- WMI allows us to read write access t
+- WMI allows read and write access to all windows settings 
+- This makes it necessary to protect

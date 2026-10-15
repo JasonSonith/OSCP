@@ -151,3 +151,5 @@ Do you trust the above certificate? (Y/T/N) y
 - `WinRS` allows us to execute commands on the remote system is is apart of WinRM
 
 ## Foot printing the Service
+
+#### Nmap WinRM

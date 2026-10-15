@@ -16,4 +16,5 @@ permalink: oscp/techniques/footprinting/untitled-5
 	6) GSSAPI authentication
 
 ### Public Key Authentication
+- The computer checks the SSH's server's identity by copying the fingerprint of the public and storing it if anything changes
 - 

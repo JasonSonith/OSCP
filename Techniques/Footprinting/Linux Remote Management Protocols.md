@@ -37,4 +37,18 @@ Subsystem       sftp    /usr/lib/openssh/sftp-server
 - `X11Forwarding yes` is a command injection vulnerability that is enabled by default
 ---
 ## Dangerous Settings
-- Despite the SSH protocol being one of the most secure protocols availiable
+
+|**Setting**|**Description**|
+|---|---|
+|`PasswordAuthentication yes`|Allows password-based authentication.|
+|`PermitEmptyPasswords yes`|Allows the use of empty passwords.|
+|`PermitRootLogin yes`|Allows to log in as the root user.|
+|`Protocol 1`|Uses an outdated version of encryption.|
+|`X11Forwarding yes`|Allows X11 forwarding for GUI applications.|
+|`AllowTcpForwarding yes`|Allows forwarding of TCP ports.|
+|`PermitTunnel`|Allows tunneling.|
+|`DebianBanner yes`|Displays a specific banner when logging in.|-
+
+---
+
+## Footprinting the Service

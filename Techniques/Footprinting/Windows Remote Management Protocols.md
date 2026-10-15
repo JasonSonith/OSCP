@@ -12,10 +12,13 @@ permalink: oscp/techniques/footprinting/untitled-6
 	- Windows Management Instrument `WMI`
 
 ---
-## RDP
+# RDP
+
+
 - For remote access to other computers
 - Typically uses `port 3389` on `TCP/IP` but can also use `UDP`
 - The network firewall and firewall on server must allow connections from outside
 - Port forwarding on the NAT router needs to be enabled in the direction of the server
 - RDP supports *TLS/SSL*
-- 
+
+####

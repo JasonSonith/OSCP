@@ -167,3 +167,4 @@ sent 25 bytes  received 221 bytes  492.00 bytes/sec
 total size is 0  speedup is 0.00
 ```
 - We can see the ssh keys are available
+- This line sync all files from our target 

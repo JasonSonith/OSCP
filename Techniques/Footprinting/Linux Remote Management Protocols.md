@@ -18,4 +18,4 @@ permalink: oscp/techniques/footprinting/untitled-5
 ### Public Key Authentication
 - The computer checks the SSH's server's identity by copying the fingerprint of the public and storing it if anything changes
 - Authentication happens through a password or if the public key is placed onto the server as a allowed key
-- Passphrases protec
+- Passphrase protects private key through the SSH Agent which can keep the unlocked key available so the passphrase doesn't have to be entered every connection

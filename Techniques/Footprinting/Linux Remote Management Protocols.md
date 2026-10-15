@@ -52,3 +52,8 @@ Subsystem       sftp    /usr/lib/openssh/sftp-server
 ---
 
 ## Footprinting the Service
+
+#### Using `ssh-audit`
+```bash
+
+```

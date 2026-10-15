@@ -22,3 +22,4 @@ permalink: oscp/techniques/footprinting/untitled-5
 
 --- 
 ## Default Configuration
+

@@ -229,7 +229,7 @@ Last login: Fri Dec  2 16:11:21 from localhost
 [htb-student@localhost ~]$
 ```
 
-#### Listing authenticated Users
+#### Listing authenticated Users using `rwho`
 ```bash
 SonithGT@htb[/htb]$ rwho
 
@@ -237,4 +237,9 @@ root     web01:pts/0 Dec  2 21:34
 htb-student     workstn01:tty1  Dec  2 19:57  2:25    
 ```
 
-###
+#### Listing Authenticated users usign `rusers`
+```bash
+SonithGT@htb[/htb]$ rusers -al 10.0.17.5
+
+htb-student     10.0.17.5:console          Dec 2 19:57     2:25
+```

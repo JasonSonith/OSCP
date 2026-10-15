@@ -192,3 +192,12 @@ Info: Establishing connection to remote endpoint
 ## Overview
 - WMI allows read and write access to all windows settings 
 - This makes it necessary to protect
+- Consists of several programs and various databases across known repos
+
+## Foot printing the Service
+- Lives on TCP port `135`
+
+#### Impacket's `wmiexec.py`
+```bash
+
+```

@@ -10,3 +10,8 @@ permalink: oscp/techniques/footprinting/untitled-6
 	- Remote Desktop Protocol `RDP`
 	- Windows Remote Management `WinRM`
 	- Windows Management Instrument `WMI`
+
+---
+## RDP
+- For remote access to other computers
+- 

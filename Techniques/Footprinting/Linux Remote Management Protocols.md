@@ -23,3 +23,15 @@ permalink: oscp/techniques/footprinting/untitled-5
 --- 
 ## Default Configuration
 
+```bash
+SonithGT@htb[/htb]$ cat /etc/ssh/sshd_config  | grep -v "#" | sed -r '/^\s*$/d'
+
+Include /etc/ssh/sshd_config.d/*.conf
+ChallengeResponseAuthentication no
+UsePAM yes
+X11Forwarding yes
+PrintMotd no
+AcceptEnv LANG LC_*
+Subsystem       sftp    /usr/lib/openssh/sftp-server
+```
+`X11Forwarding yes` is a command injection vulnerability that is enabled by d

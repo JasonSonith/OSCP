@@ -218,4 +218,4 @@ htb-student     10.0.17.5
 +               10.0.17.10
 +               +
 ```
-- 
+- `+` are used to specify anything

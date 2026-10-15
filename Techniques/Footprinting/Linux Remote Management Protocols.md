@@ -167,4 +167,5 @@ sent 25 bytes  received 221 bytes  492.00 bytes/sec
 total size is 0  speedup is 0.00
 ```
 - We can see the ssh keys are available
-- This line sync all files from our target 
+- This line sync all files from our target to our local machine: `rsync -av rsync://127.0.0.1/dev`
+	- include `-e ssh` flag if it uses ssh

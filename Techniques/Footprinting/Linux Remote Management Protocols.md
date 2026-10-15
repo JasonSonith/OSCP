@@ -125,4 +125,18 @@ This uses one of the preferred authentications from the `Authentications that ca
 - Can copy to/from hosts
 - Uses port `873`
 - Can be configured to use SSH for secure file transfers
-- 
+
+#### Scanning for Rsync
+```bash
+SonithGT@htb[/htb]$ sudo nmap -sV -p 873 127.0.0.1
+
+Starting Nmap 7.92 ( https://nmap.org ) at 2022-09-19 09:31 EDT
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.0058s latency).
+
+PORT    STATE SERVICE VERSION
+873/tcp open  rsync   (protocol version 31)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1.13 seconds
+```

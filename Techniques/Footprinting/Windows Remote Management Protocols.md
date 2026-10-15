@@ -50,4 +50,50 @@ Service detection performed. Please report any incorrect results at https://nmap
 Nmap done: 1 IP address (1 host up) scanned in 8.26 seconds
 ```
 - This can tell if `NLA` (network level authentication) is enabled
-- 
+
+#### RDP Security Check
+```bash
+SonithGT@htb[/htb]$ git clone https://github.com/CiscoCXSecurity/rdp-sec-check.git && cd rdp-sec-check
+SonithGT@htb[/htb]$ ./rdp-sec-check.pl 10.129.201.248
+
+Starting rdp-sec-check v0.9-beta ( http://labs.portcullis.co.uk/application/rdp-sec-check/ ) at Sun Nov  7 16:50:32 2021
+
+[+] Scanning 1 hosts
+
+Target:    10.129.201.248
+IP:        10.129.201.248
+Port:      3389
+
+[+] Checking supported protocols
+
+[-] Checking if RDP Security (PROTOCOL_RDP) is supported...Not supported - HYBRID_REQUIRED_BY_SERVER
+[-] Checking if TLS Security (PROTOCOL_SSL) is supported...Not supported - HYBRID_REQUIRED_BY_SERVER
+[-] Checking if CredSSP Security (PROTOCOL_HYBRID) is supported [uses NLA]...Supported
+
+[+] Checking RDP Security Layer
+
+[-] Checking RDP Security Layer with encryption ENCRYPTION_METHOD_NONE...Not supported
+[-] Checking RDP Security Layer with encryption ENCRYPTION_METHOD_40BIT...Not supported
+[-] Checking RDP Security Layer with encryption ENCRYPTION_METHOD_128BIT...Not supported
+[-] Checking RDP Security Layer with encryption ENCRYPTION_METHOD_56BIT...Not supported
+[-] Checking RDP Security Layer with encryption ENCRYPTION_METHOD_FIPS...Not supported
+
+[+] Summary of protocol support
+
+[-] 10.129.201.248:3389 supports PROTOCOL_SSL   : FALSE
+[-] 10.129.201.248:3389 supports PROTOCOL_HYBRID: TRUE
+[-] 10.129.201.248:3389 supports PROTOCOL_RDP   : FALSE
+
+[+] Summary of RDP encryption support
+
+[-] 10.129.201.248:3389 supports ENCRYPTION_METHOD_NONE   : FALSE
+[-] 10.129.201.248:3389 supports ENCRYPTION_METHOD_40BIT  : FALSE
+[-] 10.129.201.248:3389 supports ENCRYPTION_METHOD_128BIT : FALSE
+[-] 10.129.201.248:3389 supports ENCRYPTION_METHOD_56BIT  : FALSE
+[-] 10.129.201.248:3389 supports ENCRYPTION_METHOD_FIPS   : FALSE
+
+[+] Summary of security issues
+
+
+rdp-sec-check v0.9-beta completed at Sun Nov  7 16:50:33 2021
+```

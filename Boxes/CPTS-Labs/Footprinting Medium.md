@@ -63,4 +63,7 @@ SMB1 disabled -- no workgroup available
 xfreerdp /u:alex /p:'lol123!mD' /v:10.129.202.41
 ```
 - From here we get desktop access
-- 
+
+#### Open MSSQL as admin and run this query
+![[Pasted image 20261022182009.png]]
+- This reveal the user `HTB`'s passwor

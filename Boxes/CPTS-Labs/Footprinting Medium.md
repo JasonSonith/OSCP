@@ -66,4 +66,4 @@ xfreerdp /u:alex /p:'lol123!mD' /v:10.129.202.41
 
 #### Open MSSQL as admin and run this query
 ![[Pasted image 20261022182009.png]]
-- This reveal the user `HTB`'s passwor
+- This reveal the user `HTB`'s password

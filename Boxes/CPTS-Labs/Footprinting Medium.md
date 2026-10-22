@@ -26,7 +26,15 @@ PORT     STATE SERVICE
 - This was because we found `nfs` was open
 
 #### Mounted it to our local machine
-```
+```bash
 mkdir targetNFS
 sudo mount -t nfs 10.129.202.41:/TechSupport ./targetNFS -o nolock
 ```
+
+#### Found credentials inside `TechSupport`
+```bash
+    user="alex"
+     password="lol123!mD"
+```
+- File also said there was a `smtp` server
+- 

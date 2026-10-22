@@ -25,6 +25,8 @@ permalink: oscp/techniques/footprinting/untitled-6
 
 #### Nmap
 ```bash
+SonithGT@htb[/htb]$ nmap -sV -sC 10.129.201.248 -p3389 --script rdp*
+
 Starting Nmap 7.92 ( https://nmap.org ) at 2021-11-06 15:45 CET
 Nmap scan report for 10.129.201.248
 Host is up (0.036s latency).

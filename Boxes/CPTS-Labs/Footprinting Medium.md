@@ -37,4 +37,9 @@ sudo mount -t nfs 10.129.202.41:/TechSupport ./targetNFS -o nolock
      password="lol123!mD"
 ```
 - File also said there was a `smtp` server
-- 
+- `smtp` server is our next lead
+
+#### Connect to `smtp` server
+```bash
+
+```

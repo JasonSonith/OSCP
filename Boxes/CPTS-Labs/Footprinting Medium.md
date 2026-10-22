@@ -57,4 +57,10 @@ SMB1 disabled -- no workgroup available
 
 - Inside `devshare` we found a file `important.txt`
 - `important.txt` had sql creds in it: `sa:87N1ns@slls83`
+
+#### RDP is open so use alex's creds
+```bash
+xfreerdp /u:alex /p:'lol123!mD' /v:10.129.202.41
+```
+- From here we get desktop access
 - 

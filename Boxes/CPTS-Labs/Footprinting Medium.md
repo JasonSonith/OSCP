@@ -21,4 +21,5 @@ PORT     STATE SERVICE
 # Nmap done at Thu Oct 22 16:27:22 2026 -- 1 IP address (1 host up) scanned in 10.48 seconds
 ```
 
-###
+#### Found the `techsupport` mount
+

@@ -41,5 +41,20 @@ sudo mount -t nfs 10.129.202.41:/TechSupport ./targetNFS -o nolock
 
 #### Connect to `smtp` server
 ```bash
+❯ smbclient -U alex -L //10.129.202.41/
 
+Password for [WORKGROUP\alex]:
+
+        Sharename       Type      Comment
+        ---------       ----      -------
+        ADMIN$          Disk      Remote Admin
+        C$              Disk      Default share
+        devshare        Disk
+        IPC$            IPC       Remote IPC
+        Users           Disk
+SMB1 disabled -- no workgroup available
 ```
+
+- Inside `devshare` we found a file `important.txt`
+- `important.txt` had sql creds in it: `sa:87N1ns@slls83`
+- 

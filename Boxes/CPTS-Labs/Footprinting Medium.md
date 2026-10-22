@@ -22,4 +22,11 @@ PORT     STATE SERVICE
 ```
 
 #### Found the `techsupport` mount
+![[Pasted image 20261022181419.png]]
+- This was because we found `nfs` was open
 
+#### Mounted it to our local machine
+```
+mkdir targetNFS
+sudo mount -t nfs 10.129.202.41:/TechSupport ./targetNFS -o nolock
+```

@@ -3,4 +3,22 @@ title: Untitled
 type: note
 permalink: oscp/boxes/cpts-labs/untitled
 ---
+#### Ran NMAP and found these open ports
+```bash
+# Nmap 7.991 scan initiated Thu Oct 22 16:27:11 2026 as: nmap -oN nmap/initial 10.129.202.41
+Nmap scan report for 10.129.202.41
+Host is up (0.053s latency).
+Not shown: 993 closed tcp ports (conn-refused)
+PORT     STATE SERVICE
+111/tcp  open  rpcbind
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+2049/tcp open  nfs
+3389/tcp open  ms-wbt-server
+5985/tcp open  wsman
 
+# Nmap done at Thu Oct 22 16:27:22 2026 -- 1 IP address (1 host up) scanned in 10.48 seconds
+```
+
+###

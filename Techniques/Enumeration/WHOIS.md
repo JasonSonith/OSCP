@@ -36,4 +36,4 @@ Creation Date: 2019-08-05T22:43:09Z
 - *Domain Status*:  `clientDeleteProhibited`, `clientTransferProhibited`, `clientUpdateProhibited`, `serverDeleteProhibited`, `serverTransferProhibited`, `serverUpdateProhibited`
 	- This shows that facebook is protected against unauthorized changes, transfers, or deletions on both client and server side
 - *Name Servers:*  `A.NS.FACEBOOK.COM`, `B.NS.FACEBOOK.COM`, `C.NS.FACEBOOK.COM`, `D.NS.FACEBOOK.COM`
-	- Domain suggesting
+

@@ -27,4 +27,24 @@ permalink: oscp/techniques/enumeration/untitled-5
 
 ---
 ## Key DNS Concepts
-- In DNS a *zone* is part of the domain namespace that specifies an entity of adminstra
+- In DNS a *zone* is part of the domain namespace that specifies a container for a set of domain names
+	- `example.com` could have `mail.example.com`, `blog.example.com`, etc
+
+#### Example zone file
+```txt
+$TTL 3600 ; Default Time-To-Live (1 hour)
+@       IN SOA   ns1.example.com. admin.example.com. (
+                2024060401 ; Serial number (YYYYMMDDNN)
+                3600       ; Refresh interval
+                900        ; Retry interval
+                604800     ; Expire time
+                86400 )    ; Minimum TTL
+
+@       IN NS    ns1.example.com.
+@       IN NS    ns2.example.com.
+@       IN MX 10 mail.example.com.
+www     IN A     192.0.2.1
+mail    IN A     198.51.100.1
+ftp     IN CNAME www.example.com.
+```
+- Defines author

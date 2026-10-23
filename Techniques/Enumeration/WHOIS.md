@@ -19,3 +19,6 @@ Updated Date: 2023-07-03T01:11:15Z
 Creation Date: 2019-08-05T22:43:09Z
 [...]
 ```
+- *Domain Name:* The domain itself
+- *Registrar:* Company where domain was registered
+- *Registrant Contact:* Person or organization 

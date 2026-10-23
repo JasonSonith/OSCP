@@ -16,3 +16,5 @@ permalink: oscp/techniques/enumeration/untitled-5
 
 ## Host files
 - File that maps hostnames to IP addresses 
+- On *Windows* it is in `C:\Windows\System32\drivers\etc\hosts`
+- 

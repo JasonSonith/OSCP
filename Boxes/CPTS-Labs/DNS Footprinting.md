@@ -150,4 +150,4 @@ win2k.dev.inlanefreight.htb
 
 ## Related note
 
-[[DNS]]
+[[Techniques/Footprinting/DNS]]

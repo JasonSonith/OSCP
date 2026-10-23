@@ -28,4 +28,6 @@ Creation Date: 2019-08-05T22:43:09Z
 - *Name Servers:* Servers that translate the domain name into an IP address
 
 ### `WHOIS` on `facebook.com`
-
+- *Domain Registration*
+	- *Registrar:* RegistrarSafe, LLV
+	- *Creation Date:* 1997-

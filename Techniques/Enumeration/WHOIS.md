@@ -30,4 +30,8 @@ Creation Date: 2019-08-05T22:43:09Z
 ### `WHOIS` on `facebook.com`
 - *Domain Registration*
 	- *Registrar:* RegistrarSafe, LLV
-	- *Creation Date:* 1997-
+	- *Creation Date:* 1997-03-29
+	- *Expiration Date:* 2033-03-30
+	- All the above show that it is with a safe LLC that has been active for a long time
+- *Domain Status*: - `clientDeleteProhibited`, `clientTransferProhibited`, `clientUpdateProhibited`, `serverDeleteProhibited`, `serverTransferProhibited`, `serverUpdateProhibited`
+	- This shows that

@@ -17,4 +17,10 @@ permalink: oscp/techniques/enumeration/untitled-5
 ## Host files
 - File that maps hostnames to IP addresses 
 - On *Windows* it is in `C:\Windows\System32\drivers\etc\hosts`
-- 
+- On *Linux* it is in `/etc/hosts`
+
+#### Example host file
+```txt
+127.0.0.1       localhost
+192.168.1.10    devserver.local
+```

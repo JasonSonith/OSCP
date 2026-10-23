@@ -13,7 +13,7 @@ permalink: oscp/techniques/enumeration/untitled-5
 	5) Authoritative Name server delivers the address
 	6) DNS resolver returns the Information 
 	7) Computer connects
-
+---
 ## Host files
 - File that maps hostnames to IP addresses 
 - On *Windows* it is in `C:\Windows\System32\drivers\etc\hosts`
@@ -24,3 +24,7 @@ permalink: oscp/techniques/enumeration/untitled-5
 127.0.0.1       localhost
 192.168.1.10    devserver.local
 ```
+
+---
+## Key DNS Concepts
+- In DNS a *zone* is part of the domain namespace that specifies an entity of adminstra

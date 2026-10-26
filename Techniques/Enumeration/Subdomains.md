@@ -25,3 +25,6 @@ permalink: oscp/techniques/enumeration/untitled-4
 - *Brute Force Enumeration* is more common which is using a wordlist to enumerate potential subdomains using `dnsenum`, `ffuf`, or `gobuster`
 
 *Passive Enumeration*
+- Use *Certificate Transparency logs* (CT logs) with is a public repo of SSL/TLS certs
+	- Could show potential subdomains
+- *Using google or DuckDuckGo* 

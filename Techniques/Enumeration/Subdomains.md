@@ -20,4 +20,6 @@ permalink: oscp/techniques/enumeration/untitled-4
 - `CNAME` records could be used for subdomain aliases
 
 ### Active Subdomain Enumeration
-- 
+- This is interacting with target's DNS server to find subdomains
+- One method is trying *DNS zone transfer* which is where a misconfigured server leaks complete list of subdomains (rarely successful)
+- *Brute Force *

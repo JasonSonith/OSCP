@@ -27,4 +27,4 @@ permalink: oscp/techniques/enumeration/untitled-4
 *Passive Enumeration*
 - Use *Certificate Transparency logs* (CT logs) with is a public repo of SSL/TLS certs
 	- Could show potential subdomains
-- *Using google or DuckDuckGo* 
+- *Using google or DuckDuckGo* and using specialized dorking such as `site:` 

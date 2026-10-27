@@ -15,4 +15,9 @@ permalink: oscp/techniques/enumeration/untitled-6
 
 ---
 ## Zone Transfer Vulnerability
-- Unauthorized zone transfers can
+- Unauthorized zone transfers can reveal *subdomains*, *IP Addresses*, and *Name Server Records*
+
+### Exploiting Zone Transfers
+```bash
+**SonithGT@htb[/htb]$ dig axfr @nsztm1.digi.ninja zonetransfer.me**
+```

@@ -32,9 +32,14 @@ permalink: oscp/techniques/enumeration/untitled-7
 2) Host header reveals domain reveals domain
 3) Web server looks at *virtual host config* to find vhost
 4) Web server serves the vhost back to browser
+---
 
 ## Types of Virtual Hosting
 
 - *Name Based Virtual Hosting:* Uses `HTTP host header` to distinguish between websites
 - *IP Based Virtual Hosting:* Assigns IP to each website on server
-- *Port-Based Virtual Hosting:* Different websites have different ports on the same IP address
+- *Port-Based Virtual Hosting:* Different websites have different ports on the same IP address 
+	- Example: One on port 80 and another on 8080
+
+---
+## Virtual Host Discovery Tools

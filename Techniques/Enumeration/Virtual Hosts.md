@@ -36,4 +36,5 @@ permalink: oscp/techniques/enumeration/untitled-7
 ## Types of Virtual Hosting
 
 - *Name Based Virtual Hosting:* Uses `HTTP host header` to distinguish between websites
-- *IP Based Virtual Hosting:* Assigns I
+- *IP Based Virtual Hosting:* Assigns IP to each website on server
+- *Port-Based Virtual Hosting:* Different websites have different ports on the same IP address

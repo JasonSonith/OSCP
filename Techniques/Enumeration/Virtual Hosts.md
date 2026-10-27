@@ -35,4 +35,4 @@ permalink: oscp/techniques/enumeration/untitled-7
 
 ## Types of Virtual Hosting
 
-### Name Based Virtual Hosting
+- *Name Based Virtual Hosting:* 

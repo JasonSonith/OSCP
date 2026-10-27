@@ -15,3 +15,4 @@ permalink: oscp/techniques/enumeration/untitled-6
 
 ---
 ## Zone Transfer Vulnerability
+- Unauthorized zone transfers can

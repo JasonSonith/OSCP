@@ -57,4 +57,3 @@ SonithGT@htb[/htb]$ gobuster vhost -u http://<target_IP_address> -w <wordlist_fi
 - `-k` flag ignores ssl/tls
 - `-o` save to output file
 
-####

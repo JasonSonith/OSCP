@@ -35,4 +35,5 @@ permalink: oscp/techniques/enumeration/untitled-7
 
 ## Types of Virtual Hosting
 
-- *Name Based Virtual Hosting:* 
+- *Name Based Virtual Hosting:* Uses `HTTP host header` to distinguish between websites
+- *IP Based Virtual Hosting:* Assigns I

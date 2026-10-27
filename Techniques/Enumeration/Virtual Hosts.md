@@ -52,4 +52,9 @@ permalink: oscp/techniques/enumeration/untitled-7
 ```bash
 SonithGT@htb[/htb]$ gobuster vhost -u http://<target_IP_address> -w <wordlist_file> --append-domain
 ```
-- ``
+- `--apend-domain` appends the domain to each word in wordlist
+- `-t` flag to increase thread count
+- `-k` flag ignores ssl/tls
+- `-o` save to output file
+
+####

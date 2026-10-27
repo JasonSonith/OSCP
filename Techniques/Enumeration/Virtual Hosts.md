@@ -57,3 +57,26 @@ SonithGT@htb[/htb]$ gobuster vhost -u http://<target_IP_address> -w <wordlist_fi
 - `-k` flag ignores ssl/tls
 - `-o` save to output file
 
+```bash
+SonithGT@htb[/htb]$ gobuster vhost -u http://inlanefreight.htb:81 -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt --append-domain
+===============================================================
+Gobuster v3.6
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:             http://inlanefreight.htb:81
+[+] Method:          GET
+[+] Threads:         10
+[+] Wordlist:        /usr/share/seclists/Discovery/DNS/subdomains-top1million-110000.txt
+[+] User Agent:      gobuster/3.6
+[+] Timeout:         10s
+[+] Append Domain:   true
+===============================================================
+Starting gobuster in VHOST enumeration mode
+===============================================================
+Found: forum.inlanefreight.htb:81 Status: 200 [Size: 100]
+[...]
+Progress: 114441 / 114442 (100.00%)
+===============================================================
+Finished
+===============================================================
+```

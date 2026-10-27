@@ -30,4 +30,5 @@ permalink: oscp/techniques/enumeration/untitled-7
 ![[Pasted image 20261027142338.png]]
 1) You enter `www.inlane.freight.com` to start a http request
 2) Host header reveals domain reveals domain
-3) Web server looks at 
+3) Web server looks at *virtual host config* to find vhost
+4) 

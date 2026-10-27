@@ -25,3 +25,5 @@ permalink: oscp/techniques/enumeration/untitled-7
     DocumentRoot /var/www/another-example
 </VirtualHost>
 ```
+
+

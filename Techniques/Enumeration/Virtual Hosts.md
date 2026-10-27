@@ -31,4 +31,8 @@ permalink: oscp/techniques/enumeration/untitled-7
 1) You enter `www.inlane.freight.com` to start a http request
 2) Host header reveals domain reveals domain
 3) Web server looks at *virtual host config* to find vhost
-4) 
+4) Web server serves the vhost back to browser
+
+## Types of Virtual Hosting
+
+### Name Based Virtual Hosting

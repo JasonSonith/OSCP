@@ -19,5 +19,6 @@ permalink: oscp/techniques/enumeration/untitled-6
 
 ### Exploiting Zone Transfers
 ```bash
-**SonithGT@htb[/htb]$ dig axfr @nsztm1.digi.ninja zonetransfer.me**
+SonithGT@htb[/htb]$ dig axfr @nsztm1.digi.ninja zonetransfer.me
 ```
+- This tells the dig command to request a full zone transfer for `zonetransfer.me`

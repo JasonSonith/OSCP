@@ -26,4 +26,6 @@ permalink: oscp/techniques/enumeration/untitled-7
 </VirtualHost>
 ```
 
-### Server 
+### Server Vhost Lookup
+![[Pasted image 20261027142338.png]]
+1) You enter `www.inlane.freight.com` to sta

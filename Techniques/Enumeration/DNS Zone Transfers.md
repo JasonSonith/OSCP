@@ -10,4 +10,5 @@ permalink: oscp/techniques/enumeration/untitled-6
 - *Zone Transfer Request (AXFR):* A secondary DNS server initiates the process by sending a zone transfer request to primary server
 - *SOA Record Transfer:* Primary server responds back with SOA records
 - *DNS Record Transmission:* The server that transfers all DNS records in the zone to secondary server
-- *ZOne *
+- *Zone Transfer Complete:* Signal that transmission is done at the end of zone transfer
+- 

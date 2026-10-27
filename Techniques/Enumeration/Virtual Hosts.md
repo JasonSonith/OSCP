@@ -26,4 +26,4 @@ permalink: oscp/techniques/enumeration/untitled-7
 </VirtualHost>
 ```
 
-
+### Server 

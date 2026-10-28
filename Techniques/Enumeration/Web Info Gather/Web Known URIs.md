@@ -14,4 +14,10 @@ type: note
 |`/.well-known/openid-configuration`|Provides authentication configuration|
 |`/.well-known/assetlinks.json`|Verifies relationships between Android apps and websites|
 |`/.well-known/acme-challenge/`|Helps verify domain ownership for SSL/TLS certificates|
-- Request the known path through `curl` could be a good open
+- Request the known path through `curl` could be a good open:
+	- `curl https://example.com/.well-known/security.txt`
+	- `curl https://example.com/.well-known/openid-configuration`
+
+---
+## Web Recon and `.well-known`
+	

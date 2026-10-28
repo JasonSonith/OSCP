@@ -14,3 +14,4 @@ permalink: oscp/techniques/enumeration/untitled-8
 ## CT Logs and Web Recon
 - You can see other subdomains and domains an organization might have
 - The subdomains might have old certs of out of date/vulnerable configurations
+- 

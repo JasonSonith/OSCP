@@ -58,3 +58,6 @@ Link: <https://www.inlanefreight.com/index.php/wp-json/wp/v2/pages/7>; rel="alte
 Link: <https://www.inlanefreight.com/>; rel=shortlink
 Content-Type: text/html; charset=UTF-8
 ```
+
+### Wafw00f
+- `wafw00f` determines if h

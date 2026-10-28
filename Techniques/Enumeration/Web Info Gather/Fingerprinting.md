@@ -105,4 +105,4 @@ SonithGT@htb[/htb]$ nikto -h inlanefreight.com -Tuning b
 	- *Server Technology:* `Apache/2.4.41 (Ubuntu)`
 	- *Wordpress Presence:* Reveals a wordpress login at `/wp-login.php` meaning it could be vulnerable to wordpress exploits
 	- *Information Disclosure:* `license.txt` could show software components
-	- `Hea`
+	- *Headers:* Found a missing `Strict-Transport-Security` header and a `X-redirect-by` header that is insecure

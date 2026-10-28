@@ -63,3 +63,4 @@ Content-Type: text/html; charset=UTF-8
 - `wafw00f` determines if there is a `WAF`
 ![[Pasted image 20261027234535.png]]
 - This shows `inlanefreight.com` is behind `Wordfence Web Application Firewall`
+### Nikto

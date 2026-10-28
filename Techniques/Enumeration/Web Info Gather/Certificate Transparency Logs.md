@@ -37,4 +37,5 @@ facebook-amex-sign-enc-dev.facebook.com
 newdev.facebook.com
 secure.dev.facebook.com
 ```
-- This leverages the ``
+- This leverages the `crt.sh` api
+- This command queries `facebook.com` for domains/subdomains that h

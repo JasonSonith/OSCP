@@ -21,4 +21,4 @@ type: note
 - External and Internal *links*
 - *Comment sections* on blogs, forums, etc to reveal sensitive information
 - *Metadata* providing context of page content and purpose
-- *Sensitive Files:* Web crawling searches for senti
+- *Sensitive Files:* Web crawling searches for sensitive files such as backup files (`.bak`, `.old`, etc), config files, log files, and api keys

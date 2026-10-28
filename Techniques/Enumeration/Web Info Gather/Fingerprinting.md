@@ -45,3 +45,4 @@ X-Redirect-By: WordPress
 Location: https://www.inlanefreight.com/
 Content-Type: text/html; charset=UTF-8
 ```
+- After going for the `redirect` , `https://inlanefreight.com` it shows us that it  `WordPress` do

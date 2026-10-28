@@ -8,4 +8,8 @@ permalink: oscp/techniques/enumeration/untitled-8
 - Open for anyone to inspect
 - CT logs allow for:
 	1) Identify suspicious certificate (rogue certificate)
-	2) It holds CAs accountabl
+	2) It holds CAs accountable because if a CA issues a insecure cert, they have a loss of trust
+
+---
+## CT Logs and Web Recon
+- 

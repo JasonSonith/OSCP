@@ -45,4 +45,16 @@ X-Redirect-By: WordPress
 Location: https://www.inlanefreight.com/
 Content-Type: text/html; charset=UTF-8
 ```
-- After going for the `redirect` , `https://inlanefreight.com` it shows us that it  `WordPress` do
+- After going for the `redirect` , `https://inlanefreight.com` it shows us that it  `WordPress` doing the redirection to `https://www.inlanefreight.com/` from the `Location` header
+
+```bash
+SonithGT@htb[/htb]$ curl -I https://www.inlanefreight.com
+
+HTTP/1.1 200 OK
+Date: Fri, 31 May 2024 12:12:26 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Link: <https://www.inlanefreight.com/index.php/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.inlanefreight.com/index.php/wp-json/wp/v2/pages/7>; rel="alternate"; type="application/json"
+Link: <https://www.inlanefreight.com/>; rel=shortlink
+Content-Type: text/html; charset=UTF-8
+```

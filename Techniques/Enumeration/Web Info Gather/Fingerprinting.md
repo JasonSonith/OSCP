@@ -100,3 +100,7 @@ SonithGT@htb[/htb]$ nikto -h inlanefreight.com -Tuning b
 + 1 host(s) tested
 ```
 - `-h` is for target host, `-Tuning b` means run only software detection modules
+- This above scan reveals:
+	- *IP:* `134.209.24.248`
+	- *Server Technology:* `Apache/2.4.41 (Ubuntu)`
+	- *Wordpress Presence:*

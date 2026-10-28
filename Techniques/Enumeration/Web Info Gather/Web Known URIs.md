@@ -20,4 +20,5 @@ type: note
 
 ---
 ## Web Recon and `.well-known`
-	
+- `openid-configuration` URI is useful beacuse it tells applications how websites handle user authentication
+

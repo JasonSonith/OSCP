@@ -38,4 +38,4 @@ newdev.facebook.com
 secure.dev.facebook.com
 ```
 - This leverages the `crt.sh` api
-- This command queries `facebook.com` for domains/subdomains that h
+- This command queries `facebook.com` for domains/subdomains that have the name `dev` in it

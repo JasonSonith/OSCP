@@ -4,4 +4,4 @@ title: Untitled
 type: note
 ---
 ## Overview
-- 
+- `.well-known` is a location in a website where applications and security tools ad

@@ -39,4 +39,4 @@
 
 ### Locating Database Backups
 - `site:example.com inurl:backup`
-- 
+- `site:example.com filetype:sql`

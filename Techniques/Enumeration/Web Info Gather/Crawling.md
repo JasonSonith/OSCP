@@ -19,4 +19,5 @@ type: note
 
 ## Extracting Information
 - External and Internal links
-- Comment sections on blogs, forums, et
+- Comment sections on blogs, forums, etc to reveal sensitive information
+- 

@@ -21,4 +21,4 @@ permalink: oscp/techniques/enumeration/web-info-gather/untitled
 
 ---
 
-## Fingerprinting
+## Fingerprinting inlanefreight.com

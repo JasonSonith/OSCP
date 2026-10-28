@@ -54,4 +54,5 @@ type: note
 ![[Pasted image 20261028154218.png]]
 - User clicks `login`
 - Application sends the `authorization endpoint` to sign into
-- ``
+- Application exchanges an authorization code at `token endpoint` for obtaining tokens
+- Application verifies the identity token using provider's public keys

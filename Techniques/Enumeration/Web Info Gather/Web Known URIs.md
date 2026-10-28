@@ -39,4 +39,19 @@ type: note
 
 ### Understanding the json
 
+|Field|Simple explanation|
+|---|---|
+|`issuer`|Who creates and issues authentication tokens|
+|`authorization_endpoint`|Where users go to authorize an application|
+|`token_endpoint`|Where applications request authentication tokens|
+|`userinfo_endpoint`|Where applications retrieve information about a logged-in user|
+|`jwks_uri`|Where public cryptographic keys are stored to verify tokens|
+|`response_types_supported`|Which authentication response types the server supports|
+|`scopes_supported`|What information an application can request|
+|`id_token_signing_alg_values_supported`|Which algorithms are used to sign identity tokens|
 
+### How authentication works
+![[Pasted image 20261028154218.png]]
+- User clicks `login`
+- Application sends the `authorization endpoint` to sign into
+- ``

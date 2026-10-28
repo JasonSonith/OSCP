@@ -18,6 +18,7 @@ type: note
 ---
 
 ## Extracting Information
-- External and Internal links
-- Comment sections on blogs, forums, etc to reveal sensitive information
-- 
+- External and Internal *links*
+- *Comment sections* on blogs, forums, etc to reveal sensitive information
+- *Metadata* providing context of page content and purpose
+- *Sensitive Files:* Web crawling searches for senti

@@ -60,4 +60,5 @@ Content-Type: text/html; charset=UTF-8
 ```
 
 ### Wafw00f
-- `wafw00f` determines if h
+- `wafw00f` determines if there is a `WAF`
+- 

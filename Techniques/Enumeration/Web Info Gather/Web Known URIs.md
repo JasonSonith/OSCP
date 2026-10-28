@@ -20,5 +20,23 @@ type: note
 
 ---
 ## Web Recon and `.well-known`
-- `openid-configuration` URI is useful beacuse it tells applications how websites handle user authentication
+- `openid-configuration` URI is useful because it tells applications how websites handle user authentication
+
+#### `openid-configuration` returns JSON
+```json
+{
+  "issuer": "https://example.com",
+  "authorization_endpoint": "https://example.com/oauth2/authorize",
+  "token_endpoint": "https://example.com/oauth2/token",
+  "userinfo_endpoint": "https://example.com/oauth2/userinfo",
+  "jwks_uri": "https://example.com/oauth2/jwks",
+  "response_types_supported": ["code", "token", "id_token"],
+  "subject_types_supported": ["public"],
+  "id_token_signing_alg_values_supported": ["RS256"],
+  "scopes_supported": ["openid", "profile", "email"]
+}
+```
+
+### Understanding the json
+
 

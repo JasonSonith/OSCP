@@ -13,4 +13,10 @@ type: note
 
 ## Depth First Crawling
 ![[Pasted image 20261028152045.png]]
-- Prioritizes *depth first* 
+- Prioritizes *depth over width* by following a single path of links as far as possible
+
+---
+
+## Extracting Information
+- External and Internal links
+- Comment sections on blogs, forums, et

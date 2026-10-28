@@ -103,4 +103,6 @@ SonithGT@htb[/htb]$ nikto -h inlanefreight.com -Tuning b
 - This above scan reveals:
 	- *IP:* `134.209.24.248`
 	- *Server Technology:* `Apache/2.4.41 (Ubuntu)`
-	- *Wordpress Presence:*
+	- *Wordpress Presence:* Reveals a wordpress login at `/wp-login.php` meaning it could be vulnerable to wordpress exploits
+	- *Information Disclosure:* `license.txt` could show software components
+	- `Hea`

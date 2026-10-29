@@ -8,4 +8,10 @@ type: note
 - Does a `WHOIS` lookup
 - Reveals *SSL certificate information*
 - Has a *Crawler* that looks for vulnerabilities in html css javascript, internal/external links, robots.txt, and wayback machine data
-- *Off*
+- Offers DNS, subdomain, and directory enumeration
+
+---
+## Downloading FinalRecon
+```bash
+
+```

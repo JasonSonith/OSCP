@@ -1,3 +1,9 @@
+---
+permalink: oscp/techniques/enumeration/web-info-gather/search-engine-discovery
+title: Search Engine Discovery
+type: note
+---
+
 ## Why it matters
 - *Open Source:* Information is publicly accessible 
 - *Breadth if Information*: lots of info out there

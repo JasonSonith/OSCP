@@ -36,4 +36,8 @@ SonithGT@htb[/htb]$ ./finalrecon.py --help
 | `--wayback`    |          | Retrieve Wayback URLs for the target.               |
 | `--ps`         |          | Perform a fast port scan on the target.             |
 | `--full`       |          | Perform a full reconnaissance scan on the target.   |
-|                |          |                                                     |
+
+#### Using `finalrecon.py` for `whois`
+```bash
+SonithGT@htb[/htb]$ ./finalrecon.py --headers --whois --url http://inlanefreight.com
+```

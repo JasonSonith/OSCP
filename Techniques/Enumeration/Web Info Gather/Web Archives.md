@@ -1,3 +1,9 @@
+---
+permalink: oscp/techniques/enumeration/web-info-gather/web-archives
+title: Web Archives
+type: note
+---
+
 ## Wayback Machine
 - *The Wayback Machine* is  digital archive of the World Wide Web and other information on the internet
 - Allows users to go back and time and view snapshots of websites as they appeared
@@ -14,4 +20,4 @@
 - *Uncovers hidden vulnerabilities:* Wayback machine allows to discover old web pages, directories, files, or subdomains that aren't accessible on the current website
 - *Tracking Changes and find patterns:* You can see how the website evolved and see changes in structure to reveal potential tech stacks or vulnerabilities 
 - *Gathering intel:* Provides insight's on target's past activities
-- *Stealth:* Open source so it doesn't directly interact with target infrastructure 
+- *Stealth:* Open source so it doesn't directly interact with target infrastructure

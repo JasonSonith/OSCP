@@ -12,3 +12,15 @@ type: note
 ## Powershell Base64 Encode and Decode
 - If you have access to the target machine, copying the payload from your box to the target is easiest
 - *md5sum* can be used to calculate if the payloads match between target and host
+
+#### Check SSH Key MD5 Hash
+```bash
+SonithGT@htb[/htb]$ md5sum id_rsa
+
+4e301756a07ded0a2dd6953abf015278  id_rsa
+```
+
+#### Encode SSH Key to Base64
+```bash
+
+```

@@ -64,3 +64,5 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 - Downloads the script and saves it locally
 - `iwr` is a shorter alias for `Invoke-WebRequest`
 
+### Async
+- Methods ending 

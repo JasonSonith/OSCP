@@ -68,9 +68,23 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 - Methods ending in `Async` such as `DownloadFileAsync()` starts a download without making the calling thread wait for it to finish
 
 ### Differences in `DownloadFile()` methods
-|Method|Saves to disk?|Executes code?|
-|---|---|---|
-|`DownloadFile()`|Yes|No|
-|`DownloadString()`|No|No|
-|`DownloadString() + IEX`|No|Yes|
-|`Invoke-WebRequest -OutFile`|Yes|No|
+| Method                       | Saves to disk? | Executes code? |
+| ---------------------------- | -------------- | -------------- |
+| `DownloadFile()`             | Yes            | No             |
+| `DownloadString()`           | No             | No             |
+| `DownloadString() + IEX`     | No             | Yes            |
+| `Invoke-WebRequest -OutFile` | Yes            | No             |
+
+### All avaliable options
+|**Method**|**Description**|
+|---|---|
+|[OpenRead](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.openread?view=net-6.0)|Returns the data from a resource as a [Stream](https://docs.microsoft.com/en-us/dotnet/api/system.io.stream?view=net-6.0).|
+|[OpenReadAsync](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.openreadasync?view=net-6.0)|Returns the data from a resource without blocking the calling thread.|
+|[DownloadData](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloaddata?view=net-6.0)|Downloads data from a resource and returns a Byte array.|
+|[DownloadDataAsync](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloaddataasync?view=net-6.0)|Downloads data from a resource and returns a Byte array without blocking the calling thread.|
+|[DownloadFile](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloadfile?view=net-6.0)|Downloads data from a resource to a local file.|
+|[DownloadFileAsync](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloadfileasync?view=net-6.0)|Downloads data from a resource to a local file without blocking the calling thread.|
+|[DownloadString](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloadstring?view=net-6.0)|Downloads a String from a resource and returns a String.|
+|[DownloadStringAsync](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloadstringasync?view=net-6.0)|Downloads a String from a resource without blocking the calling thread.|
+
+### Common Errors with Po

@@ -26,6 +26,8 @@ cat id_rsa |base64 -w 0;echo
 ```
 #### Decoding back to to original in Powershell
 ```powershell
-
+[IO.File]::WriteAllBytes("<DESTINATION PATH>", [Convert]::FromBase64String("<BASE64 STRING>"))
 ```
+
+#### Confirm hashes ma
 

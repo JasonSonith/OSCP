@@ -87,4 +87,11 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 |[DownloadString](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloadstring?view=net-6.0)|Downloads a String from a resource and returns a String.|
 |[DownloadStringAsync](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient.downloadstringasync?view=net-6.0)|Downloads a String from a resource without blocking the calling thread.|
 
-### Common Errors with Po
+### Common Errors with Powershell
+![[Pasted image 20261108151344.png]]
+- *Internet Explorer* first launch config may not be completed which can prevent a download
+
+#### Can be bypassed using `-UseBasicParsing`
+```powershell
+
+```

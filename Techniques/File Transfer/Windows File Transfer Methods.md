@@ -65,4 +65,12 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 - `iwr` is a shorter alias for `Invoke-WebRequest`
 
 ### Async
-- Methods ending 
+- Methods ending in `Async` such as `DownloadFileAsync()` starts a download without making the calling thread wait for it to finish
+
+### Differences in `DownloadFile()` methods
+|Method|Saves to disk?|Executes code?|
+|---|---|---|
+|`DownloadFile()`|Yes|No|
+|`DownloadString()`|No|No|
+|`DownloadString() + IEX`|No|Yes|
+|`Invoke-WebRequest -OutFile`|Yes|No|

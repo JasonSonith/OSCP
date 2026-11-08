@@ -10,4 +10,5 @@ type: note
 
 ---
 ## Powershell Base64 Encode and Decode
-- *md5sum* can be used to calculate 
+- If you have access to the target machine, copying the payload from your box to the target is easiest
+- *md5sum* can be used to calculate if the payloads match between target and host

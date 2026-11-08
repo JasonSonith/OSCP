@@ -37,4 +37,9 @@ PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
 ---
 ## Powershell Web Downloads
 
-- Powershell can execute and download files fro
+- Powershell can execute and download files from internet using *HTTP, HTTPS, AND FTP*
+- Most companies allow HTTP/HTTPs traffic so this is a vulnerability
+
+```bash
+
+```

@@ -36,3 +36,5 @@ PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
 
 ---
 ## Powershell Web Downloads
+
+- Powershell can execute and download files fro

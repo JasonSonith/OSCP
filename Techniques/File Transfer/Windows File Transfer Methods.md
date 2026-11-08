@@ -22,5 +22,7 @@ SonithGT@htb[/htb]$ md5sum id_rsa
 
 #### Encode SSH Key to Base64
 ```bash
-
+cat id_rsa |base64 -w 0;echo
 ```
+
+

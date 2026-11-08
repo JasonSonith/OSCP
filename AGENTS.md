@@ -5,12 +5,12 @@ type: note
 permalink: oscp/Codex
 ---
 
-# OSCP Study Vault — Notes for Codex
+# OSCP Study Vault
 =======
 title: Codex
 type: note
 
-# OSCP Study Vault — Notes for Codex
+# OSCP Study Vault
 
 I'm studying for CPTS then OSCP. Help me learn, take notes, and understand pentesting concepts.
 

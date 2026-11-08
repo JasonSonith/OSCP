@@ -10,4 +10,4 @@ type: note
 
 ---
 ## Powershell Base64 Encode and Decode
-- 
+- *md5sum* can be used to calculate 

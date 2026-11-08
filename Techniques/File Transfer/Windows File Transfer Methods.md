@@ -24,5 +24,8 @@ SonithGT@htb[/htb]$ md5sum id_rsa
 ```bash
 cat id_rsa |base64 -w 0;echo
 ```
+#### Decoding back to to original in Powershell
+```powershell
 
+```
 

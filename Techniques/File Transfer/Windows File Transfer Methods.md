@@ -29,5 +29,8 @@ cat id_rsa |base64 -w 0;echo
 [IO.File]::WriteAllBytes("<DESTINATION PATH>", [Convert]::FromBase64String("<BASE64 STRING>"))
 ```
 
-#### Confirm hashes ma
+#### Confirm hashes match after decoding in Powershell
+```Powershell
+PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
+```
 

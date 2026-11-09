@@ -272,3 +272,6 @@ IyBDb3B5cmlnaHQgKGMpIDE5OTMtMjAwOSBNaWNyb3NvZnQgQ29ycC4NCiMNCiMgVGhpcyBpcyBhIHNh
 # Decoding
 SonithGT@htb[/htb]$ echo <base64> | base64 -d -w 0 > hosts
 ```
+
+---
+## SMB Uploads

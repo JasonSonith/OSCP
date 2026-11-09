@@ -275,4 +275,8 @@ SonithGT@htb[/htb]$ echo <base64> | base64 -d -w 0 > hosts
 
 ---
 ## SMB Uploads
-- `WebD`
+- `WebDAV` can be used to transfer files over HTTP or HTTPS because companies usually block outbound SMB traffic
+
+### WebDAV
+- Allows web server to act like a file server
+	- 

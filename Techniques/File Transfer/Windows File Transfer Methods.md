@@ -291,3 +291,8 @@ sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous
 - Stores shared files in `/tmp`
 - Allows access without authentication through `--auth=anonymous`
 
+#### Accessing the share from windows
+```powershell
+dir \\192.168.49.128\DavWWWRoot
+```
+

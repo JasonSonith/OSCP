@@ -279,4 +279,11 @@ SonithGT@htb[/htb]$ echo <base64> | base64 -d -w 0 > hosts
 
 ### WebDAV
 - Allows web server to act like a file server
-	- 
+- Transfers files for HTTP/HTTPs through ports 80 and 443
+
+#### Installing WebDAV server
+```bash
+sudo pip3 install wsgidav cheroot
+sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous
+```
+- This creates a server that listens on all network interfaces: `0.0.0.0`

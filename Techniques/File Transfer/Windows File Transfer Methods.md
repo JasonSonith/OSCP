@@ -222,6 +222,8 @@ SonithGT@htb[/htb]$ echo IyBDb3B5cmlnaHQgKGMpIDE5OTMtMjAwOSBNaWNyb3NvZnQgQ29ycC4
 ---
 ## Powershell Web Uploads
 - `Invoke-WebRequest` or `Invoke-RestMethod` can be used to build our upload function
+- `uploadserver` is a python module of python `HTTP.server` which is a includes a file upload page
 
+#### Installing 
 ```
 ```

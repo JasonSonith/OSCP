@@ -157,4 +157,9 @@ C:\htb> copy n:\nc.exe
 ---
 
 ## FTP Downloads
-- `pyftpdlib` can be used to 
+- `pyftpdlib` can be used to create FTP server
+
+#### Installing FTP Server python module `pyftpdlib`
+```bash
+SonithGT@htb[/htb]$ sudo pip3 install pyftpdlib
+```

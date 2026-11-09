@@ -153,3 +153,8 @@ The command completed successfully.
 C:\htb> copy n:\nc.exe
         1 file(s) copied.
 ```
+
+---
+
+## FTP Downloads
+- `pyftpdlib` can be used to 

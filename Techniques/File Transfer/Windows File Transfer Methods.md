@@ -301,3 +301,6 @@ dir \\192.168.49.128\DavWWWRoot
 copy C:\Users\john\Desktop\test.zip \\192.168.49.128\DavWWWRoot\
 ```
 - copies `test.zip` from Windows into kali `/tmp`
+
+---
+## FTP Uploads

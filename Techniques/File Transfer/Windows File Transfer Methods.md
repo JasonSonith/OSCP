@@ -287,3 +287,7 @@ sudo pip3 install wsgidav cheroot
 sudo wsgidav --host=0.0.0.0 --port=80 --root=/tmp --auth=anonymous
 ```
 - This creates a server that listens on all network interfaces: `0.0.0.0`
+- Uses port 80
+- Stores shared files in `/tmp`
+- Allows access without authentication through `--auth=anonymous`
+

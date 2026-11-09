@@ -275,3 +275,4 @@ SonithGT@htb[/htb]$ echo <base64> | base64 -d -w 0 > hosts
 
 ---
 ## SMB Uploads
+- `WebD`

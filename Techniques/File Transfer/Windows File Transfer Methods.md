@@ -163,3 +163,18 @@ C:\htb> copy n:\nc.exe
 ```bash
 SonithGT@htb[/htb]$ sudo pip3 install pyftpdlib
 ```
+
+#### Setting up Python3 FTP Server
+```bash
+SonithGT@htb[/htb]$ sudo python3 -m pyftpdlib --port 21
+
+[I 2022-05-17 10:09:19] concurrency model: async
+[I 2022-05-17 10:09:19] masquerade (NAT) address: None
+[I 2022-05-17 10:09:19] passive ports: None
+[I 2022-05-17 10:09:19] >>> starting FTP server on 0.0.0.0:21, pid=3210 <<<
+```
+
+#### Transferring Files from an FTP Server Using Powershell
+```powershell
+PS C:\htb> (New-Object Net.WebClient).DownloadFile('ftp://192.168.49.128/file.txt', 'C:\Users\Public\ftp-file.txt')
+```

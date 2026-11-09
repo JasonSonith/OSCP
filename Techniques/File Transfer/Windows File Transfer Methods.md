@@ -197,3 +197,6 @@ ftp> bye
 C:\htb>more file.txt
 This is a test file
 ```
+
+---
+## Powershell Base64 Encode & D

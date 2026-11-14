@@ -131,5 +131,14 @@ python 2.7 -m SimpleHTTPServer
 php -S 0.0.0.0:8080
 ```
 
+#### Creating Web Server with Ruby
+```bash
+ruby -run -ehttpd . -p8000
+```
+
+#### Download File from Target Machine onto Attacker Machine
+```bash
+wget 
+```
 
 

@@ -121,6 +121,15 @@ curl -X POST https://<IP>/upload -F 'files=@<PATH TO FILE>' -F 'files=@<PATH TO 
 python3 -m http.server
 ```
 
+#### Creating a Web Server with Python2.7
+```bash
+python 2.7 -m SimpleHTTPServer
+```
+
+#### Creating a Web Server with PHP
+```bash
+php -S 0.0.0.0:8080
+```
 
 
 

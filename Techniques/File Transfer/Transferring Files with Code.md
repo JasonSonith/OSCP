@@ -16,5 +16,7 @@ python3 -c 'import urllib.request; urlib.request.urlretrieve("<LINK TO FILE>")'
 
 #### Using `File_get_contents()` method
 ```bash
-php -r '$file = file_get_contents("<URL TO FILE>"); file_put_contents(")'
+php -r '$file = file_get_contents("<URL TO FILE>"); file_put_contents("<FILENAME TO SAVE AS>", $file);'
 ```
+
+#### Using 

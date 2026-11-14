@@ -108,6 +108,7 @@ openssl req -x509 -out <FILENAME>.pem -keyout <FILENAME>.pem -newkey rsa:2048 -n
 sudo python3 -m uploadserver 443 --server-certificate <PATH TO CERTIFICATE>
 ```
 
+#### 4) Upload Files from compromised machine
 
 
 

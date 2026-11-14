@@ -41,3 +41,8 @@ php -r '$lines = @file("<URL TO FILE>"); foreach ($lines as $line_num => $line) 
 ```bash
 ruby -e 'require "net/http"; File.write("<FILENAME TO SAVE AS>", Net::HTTP.get(URI.parse("<URL TO FILE>")))'
 ```
+
+#### Perl File Download
+```bash
+perl -e 'use LWP::Simple; getstore("<URL TO FILE>", "<>")'
+```

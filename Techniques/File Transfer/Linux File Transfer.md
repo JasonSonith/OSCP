@@ -5,4 +5,13 @@ type: note
 ---
 ## Download Operations
 
-#### Ba
+#### Checking File Hash
+```bash
+md5sum id_rsa
+```
+
+
+#### Encoding SSH Keys
+```bash
+
+```

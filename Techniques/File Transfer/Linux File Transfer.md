@@ -83,6 +83,13 @@ sudo systemctl start ssh
 netstat -lnpt
 ```
 
-###
+#### 4) Download file using `scp`
+```bash
+scp <USER>@<IP>:<PATH TO FILE> <WHERE TO SAVE FILE LOCALLY>
+```
+
+## Web Upload
+```
+```
 
 

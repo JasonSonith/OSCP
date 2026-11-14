@@ -74,7 +74,15 @@ sudo systemctl enable ssh
 ```
 
 #### 2) Start SSH Server
-```ba
+```bash
+sudo systemctl start ssh
 ```
+
+#### 3) Check for Listening Ports
+```bash
+netstat -lnpt
+```
+
+###
 
 

@@ -3,5 +3,5 @@
 
 #### Download Files with Python2
 ```bash
-python 2.7 -c 'import urllib;urllib.retrieve ("<URL TO FILE>", <")'
+python 2.7 -c 'import urllib; urllib.retrieve("<URL TO FILE>", "<FILENAME TO SAVE FILE AS>")'
 ```

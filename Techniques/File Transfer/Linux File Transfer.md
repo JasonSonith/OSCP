@@ -42,3 +42,13 @@ curl -o <WHERE TO SAVE FILE> <LINK TO FILE>
 ```bash
 curl <LINK TO FILE> | bash
 ```
+
+```bash
+wget -qO- <URL TO FILE> | python3
+```
+
+---
+## Download File with Bash (/dev/tcp)
+
+
+

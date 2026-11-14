@@ -86,4 +86,10 @@ with bStrm
 end with
 ```
 
-#### Dow
+#### Download file using `cscript.exe` and `wget.vbs`
+```bash
+cscript.exe /nologo wget.vbs
+<url to file> <filename to save as>
+```
+
+## Do

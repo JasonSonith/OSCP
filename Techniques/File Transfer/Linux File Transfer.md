@@ -26,5 +26,16 @@ echo -n '<INSERT BASE64 PAYLOAD>' | base64 -d > id_rsa
 
 #### Download File with wget
 ```bash
-wget <URL TO FILE> -O <
+wget <URL TO FILE> -O <WHERE TO SAVE FILE>
 ```
+
+#### Download File using cURL
+```bash
+curl -o <WHERE TO SAVE FILE> <LINK TO FILE>
+```
+
+---
+
+## Fileless Attacks Using Linux
+
+

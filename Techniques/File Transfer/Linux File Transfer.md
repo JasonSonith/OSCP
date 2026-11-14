@@ -13,5 +13,7 @@ md5sum id_rsa
 
 #### Encoding SSH Keys
 ```bash
-
+cat id_rsa |base64 -w 0;echo
 ```
+
+

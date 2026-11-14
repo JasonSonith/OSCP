@@ -66,6 +66,15 @@ cat <&3
 ```
 
 ---
-##
+## SSH Downloads
+
+#### 1) Enable SSH
+```bash
+sudo systemctl enable ssh
+```
+
+#### 2) Start SSH Server
+```ba
+```
 
 

@@ -23,3 +23,5 @@ php -r '$file = file_get_contents("<URL TO FILE>"); file_put_contents("<FILENAME
 ```bash
 php -r 'const BUFFER = 1024; $fremote = fopen("<URL TO FILE>", "rb"); $flocal = fopen("<FILENAME TO SAVE AS>", "wb"); while($buffer = fread($fremote, BUFFER)) {fwrite($flocal,$buffer);} fclose($flocal); fclose($fremote);'
 ```
+
+#### Fileless Download to Bash

@@ -88,6 +88,7 @@ netstat -lnpt
 scp <USER>@<IP>:<PATH TO FILE> <WHERE TO SAVE FILE LOCALLY>
 ```
 
+---
 ## Web Upload
 
 #### 1) Starting Web server

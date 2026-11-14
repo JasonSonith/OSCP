@@ -34,5 +34,5 @@ php -r '$lines = @file("<URL TO FILE>"); foreach ($lines as $line_num => $line) 
 
 #### Ruby File Download
 ```bash
-ruby -e 'require "net/http"; File.write("<FILENAME TO SAVE AS>", Net::HTTP.get(URI.pars))'
+ruby -e 'require "net/http"; File.write("<FILENAME TO SAVE AS>", Net::HTTP.get(URI.parse("<URL TO FILE>")))'
 ```

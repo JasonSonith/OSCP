@@ -33,6 +33,6 @@ php -r '$lines = @file("<URL TO FILE>"); foreach ($lines as $line_num => $line) 
 ## Other Languages
 
 #### Ruby File Download
-```
-ruby -e 'require "net/http"; '
+```bash
+ruby -e 'require "net/http"; File.write("<FILENAME TO SAVE AS>", Net::HTTP.get(URI.pars))'
 ```

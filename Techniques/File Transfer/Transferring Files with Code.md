@@ -6,4 +6,10 @@
 python 2.7 -c 'import urllib; urllib.retrieve("<URL TO FILE>", "<FILENAME TO SAVE FILE AS>")'
 ```
 
-#### Downloa
+#### Download Files with Python3
+```bash
+python3 -c 'import urllib.request; urlib.request.urlretrieve("<LINK TO FILE>")'
+```
+
+---
+####

@@ -100,6 +100,7 @@ sudo python3 -m pip install --user uploadserver
 openssl req -x509 -out <FILENAME>.pem -keyout <FILENAME>.pem -newkey rsa:2048 -nodes sha256 -subj '/CN=<NAME IDENTIFYING THE SERVER>'
 ```
 - `-out` is for certificate filename
-- `-keyout` is for rp
+- `-keyout` is for private key filename
+- `CN` is for Name identifying server
 
 

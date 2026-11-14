@@ -89,7 +89,15 @@ scp <USER>@<IP>:<PATH TO FILE> <WHERE TO SAVE FILE LOCALLY>
 ```
 
 ## Web Upload
+
+#### 1) Starting Web server
+```bash
+sudo python3 -m pip install --user uploadserver
 ```
+
+#### 2) Create Self-Signed Certificate
+```bash
+openssl req -x
 ```
 
 

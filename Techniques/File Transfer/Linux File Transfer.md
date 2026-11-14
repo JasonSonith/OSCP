@@ -57,7 +57,12 @@ exec 3<>/dev/tcp<IP>/<PORT (usually 80 or 443)>
 
 #### 2) HTTP GET Request
 ```bash
-echo -e "GET <>"
+echo -e "GET /<FILE> HTTP/1.1\n\n">&3
+```
+
+#### 3) Print Response
+```bash
+cat <&3
 ```
 
 

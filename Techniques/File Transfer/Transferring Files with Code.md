@@ -53,5 +53,5 @@ perl -e 'use LWP::Simple; getstore("<URL TO FILE>", "<Filename to save as>")'
 #### Create a file and write code
 ```javascript
 var WinHttpReq = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
-
+WinHttpReq.Open("GET", WScript.Argument)
 ```

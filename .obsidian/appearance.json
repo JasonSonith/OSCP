@@ -8,5 +8,6 @@
   "textFontFamily": "ProFont IIx Nerd Font",
   "baseFontSize": 16,
   "interfaceFontFamily": "ProFont IIx Nerd Font",
-  "monospaceFontFamily": "ProFont IIx Nerd Font"
+  "monospaceFontFamily": "ProFont IIx Nerd Font",
+  "showRibbon": true
 }

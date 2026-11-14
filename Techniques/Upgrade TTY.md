@@ -5,7 +5,7 @@ permalink: oscp/templates/technique-note-1-4
 ---
 
 ---
-title: Upgrade TTY
+title: Upgrade python -c 'import pty; pty.spawn("/bin/bash")'TTY
 category: other
 created: 2026-08-11
 tags: [technique, other]

@@ -44,5 +44,13 @@ ruby -e 'require "net/http"; File.write("<FILENAME TO SAVE AS>", Net::HTTP.get(U
 
 #### Perl File Download
 ```bash
-perl -e 'use LWP::Simple; getstore("<URL TO FILE>", "<>")'
+perl -e 'use LWP::Simple; getstore("<URL TO FILE>", "<Filename to save as>")'
+```
+
+---
+## Javascript
+
+#### Create a file and write code
+```javascript
+var WinHttpReq = new Ac
 ```

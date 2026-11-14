@@ -114,6 +114,13 @@ curl -X POST https://<IP>/upload -F 'files=@<PATH TO FILE>' -F 'files=@<PATH TO 
 ```
 
 ---
+## Alternate Web File Transfer Method
+
+#### Creating a Web Server with python3
+```bash
+python3 -m http.server
+```
+
 
 
 

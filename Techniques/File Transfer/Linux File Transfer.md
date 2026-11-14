@@ -21,4 +21,10 @@ cat id_rsa |base64 -w 0;echo
 echo -n '<INSERT BASE64 PAYLOAD>' | base64 -d > id_rsa
 ```
 
+---
+## Web Download with wget and curl
 
+#### Download File with wget
+```bash
+wget <URL TO FILE> -O <
+```

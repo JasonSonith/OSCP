@@ -103,4 +103,11 @@ openssl req -x509 -out <FILENAME>.pem -keyout <FILENAME>.pem -newkey rsa:2048 -n
 - `-keyout` is for private key filename
 - `CN` is for Name identifying server
 
+#### 3) Start webserver
+```bash
+sudo python3 -m uploadserver 443 --server-certificate <PATH TO CERTIFICATE>
+```
+
+
+
 

@@ -1,5 +1,5 @@
 
-## Python
+## Python Downloading Files
 
 #### Download Files with Python2
 ```bash
@@ -12,4 +12,9 @@ python3 -c 'import urllib.request; urlib.request.urlretrieve("<LINK TO FILE>")'
 ```
 
 ---
-## PHP
+## PHP Downloading Files
+
+#### Using `File_get_contents()` method
+```bash
+php -r 
+```

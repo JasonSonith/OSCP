@@ -62,4 +62,10 @@ Binstream.Write(WinHttpReq.ResponseBody);
 BinStream.SaveToFile(WScript.Arguments(1));
 ```
 
-#### Download the File using `wget.js` and `csc`
+#### Download the File using `wget.js` and `cscript.exe`
+```bash
+cscript.exe /nologo wget.js <URL TO FILE> <FILENAME TO SAVE AS>
+```
+
+---
+

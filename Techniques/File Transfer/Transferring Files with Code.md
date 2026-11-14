@@ -31,5 +31,8 @@ php -r '$lines = @file("<URL TO FILE>"); foreach ($lines as $line_num => $line) 
 
 ---
 ## Other Languages
-```bash
+
+#### Ruby File Download
+```
+ruby -e 'require "net/http"; '
 ```

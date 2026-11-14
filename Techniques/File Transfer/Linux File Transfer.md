@@ -97,7 +97,7 @@ sudo python3 -m pip install --user uploadserver
 
 #### 2) Create Self-Signed Certificate
 ```bash
-openssl req -x
+openssl req -x509 -out 
 ```
 
 

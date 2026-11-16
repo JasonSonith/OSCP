@@ -16,4 +16,17 @@ sudo mkdir -p /var/www/uploads/<FOLDER>
 sudo chown -R www-data:www-data /var/www/uploads/<FOLDER>
 ```
 
-#### Create 
+#### Create config file
+```bash
+server {
+    listen <PORT>;
+    
+    location <FOLDER> {
+        root    /var/www/uploads;
+        dav_methods PUT;
+    }
+}
+```
+- Usually created in `/etc/nginx/sites-available/upload.conf`
+
+#### Symlink site to sites-enab

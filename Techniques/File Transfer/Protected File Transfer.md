@@ -7,8 +7,14 @@ type: note
 
 ### Invoke-AesEncryption.ps1 powershell script
 
-#### Encrypting
+#### Encrypting text
 ```powershell
 Invoke-AESEncryption -Mode Encrypt -Key "<STRING>" -Text "<SECRET TEXT>"
 ```
 
+#### Decrypting text
+```powershell
+Invoke-AESEncryption -Mode Decrypt -Key "<STRING>" -Text "<CIPHERTEXT>"
+```
+
+#### Encry

@@ -36,5 +36,10 @@ sudo ln -s /etc/nginx/sites-available/upload.conf /etc/nginx/sites-enabled/
 
 #### 5) Start Nginx
 ```bash
+sudo systemctl restart nginx.service
+```
 
+#### 6) Verifying Errors
+```bash
+tail -2 /var/log/nginx/error.log
 ```

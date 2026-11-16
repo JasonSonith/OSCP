@@ -13,5 +13,5 @@ sudo mkdir -p /var/www/uploads/<FOLDER>
 
 #### 2) Change the owner to `www-data`
 ```bash
-
+sudo chown -R www-data:www-data /var/www/uploads/<FOLDER>
 ```

@@ -23,5 +23,11 @@ wget -q <URL TO FILE> #GET URL CONTENTS FIRST
 ```
 
 ```bash
-nc -q 0 <IP> <PORT> < <FILE>
+nc -q 0 <TARGET IP> <PORT> < <FILE>
+```
+- This sends the contents of `<FILE>` to the `<FILE>` on `<TARGET IP>`
+
+#### Ncat - Attack Host - Sending File to compromised machine
+```bash
+
 ```

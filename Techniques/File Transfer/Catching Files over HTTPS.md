@@ -16,7 +16,7 @@ sudo mkdir -p /var/www/uploads/<FOLDER>
 sudo chown -R www-data:www-data /var/www/uploads/<FOLDER>
 ```
 
-#### Create config file
+#### 3) Create config file
 ```bash
 server {
     listen <PORT>;
@@ -29,4 +29,12 @@ server {
 ```
 - Usually created in `/etc/nginx/sites-available/upload.conf`
 
-#### Symlink site to sites-enab
+#### 4) Symlink site to sites-enabled directory
+```bash
+sudo ln -s /etc/nginx/sites-available/upload.conf /etc/nginx/sites-enabled/
+```
+
+#### 5) Start Nginx
+```bash
+
+```

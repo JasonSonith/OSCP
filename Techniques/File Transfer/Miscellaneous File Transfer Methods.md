@@ -8,5 +8,6 @@ type: note
 
 #### NetCat - Compromised machine listening on Port 8000
 ```bash
-nc -l -p 8000 > 
+nc -l -p 8000 > <FILE TO SAVE DATA TO>
 ```
+- Netcat takes whatever d

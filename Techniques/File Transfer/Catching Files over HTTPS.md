@@ -5,3 +5,13 @@ type: note
 ---
 
 ## Nginx - Enabling PUT
+
+#### 1) Make the Directory for Uploaded Files
+```bash
+sudo mkdir -p /var/www/uploads/<FOLDER>
+```
+
+#### 2) Change the owner to `www-data`
+```bash
+
+```

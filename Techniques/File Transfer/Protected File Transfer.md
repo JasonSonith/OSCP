@@ -123,3 +123,8 @@ function Invoke-AESEncryption {
     }
 }
 ```
+
+####  Import module `Invoke-AESEncryption.ps1` after
+```bash
+
+```

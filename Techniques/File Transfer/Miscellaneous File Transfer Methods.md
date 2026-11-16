@@ -85,5 +85,5 @@ rdesktop <REMOTE IP> -d <Windows Domain> -u <USERNAME> -p '<PASSWORD>' -r disk:l
 
 #### Mounting Linux Folder using `xfreerdp`
 ```bash
-xfreerdp /v:<REMOTE UP> /d:<WIND
+xfreerdp /v:<REMOTE UP> /d:<WINDOWS DOMAIN> /u:<USERNAME> /p:'<PASSWORD>' /drive:linux,<DIRECTORY TO SHARE>
 ```

@@ -5,7 +5,10 @@ type: note
 ---
 ## File Encryption on Windows
 
-#### Invoke-AesEncryption.ps1 powershell script
-```powershell
+### Invoke-AesEncryption.ps1 powershell script
 
+#### Encrypting
+```powershell
+Invoke-AESEncryption -Mode Encrypt -Key "<STRING>" -Text "<SECRET TEXT>"
 ```
+

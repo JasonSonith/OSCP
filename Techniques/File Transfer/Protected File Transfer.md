@@ -132,4 +132,7 @@ Import-Module .\Invoke-AESEncryption.ps1
 ---
 ## File Encryption on Linux
 
-#### Encrypting `/etc/passwd` with open
+#### Encrypting file with `openssl`
+```bash
+openssl enc -aes256 -iter 100000 -pbkdf2 -in <FILE> -out <FILE>.enc
+```

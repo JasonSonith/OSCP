@@ -139,4 +139,5 @@ openssl enc -aes256 -iter 100000 -pbkdf2 -in <FILE> -out <FILE>.enc
 
 #### Decrypt file with `openssl`
 ```bash
+openssl enc -d -aes256 -iter 100000 -pbkdf2 -in <FILENAME>.enc -out <FILENAME>
 ```

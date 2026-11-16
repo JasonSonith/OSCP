@@ -29,5 +29,11 @@ nc -q 0 <TARGET IP> <PORT> < <FILE>
 
 #### Ncat - Attack Host - Sending File to compromised machine
 ```bash
-
+wget -q <URL TO FILE> #GET URL CONTENTS FIRST
 ```
+
+```bash
+ncat --send-only <TARGET IP> <PORT> < <FILE>
+```
+
+#### Attack Host

@@ -72,5 +72,13 @@ Copy-Item -Path <PATH TO FILE> -ToSession $Session -Destination <FILEPATH ON REM
 
 #### 3) Copy file from Remote Session to Local machine
 ```powershell
-Copy-Item -Path <PATH TO FILE> - Destionation -
+Copy-Item -Path <PATH TO FILE> - Destionation -FromSession $Session
+```
+
+---
+## RDP
+
+#### Mounting linux folder using `rdesktop`
+```bash
+rdesktop <
 ```

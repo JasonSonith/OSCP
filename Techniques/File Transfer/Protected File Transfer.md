@@ -17,4 +17,12 @@ Invoke-AESEncryption -Mode Encrypt -Key "<STRING>" -Text "<SECRET TEXT>"
 Invoke-AESEncryption -Mode Decrypt -Key "<STRING>" -Text "<CIPHERTEXT>"
 ```
 
-#### Encry
+#### Encrypting File
+```powershell
+Invoke-AESEncryption -Mode Encrypt -Key "<STRING>" -Path <PATH TO FILE>
+```
+
+#### Decrypting File
+```
+Invoke-AESEncryption -Mode Decrypt -Key "p@ssw0rd" -Path file.bin.aes
+```

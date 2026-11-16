@@ -128,3 +128,8 @@ function Invoke-AESEncryption {
 ```powershell
 Import-Module .\Invoke-AESEncryption.ps1
 ```
+
+---
+## File Encryption on Linux
+
+#### Encrypting `/etc/passwd` with open

@@ -80,5 +80,10 @@ Copy-Item -Path <PATH TO FILE> - Destionation -FromSession $Session
 
 #### Mounting linux folder using `rdesktop`
 ```bash
-rdesktop <REMOTE IP> -d <Windows Domain> -u <USERNAME> -p '<PASSWORD>' -r disk:linux='<WHERE TO SAVE FOLDER>'
+rdesktop <REMOTE IP> -d <Windows Domain> -u <USERNAME> -p '<PASSWORD>' -r disk:linux='<DIRECTORY SHARED TO REMOTE SESSION>'
+```
+
+#### Mounting Linux Folder using `xfreerdp`
+```bash
+xfreerdp /v:<REMOTE UP> /d:<WIND
 ```

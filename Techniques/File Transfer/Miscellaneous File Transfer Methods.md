@@ -10,4 +10,11 @@ type: note
 ```bash
 nc -l -p 8000 > <FILE TO SAVE DATA TO>
 ```
-- Netcat takes whatever d
+- `Netcat` takes whatever data it receives and writes it to the specified file
+
+#### Ncat - Compromised machine listening on port 8000
+```bash
+ncat -l -p 8000 --recv-only > <FILE TO SAVE DATA TO>
+```
+
+#### NetCat 

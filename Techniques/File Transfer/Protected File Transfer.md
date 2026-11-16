@@ -23,6 +23,10 @@ Invoke-AESEncryption -Mode Encrypt -Key "<STRING>" -Path <PATH TO FILE>
 ```
 
 #### Decrypting File
+```powershell
+Invoke-AESEncryption -Mode Decrypt -Key "<STRING>" -Path <PATH TO FILE>.aes
 ```
-Invoke-AESEncryption -Mode Decrypt -Key "p@ssw0rd" -Path file.bin.aes
+
+#### `Invoke-AesEncryption.ps1` script
+```powershell
 ```

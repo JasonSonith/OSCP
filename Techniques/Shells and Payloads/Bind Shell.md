@@ -15,5 +15,6 @@ nc -lnvp <PORT>
 
 #### Attacker connects to target
 ```bash
-nc -nv 
+nc -nv <TARGET IP> <PORT>
 ```
+

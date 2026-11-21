@@ -48,4 +48,8 @@ $stream = $client.GetSteam();
 ```powershell
 while (($i = stream.Read($bytes,0,$bytes,Length)) -ne 0)
 ```
-Starts a while loop that keeps going 
+- Starts a while loop that keeps going while the attacker keeps sending commands 
+- Commands are measured in bytes
+- If bytes are equal to 0, the while loop exits
+
+

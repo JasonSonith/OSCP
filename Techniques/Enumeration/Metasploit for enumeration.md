@@ -62,8 +62,3 @@ check
 ## Boxes where I used this
 - [[Public exploits]]
 
-## Gotchas / troubleshooting
-- Things that broke and how you fixed them:
-
-## References
--

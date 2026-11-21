@@ -33,15 +33,15 @@ exmap prevtab obcommand workspace:previous-tab
 nmap H :prevtab<CR>
 exmap nexttab obcommand workspace:next-tab
 nmap L :nexttab<CR>
-exmap gototab1 obcommand app:go-to-tab-1
+exmap gototab1 obcommand workspace:goto-tab-1
 nmap <Space>1 :gototab1<CR>
-exmap gototab2 obcommand app:go-to-tab-2
+exmap gototab2 obcommand workspace:goto-tab-2
 nmap <Space>2 :gototab2<CR>
-exmap gototab3 obcommand app:go-to-tab-3
+exmap gototab3 obcommand workspace:goto-tab-3
 nmap <Space>3 :gototab3<CR>
-exmap gototab4 obcommand app:go-to-tab-4
+exmap gototab4 obcommand workspace:goto-tab-4
 nmap <Space>4 :gototab4<CR>
-exmap gototab5 obcommand app:go-to-tab-5
+exmap gototab5 obcommand workspace:goto-tab-5
 nmap <Space>5 :gototab5<CR>
 
 exmap revealnote obcommand file-explorer:reveal-active-file

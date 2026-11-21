@@ -1,3 +1,9 @@
+---
+permalink: oscp/techniques/shells-and-payloads/crafting-payloads-with-msfvenom
+title: Crafting Payloads with MSFvenom
+type: note
+---
+
 ## Practicing
 
 ### List Payloads

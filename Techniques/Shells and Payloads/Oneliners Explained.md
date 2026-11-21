@@ -6,5 +6,5 @@ type: note
 
 ## Bash Oneliners
 ```bash
-
+rm -f /tmp/f; mkfifo /tmp/f;
 ```

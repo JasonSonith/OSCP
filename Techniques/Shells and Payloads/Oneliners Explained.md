@@ -52,4 +52,8 @@ while (($i = stream.Read($bytes,0,$bytes,Length)) -ne 0)
 - Commands are measured in bytes
 - If bytes are equal to 0, the while loop exits
 
-
+### Set The Byte Encoding
+```powershell
+{; data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes, 0, $i)}
+```
+- 

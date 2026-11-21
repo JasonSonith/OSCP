@@ -2,5 +2,6 @@
   "obsidian-local-rest-api",
   "pocket-bird",
   "obsidian-git",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-vimrc-support"
 ]

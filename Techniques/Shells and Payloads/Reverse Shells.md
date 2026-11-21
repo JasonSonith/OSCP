@@ -1,3 +1,8 @@
+---
+permalink: oscp/techniques/shells-and-payloads/reverse-shells
+title: Reverse Shells
+type: note
+---
 
 ## Visual
 ![[Pasted image 20261121011549.png]]
@@ -31,5 +36,3 @@ $client.Close()
 ```powershell
 Set-MpPreference -DisableRealtimeMonitoring $true
 ```
-
-

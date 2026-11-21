@@ -1,9 +1,7 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Primary",
-  "enabledCssSnippets": [
-    "pocket-bird-look"
-  ],
+  "cssTheme": "Sodalite",
+  "enabledCssSnippets": [],
   "accentColor": "#0ea7cd",
   "textFontFamily": "ProFont IIx Nerd Font",
   "baseFontSize": 16,

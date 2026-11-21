@@ -42,9 +42,9 @@ $stream = $client.GetSteam();
 ```powershell
 [byte[]]$bytes = 0..65535|%{0};
 ```
-- Create a 
+- Create a byte type array that returns 65,535 zeros as values in the array
 
-### Calling Powershell
+### Stream Parameters
 ```powershell
-
+while (($i = stream.Read($bytes,0,$bytes)))
 ```

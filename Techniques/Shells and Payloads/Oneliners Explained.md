@@ -46,5 +46,6 @@ $stream = $client.GetSteam();
 
 ### Stream Parameters
 ```powershell
-while (($i = stream.Read($bytes,0,$bytes)))
+while (($i = stream.Read($bytes,0,$bytes,Length)) -ne 0)
 ```
+Starts a while loop 

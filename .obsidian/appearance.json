@@ -3,9 +3,9 @@
   "cssTheme": "Sodalite",
   "enabledCssSnippets": [],
   "accentColor": "#0ea7cd",
-  "textFontFamily": "ProFont IIx Nerd Font",
+  "textFontFamily": "JetBrainsMono Nerd Font",
   "baseFontSize": 16,
-  "interfaceFontFamily": "ProFont IIx Nerd Font",
-  "monospaceFontFamily": "ProFont IIx Nerd Font",
+  "interfaceFontFamily": "JetBrainsMono Nerd Font",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font",
   "showRibbon": true
 }

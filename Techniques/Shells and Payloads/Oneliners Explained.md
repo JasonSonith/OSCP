@@ -35,11 +35,11 @@ powershell -nop -c
 
 ### Setting the Command Stream
 ```powershell
-
+$stream = $client.GetSteam();
 ```
-### Calling Powershell
+### Empty Byte Stream
 ```powershell
-
+[byte[]]$bytes = 0..65535|
 ```
 
 ### Calling Powershell

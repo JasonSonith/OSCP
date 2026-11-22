@@ -20,3 +20,6 @@ sudo nmap -v <IP> --script banner.nse
 
 ---
 
+## Bats, DLLs, and MSI Files
+
+- *DLLs (Dynamic Linking Library):* 

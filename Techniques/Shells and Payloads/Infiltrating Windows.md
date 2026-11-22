@@ -14,5 +14,7 @@ ping <IP>
 
 ### Banner Grabbing to Enumerate Ports
 ```bash
-
+sudo nmap -v <IP> --script banner.nse
 ```
+- Banner grabbing is used to find out what software or service is running on each open port
+

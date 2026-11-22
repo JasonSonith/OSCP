@@ -28,3 +28,5 @@ sudo nmap -v <IP> --script banner.nse
 - *Batch:* These have a `.bat` extension. They are DOS scripts to complete multiple tasks through the CLI
 	- A `.bat` file can be used to open a port and connect back to the attack box
 - *VBS (VBScript):* Scripting language in Microsoft's Visual Basic used client side for dynamic web pages.
+	- Can be used to enable macros in a excel document 
+- *MSI:*

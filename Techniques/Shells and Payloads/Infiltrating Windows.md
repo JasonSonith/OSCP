@@ -24,3 +24,5 @@ sudo nmap -v <IP> --script banner.nse
 
 - *DLLs (Dynamic Linking Library):* A library file used in Microsoft OS to share code and data to be used by different programs at once.
 	- Files as modular and easy to update
+	- Can be used by pen tester to elevate privileges and bypass UAC
+- *Batch:* These have a `.bat` extension and are u

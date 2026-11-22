@@ -18,3 +18,5 @@ sudo nmap -v <IP> --script banner.nse
 ```
 - Banner grabbing is used to find out what software or service is running on each open port
 
+---
+

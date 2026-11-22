@@ -6,3 +6,8 @@ type: note
 
 ## Enumerating Windows & Fingerprinting Methods
 
+### Pinging a Host
+```bash
+ping <IP>
+```
+- A ping o

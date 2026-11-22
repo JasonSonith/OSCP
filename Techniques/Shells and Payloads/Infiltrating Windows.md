@@ -26,4 +26,5 @@ sudo nmap -v <IP> --script banner.nse
 	- Files as modular and easy to update
 	- Can be used by pen tester to elevate privileges and bypass UAC
 - *Batch:* These have a `.bat` extension. They are DOS scripts to complete multiple tasks through the CLI
-	- A `.bat` file can 
+	- A `.bat` file can be used to open a port and connect back to the attack box
+- *VBS (VBScript):* Scripting language in Microsoft's Visual Basic used client side for dynamic web pages.

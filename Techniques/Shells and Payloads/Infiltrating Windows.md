@@ -22,4 +22,5 @@ sudo nmap -v <IP> --script banner.nse
 
 ## Bats, DLLs, and MSI Files
 
-- *DLLs (Dynamic Linking Library):* 
+- *DLLs (Dynamic Linking Library):* A library file used in Microsoft OS to share code and data to be used by different programs at once.
+	- Files as modular and easy to update

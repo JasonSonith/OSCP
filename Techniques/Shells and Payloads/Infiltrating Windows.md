@@ -10,5 +10,9 @@ type: note
 ```bash
 ping <IP>
 ```
-- A ping with a `ttl` of either `32` or `128` most likely means it's a windows machine
-- `-O` flag in `nmap` can also be used for what type of OS the target is running
+- A ping with a `ttl` of either `32` or `128` most likely means the target is a windows machine
+
+### Banner Grabbing to Enumerate Ports
+```bash
+
+```

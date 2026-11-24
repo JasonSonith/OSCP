@@ -24,5 +24,10 @@ exec "/bin/sh";
 
 ## Ruby
 
-### Ruby To Sh
+#### Ruby To Shell from ruby script
+```ruby
+exec "/bin/sh"
+```
+
+---
 

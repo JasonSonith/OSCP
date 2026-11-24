@@ -9,7 +9,17 @@ type: note
 /bin/sh -i
 ```
 
+---
 ## Perl
 ```bash
-perl -e ''
+perl -e 'exec "/bin/sh";'
 ```
+
+### From a perl script
+```perl
+exec "/bin/sh";
+```
+
+---
+
+

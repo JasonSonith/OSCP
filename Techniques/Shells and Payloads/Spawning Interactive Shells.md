@@ -71,4 +71,15 @@ vim -c ':!/bin/sh'
 ```
 
 ---
+## Permissions
 
+#### Run this to find user's permission on binary
+```bash
+ls -la <PATH TO FILE>
+```
+
+
+#### `Sudo -l`
+```bash
+sudo -l 
+```

@@ -31,3 +31,13 @@ exec "/bin/sh"
 
 ---
 
+## AWK
+
+### awk to shell
+```bash
+awk 'BEGIN {system("/bin/sh")}'
+```
+
+---
+
+

@@ -12,3 +12,4 @@ type: note
 ![[Pasted image 20261124124736.png]]
 
 - Allowed IPs are your local attack BOX IP
+- Then upload the file to the endpoint

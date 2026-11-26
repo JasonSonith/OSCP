@@ -4,4 +4,5 @@ title: Untitled
 type: note
 ---
 ## Overview
-- *Antak* is a web shell built 
+- *Antak* is a web shell built in ASP.Net 
+- Uses Powershell to interact with host
